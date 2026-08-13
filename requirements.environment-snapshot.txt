@@ -1,0 +1,88 @@
+# AXA_research v6.12 dependency snapshot
+#
+# Kind: installed-environment-snapshot (NOT a resolver-generated, hashed lock)
+# Source interpreter: CPython 3.14.5, Windows amd64
+# Generated from importlib.metadata for the transitive closure of every direct
+# core/ocr/llm/dev dependency in pyproject.toml.
+# This historical snapshot is not used for installation. The source candidate
+# now has a canonical uv.lock. The Windows full-package companion additionally
+# carries a 55-wheel CPython 3.14/x64 SHA-256 lock and installs with
+# --no-index --require-hashes. See docs/dependency_contract.md.
+# LICENSE_DECISION: the project and bundled PyMuPDF path use AGPL-3.0; the
+# companion asset provides the fixed PyMuPDF sdist and embedded MuPDF 1.27.2
+# source archive with its complete thirdparty tree.
+
+altair==6.2.1
+annotated-types==0.7.0
+anyio==4.13.0
+attrs==26.1.0
+blinker==1.9.0
+cachetools==7.1.4
+certifi==2026.5.20
+cffi==2.0.0
+charset-normalizer==3.4.7
+click==8.4.2
+colorama==0.4.6
+cryptography==48.0.0
+distro==1.9.0
+et_xmlfile==2.0.0
+gitdb==4.0.12
+GitPython==3.1.50
+google-auth==2.53.0
+google-genai==2.8.0
+h11==0.16.0
+httpcore==1.0.9
+httptools==0.8.0
+httpx==0.28.1
+idna==3.17
+iniconfig==2.3.0
+itsdangerous==2.2.0
+Jinja2==3.1.6
+jiter==0.16.0
+jsonschema==4.26.0
+jsonschema-specifications==2025.9.1
+MarkupSafe==3.0.3
+narwhals==2.22.0
+numpy==2.3.5
+openai==2.46.0
+openpyxl==3.1.5
+packaging==26.2
+pandas==3.0.3
+pdfminer.six==20251230
+pdfplumber==0.11.9
+pillow==12.2.0
+pluggy==1.6.0
+protobuf==7.35.0
+pyarrow==24.0.0
+pyasn1==0.6.3
+pyasn1_modules==0.4.2
+pycparser==3.0
+pydantic==2.13.4
+pydantic_core==2.46.4
+pydeck==0.9.2
+Pygments==2.20.0
+PyMuPDF==1.27.2.3
+pypdfium2==5.9.0
+pytest==9.0.3
+python-dateutil==2.9.0.post0
+python-multipart==0.0.32
+PyYAML==6.0.2
+referencing==0.37.0
+requests==2.34.2
+rpds-py==2026.5.1
+six==1.17.0
+smmap==5.0.3
+sniffio==1.3.1
+starlette==1.2.1
+streamlit==1.58.0
+tabulate==0.10.0
+tenacity==9.1.4
+toml==0.10.2
+tqdm==4.68.3
+typing_extensions==4.15.0
+typing-inspection==0.4.2
+tzdata==2026.2
+urllib3==2.7.0
+uvicorn==0.49.0
+watchdog==6.0.0
+websockets==16.0

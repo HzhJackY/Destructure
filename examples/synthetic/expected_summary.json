@@ -1,0 +1,25 @@
+{
+  "business_records_created": 0,
+  "data_home_started_empty": true,
+  "data_schema_version": "6.10",
+  "fictional_fixture": true,
+  "network_used": false,
+  "pipelines_invoked": [],
+  "registry_schema_version": "15",
+  "registry_table_counts": {
+    "capture_batches": 0,
+    "captures": 0,
+    "jobs": 0,
+    "merge_projects": 0,
+    "merge_sources": 0,
+    "pdf_assets": 0
+  },
+  "required_assets": {
+    "manifest": true,
+    "metadata_db": true,
+    "rules": true,
+    "taxonomy": true
+  },
+  "smoke_contract": "public-synthetic-empty-data-home-v1",
+  "status": "PASS"
+}

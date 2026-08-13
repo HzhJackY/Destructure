@@ -1,0 +1,8 @@
+"""Single authoritative application identity for runtime and delivery metadata."""
+
+APP_VERSION = "v6.12.1"
+APP_DISPLAY_VERSION = APP_VERSION
+RELEASE_NAME = "Windows Full Portable Public Pre-release"
+REGISTRY_SCHEMA_VERSION = 15
+ARTIFACT_STATUS = "PUBLIC_PRERELEASE_UPLOAD_READY"
+RELEASE_CERTIFICATION_STATUS = "NOT_PRODUCTION_RELEASE_CERTIFIED"

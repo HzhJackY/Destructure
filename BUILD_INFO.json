@@ -1,0 +1,49 @@
+{
+  "version": "v6.12.1",
+  "release_name": "Windows Full Portable Public Pre-release",
+  "artifact_status": "PUBLIC_PRERELEASE_UPLOAD_READY",
+  "release_certification": "NOT_PRODUCTION_RELEASE_CERTIFIED",
+  "public_download_reproducible": true,
+  "source_rebuild_bit_reproducible": false,
+  "date": "2026-08-12",
+  "metadata_registry_schema_version": 15,
+  "data_home_layout_schema_version": "6.10",
+  "release_isolation": "public-staging/v6.12.1-public-candidate",
+  "data_home_policy": "External DATA_HOME; public evaluation must use a new empty directory",
+  "distribution_excludes": [
+    "real annual-report PDFs",
+    "user or production DATA_HOME",
+    "Golden corpus and unauthorized evidence",
+    "SQLite databases, caches, logs, secrets, and machine-local configuration"
+  ],
+  "known_release_gates": [
+    "Public-safe regression gate: PASS_346",
+    "Full AGPL-3.0 text and project NOTICE: PASS",
+    "Fixed Windows CPython/wheel and Tesseract/Leptonica/DLL provenance: PASS",
+    "Fresh allowlist and secret/path scan: PASS",
+    "Artifact SHA-256: EXTERNAL_FINAL_ARTIFACT_SHA256_VERIFICATION_REQUIRED",
+    "GitHub pre-release upload approval: EXTERNAL_MAINTAINER_ACTION"
+  ],
+  "candidate_validation": {
+    "uv_lock_check": "PASS",
+    "clean_install": "PASS_WINDOWS_CP314_CORE_DEV",
+    "empty_data_home_synthetic_smoke": "PASS",
+    "public_safe_pytest": "PASS_346",
+    "browser_e2e": "NOT_RUN_USER_DIRECTED",
+    "real_pdf_golden_discovery_ocr": "NOT_RUN_PUBLIC_PREP_BOUNDARY",
+    "cyclonedx_sbom": "GENERATED_NOT_A_LICENSE_AUDIT",
+    "windows_runtime": "CPYTHON_3_14_5_TESSERACT_5_5_3_LEPTONICA_1_87_0",
+    "windows_runtime_repackaging": "FIXED_INPUT_HASHED_REPRODUCIBLE",
+    "corresponding_source_companion": "GENERATED_REQUIRED_RELEASE_ASSET",
+    "fresh_public_boundary_scan": "PASS",
+    "offline_companion_rebuild": "PASS_TWO_ABSOLUTE_PATHS_7539_FILES_ZERO_HASH_DIFF"
+  },
+  "key_features": [
+    "Native-first Research Definition main-statement indexing with zero eager OCR",
+    "TOC-bounded conditional OCR with scanned-TOC two-stage fallback",
+    "Fast Index-owned page OCR cache with geometry preservation and cross-key reuse",
+    "Atomic concurrent page-cache merge and explicit OCR failure audit",
+    "Certified child-table links and governed whole-table Capture",
+    "Canonical Long, Merge, and user research XLSX delivery path"
+  ]
+}

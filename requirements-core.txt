@@ -1,0 +1,10 @@
+# Exact direct core dependencies. The canonical transitive resolution is
+# uv.lock; requirements.environment-snapshot.txt is audit evidence only.
+
+streamlit==1.58.0
+pandas==3.0.3
+openpyxl==3.1.5
+tabulate==0.10.0
+PyMuPDF==1.27.2.3
+pdfplumber==0.11.9
+PyYAML==6.0.3
