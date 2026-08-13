@@ -1,8 +1,8 @@
-# AXA Research v6.12.1
+# Destructure v6.12.1
 
 > 状态：`PUBLIC_PRERELEASE_UPLOAD_READY` · `NOT_PRODUCTION_RELEASE_CERTIFIED`
 
-AXA Research 是面向保险公司年报的 PDF 表格发现、认证抓取、规范化与研究合表工作台。v6.12.1 是公开候选的合同修复版，延续原生文本优先定位、候选页条件 OCR 与可复用页级 OCR 缓存。
+Destructure 是面向保险公司年报的 PDF 表格发现、认证抓取、规范化与研究合表工作台。v6.12.1 是公开候选的合同修复版，延续原生文本优先定位、候选页条件 OCR 与可复用页级 OCR 缓存。
 
 本目录可作为 GitHub 公开源码预发行候选。Windows 完整包使用固定的 CPython、
 wheel、Tesseract、Leptonica、DLL 与中文语言数据输入，可由随发行的 companion 资产
