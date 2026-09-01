@@ -1,0 +1,31 @@
+{
+  "fixture_id": "CPIC_2025",
+  "company": "中国太保",
+  "report_year": "2025",
+  "pdf_filename": "中国太保2025年报.pdf",
+  "pdf_sha256": "0cf458e4f3705b6ce1453cf88a12ecf48454089e920aed451603a06f24db6803",
+  "document_modality": "IMAGE_DOMINANT",
+  "disclosure_pattern": "IMAGE_DOMINANT_EXPLICIT_PARENT",
+  "statement_scope": "CONSOLIDATED",
+  "research_definition_id": "FINANCIAL_INVESTMENT_V1",
+  "definition_version": "FINANCIAL_INVESTMENT_V1",
+  "expected_resolution_mode": "EXPLICIT_PARENT",
+  "expected_parent_present": true,
+  "expected_parent_label": "金融投资",
+  "expected_required_members": [
+    "fvtpl_assets",
+    "debt_investment",
+    "other_debt_investment",
+    "other_equity_investment"
+  ],
+  "expected_forbidden_members": [
+    "time_deposits",
+    "long_term_equity"
+  ],
+  "known_constraints": [
+    "requires_ocr",
+    "requires_image_layout"
+  ],
+  "source_pages": [],
+  "annotation_status": "PATTERN_CANDIDATE"
+}

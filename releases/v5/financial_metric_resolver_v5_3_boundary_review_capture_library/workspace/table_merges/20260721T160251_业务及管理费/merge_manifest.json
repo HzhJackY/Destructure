@@ -1,0 +1,51 @@
+{
+  "version": "v5.1",
+  "table_id": "业务及管理费",
+  "sources": [
+    {
+      "capture_run_id": "建信人寿2022年报__业务及管理费__20260721T155348",
+      "capture_dir": "C:\\dev\\AXA_research\\financial_metric_resolver_v5_3_boundary_review_capture_library\\workspace\\table_captures\\建信人寿2022年报__业务及管理费__20260721T155348",
+      "pdf_name": "e7eec2489f81_建信人寿2022年报.pdf",
+      "pdf_sha256": "e7eec2489f818fa33eec6bde52d6c9a27289c82a21c6d6db332bc3e9bcb1be06",
+      "company": "建信人寿",
+      "document_year": "2022",
+      "table_query": "业务及管理费",
+      "note_number": null,
+      "located_title": "合计 4,051,761,120 3,369,170,56749. 业务及管理费"
+    },
+    {
+      "capture_run_id": "建信人寿2023年报__业务及管理费__20260721T155259",
+      "capture_dir": "C:\\dev\\AXA_research\\financial_metric_resolver_v5_3_boundary_review_capture_library\\workspace\\table_captures\\建信人寿2023年报__业务及管理费__20260721T155259",
+      "pdf_name": "5b964aca9e47_建信人寿2023年报.pdf",
+      "pdf_sha256": "5b964aca9e47e0e4b46e4b7be0dbb3ff6fcc7c04076fa96a23fe461bdf5fec40",
+      "company": "建信人寿",
+      "document_year": "2023",
+      "table_query": "业务及管理费",
+      "note_number": null,
+      "located_title": "合计 4,293,319,539 4,051,761,12049. 业务及管理费"
+    },
+    {
+      "capture_run_id": "建信人寿2024年报__业务及管理费__20260721T155107",
+      "capture_dir": "C:\\dev\\AXA_research\\financial_metric_resolver_v5_3_boundary_review_capture_library\\workspace\\table_captures\\建信人寿2024年报__业务及管理费__20260721T155107",
+      "pdf_name": "15ec7e559faa_建信人寿2024年报.pdf",
+      "pdf_sha256": "15ec7e559faa8b4e8de51a688c8b8b1e3b0d0b1d7142b21f20ec10b8189b9500",
+      "company": "建信人寿",
+      "document_year": "2024",
+      "table_query": "业务及管理费",
+      "note_number": null,
+      "located_title": "七、 合并财务报表主要项目注释（续）35. 业务及管理费"
+    },
+    {
+      "capture_run_id": "建信人寿2025年报__业务及管理费__20260721T154201",
+      "capture_dir": "C:\\dev\\AXA_research\\financial_metric_resolver_v5_3_boundary_review_capture_library\\workspace\\table_captures\\建信人寿2025年报__业务及管理费__20260721T154201",
+      "pdf_name": "4936c61b6938_建信人寿2025年报.pdf",
+      "pdf_sha256": "4936c61b693884304cf367f239e99d066647a7108708557f23e8f988858be6b8",
+      "company": "建信人寿",
+      "document_year": "2025",
+      "table_query": "业务及管理费",
+      "note_number": null,
+      "located_title": "税金及附加计缴标准参见附注四。36. 业务及管理费"
+    }
+  ],
+  "taxonomy_path": "C:\\dev\\AXA_research\\financial_metric_resolver_v5_3_boundary_review_capture_library\\workspace\\table_taxonomy.json"
+}

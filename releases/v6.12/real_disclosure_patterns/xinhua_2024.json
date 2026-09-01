@@ -1,0 +1,30 @@
+{
+  "fixture_id": "XINHUA_2024",
+  "company": "新华保险",
+  "report_year": "2024",
+  "pdf_filename": "新华保险2024年报.pdf",
+  "pdf_sha256": "a983bd987c15ab982d9fbbce29255afff4bc90ca6ba5f15334d0784a8de1c7f0",
+  "document_modality": "TEXT_LAYER",
+  "disclosure_pattern": "EXPLICIT_PARENT_MULTI_NOTE",
+  "statement_scope": "CONSOLIDATED",
+  "research_definition_id": "FINANCIAL_INVESTMENT_V1",
+  "definition_version": "FINANCIAL_INVESTMENT_V1",
+  "expected_resolution_mode": "EXPLICIT_PARENT",
+  "expected_parent_present": true,
+  "expected_parent_label": "金融投资",
+  "expected_required_members": [
+    "fvtpl_assets",
+    "debt_investment",
+    "other_debt_investment",
+    "other_equity_investment"
+  ],
+  "expected_forbidden_members": [
+    "time_deposits",
+    "long_term_equity"
+  ],
+  "known_constraints": [
+    "requires_cross_page_boundary"
+  ],
+  "source_pages": [],
+  "annotation_status": "PATTERN_CANDIDATE"
+}

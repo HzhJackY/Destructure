@@ -1,0 +1,37 @@
+schema_version: '1.1'
+fixture_id: CHINA_LIFE_2023_CONSOLIDATED_FINANCIAL_INVESTMENT_PAGE_ANCHOR
+page_number_system: PDF_READER_ONE_BASED
+pdf_page_number: 104
+pdf_page_index_zero_based: 103
+printed_page_label: '102'
+statement_scope: CONSOLIDATED
+statement_type: BALANCE_SHEET
+expected_family: FINANCIAL_INVESTMENT
+requires_ocr: false
+requires_existing_conditional_ocr: false
+page_image_crop: evidence/page_crops/china_life_2023_p104_crop.png
+annotation_status: CERTIFIED_GOLDEN
+evidence_note: 直接从 PDF 第 104 页核对中国人寿2023年报合并资产负债表。
+expectation_source: DIRECT_PDF_INSPECTION
+evidence_type: PAGE_CROP_AND_TEXT_VERIFICATION
+reviewer: Codex_Agent_Adjudicator
+review_date: '2026-07-29'
+source_page: 104
+child_note_pages:
+  pdf_pages: [171, 175, 176, 177]
+  notes:
+    - note_number: "十、2"
+      label: 以公允价值计量且其变动计入当期损益的金融资产
+      pdf_page_number: 171
+    - note_number: "十、8"
+      label: 贷款(续) - (b) 其他贷款
+      pdf_page_number: 175
+    - note_number: "十、9"
+      label: 定期存款
+      pdf_page_number: 175
+    - note_number: "十、10"
+      label: 可供出售金融资产
+      pdf_page_number: 176
+    - note_number: "十、11"
+      label: 持有至到期投资
+      pdf_page_number: 177

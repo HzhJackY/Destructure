@@ -1,0 +1,13 @@
+{
+  "run_id": "建信人寿2025年报__业务及管理费__20260721T154201",
+  "display_name": "建信人寿2025年报 · 业务及管理费",
+  "note": "",
+  "source_pdf_display": "建信人寿2025年报.pdf",
+  "table_query": "业务及管理费",
+  "created_at": "2026-07-21T15:42:02",
+  "boundary_status": "HUMAN_CONFIRMED",
+  "start_page": 139,
+  "end_page": 146,
+  "row_count_machine": 183,
+  "row_count_official": 20
+}

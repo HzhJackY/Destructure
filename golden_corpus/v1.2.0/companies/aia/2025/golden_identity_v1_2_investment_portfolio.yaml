@@ -1,0 +1,130 @@
+identity_contract_version: GOLDEN_IDENTITY_V1_2
+definition_id: INVESTMENT_PORTFOLIO_V2
+family: investment_portfolio
+source_golden_id: AIA_2025_INVESTMENT_PORTFOLIO
+filing_identity:
+  company_id: AIA
+  legal_entity_name: 友邦保險控股有限公司
+  report_year: 2025
+  source_scope: LISTED_PARENT_CONSOLIDATED
+  canonical_pdf_filename: 友邦保险2025年报.pdf
+  pdf_sha256: 0cddef841305d33d00c7140d326d67605e098329046bf0fc1353987c05e6c752
+  page_count: 363
+  source_type: ANNUAL_REPORT
+physical_tables:
+- physical_table_id: AIA_2025_PORTFOLIO_BY_CATEGORY
+  physical_page_number: 44
+  printed_page_number: 42
+  title: 投资组合（按投资品种）
+  unit: USD_MILLION
+  table_classification: DIRECT_PHYSICAL_TABLE
+rows:
+- golden_row_id: GROW_bdd4959496fa0aaf08e2
+  physical_table_id: AIA_2025_PORTFOLIO_BY_CATEGORY
+  member_table_id: portfolio_by_category
+  classification_axis: BY_INVESTMENT_OBJECT
+  raw_label: 保單持有人及股東總計
+  normalized_label: 保單持有人及股東總計
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 1
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年12月31日
+    period_identity: DATE:2025-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 285235
+  - period_role: CURRENT
+    period_label: 2025年12月31日
+    period_identity: DATE:2025-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 88.0
+  - period_role: COMPARATIVE
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 255333
+  - period_role: COMPARATIVE
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 88.0
+- golden_row_id: GROW_c96cd12a97cb404166de
+  physical_table_id: AIA_2025_PORTFOLIO_BY_CATEGORY
+  member_table_id: portfolio_by_category
+  classification_axis: BY_INVESTMENT_OBJECT
+  raw_label: 單位連結式合約及合併投資基金總計
+  normalized_label: 單位連結式合約及合併投資基金總計
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 2
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年12月31日
+    period_identity: DATE:2025-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 40090
+  - period_role: CURRENT
+    period_label: 2025年12月31日
+    period_identity: DATE:2025-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 12.0
+  - period_role: COMPARATIVE
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 33288
+  - period_role: COMPARATIVE
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 12.0
+- golden_row_id: GROW_eedfcc71698ae7c30f1e
+  physical_table_id: AIA_2025_PORTFOLIO_BY_CATEGORY
+  member_table_id: portfolio_by_category
+  classification_axis: BY_INVESTMENT_OBJECT
+  raw_label: 總投資
+  normalized_label: 總投資
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: TOTAL
+  source_row_order: 3
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年12月31日
+    period_identity: DATE:2025-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 325325
+  - period_role: CURRENT
+    period_label: 2025年12月31日
+    period_identity: DATE:2025-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 100.0
+  - period_role: COMPARATIVE
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 288621
+  - period_role: COMPARATIVE
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 100.0
+identity_provenance: DERIVED_FROM_CERTIFIED_GOLDEN_FACTS_NOT_RUNTIME_CAPTURE

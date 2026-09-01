@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>财报PDF指标提取人工复核报告</title>
+<style>
+:root{--bg:#f5f7fb;--card:#fff;--text:#172033;--muted:#687386;--line:#dfe4ec;--blue:#275efe;--green:#0b7a53;--amber:#9a6700;--red:#b42318}
+*{box-sizing:border-box} body{margin:0;background:var(--bg);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Microsoft YaHei",sans-serif;color:var(--text);line-height:1.55}
+main{max-width:1180px;margin:auto;padding:28px 20px 60px} h1{margin:0 0 6px;font-size:28px} h2{margin:0;font-size:21px} h4{margin:24px 0 10px} .sub{color:var(--muted);margin:0 0 22px}
+.summary{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:18px 0} .stat{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px} .stat span{display:block;color:var(--muted);font-size:13px} .stat strong{font-size:24px}
+.panel,.metric-card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:20px;margin:16px 0} .metric-head{display:flex;justify-content:space-between;gap:14px;align-items:flex-start} .metric-head p{color:var(--muted);margin:3px 0}
+.badge{display:inline-block;padding:4px 9px;border-radius:999px;font-size:12px;font-weight:700} .resolved{background:#e8f7f0;color:var(--green)} .review_required{background:#fff4d6;color:var(--amber)} .unresolved{background:#feeceb;color:var(--red)}
+.decision{display:flex;flex-direction:column;background:#f8faff;border-left:4px solid var(--blue);padding:10px 12px;margin:14px 0;border-radius:8px} .decision span{color:var(--muted);font-size:13px}
+.meta-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:14px 0} .meta-grid div{border:1px solid var(--line);border-radius:10px;padding:10px} .meta-grid span{display:block;color:var(--muted);font-size:12px} .meta-grid strong{display:block;margin-top:3px}
+.primary-value{background:#eef3ff;border-radius:12px;padding:14px;margin:14px 0} .primary-value div{display:flex;gap:14px;align-items:baseline} .primary-value span{color:var(--muted)} .primary-value strong{font-size:24px} .primary-value small{color:var(--muted)}
+.table-wrap{overflow:auto;border:1px solid var(--line);border-radius:10px} table{border-collapse:collapse;width:100%;font-size:13px} th,td{border-bottom:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top;white-space:nowrap} th{background:#f7f9fc} tr:last-child td{border-bottom:0} .hit-row td{background:#fff6d8;font-weight:600} .warning{background:#fff8e6;border:1px solid #f0d48b;border-radius:10px;padding:12px 14px;margin:14px 0} .warning ul{margin:8px 0 0 20px} .muted{color:var(--muted)}
+@media(max-width:800px){.summary,.meta-grid{grid-template-columns:1fr 1fr}} @media(max-width:520px){.summary,.meta-grid{grid-template-columns:1fr} main{padding:18px 12px}}
+</style>
+</head>
+<body><main>
+<h1>财报 PDF 指标提取人工复核报告</h1>
+<p class="sub">源文件：sample_financial_report.pdf · 生成时间：2026-07-20T07:39:03+00:00</p>
+<div class="summary">
+  <div class="stat"><span>PDF页数</span><strong>2</strong></div>
+  <div class="stat"><span>自动解析成功</span><strong>4</strong></div>
+  <div class="stat"><span>需人工复核</span><strong>0</strong></div>
+  <div class="stat"><span>未解析</span><strong>0</strong></div>
+</div>
+
+<section class="panel"><h2>结果汇总</h2><div class="table-wrap"><table><thead><tr><th>查询指标</th><th>标准科目</th><th>状态</th><th>层级</th><th>页码</th><th>匹配原文</th><th>主值</th><th>置信度</th></tr></thead><tbody>
+<tr><td>营业收入</td><td>营业收入</td><td><span class='badge resolved'>RESOLVED</span></td><td>L0</td><td>1</td><td>一、营业总收入</td><td>1,250.00 亿元</td><td>1.000</td></tr><tr><td>净利润</td><td>净利润</td><td><span class='badge resolved'>RESOLVED</span></td><td>L0</td><td>1</td><td>四、净利润</td><td>180.00 亿元</td><td>1.000</td></tr><tr><td>归母净利润</td><td>归母净利润</td><td><span class='badge resolved'>RESOLVED</span></td><td>L0</td><td>1</td><td>归属于母公司股东的净利润</td><td>172.00 亿元</td><td>1.000</td></tr><tr><td>保险合同负债</td><td>保险合同负债</td><td><span class='badge resolved'>RESOLVED</span></td><td>L0</td><td>2</td><td>保险合同负债</td><td>24,400.00 亿元</td><td>1.000</td></tr>
+</tbody></table></div></section>
+
+        <section class="metric-card">
+          <div class="metric-head">
+            <div>
+              <h2>营业收入</h2>
+              <p>营业收入</p>
+            </div>
+            <span class="badge resolved">RESOLVED</span>
+          </div>
+          <div class="decision">
+            <strong>L0 · confidence 1.000</strong>
+            <span>standard; high_score</span>
+          </div>
+          
+                <div class="meta-grid">
+                  <div><span>PDF页码</span><strong>1</strong></div>
+                  <div><span>匹配原文</span><strong>一、营业总收入</strong></div>
+                  <div><span>解析方式</span><strong>pdfplumber_table</strong></div>
+                  <div><span>表类型</span><strong>利润表</strong></div>
+                  <div><span>单位提示</span><strong>百万元</strong></div>
+                  <div><span>规则分数</span><strong>1.000</strong></div>
+                </div>
+                <div class='primary-value'><div><span>主值</span><strong>1,250.00 亿元</strong></div><small>原文 125,000 · 期间 2025年度 · 选择置信度 MEDIUM</small></div>
+                <h4>全部数值列</h4>
+                <div class="table-wrap"><table><thead><tr><th>列</th><th>原始值</th><th>期间/标题上下文</th><th>原始单位</th><th>换算为元</th></tr></thead>
+                <tbody><tr><td>2</td><td>125,000</td><td>2025年度</td><td>百万元</td><td>1,250.00 亿元</td></tr><tr><td>3</td><td>110,000</td><td>2024年度</td><td>百万元</td><td>1,100.00 亿元</td></tr></tbody></table></div>
+                <h4>PDF表格上下文</h4>
+                <div class='table-wrap'><table><tbody><tr><td>项目</td><td>2025年度</td><td>2024年度</td></tr><tr class='hit-row'><td>一、营业总收入</td><td>125,000</td><td>110,000</td></tr><tr><td>其中：保险服务收入</td><td>82,000</td><td>76,000</td></tr></tbody></table></div>
+            
+          
+          <h4>Top 候选</h4><div class='table-wrap'><table><thead><tr><th>#</th><th>页码</th><th>原始科目</th><th>表类型</th><th>来源</th><th>分数</th></tr></thead><tbody><tr><td>1</td><td>1</td><td>一、营业总收入</td><td>利润表</td><td>pdfplumber_table</td><td>1.000</td></tr><tr><td>2</td><td>1</td><td>三、利润总额</td><td>利润表</td><td>pdfplumber_table</td><td>0.255</td></tr><tr><td>3</td><td>1</td><td>综合收益总额</td><td>利润表</td><td>pdfplumber_table</td><td>0.241</td></tr><tr><td>4</td><td>1</td><td>公允价值变动收益</td><td>利润表</td><td>pdfplumber_table</td><td>0.220</td></tr><tr><td>5</td><td>1</td><td>投资收益（损失以“-”号填列）</td><td>利润表</td><td>pdfplumber_table</td><td>0.215</td></tr></tbody></table></div>
+        </section>
+        
+        <section class="metric-card">
+          <div class="metric-head">
+            <div>
+              <h2>净利润</h2>
+              <p>净利润</p>
+            </div>
+            <span class="badge resolved">RESOLVED</span>
+          </div>
+          <div class="decision">
+            <strong>L0 · confidence 1.000</strong>
+            <span>standard; high_score</span>
+          </div>
+          
+                <div class="meta-grid">
+                  <div><span>PDF页码</span><strong>1</strong></div>
+                  <div><span>匹配原文</span><strong>四、净利润</strong></div>
+                  <div><span>解析方式</span><strong>pdfplumber_table</strong></div>
+                  <div><span>表类型</span><strong>利润表</strong></div>
+                  <div><span>单位提示</span><strong>百万元</strong></div>
+                  <div><span>规则分数</span><strong>1.000</strong></div>
+                </div>
+                <div class='primary-value'><div><span>主值</span><strong>180.00 亿元</strong></div><small>原文 18,000 · 期间 2025年度 · 选择置信度 MEDIUM</small></div>
+                <h4>全部数值列</h4>
+                <div class="table-wrap"><table><thead><tr><th>列</th><th>原始值</th><th>期间/标题上下文</th><th>原始单位</th><th>换算为元</th></tr></thead>
+                <tbody><tr><td>2</td><td>18,000</td><td>2025年度</td><td>百万元</td><td>180.00 亿元</td></tr><tr><td>3</td><td>14,500</td><td>2024年度</td><td>百万元</td><td>145.00 亿元</td></tr></tbody></table></div>
+                <h4>PDF表格上下文</h4>
+                <div class='table-wrap'><table><tbody><tr><td>三、利润总额</td><td>21,000</td><td>17,000</td></tr><tr class='hit-row'><td>四、净利润</td><td>18,000</td><td>14,500</td></tr><tr class='hit-row'><td>归属于母公司股东的净利润</td><td>17,200</td><td>13,800</td></tr></tbody></table></div>
+            
+          
+          <h4>Top 候选</h4><div class='table-wrap'><table><thead><tr><th>#</th><th>页码</th><th>原始科目</th><th>表类型</th><th>来源</th><th>分数</th></tr></thead><tbody><tr><td>1</td><td>1</td><td>四、净利润</td><td>利润表</td><td>pdfplumber_table</td><td>1.000</td></tr><tr><td>2</td><td>1</td><td>归属于母公司股东的净利润</td><td>利润表</td><td>pdfplumber_table</td><td>0.557</td></tr><tr><td>3</td><td>1</td><td>三、利润总额</td><td>利润表</td><td>pdfplumber_table</td><td>0.475</td></tr><tr><td>4</td><td>1</td><td>投资收益（损失以“-”号填列）</td><td>利润表</td><td>pdfplumber_table</td><td>0.430</td></tr><tr><td>5</td><td>1</td><td>合并利润表</td><td>利润表</td><td>coordinate_rows</td><td>0.315</td></tr></tbody></table></div>
+        </section>
+        
+        <section class="metric-card">
+          <div class="metric-head">
+            <div>
+              <h2>归母净利润</h2>
+              <p>归母净利润</p>
+            </div>
+            <span class="badge resolved">RESOLVED</span>
+          </div>
+          <div class="decision">
+            <strong>L0 · confidence 1.000</strong>
+            <span>standard; high_score</span>
+          </div>
+          
+                <div class="meta-grid">
+                  <div><span>PDF页码</span><strong>1</strong></div>
+                  <div><span>匹配原文</span><strong>归属于母公司股东的净利润</strong></div>
+                  <div><span>解析方式</span><strong>pdfplumber_table</strong></div>
+                  <div><span>表类型</span><strong>利润表</strong></div>
+                  <div><span>单位提示</span><strong>百万元</strong></div>
+                  <div><span>规则分数</span><strong>1.000</strong></div>
+                </div>
+                <div class='primary-value'><div><span>主值</span><strong>172.00 亿元</strong></div><small>原文 17,200 · 期间 2025年度 · 选择置信度 MEDIUM</small></div>
+                <h4>全部数值列</h4>
+                <div class="table-wrap"><table><thead><tr><th>列</th><th>原始值</th><th>期间/标题上下文</th><th>原始单位</th><th>换算为元</th></tr></thead>
+                <tbody><tr><td>2</td><td>17,200</td><td>2025年度</td><td>百万元</td><td>172.00 亿元</td></tr><tr><td>3</td><td>13,800</td><td>2024年度</td><td>百万元</td><td>138.00 亿元</td></tr></tbody></table></div>
+                <h4>PDF表格上下文</h4>
+                <div class='table-wrap'><table><tbody><tr><td>四、净利润</td><td>18,000</td><td>14,500</td></tr><tr class='hit-row'><td>归属于母公司股东的净利润</td><td>17,200</td><td>13,800</td></tr><tr><td>其他综合收益的税后净额</td><td>2,100</td><td>(800)</td></tr></tbody></table></div>
+            
+          
+          <h4>Top 候选</h4><div class='table-wrap'><table><thead><tr><th>#</th><th>页码</th><th>原始科目</th><th>表类型</th><th>来源</th><th>分数</th></tr></thead><tbody><tr><td>1</td><td>1</td><td>归属于母公司股东的净利润</td><td>利润表</td><td>pdfplumber_table</td><td>1.000</td></tr><tr><td>2</td><td>1</td><td>四、净利润</td><td>利润表</td><td>pdfplumber_table</td><td>0.671</td></tr><tr><td>3</td><td>2</td><td>归属于母公司所有者权益合计</td><td>资产负债表</td><td>pdfplumber_table</td><td>0.599</td></tr><tr><td>4</td><td>1</td><td>三、利润总额</td><td>利润表</td><td>pdfplumber_table</td><td>0.395</td></tr><tr><td>5</td><td>1</td><td>其他综合收益的税后净额</td><td>利润表</td><td>pdfplumber_table</td><td>0.255</td></tr></tbody></table></div>
+        </section>
+        
+        <section class="metric-card">
+          <div class="metric-head">
+            <div>
+              <h2>保险合同负债</h2>
+              <p>保险合同负债</p>
+            </div>
+            <span class="badge resolved">RESOLVED</span>
+          </div>
+          <div class="decision">
+            <strong>L0 · confidence 1.000</strong>
+            <span>standard; high_score</span>
+          </div>
+          
+                <div class="meta-grid">
+                  <div><span>PDF页码</span><strong>2</strong></div>
+                  <div><span>匹配原文</span><strong>保险合同负债</strong></div>
+                  <div><span>解析方式</span><strong>pdfplumber_table</strong></div>
+                  <div><span>表类型</span><strong>资产负债表</strong></div>
+                  <div><span>单位提示</span><strong>百万元</strong></div>
+                  <div><span>规则分数</span><strong>1.000</strong></div>
+                </div>
+                <div class='primary-value'><div><span>主值</span><strong>24,400.00 亿元</strong></div><small>原文 2,440,000 · 期间 2025年12月31日 | - · 选择置信度 MEDIUM</small></div>
+                <h4>全部数值列</h4>
+                <div class="table-wrap"><table><thead><tr><th>列</th><th>原始值</th><th>期间/标题上下文</th><th>原始单位</th><th>换算为元</th></tr></thead>
+                <tbody><tr><td>2</td><td>2,440,000</td><td>2025年12月31日 | -</td><td>百万元</td><td>24,400.00 亿元</td></tr><tr><td>3</td><td>2,210,000</td><td>2024年12月31日 | -</td><td>百万元</td><td>22,100.00 亿元</td></tr></tbody></table></div>
+                <h4>PDF表格上下文</h4>
+                <div class='table-wrap'><table><tbody><tr><td>资产总计</td><td>3,200,000</td><td>2,950,000</td></tr><tr class='hit-row'><td>保险合同负债</td><td>2,440,000</td><td>2,210,000</td></tr><tr><td>负债合计</td><td>2,760,000</td><td>2,540,000</td></tr></tbody></table></div>
+            
+          
+          <h4>Top 候选</h4><div class='table-wrap'><table><thead><tr><th>#</th><th>页码</th><th>原始科目</th><th>表类型</th><th>来源</th><th>分数</th></tr></thead><tbody><tr><td>1</td><td>2</td><td>保险合同负债</td><td>资产负债表</td><td>pdfplumber_table</td><td>1.000</td></tr><tr><td>2</td><td>2</td><td>分出再保险合同资产</td><td>资产负债表</td><td>pdfplumber_table</td><td>0.614</td></tr><tr><td>3</td><td>2</td><td>保险合同资产</td><td>资产负债表</td><td>pdfplumber_table</td><td>0.587</td></tr><tr><td>4</td><td>2</td><td>负债合计</td><td>资产负债表</td><td>pdfplumber_table</td><td>0.447</td></tr><tr><td>5</td><td>2</td><td>合并资产负债表</td><td>资产负债表</td><td>coordinate_rows</td><td>0.364</td></tr></tbody></table></div>
+        </section>
+        
+</main></body></html>

@@ -1,0 +1,64 @@
+schema_version: '1.1'
+fixture_id: ZHONGAN_ONLINE_2025_GOLDEN_VALUES
+family: financial_investment
+values:
+- member_id: fvtpl_assets
+  raw_label: 以公允價值計量且其變動計入當期損益的金融資產
+  note_reference: '21'
+  current_amount_raw: 20,906,890
+  status: ACTIVE_CURRENT_PERIOD
+  child_table:
+    classification: PRIMARY_TABLE
+    pdf_page_number: 156
+    printed_page_label: '154'
+    note_title: 以公允價值計量且其變動計入當期損益的金融資產
+    unit: RMB_THOUSAND
+    items:
+    - raw_label: 債券投資
+      normalized_label: 債券投資
+      amount_2025: 8,730,253
+      amount_2024_restated: 10,540,326
+    - raw_label: 基金投資
+      normalized_label: 基金投資
+      amount_2025: 6,377,784
+      amount_2024_restated: 6,512,880
+    - raw_label: 理財產品
+      normalized_label: 理財產品
+      amount_2025: 3,133,827
+      amount_2024_restated: 2,111,237
+    - raw_label: 股權投資
+      normalized_label: 股權投資
+      amount_2025: 2,635,615
+      amount_2024_restated: 1,521,556
+    - raw_label: 資產支持證券
+      normalized_label: 資產支持證券
+      amount_2025: 20,271
+      amount_2024_restated: 20,285
+    - raw_label: 債權投資計劃
+      normalized_label: 債權投資計劃
+      amount_2025: 9,140
+      amount_2024_restated: '0'
+    - raw_label: 合計
+      normalized_label: 合計
+      amount_2025: 20,906,890
+      amount_2024_restated: 20,706,284
+- member_id: debt_investment
+  raw_label: 以攤餘成本計量的金融資產
+  note_reference: '22'
+  current_amount_raw: 782,103
+  status: ACTIVE_CURRENT_PERIOD
+- member_id: other_debt_investment
+  raw_label: 以公允價值計量且其變動計入其他綜合收益的債務工具
+  note_reference: '23'
+  current_amount_raw: 9,926,132
+  status: ACTIVE_CURRENT_PERIOD
+- member_id: other_equity_investment
+  raw_label: 以公允價值計量且其變動計入其他綜合收益的權益工具
+  note_reference: '24'
+  current_amount_raw: 1,004,570
+  status: ACTIVE_CURRENT_PERIOD
+- member_id: term_deposits
+  raw_label: 定期存款
+  note_reference: '26'
+  current_amount_raw: 30,077
+  status: ACTIVE_CURRENT_PERIOD

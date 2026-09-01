@@ -1,0 +1,1036 @@
+identity_contract_version: GOLDEN_IDENTITY_V1_2
+definition_id: INVESTMENT_PORTFOLIO_V2
+family: investment_portfolio
+source_golden_id: PICC_PNC_2023_INVESTMENT_PORTFOLIO
+filing_identity:
+  company_id: PICC_PNC
+  legal_entity_name: 中国人民财产保险股份有限公司
+  report_year: 2023
+  source_scope: LISTED_PARENT_CONSOLIDATED
+  canonical_pdf_filename: 中国财险2023年度报告.pdf
+  pdf_sha256: 21c76775ef13228abf0fbda733ef6353b1eeb55c84a90244458a3597edb30d3b
+  page_count: 316
+  source_type: ANNUAL_REPORT
+physical_tables:
+- physical_table_id: PICC_PNC_2023_PORTFOLIO_BY_CATEGORY
+  physical_page_number: 25
+  printed_page_number: 23
+  title: 投资组合（按投资品种）
+  unit: RMB_MILLION
+  table_classification: DIRECT_PHYSICAL_TABLE
+- physical_table_id: PICC_PNC_2023_PORTFOLIO_BY_MEASUREMENT
+  physical_page_number: 26
+  printed_page_number: 24
+  title: 投资组合（按会计计量）
+  unit: RMB_MILLION
+  table_classification: DIRECT_PHYSICAL_TABLE
+rows:
+- golden_row_id: GROW_5befe2c4290c98222081
+  physical_table_id: PICC_PNC_2023_PORTFOLIO_BY_CATEGORY
+  member_table_id: portfolio_by_category
+  classification_axis: BY_INVESTMENT_OBJECT
+  raw_label: 現金及現金等價物
+  normalized_label: 現金及現金等價物
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 1
+  period_values:
+  - period_role: CURRENT
+    period_label: 2023年12月31日
+    period_identity: DATE:2023-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 16526
+  - period_role: CURRENT
+    period_label: 2023年12月31日
+    period_identity: DATE:2023-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 2.7
+  - period_role: COMPARATIVE
+    period_label: 2022年12月31日
+    period_identity: DATE:2022-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 18240
+  - period_role: COMPARATIVE
+    period_label: 2022年12月31日
+    period_identity: DATE:2022-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 3.4
+- golden_row_id: GROW_7b2a23a97f8c926bf4ef
+  physical_table_id: PICC_PNC_2023_PORTFOLIO_BY_CATEGORY
+  member_table_id: portfolio_by_category
+  classification_axis: BY_INVESTMENT_OBJECT
+  raw_label: 固定收益類投資
+  normalized_label: 固定收益類投資
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: GROUP
+  source_row_order: 2
+  period_values:
+  - period_role: CURRENT
+    period_label: 2023年12月31日
+    period_identity: DATE:2023-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 349749
+  - period_role: CURRENT
+    period_label: 2023年12月31日
+    period_identity: DATE:2023-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 58.2
+  - period_role: COMPARATIVE
+    period_label: 2022年12月31日
+    period_identity: DATE:2022-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 312450
+  - period_role: COMPARATIVE
+    period_label: 2022年12月31日
+    period_identity: DATE:2022-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 58.5
+- golden_row_id: GROW_05cf23f6f7776ac5ad78
+  physical_table_id: PICC_PNC_2023_PORTFOLIO_BY_CATEGORY
+  member_table_id: portfolio_by_category
+  classification_axis: BY_INVESTMENT_OBJECT
+  raw_label: 定期存款
+  normalized_label: 定期存款
+  parent_golden_row_id: GROW_7b2a23a97f8c926bf4ef
+  semantic_parent_path: 固定收益類投資
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 3
+  period_values:
+  - period_role: CURRENT
+    period_label: 2023年12月31日
+    period_identity: DATE:2023-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 57785
+  - period_role: CURRENT
+    period_label: 2023年12月31日
+    period_identity: DATE:2023-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 9.6
+  - period_role: COMPARATIVE
+    period_label: 2022年12月31日
+    period_identity: DATE:2022-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 54210
+  - period_role: COMPARATIVE
+    period_label: 2022年12月31日
+    period_identity: DATE:2022-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 10.2
+- golden_row_id: GROW_1213f7076682b8761eb8
+  physical_table_id: PICC_PNC_2023_PORTFOLIO_BY_CATEGORY
+  member_table_id: portfolio_by_category
+  classification_axis: BY_INVESTMENT_OBJECT
+  raw_label: 國債及政府債
+  normalized_label: 國債及政府債
+  parent_golden_row_id: GROW_7b2a23a97f8c926bf4ef
+  semantic_parent_path: 固定收益類投資
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 4
+  period_values:
+  - period_role: CURRENT
+    period_label: 2023年12月31日
+    period_identity: DATE:2023-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 46993
+  - period_role: CURRENT
+    period_label: 2023年12月31日
+    period_identity: DATE:2023-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 7.8
+  - period_role: COMPARATIVE
+    period_label: 2022年12月31日
+    period_identity: DATE:2022-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 38450
+  - period_role: COMPARATIVE
+    period_label: 2022年12月31日
+    period_identity: DATE:2022-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 7.2
+- golden_row_id: GROW_f6fda745a5480031bb0c
+  physical_table_id: PICC_PNC_2023_PORTFOLIO_BY_CATEGORY
+  member_table_id: portfolio_by_category
+  classification_axis: BY_INVESTMENT_OBJECT
+  raw_label: 金融債
+  normalized_label: 金融債
+  parent_golden_row_id: GROW_7b2a23a97f8c926bf4ef
+  semantic_parent_path: 固定收益類投資
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 5
+  period_values:
+  - period_role: CURRENT
+    period_label: 2023年12月31日
+    period_identity: DATE:2023-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 85816
+  - period_role: CURRENT
+    period_label: 2023年12月31日
+    period_identity: DATE:2023-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 14.3
+  - period_role: COMPARATIVE
+    period_label: 2022年12月31日
+    period_identity: DATE:2022-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 78950
+  - period_role: COMPARATIVE
+    period_label: 2022年12月31日
+    period_identity: DATE:2022-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 14.8
+- golden_row_id: GROW_9fd43475832b7425ea46
+  physical_table_id: PICC_PNC_2023_PORTFOLIO_BY_CATEGORY
+  member_table_id: portfolio_by_category
+  classification_axis: BY_INVESTMENT_OBJECT
+  raw_label: 企業債
+  normalized_label: 企業債
+  parent_golden_row_id: GROW_7b2a23a97f8c926bf4ef
+  semantic_parent_path: 固定收益類投資
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 6
+  period_values:
+  - period_role: CURRENT
+    period_label: 2023年12月31日
+    period_identity: DATE:2023-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 73354
+  - period_role: CURRENT
+    period_label: 2023年12月31日
+    period_identity: DATE:2023-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 12.2
+  - period_role: COMPARATIVE
+    period_label: 2022年12月31日
+    period_identity: DATE:2022-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 68450
+  - period_role: COMPARATIVE
+    period_label: 2022年12月31日
+    period_identity: DATE:2022-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 12.8
+- golden_row_id: GROW_46363cd2af9a7f34a1e8
+  physical_table_id: PICC_PNC_2023_PORTFOLIO_BY_CATEGORY
+  member_table_id: portfolio_by_category
+  classification_axis: BY_INVESTMENT_OBJECT
+  raw_label: 長期債權投資計劃
+  normalized_label: 長期債權投資計劃
+  parent_golden_row_id: GROW_7b2a23a97f8c926bf4ef
+  semantic_parent_path: 固定收益類投資
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 7
+  period_values:
+  - period_role: CURRENT
+    period_label: 2023年12月31日
+    period_identity: DATE:2023-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 37737
+  - period_role: CURRENT
+    period_label: 2023年12月31日
+    period_identity: DATE:2023-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 6.3
+  - period_role: COMPARATIVE
+    period_label: 2022年12月31日
+    period_identity: DATE:2022-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 34210
+  - period_role: COMPARATIVE
+    period_label: 2022年12月31日
+    period_identity: DATE:2022-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 6.4
+- golden_row_id: GROW_859230e351a735c13374
+  physical_table_id: PICC_PNC_2023_PORTFOLIO_BY_CATEGORY
+  member_table_id: portfolio_by_category
+  classification_axis: BY_INVESTMENT_OBJECT
+  raw_label: 其他固定收益類投資
+  normalized_label: 其他固定收益類投資
+  parent_golden_row_id: GROW_7b2a23a97f8c926bf4ef
+  semantic_parent_path: 固定收益類投資
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 8
+  period_values:
+  - period_role: CURRENT
+    period_label: 2023年12月31日
+    period_identity: DATE:2023-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 48064
+  - period_role: CURRENT
+    period_label: 2023年12月31日
+    period_identity: DATE:2023-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 8.0
+  - period_role: COMPARATIVE
+    period_label: 2022年12月31日
+    period_identity: DATE:2022-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 38180
+  - period_role: COMPARATIVE
+    period_label: 2022年12月31日
+    period_identity: DATE:2022-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 7.1
+- golden_row_id: GROW_e76549535894447caab0
+  physical_table_id: PICC_PNC_2023_PORTFOLIO_BY_CATEGORY
+  member_table_id: portfolio_by_category
+  classification_axis: BY_INVESTMENT_OBJECT
+  raw_label: 權益類投資
+  normalized_label: 權益類投資
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: GROUP
+  source_row_order: 9
+  period_values:
+  - period_role: CURRENT
+    period_label: 2023年12月31日
+    period_identity: DATE:2023-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 158417
+  - period_role: CURRENT
+    period_label: 2023年12月31日
+    period_identity: DATE:2023-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 26.4
+  - period_role: COMPARATIVE
+    period_label: 2022年12月31日
+    period_identity: DATE:2022-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 139540
+  - period_role: COMPARATIVE
+    period_label: 2022年12月31日
+    period_identity: DATE:2022-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 26.1
+- golden_row_id: GROW_c315805ad1167da63882
+  physical_table_id: PICC_PNC_2023_PORTFOLIO_BY_CATEGORY
+  member_table_id: portfolio_by_category
+  classification_axis: BY_INVESTMENT_OBJECT
+  raw_label: 基金
+  normalized_label: 基金
+  parent_golden_row_id: GROW_e76549535894447caab0
+  semantic_parent_path: 權益類投資
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 10
+  period_values:
+  - period_role: CURRENT
+    period_label: 2023年12月31日
+    period_identity: DATE:2023-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 46447
+  - period_role: CURRENT
+    period_label: 2023年12月31日
+    period_identity: DATE:2023-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 7.7
+  - period_role: COMPARATIVE
+    period_label: 2022年12月31日
+    period_identity: DATE:2022-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 42150
+  - period_role: COMPARATIVE
+    period_label: 2022年12月31日
+    period_identity: DATE:2022-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 7.9
+- golden_row_id: GROW_688f5c841cd407ba3b72
+  physical_table_id: PICC_PNC_2023_PORTFOLIO_BY_CATEGORY
+  member_table_id: portfolio_by_category
+  classification_axis: BY_INVESTMENT_OBJECT
+  raw_label: 股票
+  normalized_label: 股票
+  parent_golden_row_id: GROW_e76549535894447caab0
+  semantic_parent_path: 權益類投資
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 11
+  period_values:
+  - period_role: CURRENT
+    period_label: 2023年12月31日
+    period_identity: DATE:2023-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 35926
+  - period_role: CURRENT
+    period_label: 2023年12月31日
+    period_identity: DATE:2023-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 6.0
+  - period_role: COMPARATIVE
+    period_label: 2022年12月31日
+    period_identity: DATE:2022-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 32140
+  - period_role: COMPARATIVE
+    period_label: 2022年12月31日
+    period_identity: DATE:2022-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 6.0
+- golden_row_id: GROW_581f5f878a1ffd32e5c1
+  physical_table_id: PICC_PNC_2023_PORTFOLIO_BY_CATEGORY
+  member_table_id: portfolio_by_category
+  classification_axis: BY_INVESTMENT_OBJECT
+  raw_label: 非上市股權
+  normalized_label: 非上市股權
+  parent_golden_row_id: GROW_e76549535894447caab0
+  semantic_parent_path: 權益類投資
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 12
+  period_values:
+  - period_role: CURRENT
+    period_label: 2023年12月31日
+    period_identity: DATE:2023-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 17298
+  - period_role: CURRENT
+    period_label: 2023年12月31日
+    period_identity: DATE:2023-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 2.9
+  - period_role: COMPARATIVE
+    period_label: 2022年12月31日
+    period_identity: DATE:2022-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 15420
+  - period_role: COMPARATIVE
+    period_label: 2022年12月31日
+    period_identity: DATE:2022-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 2.9
+- golden_row_id: GROW_7219588f921de2ce571f
+  physical_table_id: PICC_PNC_2023_PORTFOLIO_BY_CATEGORY
+  member_table_id: portfolio_by_category
+  classification_axis: BY_INVESTMENT_OBJECT
+  raw_label: 優先股
+  normalized_label: 優先股
+  parent_golden_row_id: GROW_e76549535894447caab0
+  semantic_parent_path: 權益類投資
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 13
+  period_values:
+  - period_role: CURRENT
+    period_label: 2023年12月31日
+    period_identity: DATE:2023-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 7454
+  - period_role: CURRENT
+    period_label: 2023年12月31日
+    period_identity: DATE:2023-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 1.3
+  - period_role: COMPARATIVE
+    period_label: 2022年12月31日
+    period_identity: DATE:2022-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 7420
+  - period_role: COMPARATIVE
+    period_label: 2022年12月31日
+    period_identity: DATE:2022-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 1.4
+- golden_row_id: GROW_80e7bd7c880c4316823f
+  physical_table_id: PICC_PNC_2023_PORTFOLIO_BY_CATEGORY
+  member_table_id: portfolio_by_category
+  classification_axis: BY_INVESTMENT_OBJECT
+  raw_label: 永續債
+  normalized_label: 永續債
+  parent_golden_row_id: GROW_e76549535894447caab0
+  semantic_parent_path: 權益類投資
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 14
+  period_values:
+  - period_role: CURRENT
+    period_label: 2023年12月31日
+    period_identity: DATE:2023-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 36295
+  - period_role: CURRENT
+    period_label: 2023年12月31日
+    period_identity: DATE:2023-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 6.0
+  - period_role: COMPARATIVE
+    period_label: 2022年12月31日
+    period_identity: DATE:2022-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 29840
+  - period_role: COMPARATIVE
+    period_label: 2022年12月31日
+    period_identity: DATE:2022-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 5.6
+- golden_row_id: GROW_dbb6f527025b001ebe75
+  physical_table_id: PICC_PNC_2023_PORTFOLIO_BY_CATEGORY
+  member_table_id: portfolio_by_category
+  classification_axis: BY_INVESTMENT_OBJECT
+  raw_label: 其他權益類投資
+  normalized_label: 其他權益類投資
+  parent_golden_row_id: GROW_e76549535894447caab0
+  semantic_parent_path: 權益類投資
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 15
+  period_values:
+  - period_role: CURRENT
+    period_label: 2023年12月31日
+    period_identity: DATE:2023-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 14997
+  - period_role: CURRENT
+    period_label: 2023年12月31日
+    period_identity: DATE:2023-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 2.5
+  - period_role: COMPARATIVE
+    period_label: 2022年12月31日
+    period_identity: DATE:2022-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 12570
+  - period_role: COMPARATIVE
+    period_label: 2022年12月31日
+    period_identity: DATE:2022-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 2.3
+- golden_row_id: GROW_3f5737667994c7d48508
+  physical_table_id: PICC_PNC_2023_PORTFOLIO_BY_CATEGORY
+  member_table_id: portfolio_by_category
+  classification_axis: BY_INVESTMENT_OBJECT
+  raw_label: 投資物業
+  normalized_label: 投資物業
+  parent_golden_row_id: GROW_e76549535894447caab0
+  semantic_parent_path: 權益類投資
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 16
+  period_values:
+  - period_role: CURRENT
+    period_label: 2023年12月31日
+    period_identity: DATE:2023-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 7576
+  - period_role: CURRENT
+    period_label: 2023年12月31日
+    period_identity: DATE:2023-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 1.3
+  - period_role: COMPARATIVE
+    period_label: 2022年12月31日
+    period_identity: DATE:2022-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 7840
+  - period_role: COMPARATIVE
+    period_label: 2022年12月31日
+    period_identity: DATE:2022-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 1.5
+- golden_row_id: GROW_2540b4e1fabcc54ed06f
+  physical_table_id: PICC_PNC_2023_PORTFOLIO_BY_CATEGORY
+  member_table_id: portfolio_by_category
+  classification_axis: BY_INVESTMENT_OBJECT
+  raw_label: 聯營公司及合營公司投資
+  normalized_label: 聯營公司及合營公司投資
+  parent_golden_row_id: GROW_e76549535894447caab0
+  semantic_parent_path: 權益類投資
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 17
+  period_values:
+  - period_role: CURRENT
+    period_label: 2023年12月31日
+    period_identity: DATE:2023-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 62601
+  - period_role: CURRENT
+    period_label: 2023年12月31日
+    period_identity: DATE:2023-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 10.4
+  - period_role: COMPARATIVE
+    period_label: 2022年12月31日
+    period_identity: DATE:2022-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 50420
+  - period_role: COMPARATIVE
+    period_label: 2022年12月31日
+    period_identity: DATE:2022-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 9.4
+- golden_row_id: GROW_5a37dfe5a2c714f7bc30
+  physical_table_id: PICC_PNC_2023_PORTFOLIO_BY_CATEGORY
+  member_table_id: portfolio_by_category
+  classification_axis: BY_INVESTMENT_OBJECT
+  raw_label: 其他投資資產
+  normalized_label: 其他投資資產
+  parent_golden_row_id: GROW_e76549535894447caab0
+  semantic_parent_path: 權益類投資
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 18
+  period_values:
+  - period_role: CURRENT
+    period_label: 2023年12月31日
+    period_identity: DATE:2023-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 5842
+  - period_role: CURRENT
+    period_label: 2023年12月31日
+    period_identity: DATE:2023-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 1.0
+  - period_role: COMPARATIVE
+    period_label: 2022年12月31日
+    period_identity: DATE:2022-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 5440
+  - period_role: COMPARATIVE
+    period_label: 2022年12月31日
+    period_identity: DATE:2022-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 1.1
+- golden_row_id: GROW_8c6a93fa3a8bc5ac0d8a
+  physical_table_id: PICC_PNC_2023_PORTFOLIO_BY_CATEGORY
+  member_table_id: portfolio_by_category
+  classification_axis: BY_INVESTMENT_OBJECT
+  raw_label: 投資資產合計
+  normalized_label: 投資資產合計
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: TOTAL
+  source_row_order: 19
+  period_values:
+  - period_role: CURRENT
+    period_label: 2023年12月31日
+    period_identity: DATE:2023-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 600711
+  - period_role: CURRENT
+    period_label: 2023年12月31日
+    period_identity: DATE:2023-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 100.0
+  - period_role: COMPARATIVE
+    period_label: 2022年12月31日
+    period_identity: DATE:2022-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 533930
+  - period_role: COMPARATIVE
+    period_label: 2022年12月31日
+    period_identity: DATE:2022-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 100.0
+- golden_row_id: GROW_2535e889ae98c879c62f
+  physical_table_id: PICC_PNC_2023_PORTFOLIO_BY_MEASUREMENT
+  member_table_id: portfolio_by_measurement
+  classification_axis: BY_ACCOUNTING_MEASUREMENT
+  raw_label: 現金及現金等價物
+  normalized_label: 現金及現金等價物
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 1
+  period_values:
+  - period_role: CURRENT
+    period_label: 2023年12月31日
+    period_identity: DATE:2023-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 16526
+  - period_role: CURRENT
+    period_label: 2023年12月31日
+    period_identity: DATE:2023-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 2.7
+  - period_role: COMPARATIVE
+    period_label: 2022年12月31日
+    period_identity: DATE:2022-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 18240
+  - period_role: COMPARATIVE
+    period_label: 2022年12月31日
+    period_identity: DATE:2022-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 3.4
+- golden_row_id: GROW_d8ae5b9ad5caa7d2d21b
+  physical_table_id: PICC_PNC_2023_PORTFOLIO_BY_MEASUREMENT
+  member_table_id: portfolio_by_measurement
+  classification_axis: BY_ACCOUNTING_MEASUREMENT
+  raw_label: 定期存款
+  normalized_label: 定期存款
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 2
+  period_values:
+  - period_role: CURRENT
+    period_label: 2023年12月31日
+    period_identity: DATE:2023-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 57785
+  - period_role: CURRENT
+    period_label: 2023年12月31日
+    period_identity: DATE:2023-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 9.6
+  - period_role: COMPARATIVE
+    period_label: 2022年12月31日
+    period_identity: DATE:2022-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 54210
+  - period_role: COMPARATIVE
+    period_label: 2022年12月31日
+    period_identity: DATE:2022-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 10.2
+- golden_row_id: GROW_58d68bb39a07c74bed5d
+  physical_table_id: PICC_PNC_2023_PORTFOLIO_BY_MEASUREMENT
+  member_table_id: portfolio_by_measurement
+  classification_axis: BY_ACCOUNTING_MEASUREMENT
+  raw_label: 以攤餘成本計量的金融投資
+  normalized_label: 以攤餘成本計量的金融投資
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 3
+  period_values:
+  - period_role: CURRENT
+    period_label: 2023年12月31日
+    period_identity: DATE:2023-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 126192
+  - period_role: CURRENT
+    period_label: 2023年12月31日
+    period_identity: DATE:2023-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 21.0
+  - period_role: COMPARATIVE
+    period_label: 2022年12月31日
+    period_identity: DATE:2022-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 105240
+  - period_role: COMPARATIVE
+    period_label: 2022年12月31日
+    period_identity: DATE:2022-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 19.7
+- golden_row_id: GROW_901e6ae44f3d1f80dffe
+  physical_table_id: PICC_PNC_2023_PORTFOLIO_BY_MEASUREMENT
+  member_table_id: portfolio_by_measurement
+  classification_axis: BY_ACCOUNTING_MEASUREMENT
+  raw_label: 以公允價值計量且其變動計入其他綜合收益的金融資產
+  normalized_label: 以公允價值計量且其變動計入其他綜合收益的金融資產
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 4
+  period_values:
+  - period_role: CURRENT
+    period_label: 2023年12月31日
+    period_identity: DATE:2023-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 180142
+  - period_role: CURRENT
+    period_label: 2023年12月31日
+    period_identity: DATE:2023-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 30.0
+  - period_role: COMPARATIVE
+    period_label: 2022年12月31日
+    period_identity: DATE:2022-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 145210
+  - period_role: COMPARATIVE
+    period_label: 2022年12月31日
+    period_identity: DATE:2022-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 27.2
+- golden_row_id: GROW_3c8e48c556db017bbfb3
+  physical_table_id: PICC_PNC_2023_PORTFOLIO_BY_MEASUREMENT
+  member_table_id: portfolio_by_measurement
+  classification_axis: BY_ACCOUNTING_MEASUREMENT
+  raw_label: 以公允價值計量且其變動計入當期損益的金融資產
+  normalized_label: 以公允價值計量且其變動計入當期損益的金融資產
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 5
+  period_values:
+  - period_role: CURRENT
+    period_label: 2023年12月31日
+    period_identity: DATE:2023-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 144047
+  - period_role: CURRENT
+    period_label: 2023年12月31日
+    period_identity: DATE:2023-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 24.0
+  - period_role: COMPARATIVE
+    period_label: 2022年12月31日
+    period_identity: DATE:2022-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 128450
+  - period_role: COMPARATIVE
+    period_label: 2022年12月31日
+    period_identity: DATE:2022-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 24.1
+- golden_row_id: GROW_9b2614e93ec15d19d140
+  physical_table_id: PICC_PNC_2023_PORTFOLIO_BY_MEASUREMENT
+  member_table_id: portfolio_by_measurement
+  classification_axis: BY_ACCOUNTING_MEASUREMENT
+  raw_label: 投資物業
+  normalized_label: 投資物業
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 6
+  period_values:
+  - period_role: CURRENT
+    period_label: 2023年12月31日
+    period_identity: DATE:2023-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 7576
+  - period_role: CURRENT
+    period_label: 2023年12月31日
+    period_identity: DATE:2023-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 1.3
+  - period_role: COMPARATIVE
+    period_label: 2022年12月31日
+    period_identity: DATE:2022-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 7840
+  - period_role: COMPARATIVE
+    period_label: 2022年12月31日
+    period_identity: DATE:2022-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 1.5
+- golden_row_id: GROW_e99168aaa2731508193a
+  physical_table_id: PICC_PNC_2023_PORTFOLIO_BY_MEASUREMENT
+  member_table_id: portfolio_by_measurement
+  classification_axis: BY_ACCOUNTING_MEASUREMENT
+  raw_label: 聯營公司及合營公司投資
+  normalized_label: 聯營公司及合營公司投資
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 7
+  period_values:
+  - period_role: CURRENT
+    period_label: 2023年12月31日
+    period_identity: DATE:2023-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 62601
+  - period_role: CURRENT
+    period_label: 2023年12月31日
+    period_identity: DATE:2023-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 10.4
+  - period_role: COMPARATIVE
+    period_label: 2022年12月31日
+    period_identity: DATE:2022-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 50420
+  - period_role: COMPARATIVE
+    period_label: 2022年12月31日
+    period_identity: DATE:2022-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 9.4
+- golden_row_id: GROW_09dd69a441f2838d9763
+  physical_table_id: PICC_PNC_2023_PORTFOLIO_BY_MEASUREMENT
+  member_table_id: portfolio_by_measurement
+  classification_axis: BY_ACCOUNTING_MEASUREMENT
+  raw_label: 其他投資資產
+  normalized_label: 其他投資資產
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 8
+  period_values:
+  - period_role: CURRENT
+    period_label: 2023年12月31日
+    period_identity: DATE:2023-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 5842
+  - period_role: CURRENT
+    period_label: 2023年12月31日
+    period_identity: DATE:2023-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 1.0
+  - period_role: COMPARATIVE
+    period_label: 2022年12月31日
+    period_identity: DATE:2022-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 5440
+  - period_role: COMPARATIVE
+    period_label: 2022年12月31日
+    period_identity: DATE:2022-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 1.1
+- golden_row_id: GROW_28b25a2cef963c96b7e3
+  physical_table_id: PICC_PNC_2023_PORTFOLIO_BY_MEASUREMENT
+  member_table_id: portfolio_by_measurement
+  classification_axis: BY_ACCOUNTING_MEASUREMENT
+  raw_label: 投資資產合計
+  normalized_label: 投資資產合計
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: TOTAL
+  source_row_order: 9
+  period_values:
+  - period_role: CURRENT
+    period_label: 2023年12月31日
+    period_identity: DATE:2023-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 600711
+  - period_role: CURRENT
+    period_label: 2023年12月31日
+    period_identity: DATE:2023-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 100.0
+  - period_role: COMPARATIVE
+    period_label: 2022年12月31日
+    period_identity: DATE:2022-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 533930
+  - period_role: COMPARATIVE
+    period_label: 2022年12月31日
+    period_identity: DATE:2022-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 100.0
+identity_provenance: DERIVED_FROM_CERTIFIED_GOLDEN_FACTS_NOT_RUNTIME_CAPTURE

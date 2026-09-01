@@ -1,0 +1,17 @@
+schema_version: '1.1'
+filing_id: PICC_2025_ANNUAL_REPORT
+company_id: PICC
+company_name: 中国人保
+company_legal_name: 中国人民保险集团股份有限公司
+report_year: 2025
+report_type: ANNUAL_REPORT
+language: zh-CN
+canonical_pdf_filename: 中国人保2025年年度报告.pdf
+pdf_sha256: c8e5ed5435197ff0c056ee9ad6aa630b6e7a655a47ba61e18d352e89745791fe
+page_count: 278
+file_size_bytes: 12461533
+document_modality: NATIVE_DIGITAL
+canonical_for_testing: true
+duplicate_group: null
+annotation_status: CERTIFIED_GOLDEN
+source_directory: C:\dev\AXA_research\docu

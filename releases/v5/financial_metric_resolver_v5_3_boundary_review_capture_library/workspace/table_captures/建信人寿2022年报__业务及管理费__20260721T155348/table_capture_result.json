@@ -1,0 +1,877 @@
+{
+  "pdf_name": "e7eec2489f81_建信人寿2022年报.pdf",
+  "pdf_sha256": "e7eec2489f818fa33eec6bde52d6c9a27289c82a21c6d6db332bc3e9bcb1be06",
+  "table_query": "业务及管理费",
+  "note_number": null,
+  "located_title": "合计 4,051,761,120 3,369,170,56749. 业务及管理费",
+  "start_page": 144,
+  "end_page": 144,
+  "pages": [
+    144
+  ],
+  "unit": null,
+  "columns": [
+    {
+      "ordinal": 0,
+      "source_column_index": 1,
+      "header_raw": "2022",
+      "year": "2022",
+      "scope": null,
+      "restated": false,
+      "period_label": "2022"
+    },
+    {
+      "ordinal": 1,
+      "source_column_index": 2,
+      "header_raw": "2021",
+      "year": "2021",
+      "scope": null,
+      "restated": false,
+      "period_label": "2021"
+    }
+  ],
+  "rows": [
+    {
+      "row_order": 1,
+      "page": 144,
+      "block_id": "spatial_p144",
+      "source_method": "spatial_roi+column_anchors",
+      "raw_item": "工资及福利费",
+      "normalized_item": "工资及福利费",
+      "canonical_item": null,
+      "mapping_status": "UNMAPPED",
+      "row_type": "DETAIL",
+      "row_level": 0,
+      "parent_section": null,
+      "cells": [
+        {
+          "column_ordinal": 0,
+          "source_column_index": 1,
+          "raw": "1,788,536,878",
+          "parsed_number": 1788536878.0,
+          "unit_original": null,
+          "value_yuan": null
+        },
+        {
+          "column_ordinal": 1,
+          "source_column_index": 2,
+          "raw": "1,819,078,893",
+          "parsed_number": 1819078893.0,
+          "unit_original": null,
+          "value_yuan": null
+        }
+      ],
+      "header_source_page": null
+    },
+    {
+      "row_order": 2,
+      "page": 144,
+      "block_id": "spatial_p144",
+      "source_method": "spatial_roi+column_anchors",
+      "raw_item": "使用权资产折旧",
+      "normalized_item": "使用权资产折旧",
+      "canonical_item": null,
+      "mapping_status": "UNMAPPED",
+      "row_type": "DETAIL",
+      "row_level": 0,
+      "parent_section": null,
+      "cells": [
+        {
+          "column_ordinal": 0,
+          "source_column_index": 1,
+          "raw": "153,754,901",
+          "parsed_number": 153754901.0,
+          "unit_original": null,
+          "value_yuan": null
+        },
+        {
+          "column_ordinal": 1,
+          "source_column_index": 2,
+          "raw": "146,556,345",
+          "parsed_number": 146556345.0,
+          "unit_original": null,
+          "value_yuan": null
+        }
+      ],
+      "header_source_page": null
+    },
+    {
+      "row_order": 3,
+      "page": 144,
+      "block_id": "spatial_p144",
+      "source_method": "spatial_roi+column_anchors",
+      "raw_item": "无形资产摊销",
+      "normalized_item": "无形资产摊销",
+      "canonical_item": null,
+      "mapping_status": "UNMAPPED",
+      "row_type": "DETAIL",
+      "row_level": 0,
+      "parent_section": null,
+      "cells": [
+        {
+          "column_ordinal": 0,
+          "source_column_index": 1,
+          "raw": "123,487,155",
+          "parsed_number": 123487155.0,
+          "unit_original": null,
+          "value_yuan": null
+        },
+        {
+          "column_ordinal": 1,
+          "source_column_index": 2,
+          "raw": "103,461,244",
+          "parsed_number": 103461244.0,
+          "unit_original": null,
+          "value_yuan": null
+        }
+      ],
+      "header_source_page": null
+    },
+    {
+      "row_order": 4,
+      "page": 144,
+      "block_id": "spatial_p144",
+      "source_method": "spatial_roi+column_anchors",
+      "raw_item": "修理及维护费用",
+      "normalized_item": "修理及维护费用",
+      "canonical_item": null,
+      "mapping_status": "UNMAPPED",
+      "row_type": "DETAIL",
+      "row_level": 0,
+      "parent_section": null,
+      "cells": [
+        {
+          "column_ordinal": 0,
+          "source_column_index": 1,
+          "raw": "103,952,695",
+          "parsed_number": 103952695.0,
+          "unit_original": null,
+          "value_yuan": null
+        },
+        {
+          "column_ordinal": 1,
+          "source_column_index": 2,
+          "raw": "45,206,931",
+          "parsed_number": 45206931.0,
+          "unit_original": null,
+          "value_yuan": null
+        }
+      ],
+      "header_source_page": null
+    },
+    {
+      "row_order": 5,
+      "page": 144,
+      "block_id": "spatial_p144",
+      "source_method": "spatial_roi+column_anchors",
+      "raw_item": "提取保险保障基金",
+      "normalized_item": "提取保险保障基金",
+      "canonical_item": null,
+      "mapping_status": "UNMAPPED",
+      "row_type": "DETAIL",
+      "row_level": 0,
+      "parent_section": null,
+      "cells": [
+        {
+          "column_ordinal": 0,
+          "source_column_index": 1,
+          "raw": "96,691,138",
+          "parsed_number": 96691138.0,
+          "unit_original": null,
+          "value_yuan": null
+        },
+        {
+          "column_ordinal": 1,
+          "source_column_index": 2,
+          "raw": "94,734,297",
+          "parsed_number": 94734297.0,
+          "unit_original": null,
+          "value_yuan": null
+        }
+      ],
+      "header_source_page": null
+    },
+    {
+      "row_order": 6,
+      "page": 144,
+      "block_id": "spatial_p144",
+      "source_method": "spatial_roi+column_anchors",
+      "raw_item": "资产托管费",
+      "normalized_item": "资产托管费",
+      "canonical_item": null,
+      "mapping_status": "UNMAPPED",
+      "row_type": "DETAIL",
+      "row_level": 0,
+      "parent_section": null,
+      "cells": [
+        {
+          "column_ordinal": 0,
+          "source_column_index": 1,
+          "raw": "92,444,402",
+          "parsed_number": 92444402.0,
+          "unit_original": null,
+          "value_yuan": null
+        },
+        {
+          "column_ordinal": 1,
+          "source_column_index": 2,
+          "raw": "106,275,812",
+          "parsed_number": 106275812.0,
+          "unit_original": null,
+          "value_yuan": null
+        }
+      ],
+      "header_source_page": null
+    },
+    {
+      "row_order": 7,
+      "page": 144,
+      "block_id": "spatial_p144",
+      "source_method": "spatial_roi+column_anchors",
+      "raw_item": "固定资产折旧",
+      "normalized_item": "固定资产折旧",
+      "canonical_item": null,
+      "mapping_status": "UNMAPPED",
+      "row_type": "DETAIL",
+      "row_level": 0,
+      "parent_section": null,
+      "cells": [
+        {
+          "column_ordinal": 0,
+          "source_column_index": 1,
+          "raw": "66,954,817",
+          "parsed_number": 66954817.0,
+          "unit_original": null,
+          "value_yuan": null
+        },
+        {
+          "column_ordinal": 1,
+          "source_column_index": 2,
+          "raw": "68,760,234",
+          "parsed_number": 68760234.0,
+          "unit_original": null,
+          "value_yuan": null
+        }
+      ],
+      "header_source_page": null
+    },
+    {
+      "row_order": 8,
+      "page": 144,
+      "block_id": "spatial_p144",
+      "source_method": "spatial_roi+column_anchors",
+      "raw_item": "租赁费用",
+      "normalized_item": "租赁费用",
+      "canonical_item": null,
+      "mapping_status": "UNMAPPED",
+      "row_type": "DETAIL",
+      "row_level": 0,
+      "parent_section": null,
+      "cells": [
+        {
+          "column_ordinal": 0,
+          "source_column_index": 1,
+          "raw": "55,367,233",
+          "parsed_number": 55367233.0,
+          "unit_original": null,
+          "value_yuan": null
+        },
+        {
+          "column_ordinal": 1,
+          "source_column_index": 2,
+          "raw": "59,179,126",
+          "parsed_number": 59179126.0,
+          "unit_original": null,
+          "value_yuan": null
+        }
+      ],
+      "header_source_page": null
+    },
+    {
+      "row_order": 9,
+      "page": 144,
+      "block_id": "spatial_p144",
+      "source_method": "spatial_roi+column_anchors",
+      "raw_item": "业务活动费",
+      "normalized_item": "业务活动费",
+      "canonical_item": null,
+      "mapping_status": "UNMAPPED",
+      "row_type": "DETAIL",
+      "row_level": 0,
+      "parent_section": null,
+      "cells": [
+        {
+          "column_ordinal": 0,
+          "source_column_index": 1,
+          "raw": "42,177,299",
+          "parsed_number": 42177299.0,
+          "unit_original": null,
+          "value_yuan": null
+        },
+        {
+          "column_ordinal": 1,
+          "source_column_index": 2,
+          "raw": "43,598,997",
+          "parsed_number": 43598997.0,
+          "unit_original": null,
+          "value_yuan": null
+        }
+      ],
+      "header_source_page": null
+    },
+    {
+      "row_order": 10,
+      "page": 144,
+      "block_id": "spatial_p144",
+      "source_method": "spatial_roi+column_anchors",
+      "raw_item": "长期待摊费用摊销",
+      "normalized_item": "长期待摊费用摊销",
+      "canonical_item": null,
+      "mapping_status": "UNMAPPED",
+      "row_type": "DETAIL",
+      "row_level": 0,
+      "parent_section": null,
+      "cells": [
+        {
+          "column_ordinal": 0,
+          "source_column_index": 1,
+          "raw": "35,562,258",
+          "parsed_number": 35562258.0,
+          "unit_original": null,
+          "value_yuan": null
+        },
+        {
+          "column_ordinal": 1,
+          "source_column_index": 2,
+          "raw": "35,502,652",
+          "parsed_number": 35502652.0,
+          "unit_original": null,
+          "value_yuan": null
+        }
+      ],
+      "header_source_page": null
+    },
+    {
+      "row_order": 11,
+      "page": 144,
+      "block_id": "spatial_p144",
+      "source_method": "spatial_roi+column_anchors",
+      "raw_item": "专业服务费",
+      "normalized_item": "专业服务费",
+      "canonical_item": null,
+      "mapping_status": "UNMAPPED",
+      "row_type": "DETAIL",
+      "row_level": 0,
+      "parent_section": null,
+      "cells": [
+        {
+          "column_ordinal": 0,
+          "source_column_index": 1,
+          "raw": "34,700,464",
+          "parsed_number": 34700464.0,
+          "unit_original": null,
+          "value_yuan": null
+        },
+        {
+          "column_ordinal": 1,
+          "source_column_index": 2,
+          "raw": "38,418,023",
+          "parsed_number": 38418023.0,
+          "unit_original": null,
+          "value_yuan": null
+        }
+      ],
+      "header_source_page": null
+    },
+    {
+      "row_order": 12,
+      "page": 144,
+      "block_id": "spatial_p144",
+      "source_method": "spatial_roi+column_anchors",
+      "raw_item": "培训费",
+      "normalized_item": "培训费",
+      "canonical_item": null,
+      "mapping_status": "UNMAPPED",
+      "row_type": "DETAIL",
+      "row_level": 0,
+      "parent_section": null,
+      "cells": [
+        {
+          "column_ordinal": 0,
+          "source_column_index": 1,
+          "raw": "34,509,669",
+          "parsed_number": 34509669.0,
+          "unit_original": null,
+          "value_yuan": null
+        },
+        {
+          "column_ordinal": 1,
+          "source_column_index": 2,
+          "raw": "42,309,627",
+          "parsed_number": 42309627.0,
+          "unit_original": null,
+          "value_yuan": null
+        }
+      ],
+      "header_source_page": null
+    },
+    {
+      "row_order": 13,
+      "page": 144,
+      "block_id": "spatial_p144",
+      "source_method": "spatial_roi+column_anchors",
+      "raw_item": "通讯费",
+      "normalized_item": "通讯费",
+      "canonical_item": null,
+      "mapping_status": "UNMAPPED",
+      "row_type": "DETAIL",
+      "row_level": 0,
+      "parent_section": null,
+      "cells": [
+        {
+          "column_ordinal": 0,
+          "source_column_index": 1,
+          "raw": "31,134,818",
+          "parsed_number": 31134818.0,
+          "unit_original": null,
+          "value_yuan": null
+        },
+        {
+          "column_ordinal": 1,
+          "source_column_index": 2,
+          "raw": "30,938,213",
+          "parsed_number": 30938213.0,
+          "unit_original": null,
+          "value_yuan": null
+        }
+      ],
+      "header_source_page": null
+    },
+    {
+      "row_order": 14,
+      "page": 144,
+      "block_id": "spatial_p144",
+      "source_method": "spatial_roi+column_anchors",
+      "raw_item": "广告宣传费",
+      "normalized_item": "广告宣传费",
+      "canonical_item": null,
+      "mapping_status": "UNMAPPED",
+      "row_type": "DETAIL",
+      "row_level": 0,
+      "parent_section": null,
+      "cells": [
+        {
+          "column_ordinal": 0,
+          "source_column_index": 1,
+          "raw": "24,476,049",
+          "parsed_number": 24476049.0,
+          "unit_original": null,
+          "value_yuan": null
+        },
+        {
+          "column_ordinal": 1,
+          "source_column_index": 2,
+          "raw": "32,713,363",
+          "parsed_number": 32713363.0,
+          "unit_original": null,
+          "value_yuan": null
+        }
+      ],
+      "header_source_page": null
+    },
+    {
+      "row_order": 15,
+      "page": 144,
+      "block_id": "spatial_p144",
+      "source_method": "spatial_roi+column_anchors",
+      "raw_item": "业务招待费",
+      "normalized_item": "业务招待费",
+      "canonical_item": null,
+      "mapping_status": "UNMAPPED",
+      "row_type": "DETAIL",
+      "row_level": 0,
+      "parent_section": null,
+      "cells": [
+        {
+          "column_ordinal": 0,
+          "source_column_index": 1,
+          "raw": "20,437,410",
+          "parsed_number": 20437410.0,
+          "unit_original": null,
+          "value_yuan": null
+        },
+        {
+          "column_ordinal": 1,
+          "source_column_index": 2,
+          "raw": "35,047,382",
+          "parsed_number": 35047382.0,
+          "unit_original": null,
+          "value_yuan": null
+        }
+      ],
+      "header_source_page": null
+    },
+    {
+      "row_order": 16,
+      "page": 144,
+      "block_id": "spatial_p144",
+      "source_method": "spatial_roi+column_anchors",
+      "raw_item": "公杂费",
+      "normalized_item": "公杂费",
+      "canonical_item": null,
+      "mapping_status": "UNMAPPED",
+      "row_type": "DETAIL",
+      "row_level": 0,
+      "parent_section": null,
+      "cells": [
+        {
+          "column_ordinal": 0,
+          "source_column_index": 1,
+          "raw": "18,938,952",
+          "parsed_number": 18938952.0,
+          "unit_original": null,
+          "value_yuan": null
+        },
+        {
+          "column_ordinal": 1,
+          "source_column_index": 2,
+          "raw": "18,071,042",
+          "parsed_number": 18071042.0,
+          "unit_original": null,
+          "value_yuan": null
+        }
+      ],
+      "header_source_page": null
+    },
+    {
+      "row_order": 17,
+      "page": 144,
+      "block_id": "spatial_p144",
+      "source_method": "spatial_roi+column_anchors",
+      "raw_item": "差旅费",
+      "normalized_item": "差旅费",
+      "canonical_item": null,
+      "mapping_status": "UNMAPPED",
+      "row_type": "DETAIL",
+      "row_level": 0,
+      "parent_section": null,
+      "cells": [
+        {
+          "column_ordinal": 0,
+          "source_column_index": 1,
+          "raw": "15,413,220",
+          "parsed_number": 15413220.0,
+          "unit_original": null,
+          "value_yuan": null
+        },
+        {
+          "column_ordinal": 1,
+          "source_column_index": 2,
+          "raw": "26,765,551",
+          "parsed_number": 26765551.0,
+          "unit_original": null,
+          "value_yuan": null
+        }
+      ],
+      "header_source_page": null
+    },
+    {
+      "row_order": 18,
+      "page": 144,
+      "block_id": "spatial_p144",
+      "source_method": "spatial_roi+column_anchors",
+      "raw_item": "水电费",
+      "normalized_item": "水电费",
+      "canonical_item": null,
+      "mapping_status": "UNMAPPED",
+      "row_type": "DETAIL",
+      "row_level": 0,
+      "parent_section": null,
+      "cells": [
+        {
+          "column_ordinal": 0,
+          "source_column_index": 1,
+          "raw": "11,244,764",
+          "parsed_number": 11244764.0,
+          "unit_original": null,
+          "value_yuan": null
+        },
+        {
+          "column_ordinal": 1,
+          "source_column_index": 2,
+          "raw": "8,814,545",
+          "parsed_number": 8814545.0,
+          "unit_original": null,
+          "value_yuan": null
+        }
+      ],
+      "header_source_page": null
+    },
+    {
+      "row_order": 19,
+      "page": 144,
+      "block_id": "spatial_p144",
+      "source_method": "spatial_roi+column_anchors",
+      "raw_item": "租赁负债利息支出",
+      "normalized_item": "租赁负债利息支出",
+      "canonical_item": null,
+      "mapping_status": "UNMAPPED",
+      "row_type": "DETAIL",
+      "row_level": 0,
+      "parent_section": null,
+      "cells": [
+        {
+          "column_ordinal": 0,
+          "source_column_index": 1,
+          "raw": "8,315,377",
+          "parsed_number": 8315377.0,
+          "unit_original": null,
+          "value_yuan": null
+        },
+        {
+          "column_ordinal": 1,
+          "source_column_index": 2,
+          "raw": "7,047,723",
+          "parsed_number": 7047723.0,
+          "unit_original": null,
+          "value_yuan": null
+        }
+      ],
+      "header_source_page": null
+    },
+    {
+      "row_order": 20,
+      "page": 144,
+      "block_id": "spatial_p144",
+      "source_method": "spatial_roi+column_anchors",
+      "raw_item": "印刷费",
+      "normalized_item": "印刷费",
+      "canonical_item": null,
+      "mapping_status": "UNMAPPED",
+      "row_type": "DETAIL",
+      "row_level": 0,
+      "parent_section": null,
+      "cells": [
+        {
+          "column_ordinal": 0,
+          "source_column_index": 1,
+          "raw": "6,616,015",
+          "parsed_number": 6616015.0,
+          "unit_original": null,
+          "value_yuan": null
+        },
+        {
+          "column_ordinal": 1,
+          "source_column_index": 2,
+          "raw": "9,563,143",
+          "parsed_number": 9563143.0,
+          "unit_original": null,
+          "value_yuan": null
+        }
+      ],
+      "header_source_page": null
+    },
+    {
+      "row_order": 21,
+      "page": 144,
+      "block_id": "spatial_p144",
+      "source_method": "spatial_roi+column_anchors",
+      "raw_item": "银行结算费",
+      "normalized_item": "银行结算费",
+      "canonical_item": null,
+      "mapping_status": "UNMAPPED",
+      "row_type": "DETAIL",
+      "row_level": 0,
+      "parent_section": null,
+      "cells": [
+        {
+          "column_ordinal": 0,
+          "source_column_index": 1,
+          "raw": "5,543,677",
+          "parsed_number": 5543677.0,
+          "unit_original": null,
+          "value_yuan": null
+        },
+        {
+          "column_ordinal": 1,
+          "source_column_index": 2,
+          "raw": "5,520,049",
+          "parsed_number": 5520049.0,
+          "unit_original": null,
+          "value_yuan": null
+        }
+      ],
+      "header_source_page": null
+    },
+    {
+      "row_order": 22,
+      "page": 144,
+      "block_id": "spatial_p144",
+      "source_method": "spatial_roi+column_anchors",
+      "raw_item": "会议费",
+      "normalized_item": "会议费",
+      "canonical_item": null,
+      "mapping_status": "UNMAPPED",
+      "row_type": "DETAIL",
+      "row_level": 0,
+      "parent_section": null,
+      "cells": [
+        {
+          "column_ordinal": 0,
+          "source_column_index": 1,
+          "raw": "4,444,698",
+          "parsed_number": 4444698.0,
+          "unit_original": null,
+          "value_yuan": null
+        },
+        {
+          "column_ordinal": 1,
+          "source_column_index": 2,
+          "raw": "8,414,574",
+          "parsed_number": 8414574.0,
+          "unit_original": null,
+          "value_yuan": null
+        }
+      ],
+      "header_source_page": null
+    },
+    {
+      "row_order": 23,
+      "page": 144,
+      "block_id": "spatial_p144",
+      "source_method": "spatial_roi+column_anchors",
+      "raw_item": "其他税费",
+      "normalized_item": "其他税费",
+      "canonical_item": null,
+      "mapping_status": "UNMAPPED",
+      "row_type": "DETAIL",
+      "row_level": 0,
+      "parent_section": null,
+      "cells": [
+        {
+          "column_ordinal": 0,
+          "source_column_index": 1,
+          "raw": "1,016,349",
+          "parsed_number": 1016349.0,
+          "unit_original": null,
+          "value_yuan": null
+        },
+        {
+          "column_ordinal": 1,
+          "source_column_index": 2,
+          "raw": "1,919,606",
+          "parsed_number": 1919606.0,
+          "unit_original": null,
+          "value_yuan": null
+        }
+      ],
+      "header_source_page": null
+    },
+    {
+      "row_order": 24,
+      "page": 144,
+      "block_id": "spatial_p144",
+      "source_method": "spatial_roi+column_anchors",
+      "raw_item": "其他",
+      "normalized_item": "其他",
+      "canonical_item": null,
+      "mapping_status": "UNMAPPED",
+      "row_type": "DETAIL",
+      "row_level": 0,
+      "parent_section": null,
+      "cells": [
+        {
+          "column_ordinal": 0,
+          "source_column_index": 1,
+          "raw": "148,325,734",
+          "parsed_number": 148325734.0,
+          "unit_original": null,
+          "value_yuan": null
+        },
+        {
+          "column_ordinal": 1,
+          "source_column_index": 2,
+          "raw": "155,521,296",
+          "parsed_number": 155521296.0,
+          "unit_original": null,
+          "value_yuan": null
+        }
+      ],
+      "header_source_page": null
+    },
+    {
+      "row_order": 25,
+      "page": 144,
+      "block_id": "spatial_p144",
+      "source_method": "spatial_roi+column_anchors",
+      "raw_item": "合计",
+      "normalized_item": "合计",
+      "canonical_item": null,
+      "mapping_status": "UNMAPPED",
+      "row_type": "TOTAL",
+      "row_level": 0,
+      "parent_section": null,
+      "cells": [
+        {
+          "column_ordinal": 0,
+          "source_column_index": 1,
+          "raw": "2,924,045,972",
+          "parsed_number": 2924045972.0,
+          "unit_original": null,
+          "value_yuan": null
+        },
+        {
+          "column_ordinal": 1,
+          "source_column_index": 2,
+          "raw": "2,943,418,668",
+          "parsed_number": 2943418668.0,
+          "unit_original": null,
+          "value_yuan": null
+        }
+      ],
+      "header_source_page": null
+    },
+    {
+      "row_order": 26,
+      "page": 144,
+      "block_id": "spatial_p144",
+      "source_method": "spatial_roi",
+      "raw_item": "92",
+      "normalized_item": "92",
+      "canonical_item": null,
+      "mapping_status": "UNMAPPED",
+      "row_type": "SECTION_HEADER",
+      "row_level": 0,
+      "parent_section": null,
+      "cells": [],
+      "header_source_page": null
+    }
+  ],
+  "warnings": [
+    "未在目标附注首页识别到明确单位；原始单位保持UNKNOWN，不做金额单位推断。",
+    "未发现下一附注编号作为硬结束边界，当前使用max_pages边界，请人工核对末尾。"
+  ],
+  "stats": {
+    "engine": "SPATIAL_ROI_V1",
+    "boundary_reason": "max_pages",
+    "roi": {
+      "start_page": 144,
+      "start_y": 293.7684326171875,
+      "end_page": 144,
+      "end_y": 841.97998046875
+    },
+    "logical_columns": 2,
+    "rows": 26,
+    "numeric_rows": 25
+  },
+  "boundary_status": "HUMAN_CONFIRMED",
+  "boundary_review": {
+    "status": "HUMAN_CONFIRMED",
+    "last_included_row_order": 25,
+    "last_included_raw_item": "合计",
+    "excluded_table_rows": 1,
+    "excluded_long_records": 1,
+    "reviewed_at": "2026-07-21T15:54:33",
+    "reviewer_note": ""
+  }
+}

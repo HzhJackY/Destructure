@@ -1,0 +1,93 @@
+identity_contract_version: GOLDEN_IDENTITY_V1_2
+definition_id: FINANCIAL_INVESTMENT_V1
+family: financial_investment
+source_golden_id: PICC_2023_GOLDEN_VALUES
+filing_identity:
+  company_id: PICC
+  legal_entity_name: 中国人民保险集团股份有限公司
+  report_year: 2023
+  source_scope: CONSOLIDATED
+  canonical_pdf_filename: 中国人保2023年年度报告.pdf
+  pdf_sha256: f30387d9797371de358b10fd0f9f8237c8909a0ce1d5033ca6ab26378fcc48ce
+  page_count: 311
+  source_type: ANNUAL_REPORT
+physical_tables:
+- physical_table_id: PICC_2023_ANNUAL_REPORT::MAIN_STATEMENT
+  physical_page_number: 142
+  printed_page_number: 140
+  title: 合并资产负债表
+  unit: 人民币百万元
+  table_classification: DIRECT_PHYSICAL_TABLE
+rows:
+- golden_row_id: GROW_picc_2023_fvtpl_as
+  physical_table_id: PICC_2023_ANNUAL_REPORT::MAIN_STATEMENT
+  member_table_id: fvtpl_assets
+  classification_axis: FINANCIAL_INVESTMENT_MEMBER_SET
+  raw_label: 交易性金融资产
+  normalized_label: 交易性金融资产
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: MEMBER
+  source_row_order: 1
+  period_values:
+  - period_role: CURRENT
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: 人民币百万元
+    value: 279723
+- golden_row_id: GROW_picc_2023_debt_inv
+  physical_table_id: PICC_2023_ANNUAL_REPORT::MAIN_STATEMENT
+  member_table_id: debt_investment
+  classification_axis: FINANCIAL_INVESTMENT_MEMBER_SET
+  raw_label: 债权投资
+  normalized_label: 债权投资
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: MEMBER
+  source_row_order: 2
+  period_values:
+  - period_role: CURRENT
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: 人民币百万元
+    value: 300774
+- golden_row_id: GROW_picc_2023_other_de
+  physical_table_id: PICC_2023_ANNUAL_REPORT::MAIN_STATEMENT
+  member_table_id: other_debt_investment
+  classification_axis: FINANCIAL_INVESTMENT_MEMBER_SET
+  raw_label: 其他债权投资
+  normalized_label: 其他债权投资
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: MEMBER
+  source_row_order: 3
+  period_values:
+  - period_role: CURRENT
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: 人民币百万元
+    value: 494152
+- golden_row_id: GROW_picc_2023_other_eq
+  physical_table_id: PICC_2023_ANNUAL_REPORT::MAIN_STATEMENT
+  member_table_id: other_equity_investment
+  classification_axis: FINANCIAL_INVESTMENT_MEMBER_SET
+  raw_label: 其他权益工具投资
+  normalized_label: 其他权益工具投资
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: MEMBER
+  source_row_order: 4
+  period_values:
+  - period_role: CURRENT
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: 人民币百万元
+    value: 120403

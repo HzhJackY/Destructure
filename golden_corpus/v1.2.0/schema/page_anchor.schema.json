@@ -1,0 +1,76 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "PageAnchorSchema",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "type": "string"
+    },
+    "fixture_id": {
+      "type": "string"
+    },
+    "page_number_system": {
+      "type": "string"
+    },
+    "pdf_page_number": {
+      "type": "integer"
+    },
+    "pdf_page_index_zero_based": {
+      "type": "integer"
+    },
+    "printed_page_label": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "statement_scope": {
+      "type": "string"
+    },
+    "statement_type": {
+      "type": "string"
+    },
+    "expected_family": {
+      "type": "string"
+    },
+    "requires_ocr": {
+      "type": "boolean"
+    },
+    "requires_existing_conditional_ocr": {
+      "type": "boolean"
+    },
+    "page_image_crop": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "annotation_status": {
+      "type": "string"
+    },
+    "evidence_note": {
+      "type": "string"
+    },
+    "expectation_source": {
+      "type": "string"
+    },
+    "evidence_type": {
+      "type": "string"
+    },
+    "reviewer": {
+      "type": "string"
+    },
+    "review_date": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "fixture_id",
+    "page_number_system",
+    "pdf_page_number",
+    "pdf_page_index_zero_based",
+    "statement_scope",
+    "requires_ocr",
+    "annotation_status"
+  ]
+}

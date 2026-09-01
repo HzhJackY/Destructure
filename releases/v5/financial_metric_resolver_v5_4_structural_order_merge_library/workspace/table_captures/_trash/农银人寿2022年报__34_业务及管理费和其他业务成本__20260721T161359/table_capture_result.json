@@ -1,0 +1,339 @@
+{
+  "pdf_name": "4a62c9b2936b_农银人寿2022年报.pdf",
+  "pdf_sha256": "4a62c9b2936b7ebb3327d4e6c775a7ae5f94060032e58cf088d0276346bd2bc3",
+  "table_query": "业务及管理费和其他业务成本",
+  "note_number": "34",
+  "located_title": "34. 提取保险责任准备金",
+  "start_page": 105,
+  "end_page": 106,
+  "pages": [
+    105
+  ],
+  "unit": null,
+  "columns": [
+    {
+      "ordinal": 0,
+      "source_column_index": 1,
+      "header_raw": "2022",
+      "year": "2022",
+      "scope": null,
+      "restated": false,
+      "period_label": "2022"
+    },
+    {
+      "ordinal": 1,
+      "source_column_index": 2,
+      "header_raw": "2021",
+      "year": "2021",
+      "scope": null,
+      "restated": false,
+      "period_label": "2021"
+    }
+  ],
+  "rows": [
+    {
+      "row_order": 1,
+      "page": 105,
+      "block_id": "spatial_p105",
+      "source_method": "spatial_roi+column_anchors",
+      "raw_item": "寿险责任准备金",
+      "normalized_item": "寿险责任准备金",
+      "canonical_item": null,
+      "mapping_status": "UNMAPPED",
+      "row_type": "DETAIL",
+      "row_level": 0,
+      "parent_section": null,
+      "cells": [
+        {
+          "column_ordinal": 0,
+          "source_column_index": 1,
+          "raw": "18,872,533.20",
+          "parsed_number": 18872533.2,
+          "unit_original": null,
+          "value_yuan": null
+        },
+        {
+          "column_ordinal": 1,
+          "source_column_index": 2,
+          "raw": "14,009,728.55",
+          "parsed_number": 14009728.55,
+          "unit_original": null,
+          "value_yuan": null
+        }
+      ],
+      "header_source_page": null
+    },
+    {
+      "row_order": 2,
+      "page": 105,
+      "block_id": "spatial_p105",
+      "source_method": "spatial_roi+column_anchors",
+      "raw_item": "长期健康险责任准备金",
+      "normalized_item": "长期健康险责任准备金",
+      "canonical_item": null,
+      "mapping_status": "UNMAPPED",
+      "row_type": "DETAIL",
+      "row_level": 0,
+      "parent_section": null,
+      "cells": [
+        {
+          "column_ordinal": 0,
+          "source_column_index": 1,
+          "raw": "731,567.36",
+          "parsed_number": 731567.36,
+          "unit_original": null,
+          "value_yuan": null
+        },
+        {
+          "column_ordinal": 1,
+          "source_column_index": 2,
+          "raw": "1,271,333.05",
+          "parsed_number": 1271333.05,
+          "unit_original": null,
+          "value_yuan": null
+        }
+      ],
+      "header_source_page": null
+    },
+    {
+      "row_order": 3,
+      "page": 105,
+      "block_id": "spatial_p105",
+      "source_method": "spatial_roi+column_anchors",
+      "raw_item": "未决赔款准备金",
+      "normalized_item": "未决赔款准备金",
+      "canonical_item": null,
+      "mapping_status": "UNMAPPED",
+      "row_type": "DETAIL",
+      "row_level": 0,
+      "parent_section": null,
+      "cells": [
+        {
+          "column_ordinal": 0,
+          "source_column_index": 1,
+          "raw": "55,362.96",
+          "parsed_number": 55362.96,
+          "unit_original": null,
+          "value_yuan": null
+        },
+        {
+          "column_ordinal": 1,
+          "source_column_index": 2,
+          "raw": "(141,331.71)",
+          "parsed_number": -141331.71,
+          "unit_original": null,
+          "value_yuan": null
+        }
+      ],
+      "header_source_page": null
+    },
+    {
+      "row_order": 4,
+      "page": 105,
+      "block_id": "spatial_p105",
+      "source_method": "spatial_roi+column_anchors",
+      "raw_item": "合计",
+      "normalized_item": "合计",
+      "canonical_item": null,
+      "mapping_status": "UNMAPPED",
+      "row_type": "TOTAL",
+      "row_level": 0,
+      "parent_section": null,
+      "cells": [
+        {
+          "column_ordinal": 0,
+          "source_column_index": 1,
+          "raw": "19,659,463.52",
+          "parsed_number": 19659463.52,
+          "unit_original": null,
+          "value_yuan": null
+        },
+        {
+          "column_ordinal": 1,
+          "source_column_index": 2,
+          "raw": "15,139,729.89",
+          "parsed_number": 15139729.89,
+          "unit_original": null,
+          "value_yuan": null
+        }
+      ],
+      "header_source_page": null
+    },
+    {
+      "row_order": 5,
+      "page": 105,
+      "block_id": "spatial_p105",
+      "source_method": "spatial_roi",
+      "raw_item": "(2)提取/(转回)的未决赔款准备金构成内容列示如下：",
+      "normalized_item": "(2)提取/(转回)的未决赔款准备金构成内容列示如下",
+      "canonical_item": null,
+      "mapping_status": "UNMAPPED",
+      "row_type": "SECTION_HEADER",
+      "row_level": 0,
+      "parent_section": null,
+      "cells": [],
+      "header_source_page": null
+    },
+    {
+      "row_order": 6,
+      "page": 105,
+      "block_id": "spatial_p105",
+      "source_method": "spatial_roi+column_anchors",
+      "raw_item": "已发生已报案未决赔款准备金",
+      "normalized_item": "已发生已报案未决赔款准备金",
+      "canonical_item": null,
+      "mapping_status": "UNMAPPED",
+      "row_type": "DETAIL",
+      "row_level": 1,
+      "parent_section": "(2)提取/(转回)的未决赔款准备金构成内容列示如下",
+      "cells": [
+        {
+          "column_ordinal": 0,
+          "source_column_index": 1,
+          "raw": "22,291.05",
+          "parsed_number": 22291.05,
+          "unit_original": null,
+          "value_yuan": null
+        },
+        {
+          "column_ordinal": 1,
+          "source_column_index": 2,
+          "raw": "(19,972.17)",
+          "parsed_number": -19972.17,
+          "unit_original": null,
+          "value_yuan": null
+        }
+      ],
+      "header_source_page": null
+    },
+    {
+      "row_order": 7,
+      "page": 105,
+      "block_id": "spatial_p105",
+      "source_method": "spatial_roi+column_anchors",
+      "raw_item": "已发生未报案未决赔款准备金",
+      "normalized_item": "已发生未报案未决赔款准备金",
+      "canonical_item": null,
+      "mapping_status": "UNMAPPED",
+      "row_type": "DETAIL",
+      "row_level": 1,
+      "parent_section": "(2)提取/(转回)的未决赔款准备金构成内容列示如下",
+      "cells": [
+        {
+          "column_ordinal": 0,
+          "source_column_index": 1,
+          "raw": "28,857.13",
+          "parsed_number": 28857.13,
+          "unit_original": null,
+          "value_yuan": null
+        },
+        {
+          "column_ordinal": 1,
+          "source_column_index": 2,
+          "raw": "(109,154.59)",
+          "parsed_number": -109154.59,
+          "unit_original": null,
+          "value_yuan": null
+        }
+      ],
+      "header_source_page": null
+    },
+    {
+      "row_order": 8,
+      "page": 105,
+      "block_id": "spatial_p105",
+      "source_method": "spatial_roi+column_anchors",
+      "raw_item": "理赔费用准备金",
+      "normalized_item": "理赔费用准备金",
+      "canonical_item": null,
+      "mapping_status": "UNMAPPED",
+      "row_type": "DETAIL",
+      "row_level": 1,
+      "parent_section": "(2)提取/(转回)的未决赔款准备金构成内容列示如下",
+      "cells": [
+        {
+          "column_ordinal": 0,
+          "source_column_index": 1,
+          "raw": "4,214.78",
+          "parsed_number": 4214.78,
+          "unit_original": null,
+          "value_yuan": null
+        },
+        {
+          "column_ordinal": 1,
+          "source_column_index": 2,
+          "raw": "(12,204.95)",
+          "parsed_number": -12204.95,
+          "unit_original": null,
+          "value_yuan": null
+        }
+      ],
+      "header_source_page": null
+    },
+    {
+      "row_order": 9,
+      "page": 105,
+      "block_id": "spatial_p105",
+      "source_method": "spatial_roi+column_anchors",
+      "raw_item": "合计",
+      "normalized_item": "合计",
+      "canonical_item": null,
+      "mapping_status": "UNMAPPED",
+      "row_type": "TOTAL",
+      "row_level": 1,
+      "parent_section": "(2)提取/(转回)的未决赔款准备金构成内容列示如下",
+      "cells": [
+        {
+          "column_ordinal": 0,
+          "source_column_index": 1,
+          "raw": "55,362.96",
+          "parsed_number": 55362.96,
+          "unit_original": null,
+          "value_yuan": null
+        },
+        {
+          "column_ordinal": 1,
+          "source_column_index": 2,
+          "raw": "(141,331.71)",
+          "parsed_number": -141331.71,
+          "unit_original": null,
+          "value_yuan": null
+        }
+      ],
+      "header_source_page": null
+    },
+    {
+      "row_order": 10,
+      "page": 105,
+      "block_id": "spatial_p105",
+      "source_method": "spatial_roi",
+      "raw_item": "第103页",
+      "normalized_item": "第103页",
+      "canonical_item": null,
+      "mapping_status": "UNMAPPED",
+      "row_type": "SECTION_HEADER",
+      "row_level": 0,
+      "parent_section": null,
+      "cells": [],
+      "header_source_page": null
+    }
+  ],
+  "warnings": [
+    "未在目标附注首页识别到明确单位；原始单位保持UNKNOWN，不做金额单位推断。"
+  ],
+  "stats": {
+    "engine": "SPATIAL_ROI_V1",
+    "boundary_reason": "next_note_35",
+    "roi": {
+      "start_page": 105,
+      "start_y": 294.1101989746094,
+      "end_page": 106,
+      "end_y": 79.72219848632812
+    },
+    "logical_columns": 2,
+    "rows": 10,
+    "numeric_rows": 8
+  },
+  "boundary_status": "HARD_BOUNDARY_CONFIRMED",
+  "boundary_review": null
+}

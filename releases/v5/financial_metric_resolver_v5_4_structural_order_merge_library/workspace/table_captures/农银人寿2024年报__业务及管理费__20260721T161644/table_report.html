@@ -1,0 +1,334 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<title>整表抓取报告</title>
+<style>
+body{font-family:Arial,'Microsoft YaHei',sans-serif;margin:28px;color:#1f2937}
+pre{white-space:pre-wrap;background:#f6f8fa;padding:16px;border-radius:8px}
+table{border-collapse:collapse;width:100%;font-size:13px}
+th,td{border:1px solid #d1d5db;padding:6px 8px;text-align:right}
+th:first-child,td:first-child{text-align:left}
+</style></head><body>
+<h1>整表抓取报告</h1>
+<pre># 整表抓取报告
+
+- PDF: `923258b5c33a_农银人寿2024年报.pdf`
+- 查询表: `业务及管理费`
+- 定位标题: `截至2024年12月31日止年度财务报表29. 业务及管理费和其他业务成本`
+- 页码: `140–141`
+- 实际表格页: `140, 141`
+- 列数: `2`
+- 行数: `34`
+
+## 列结构
+
+- col0: year=2024 | scope=- | restated=False | raw=2024
+- col1: year=2023 | scope=- | restated=True | raw=2023 | (已重述)
+
+## 警告
+
+- 未在目标附注首页识别到明确单位；原始单位保持UNKNOWN，不做金额单位推断。
+- 未发现下一附注编号作为硬结束边界，当前使用max_pages边界，请人工核对末尾。
+
+## 说明
+
+- `raw_item` 永久保留PDF原始行名。
+- `normalized_item` 只做确定性文本清洗，不改变经济含义。
+- `canonical_item` 整表抓取层默认不强制映射；跨公司细项统一由“合表 / Taxonomy”工作区完成。</pre>
+<h2>宽表预览</h2>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>row_order</th>
+      <th>row_type</th>
+      <th>parent_section</th>
+      <th>raw_item</th>
+      <th>normalized_item</th>
+      <th>unit</th>
+      <th>2023 已重述</th>
+      <th>2024</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>2</td>
+      <td>DETAIL</td>
+      <td>按费用项目</td>
+      <td>手续费及佣金</td>
+      <td>手续费及佣金</td>
+      <td></td>
+      <td>2547501.92</td>
+      <td>2117405.27</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>DETAIL</td>
+      <td>按费用项目</td>
+      <td>职工薪酬</td>
+      <td>职工薪酬</td>
+      <td></td>
+      <td>925567.65</td>
+      <td>903525.94</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>DETAIL</td>
+      <td>按费用项目</td>
+      <td>其他业务成本</td>
+      <td>其他业务成本</td>
+      <td></td>
+      <td>382701.34</td>
+      <td>489702.23</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>DETAIL</td>
+      <td>按费用项目</td>
+      <td>社会保险费和住房公积金</td>
+      <td>社会保险费和住房公积金</td>
+      <td></td>
+      <td>293189.24</td>
+      <td>309872.43</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>DETAIL</td>
+      <td>按费用项目</td>
+      <td>折旧和摊销费</td>
+      <td>折旧和摊销费</td>
+      <td></td>
+      <td>203068.18</td>
+      <td>209436.14</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>DETAIL</td>
+      <td>按费用项目</td>
+      <td>行政办公支出</td>
+      <td>行政办公支出</td>
+      <td></td>
+      <td>149446.87</td>
+      <td>116159.58</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>DETAIL</td>
+      <td>按费用项目</td>
+      <td>劳动保险费</td>
+      <td>劳动保险费</td>
+      <td></td>
+      <td>68234.85</td>
+      <td>68702.66</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>DETAIL</td>
+      <td>按费用项目</td>
+      <td>保险保障基金</td>
+      <td>保险保障基金</td>
+      <td></td>
+      <td>89744.97</td>
+      <td>118920.60</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>DETAIL</td>
+      <td>按费用项目</td>
+      <td>电子设备运转费</td>
+      <td>电子设备运转费</td>
+      <td></td>
+      <td>62795.24</td>
+      <td>49389.33</td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>DETAIL</td>
+      <td>按费用项目</td>
+      <td>租赁费</td>
+      <td>租赁费</td>
+      <td></td>
+      <td>21362.96</td>
+      <td>23042.28</td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>DETAIL</td>
+      <td>按费用项目</td>
+      <td>广告及宣传费</td>
+      <td>广告及宣传费</td>
+      <td></td>
+      <td>59859.04</td>
+      <td>47629.42</td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>DETAIL</td>
+      <td>按费用项目</td>
+      <td>监管费</td>
+      <td>监管费</td>
+      <td></td>
+      <td>15134.30</td>
+      <td>13642.75</td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td>DETAIL</td>
+      <td>按费用项目</td>
+      <td>车船使用费</td>
+      <td>车船使用费</td>
+      <td></td>
+      <td>3012.62</td>
+      <td>2605.51</td>
+    </tr>
+    <tr>
+      <td>15</td>
+      <td>DETAIL</td>
+      <td>按费用项目</td>
+      <td>其他</td>
+      <td>其他</td>
+      <td></td>
+      <td>97452.32</td>
+      <td>104735.89</td>
+    </tr>
+    <tr>
+      <td>16</td>
+      <td>TOTAL</td>
+      <td>按费用项目</td>
+      <td>合计</td>
+      <td>合计</td>
+      <td></td>
+      <td>4919071.50</td>
+      <td>4574770.03</td>
+    </tr>
+    <tr>
+      <td>18</td>
+      <td>DETAIL</td>
+      <td>可归属于保险合同组合的费用</td>
+      <td>计入未到期责任负债的保险获取现金流量</td>
+      <td>计入未到期责任负债的保险获取现金流量</td>
+      <td></td>
+      <td>3445776.63</td>
+      <td>3059685.49</td>
+    </tr>
+    <tr>
+      <td>19</td>
+      <td>DETAIL</td>
+      <td>可归属于保险合同组合的费用</td>
+      <td>计入保险服务费用</td>
+      <td>计入保险服务费用</td>
+      <td></td>
+      <td>547543.94</td>
+      <td>466892.08</td>
+    </tr>
+    <tr>
+      <td>21</td>
+      <td>DETAIL</td>
+      <td>不可归属于保险合同组合的费用</td>
+      <td>手续费及佣金支出</td>
+      <td>手续费及佣金支出</td>
+      <td></td>
+      <td>22165.92</td>
+      <td>27162.45</td>
+    </tr>
+    <tr>
+      <td>22</td>
+      <td>DETAIL</td>
+      <td>不可归属于保险合同组合的费用</td>
+      <td>业务及管理费</td>
+      <td>业务及管理费</td>
+      <td></td>
+      <td>523182.84</td>
+      <td>534150.70</td>
+    </tr>
+    <tr>
+      <td>23</td>
+      <td>DETAIL</td>
+      <td>不可归属于保险合同组合的费用</td>
+      <td>其他业务成本</td>
+      <td>其他业务成本</td>
+      <td></td>
+      <td>380402.17</td>
+      <td>486879.31</td>
+    </tr>
+    <tr>
+      <td>24</td>
+      <td>DETAIL</td>
+      <td>不可归属于保险合同组合的费用</td>
+      <td>第84页银行存款减值损失/(转回)</td>
+      <td>第84页银行存款减值损失/(转回)</td>
+      <td></td>
+      <td>-1536.84</td>
+      <td>194202.15</td>
+    </tr>
+    <tr>
+      <td>25</td>
+      <td>DETAIL</td>
+      <td>不可归属于保险合同组合的费用</td>
+      <td>存出资本保证金减值损失/(转回)</td>
+      <td>存出资本保证金减值损失/(转回)</td>
+      <td></td>
+      <td>-1698.47</td>
+      <td>9336.61</td>
+    </tr>
+    <tr>
+      <td>26</td>
+      <td>DETAIL</td>
+      <td>不可归属于保险合同组合的费用</td>
+      <td>债权投资减值(转回)/损失</td>
+      <td>债权投资减值(转回)/损失</td>
+      <td></td>
+      <td>207294.55</td>
+      <td>-294035.53</td>
+    </tr>
+    <tr>
+      <td>27</td>
+      <td>DETAIL</td>
+      <td>不可归属于保险合同组合的费用</td>
+      <td>其他债权投资减值损失</td>
+      <td>其他债权投资减值损失</td>
+      <td></td>
+      <td>37629.91</td>
+      <td>694003.95</td>
+    </tr>
+    <tr>
+      <td>28</td>
+      <td>DETAIL</td>
+      <td>不可归属于保险合同组合的费用</td>
+      <td>其他减值损失</td>
+      <td>其他减值损失</td>
+      <td></td>
+      <td>13.84</td>
+      <td>3562.86</td>
+    </tr>
+    <tr>
+      <td>29</td>
+      <td>TOTAL</td>
+      <td>不可归属于保险合同组合的费用</td>
+      <td>合计</td>
+      <td>合计</td>
+      <td></td>
+      <td>241702.99</td>
+      <td>607070.04</td>
+    </tr>
+    <tr>
+      <td>32</td>
+      <td>DETAIL</td>
+      <td>31.所得税费用</td>
+      <td>递延所得税</td>
+      <td>递延所得税</td>
+      <td></td>
+      <td>-47867.92</td>
+      <td>2270334.55</td>
+    </tr>
+    <tr>
+      <td>33</td>
+      <td>TOTAL</td>
+      <td>31.所得税费用</td>
+      <td>合计</td>
+      <td>合计</td>
+      <td></td>
+      <td>-47867.92</td>
+      <td>2270334.55</td>
+    </tr>
+  </tbody>
+</table>
+</body></html>

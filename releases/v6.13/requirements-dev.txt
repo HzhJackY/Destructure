@@ -1,0 +1,6 @@
+# Core plus the synthetic/unit-test runner. Real PDFs, Golden assets, browser
+# E2E tooling and private developer stacks are deliberately excluded.
+-r requirements-core.txt
+
+pytest==9.0.3
+

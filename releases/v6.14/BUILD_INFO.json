@@ -1,0 +1,55 @@
+{
+  "version": "v6.14",
+  "release_name": "Financial Investment Statement Anchor Evidence V2",
+  "artifact_status": "DEVELOPMENT_CANDIDATE",
+  "release_certification": "NOT_PRODUCTION_RELEASE_CERTIFIED",
+  "public_download_reproducible": true,
+  "source_rebuild_bit_reproducible": false,
+  "date": "2026-08-24",
+  "metadata_registry_schema_version": 17,
+  "data_home_layout_schema_version": "6.10",
+  "release_isolation": "releases/v6.14",
+  "data_home_policy": "External isolated DATA_HOME; v6.14 validation must use a new empty directory and never reuse v6.13 state",
+  "distribution_excludes": [
+    "real annual-report PDFs",
+    "user or production DATA_HOME",
+    "Golden corpus and unauthorized evidence",
+    "SQLite databases, caches, logs, secrets, and machine-local configuration"
+  ],
+  "known_release_gates": [
+    "Registry expansion targeted regression: PASS_27",
+    "China Life and Ping An main-statement native-text Discovery Canary: PASS_4",
+    "Public-safe regression gate: NOT_RUN_FOR_V6_13",
+    "Full AGPL-3.0 text and project NOTICE: PASS",
+    "Fixed Windows CPython/wheel and Tesseract/Leptonica/DLL provenance: PASS",
+    "Fresh allowlist and secret/path scan: NOT_RUN_FOR_V6_13",
+    "Artifact SHA-256: EXTERNAL_FINAL_ARTIFACT_SHA256_VERIFICATION_REQUIRED",
+    "GitHub pre-release upload approval: BLOCKED_DEVELOPMENT_CANDIDATE"
+  ],
+  "candidate_validation": {
+    "uv_lock_check": "PASS",
+    "clean_install": "PASS_WINDOWS_CP314_CORE_DEV",
+    "empty_data_home_synthetic_smoke": "PASS",
+    "registry_targeted_pytest": "PASS_27",
+    "main_statement_native_text_canary": "PASS_4_NO_OCR",
+    "public_safe_pytest": "NOT_RUN_FOR_V6_13",
+    "browser_e2e": "NOT_RUN_USER_DIRECTED",
+    "real_pdf_golden_discovery_ocr": "NOT_RUN_PUBLIC_PREP_BOUNDARY",
+    "cyclonedx_sbom": "GENERATED_NOT_A_LICENSE_AUDIT",
+    "windows_runtime": "CPYTHON_3_14_5_TESSERACT_5_5_3_LEPTONICA_1_87_0",
+    "windows_runtime_repackaging": "FIXED_INPUT_HASHED_REPRODUCIBLE",
+    "corresponding_source_companion": "GENERATED_REQUIRED_RELEASE_ASSET",
+    "fresh_public_boundary_scan": "NOT_RUN_FOR_V6_13",
+    "offline_companion_rebuild": "PASS_TWO_ABSOLUTE_PATHS_7539_FILES_ZERO_HASH_DIFF"
+  },
+  "key_features": [
+    "Native-first Research Definition main-statement indexing with zero eager OCR",
+    "TOC-bounded conditional OCR with scanned-TOC two-stage fallback",
+    "Fast Index-owned page OCR cache with geometry preservation and cross-key reuse",
+    "Atomic concurrent page-cache merge and explicit OCR failure audit",
+    "Certified child-table links and governed whole-table Capture",
+    "Registry-defined balance-sheet and cash-flow main-statement families",
+    "DATA_HOME user Registry draft validation, explicit activation, and built-in protection",
+    "Canonical Long, Merge, and user research XLSX delivery path"
+  ]
+}

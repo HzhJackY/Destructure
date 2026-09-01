@@ -1,0 +1,290 @@
+schema_version: investment_portfolio_golden_v2
+golden_id: PICC_PNC_2024_INVESTMENT_PORTFOLIO
+family: investment_portfolio
+company_id: PICC_PNC
+legal_entity_name: 中国人民财产保险股份有限公司
+report_year: 2024
+source:
+  canonical_pdf_filename: 中国财险2024年度报告.pdf
+  pdf_sha256: d299685cd8ccf6bc6f5580172cca9b24f5150d322351800e082db35842891973
+  page_count: 296
+  source_type: ANNUAL_REPORT
+source_scope: LISTED_PARENT_CONSOLIDATED
+disclosure_topology: DIRECT_SEPARATE_TABLES_SAME_PAGE
+reported_portfolio_total:
+  status: DISCLOSED
+  derivation_allowed: false
+physical_assets:
+- asset_id: PICC_PNC_2024_PORTFOLIO_BY_CATEGORY
+  physical_page_number: 24
+  printed_page_number: 22
+  title: 投资组合（按投资品种）
+  unit: RMB_MILLION
+  native_text_verified: true
+  ocr_used: false
+  blocks:
+  - member_id: portfolio_by_category
+    classification_axis: BY_INVESTMENT_OBJECT
+    logical_title: 投资组合（按投资品种）
+    current_period:
+      label: 2024年12月31日
+      amount: 676512
+      ratio_percent: 100.0
+    comparative_period:
+      label: 2023年12月31日
+      amount: 600711
+      ratio_percent: 100.0
+    rows:
+    - row_order: 1
+      raw_label: 現金及現金等價物
+      normalized_label: 現金及現金等價物
+      row_kind: DATA
+      current_amount: 19370
+      current_ratio_percent: 2.9
+      comparative_amount: 16526
+      comparative_ratio_percent: 2.7
+    - row_order: 2
+      raw_label: 固定收益類投資
+      normalized_label: 固定收益類投資
+      row_kind: GROUP
+      current_amount: 407026
+      current_ratio_percent: 60.2
+      comparative_amount: 349749
+      comparative_ratio_percent: 58.2
+    - row_order: 3
+      raw_label: 定期存款
+      normalized_label: 定期存款
+      row_kind: DATA
+      current_amount: 77156
+      current_ratio_percent: 11.4
+      comparative_amount: 57785
+      comparative_ratio_percent: 9.6
+    - row_order: 4
+      raw_label: 國債及政府債
+      normalized_label: 國債及政府債
+      row_kind: DATA
+      current_amount: 123139
+      current_ratio_percent: 18.2
+      comparative_amount: 46993
+      comparative_ratio_percent: 7.8
+    - row_order: 5
+      raw_label: 金融債
+      normalized_label: 金融債
+      row_kind: DATA
+      current_amount: 70406
+      current_ratio_percent: 10.4
+      comparative_amount: 85816
+      comparative_ratio_percent: 14.3
+    - row_order: 6
+      raw_label: 企業債
+      normalized_label: 企業債
+      row_kind: DATA
+      current_amount: 66139
+      current_ratio_percent: 9.8
+      comparative_amount: 73354
+      comparative_ratio_percent: 12.2
+    - row_order: 7
+      raw_label: 長期債權投資計劃
+      normalized_label: 長期債權投資計劃
+      row_kind: DATA
+      current_amount: 31208
+      current_ratio_percent: 4.6
+      comparative_amount: 37737
+      comparative_ratio_percent: 6.3
+    - row_order: 8
+      raw_label: 其他固定收益類投資
+      normalized_label: 其他固定收益類投資
+      row_kind: DATA
+      current_amount: 38978
+      current_ratio_percent: 5.8
+      comparative_amount: 48064
+      comparative_ratio_percent: 8.0
+    - row_order: 9
+      raw_label: 權益類投資
+      normalized_label: 權益類投資
+      row_kind: GROUP
+      current_amount: 170027
+      current_ratio_percent: 25.1
+      comparative_amount: 158417
+      comparative_ratio_percent: 26.4
+    - row_order: 10
+      raw_label: 基金
+      normalized_label: 基金
+      row_kind: DATA
+      current_amount: 36834
+      current_ratio_percent: 5.4
+      comparative_amount: 46447
+      comparative_ratio_percent: 7.7
+    - row_order: 11
+      raw_label: 股票
+      normalized_label: 股票
+      row_kind: DATA
+      current_amount: 48781
+      current_ratio_percent: 7.3
+      comparative_amount: 35926
+      comparative_ratio_percent: 6.0
+    - row_order: 12
+      raw_label: 非上市股權
+      normalized_label: 非上市股權
+      row_kind: DATA
+      current_amount: 18482
+      current_ratio_percent: 2.7
+      comparative_amount: 17298
+      comparative_ratio_percent: 2.9
+    - row_order: 13
+      raw_label: 優先股
+      normalized_label: 優先股
+      row_kind: DATA
+      current_amount: 7482
+      current_ratio_percent: 1.1
+      comparative_amount: 7454
+      comparative_ratio_percent: 1.3
+    - row_order: 14
+      raw_label: 永續債
+      normalized_label: 永續債
+      row_kind: DATA
+      current_amount: 41881
+      current_ratio_percent: 6.2
+      comparative_amount: 36295
+      comparative_ratio_percent: 6.0
+    - row_order: 15
+      raw_label: 其他權益類投資
+      normalized_label: 其他權益類投資
+      row_kind: DATA
+      current_amount: 16567
+      current_ratio_percent: 2.4
+      comparative_amount: 14997
+      comparative_ratio_percent: 2.5
+    - row_order: 16
+      raw_label: 投資物業
+      normalized_label: 投資物業
+      row_kind: DATA
+      current_amount: 7234
+      current_ratio_percent: 1.1
+      comparative_amount: 7576
+      comparative_ratio_percent: 1.3
+    - row_order: 17
+      raw_label: 聯營公司及合營公司投資
+      normalized_label: 聯營公司及合營公司投資
+      row_kind: DATA
+      current_amount: 67129
+      current_ratio_percent: 9.9
+      comparative_amount: 62601
+      comparative_ratio_percent: 10.4
+    - row_order: 18
+      raw_label: 其他投資資產
+      normalized_label: 其他投資資產
+      row_kind: DATA
+      current_amount: 5726
+      current_ratio_percent: 0.8
+      comparative_amount: 5842
+      comparative_ratio_percent: 1.0
+    - row_order: 19
+      raw_label: 投資資產合計
+      normalized_label: 投資資產合計
+      row_kind: TOTAL
+      current_amount: 676512
+      current_ratio_percent: 100.0
+      comparative_amount: 600711
+      comparative_ratio_percent: 100.0
+- asset_id: PICC_PNC_2024_PORTFOLIO_BY_MEASUREMENT
+  physical_page_number: 23
+  printed_page_number: 21
+  title: 投资组合（按会计计量）
+  unit: RMB_MILLION
+  native_text_verified: true
+  ocr_used: false
+  blocks:
+  - member_id: portfolio_by_measurement
+    classification_axis: BY_ACCOUNTING_MEASUREMENT
+    logical_title: 投资组合（按会计计量）
+    current_period:
+      label: 2024年12月31日
+      amount: 676512
+      ratio_percent: 100.0
+    comparative_period:
+      label: 2023年12月31日
+      amount: 600711
+      ratio_percent: 100.0
+    rows:
+    - row_order: 1
+      raw_label: 現金及現金等價物
+      normalized_label: 現金及現金等價物
+      row_kind: DATA
+      current_amount: 19370
+      current_ratio_percent: 2.9
+      comparative_amount: 16526
+      comparative_ratio_percent: 2.7
+    - row_order: 2
+      raw_label: 定期存款
+      normalized_label: 定期存款
+      row_kind: DATA
+      current_amount: 77156
+      current_ratio_percent: 11.4
+      comparative_amount: 57785
+      comparative_ratio_percent: 9.6
+    - row_order: 3
+      raw_label: 以攤餘成本計量的金融投資
+      normalized_label: 以攤餘成本計量的金融投資
+      row_kind: DATA
+      current_amount: 136060
+      current_ratio_percent: 20.1
+      comparative_amount: 126192
+      comparative_ratio_percent: 21.0
+    - row_order: 4
+      raw_label: 以公允價值計量且其變動計入其他綜合收益的金融資產
+      normalized_label: 以公允價值計量且其變動計入其他綜合收益的金融資產
+      row_kind: DATA
+      current_amount: 243771
+      current_ratio_percent: 36.0
+      comparative_amount: 180142
+      comparative_ratio_percent: 30.0
+    - row_order: 5
+      raw_label: 以公允價值計量且其變動計入當期損益的金融資產
+      normalized_label: 以公允價值計量且其變動計入當期損益的金融資產
+      row_kind: DATA
+      current_amount: 120066
+      current_ratio_percent: 17.7
+      comparative_amount: 144047
+      comparative_ratio_percent: 24.0
+    - row_order: 6
+      raw_label: 投資物業
+      normalized_label: 投資物業
+      row_kind: DATA
+      current_amount: 7234
+      current_ratio_percent: 1.1
+      comparative_amount: 7576
+      comparative_ratio_percent: 1.3
+    - row_order: 7
+      raw_label: 聯營公司及合營公司投資
+      normalized_label: 聯營公司及合營公司投資
+      row_kind: DATA
+      current_amount: 67129
+      current_ratio_percent: 9.9
+      comparative_amount: 62601
+      comparative_ratio_percent: 10.4
+    - row_order: 8
+      raw_label: 其他投資資產
+      normalized_label: 其他投資資產
+      row_kind: DATA
+      current_amount: 5726
+      current_ratio_percent: 0.9
+      comparative_amount: 5842
+      comparative_ratio_percent: 1.0
+    - row_order: 9
+      raw_label: 投資資產合計
+      normalized_label: 投資資產合計
+      row_kind: TOTAL
+      current_amount: 676512
+      current_ratio_percent: 100.0
+      comparative_amount: 600711
+      comparative_ratio_percent: 100.0
+coverage:
+  asset_identity: FULL
+  total_values: FULL
+  row_values: FULL
+annotation_status: CERTIFIED_GOLDEN_ROW_VALUES
+reviewer: Codex_Agent_Adjudicator
+review_date: '2026-08-30'
+audit_note: Independently physically verified from official PDF for 中国财险 2024. Unit
+  and total corroborated.

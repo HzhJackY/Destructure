@@ -1,0 +1,5 @@
+﻿parser,status,score,leaf_count,numeric_cluster_count,scope_coverage,duplicate_dimension_count,alignment_ratio,hard_failures,ordinal,year,period_label,scope,restated,header_raw
+GENERALIZED_PERIOD_V57,VALID,100.0,4,4,4,0,1.0,,0,本年累计数,本年累计数,本集团,False,本集团 | 本年累计数
+GENERALIZED_PERIOD_V57,VALID,100.0,4,4,4,0,1.0,,1,上年累计数,上年累计数,本集团,False,本集团 | 上年累计数
+GENERALIZED_PERIOD_V57,VALID,100.0,4,4,4,0,1.0,,2,本年累计数,本年累计数,本公司,False,本公司 | 本年累计数
+GENERALIZED_PERIOD_V57,VALID,100.0,4,4,4,0,1.0,,3,上年累计数,上年累计数,本公司,False,本公司 | 上年累计数

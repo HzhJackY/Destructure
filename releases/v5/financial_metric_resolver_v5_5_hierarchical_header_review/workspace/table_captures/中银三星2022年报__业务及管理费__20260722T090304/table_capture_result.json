@@ -1,0 +1,1377 @@
+{
+  "pdf_name": "91e001708c2b_中银三星2022年报.pdf",
+  "pdf_sha256": "91e001708c2bf56bbb6bff1921d2d19c9367a96cdccc31d7eb8dd072558127db",
+  "table_query": "业务及管理费",
+  "note_number": null,
+  "located_title": "六、 财务报表附注(续)40. 业务及管理费",
+  "start_page": 94,
+  "end_page": 95,
+  "pages": [
+    94,
+    95
+  ],
+  "unit": "元",
+  "columns": [
+    {
+      "ordinal": 0,
+      "source_column_index": 1,
+      "header_raw": "2022",
+      "year": "2022",
+      "scope": null,
+      "restated": false,
+      "period_label": "2022"
+    },
+    {
+      "ordinal": 1,
+      "source_column_index": 2,
+      "header_raw": "2021",
+      "year": "2021",
+      "scope": null,
+      "restated": false,
+      "period_label": "2021"
+    }
+  ],
+  "rows": [
+    {
+      "row_order": 1,
+      "page": 94,
+      "block_id": "spatial_p94",
+      "source_method": "spatial_roi+column_anchors",
+      "raw_item": "职工工资及福利费",
+      "normalized_item": "职工工资及福利费",
+      "canonical_item": null,
+      "mapping_status": "UNMAPPED",
+      "row_type": "DETAIL",
+      "row_level": 0,
+      "parent_section": null,
+      "cells": [
+        {
+          "column_ordinal": 0,
+          "source_column_index": 1,
+          "raw": "462,796,231.66",
+          "parsed_number": 462796231.66,
+          "unit_original": "元",
+          "value_yuan": 462796231.66
+        },
+        {
+          "column_ordinal": 1,
+          "source_column_index": 2,
+          "raw": "374,851,676.96",
+          "parsed_number": 374851676.96,
+          "unit_original": "元",
+          "value_yuan": 374851676.96
+        }
+      ],
+      "header_source_page": null
+    },
+    {
+      "row_order": 2,
+      "page": 94,
+      "block_id": "spatial_p94",
+      "source_method": "spatial_roi+column_anchors",
+      "raw_item": "使用权资产折旧费",
+      "normalized_item": "使用权资产折旧费",
+      "canonical_item": null,
+      "mapping_status": "UNMAPPED",
+      "row_type": "DETAIL",
+      "row_level": 0,
+      "parent_section": null,
+      "cells": [
+        {
+          "column_ordinal": 0,
+          "source_column_index": 1,
+          "raw": "67,853,129.62",
+          "parsed_number": 67853129.62,
+          "unit_original": "元",
+          "value_yuan": 67853129.62
+        },
+        {
+          "column_ordinal": 1,
+          "source_column_index": 2,
+          "raw": "45,132,630.19",
+          "parsed_number": 45132630.19,
+          "unit_original": "元",
+          "value_yuan": 45132630.19
+        }
+      ],
+      "header_source_page": null
+    },
+    {
+      "row_order": 3,
+      "page": 94,
+      "block_id": "spatial_p94",
+      "source_method": "spatial_roi+column_anchors",
+      "raw_item": "社会统筹保险费",
+      "normalized_item": "社会统筹保险费",
+      "canonical_item": null,
+      "mapping_status": "UNMAPPED",
+      "row_type": "DETAIL",
+      "row_level": 0,
+      "parent_section": null,
+      "cells": [
+        {
+          "column_ordinal": 0,
+          "source_column_index": 1,
+          "raw": "67,330,294.17",
+          "parsed_number": 67330294.17,
+          "unit_original": "元",
+          "value_yuan": 67330294.17
+        },
+        {
+          "column_ordinal": 1,
+          "source_column_index": 2,
+          "raw": "53,309,119.86",
+          "parsed_number": 53309119.86,
+          "unit_original": "元",
+          "value_yuan": 53309119.86
+        }
+      ],
+      "header_source_page": null
+    },
+    {
+      "row_order": 4,
+      "page": 94,
+      "block_id": "spatial_p94",
+      "source_method": "spatial_roi+column_anchors",
+      "raw_item": "电子设备运转费",
+      "normalized_item": "电子设备运转费",
+      "canonical_item": null,
+      "mapping_status": "UNMAPPED",
+      "row_type": "DETAIL",
+      "row_level": 0,
+      "parent_section": null,
+      "cells": [
+        {
+          "column_ordinal": 0,
+          "source_column_index": 1,
+          "raw": "41,063,741.08",
+          "parsed_number": 41063741.08,
+          "unit_original": "元",
+          "value_yuan": 41063741.08
+        },
+        {
+          "column_ordinal": 1,
+          "source_column_index": 2,
+          "raw": "49,289,686.31",
+          "parsed_number": 49289686.31,
+          "unit_original": "元",
+          "value_yuan": 49289686.31
+        }
+      ],
+      "header_source_page": null
+    },
+    {
+      "row_order": 5,
+      "page": 94,
+      "block_id": "spatial_p94",
+      "source_method": "spatial_roi+column_anchors",
+      "raw_item": "租赁费",
+      "normalized_item": "租赁费",
+      "canonical_item": null,
+      "mapping_status": "UNMAPPED",
+      "row_type": "DETAIL",
+      "row_level": 0,
+      "parent_section": null,
+      "cells": [
+        {
+          "column_ordinal": 0,
+          "source_column_index": 1,
+          "raw": "38,577,517.66",
+          "parsed_number": 38577517.66,
+          "unit_original": "元",
+          "value_yuan": 38577517.66
+        },
+        {
+          "column_ordinal": 1,
+          "source_column_index": 2,
+          "raw": "41,728,632.83",
+          "parsed_number": 41728632.83,
+          "unit_original": "元",
+          "value_yuan": 41728632.83
+        }
+      ],
+      "header_source_page": null
+    },
+    {
+      "row_order": 6,
+      "page": 94,
+      "block_id": "spatial_p94",
+      "source_method": "spatial_roi+column_anchors",
+      "raw_item": "保险保障基金(注)",
+      "normalized_item": "保险保障基金",
+      "canonical_item": null,
+      "mapping_status": "UNMAPPED",
+      "row_type": "DETAIL",
+      "row_level": 0,
+      "parent_section": null,
+      "cells": [
+        {
+          "column_ordinal": 0,
+          "source_column_index": 1,
+          "raw": "32,773,167.19",
+          "parsed_number": 32773167.19,
+          "unit_original": "元",
+          "value_yuan": 32773167.19
+        },
+        {
+          "column_ordinal": 1,
+          "source_column_index": 2,
+          "raw": "28,144,747.02",
+          "parsed_number": 28144747.02,
+          "unit_original": "元",
+          "value_yuan": 28144747.02
+        }
+      ],
+      "header_source_page": null
+    },
+    {
+      "row_order": 7,
+      "page": 94,
+      "block_id": "spatial_p94",
+      "source_method": "spatial_roi+column_anchors",
+      "raw_item": "宣传费",
+      "normalized_item": "宣传费",
+      "canonical_item": null,
+      "mapping_status": "UNMAPPED",
+      "row_type": "DETAIL",
+      "row_level": 0,
+      "parent_section": null,
+      "cells": [
+        {
+          "column_ordinal": 0,
+          "source_column_index": 1,
+          "raw": "22,288,783.54",
+          "parsed_number": 22288783.54,
+          "unit_original": "元",
+          "value_yuan": 22288783.54
+        },
+        {
+          "column_ordinal": 1,
+          "source_column_index": 2,
+          "raw": "17,889,609.43",
+          "parsed_number": 17889609.43,
+          "unit_original": "元",
+          "value_yuan": 17889609.43
+        }
+      ],
+      "header_source_page": null
+    },
+    {
+      "row_order": 8,
+      "page": 94,
+      "block_id": "spatial_p94",
+      "source_method": "spatial_roi+column_anchors",
+      "raw_item": "营销培训费",
+      "normalized_item": "营销培训费",
+      "canonical_item": null,
+      "mapping_status": "UNMAPPED",
+      "row_type": "DETAIL",
+      "row_level": 0,
+      "parent_section": null,
+      "cells": [
+        {
+          "column_ordinal": 0,
+          "source_column_index": 1,
+          "raw": "20,641,852.75",
+          "parsed_number": 20641852.75,
+          "unit_original": "元",
+          "value_yuan": 20641852.75
+        },
+        {
+          "column_ordinal": 1,
+          "source_column_index": 2,
+          "raw": "16,670,148.39",
+          "parsed_number": 16670148.39,
+          "unit_original": "元",
+          "value_yuan": 16670148.39
+        }
+      ],
+      "header_source_page": null
+    },
+    {
+      "row_order": 9,
+      "page": 94,
+      "block_id": "spatial_p94",
+      "source_method": "spatial_roi+column_anchors",
+      "raw_item": "无形资产摊销",
+      "normalized_item": "无形资产摊销",
+      "canonical_item": null,
+      "mapping_status": "UNMAPPED",
+      "row_type": "DETAIL",
+      "row_level": 0,
+      "parent_section": null,
+      "cells": [
+        {
+          "column_ordinal": 0,
+          "source_column_index": 1,
+          "raw": "19,575,301.07",
+          "parsed_number": 19575301.07,
+          "unit_original": "元",
+          "value_yuan": 19575301.07
+        },
+        {
+          "column_ordinal": 1,
+          "source_column_index": 2,
+          "raw": "14,609,593.72",
+          "parsed_number": 14609593.72,
+          "unit_original": "元",
+          "value_yuan": 14609593.72
+        }
+      ],
+      "header_source_page": null
+    },
+    {
+      "row_order": 10,
+      "page": 94,
+      "block_id": "spatial_p94",
+      "source_method": "spatial_roi+column_anchors",
+      "raw_item": "业务招待费",
+      "normalized_item": "业务招待费",
+      "canonical_item": null,
+      "mapping_status": "UNMAPPED",
+      "row_type": "DETAIL",
+      "row_level": 0,
+      "parent_section": null,
+      "cells": [
+        {
+          "column_ordinal": 0,
+          "source_column_index": 1,
+          "raw": "13,100,801.70",
+          "parsed_number": 13100801.7,
+          "unit_original": "元",
+          "value_yuan": 13100801.7
+        },
+        {
+          "column_ordinal": 1,
+          "source_column_index": 2,
+          "raw": "11,147,563.40",
+          "parsed_number": 11147563.4,
+          "unit_original": "元",
+          "value_yuan": 11147563.4
+        }
+      ],
+      "header_source_page": null
+    },
+    {
+      "row_order": 11,
+      "page": 94,
+      "block_id": "spatial_p94",
+      "source_method": "spatial_roi+column_anchors",
+      "raw_item": "长期待摊费用摊销",
+      "normalized_item": "长期待摊费用摊销",
+      "canonical_item": null,
+      "mapping_status": "UNMAPPED",
+      "row_type": "DETAIL",
+      "row_level": 0,
+      "parent_section": null,
+      "cells": [
+        {
+          "column_ordinal": 0,
+          "source_column_index": 1,
+          "raw": "11,758,841.33",
+          "parsed_number": 11758841.33,
+          "unit_original": "元",
+          "value_yuan": 11758841.33
+        },
+        {
+          "column_ordinal": 1,
+          "source_column_index": 2,
+          "raw": "7,898,733.60",
+          "parsed_number": 7898733.6,
+          "unit_original": "元",
+          "value_yuan": 7898733.6
+        }
+      ],
+      "header_source_page": null
+    },
+    {
+      "row_order": 12,
+      "page": 94,
+      "block_id": "spatial_p94",
+      "source_method": "spatial_roi+column_anchors",
+      "raw_item": "固定资产折旧费",
+      "normalized_item": "固定资产折旧费",
+      "canonical_item": null,
+      "mapping_status": "UNMAPPED",
+      "row_type": "DETAIL",
+      "row_level": 0,
+      "parent_section": null,
+      "cells": [
+        {
+          "column_ordinal": 0,
+          "source_column_index": 1,
+          "raw": "11,290,659.29",
+          "parsed_number": 11290659.29,
+          "unit_original": "元",
+          "value_yuan": 11290659.29
+        },
+        {
+          "column_ordinal": 1,
+          "source_column_index": 2,
+          "raw": "9,604,231.00",
+          "parsed_number": 9604231.0,
+          "unit_original": "元",
+          "value_yuan": 9604231.0
+        }
+      ],
+      "header_source_page": null
+    },
+    {
+      "row_order": 13,
+      "page": 94,
+      "block_id": "spatial_p94",
+      "source_method": "spatial_roi+column_anchors",
+      "raw_item": "邮电费",
+      "normalized_item": "邮电费",
+      "canonical_item": null,
+      "mapping_status": "UNMAPPED",
+      "row_type": "DETAIL",
+      "row_level": 0,
+      "parent_section": null,
+      "cells": [
+        {
+          "column_ordinal": 0,
+          "source_column_index": 1,
+          "raw": "10,104,387.96",
+          "parsed_number": 10104387.96,
+          "unit_original": "元",
+          "value_yuan": 10104387.96
+        },
+        {
+          "column_ordinal": 1,
+          "source_column_index": 2,
+          "raw": "8,131,419.55",
+          "parsed_number": 8131419.55,
+          "unit_original": "元",
+          "value_yuan": 8131419.55
+        }
+      ],
+      "header_source_page": null
+    },
+    {
+      "row_order": 14,
+      "page": 94,
+      "block_id": "spatial_p94",
+      "source_method": "spatial_roi+column_anchors",
+      "raw_item": "公杂费",
+      "normalized_item": "公杂费",
+      "canonical_item": null,
+      "mapping_status": "UNMAPPED",
+      "row_type": "DETAIL",
+      "row_level": 0,
+      "parent_section": null,
+      "cells": [
+        {
+          "column_ordinal": 0,
+          "source_column_index": 1,
+          "raw": "4,864,077.44",
+          "parsed_number": 4864077.44,
+          "unit_original": "元",
+          "value_yuan": 4864077.44
+        },
+        {
+          "column_ordinal": 1,
+          "source_column_index": 2,
+          "raw": "4,072,876.71",
+          "parsed_number": 4072876.71,
+          "unit_original": "元",
+          "value_yuan": 4072876.71
+        }
+      ],
+      "header_source_page": null
+    },
+    {
+      "row_order": 15,
+      "page": 94,
+      "block_id": "spatial_p94",
+      "source_method": "spatial_roi+column_anchors",
+      "raw_item": "会议费",
+      "normalized_item": "会议费",
+      "canonical_item": null,
+      "mapping_status": "UNMAPPED",
+      "row_type": "DETAIL",
+      "row_level": 0,
+      "parent_section": null,
+      "cells": [
+        {
+          "column_ordinal": 0,
+          "source_column_index": 1,
+          "raw": "4,535,473.50",
+          "parsed_number": 4535473.5,
+          "unit_original": "元",
+          "value_yuan": 4535473.5
+        },
+        {
+          "column_ordinal": 1,
+          "source_column_index": 2,
+          "raw": "3,641,588.81",
+          "parsed_number": 3641588.81,
+          "unit_original": "元",
+          "value_yuan": 3641588.81
+        }
+      ],
+      "header_source_page": null
+    },
+    {
+      "row_order": 16,
+      "page": 94,
+      "block_id": "spatial_p94",
+      "source_method": "spatial_roi+column_anchors",
+      "raw_item": "咨询费",
+      "normalized_item": "咨询费",
+      "canonical_item": null,
+      "mapping_status": "UNMAPPED",
+      "row_type": "DETAIL",
+      "row_level": 0,
+      "parent_section": null,
+      "cells": [
+        {
+          "column_ordinal": 0,
+          "source_column_index": 1,
+          "raw": "3,810,258.07",
+          "parsed_number": 3810258.07,
+          "unit_original": "元",
+          "value_yuan": 3810258.07
+        },
+        {
+          "column_ordinal": 1,
+          "source_column_index": 2,
+          "raw": "5,135,930.02",
+          "parsed_number": 5135930.02,
+          "unit_original": "元",
+          "value_yuan": 5135930.02
+        }
+      ],
+      "header_source_page": null
+    },
+    {
+      "row_order": 17,
+      "page": 94,
+      "block_id": "spatial_p94",
+      "source_method": "spatial_roi+column_anchors",
+      "raw_item": "研究费用",
+      "normalized_item": "研究费用",
+      "canonical_item": null,
+      "mapping_status": "UNMAPPED",
+      "row_type": "DETAIL",
+      "row_level": 0,
+      "parent_section": null,
+      "cells": [
+        {
+          "column_ordinal": 0,
+          "source_column_index": 1,
+          "raw": "3,542,227.68",
+          "parsed_number": 3542227.68,
+          "unit_original": "元",
+          "value_yuan": 3542227.68
+        },
+        {
+          "column_ordinal": 1,
+          "source_column_index": 2,
+          "raw": "2,204,555.84",
+          "parsed_number": 2204555.84,
+          "unit_original": "元",
+          "value_yuan": 2204555.84
+        }
+      ],
+      "header_source_page": null
+    },
+    {
+      "row_order": 18,
+      "page": 94,
+      "block_id": "spatial_p94",
+      "source_method": "spatial_roi+column_anchors",
+      "raw_item": "差旅费",
+      "normalized_item": "差旅费",
+      "canonical_item": null,
+      "mapping_status": "UNMAPPED",
+      "row_type": "DETAIL",
+      "row_level": 0,
+      "parent_section": null,
+      "cells": [
+        {
+          "column_ordinal": 0,
+          "source_column_index": 1,
+          "raw": "3,398,704.75",
+          "parsed_number": 3398704.75,
+          "unit_original": "元",
+          "value_yuan": 3398704.75
+        },
+        {
+          "column_ordinal": 1,
+          "source_column_index": 2,
+          "raw": "5,064,163.80",
+          "parsed_number": 5064163.8,
+          "unit_original": "元",
+          "value_yuan": 5064163.8
+        }
+      ],
+      "header_source_page": null
+    },
+    {
+      "row_order": 19,
+      "page": 94,
+      "block_id": "spatial_p94",
+      "source_method": "spatial_roi+column_anchors",
+      "raw_item": "其他费用",
+      "normalized_item": "其他费用",
+      "canonical_item": null,
+      "mapping_status": "UNMAPPED",
+      "row_type": "DETAIL",
+      "row_level": 0,
+      "parent_section": null,
+      "cells": [
+        {
+          "column_ordinal": 0,
+          "source_column_index": 1,
+          "raw": "92,539,265.17",
+          "parsed_number": 92539265.17,
+          "unit_original": "元",
+          "value_yuan": 92539265.17
+        },
+        {
+          "column_ordinal": 1,
+          "source_column_index": 2,
+          "raw": "70,740,382.51",
+          "parsed_number": 70740382.51,
+          "unit_original": "元",
+          "value_yuan": 70740382.51
+        }
+      ],
+      "header_source_page": null
+    },
+    {
+      "row_order": 20,
+      "page": 94,
+      "block_id": "spatial_p94",
+      "source_method": "spatial_roi+column_anchors",
+      "raw_item": "合计",
+      "normalized_item": "合计",
+      "canonical_item": null,
+      "mapping_status": "UNMAPPED",
+      "row_type": "TOTAL",
+      "row_level": 0,
+      "parent_section": null,
+      "cells": [
+        {
+          "column_ordinal": 0,
+          "source_column_index": 1,
+          "raw": "931,844,715.63",
+          "parsed_number": 931844715.63,
+          "unit_original": "元",
+          "value_yuan": 931844715.63
+        },
+        {
+          "column_ordinal": 1,
+          "source_column_index": 2,
+          "raw": "769,267,289.95",
+          "parsed_number": 769267289.95,
+          "unit_original": "元",
+          "value_yuan": 769267289.95
+        }
+      ],
+      "header_source_page": null
+    },
+    {
+      "row_order": 21,
+      "page": 94,
+      "block_id": "spatial_p94",
+      "source_method": "spatial_roi",
+      "raw_item": "计算，金额为33,626,859.33元，本年抵扣的进项税为853,692.14元。",
+      "normalized_item": "计算，金额为33,626,859.33元，本年抵扣的进项税为853,692.14元。",
+      "canonical_item": null,
+      "mapping_status": "UNMAPPED",
+      "row_type": "SECTION_HEADER",
+      "row_level": 0,
+      "parent_section": null,
+      "cells": [],
+      "header_source_page": null
+    },
+    {
+      "row_order": 22,
+      "page": 95,
+      "block_id": "spatial_p95",
+      "source_method": "spatial_roi+column_anchors",
+      "raw_item": "保户投资款利息支出",
+      "normalized_item": "保户投资款利息支出",
+      "canonical_item": null,
+      "mapping_status": "UNMAPPED",
+      "row_type": "DETAIL",
+      "row_level": 1,
+      "parent_section": "计算，金额为33,626,859.33元，本年抵扣的进项税为853,692.14元。",
+      "cells": [
+        {
+          "column_ordinal": 0,
+          "source_column_index": 1,
+          "raw": "808,582,122.56",
+          "parsed_number": 808582122.56,
+          "unit_original": "元",
+          "value_yuan": 808582122.56
+        },
+        {
+          "column_ordinal": 1,
+          "source_column_index": 2,
+          "raw": "684,164,764.01",
+          "parsed_number": 684164764.01,
+          "unit_original": "元",
+          "value_yuan": 684164764.01
+        }
+      ],
+      "header_source_page": null
+    },
+    {
+      "row_order": 23,
+      "page": 95,
+      "block_id": "spatial_p95",
+      "source_method": "spatial_roi+column_anchors",
+      "raw_item": "债券利息支出",
+      "normalized_item": "债券利息支出",
+      "canonical_item": null,
+      "mapping_status": "UNMAPPED",
+      "row_type": "DETAIL",
+      "row_level": 1,
+      "parent_section": "计算，金额为33,626,859.33元，本年抵扣的进项税为853,692.14元。",
+      "cells": [
+        {
+          "column_ordinal": 0,
+          "source_column_index": 1,
+          "raw": "55,155,845.13",
+          "parsed_number": 55155845.13,
+          "unit_original": "元",
+          "value_yuan": 55155845.13
+        },
+        {
+          "column_ordinal": 1,
+          "source_column_index": 2,
+          "raw": "50,612,853.18",
+          "parsed_number": 50612853.18,
+          "unit_original": "元",
+          "value_yuan": 50612853.18
+        }
+      ],
+      "header_source_page": null
+    },
+    {
+      "row_order": 24,
+      "page": 95,
+      "block_id": "spatial_p95",
+      "source_method": "spatial_roi+column_anchors",
+      "raw_item": "保户投资款手续费及佣金支出",
+      "normalized_item": "保户投资款手续费及佣金支出",
+      "canonical_item": null,
+      "mapping_status": "UNMAPPED",
+      "row_type": "DETAIL",
+      "row_level": 1,
+      "parent_section": "计算，金额为33,626,859.33元，本年抵扣的进项税为853,692.14元。",
+      "cells": [
+        {
+          "column_ordinal": 0,
+          "source_column_index": 1,
+          "raw": "28,295,910.03",
+          "parsed_number": 28295910.03,
+          "unit_original": "元",
+          "value_yuan": 28295910.03
+        },
+        {
+          "column_ordinal": 1,
+          "source_column_index": 2,
+          "raw": "29,414,163.19",
+          "parsed_number": 29414163.19,
+          "unit_original": "元",
+          "value_yuan": 29414163.19
+        }
+      ],
+      "header_source_page": null
+    },
+    {
+      "row_order": 25,
+      "page": 95,
+      "block_id": "spatial_p95",
+      "source_method": "spatial_roi+column_anchors",
+      "raw_item": "持续奖金",
+      "normalized_item": "持续奖金",
+      "canonical_item": null,
+      "mapping_status": "UNMAPPED",
+      "row_type": "DETAIL",
+      "row_level": 1,
+      "parent_section": "计算，金额为33,626,859.33元，本年抵扣的进项税为853,692.14元。",
+      "cells": [
+        {
+          "column_ordinal": 0,
+          "source_column_index": 1,
+          "raw": "26,332,767.19",
+          "parsed_number": 26332767.19,
+          "unit_original": "元",
+          "value_yuan": 26332767.19
+        },
+        {
+          "column_ordinal": 1,
+          "source_column_index": 2,
+          "raw": "24,436,054.05",
+          "parsed_number": 24436054.05,
+          "unit_original": "元",
+          "value_yuan": 24436054.05
+        }
+      ],
+      "header_source_page": null
+    },
+    {
+      "row_order": 26,
+      "page": 95,
+      "block_id": "spatial_p95",
+      "source_method": "spatial_roi+column_anchors",
+      "raw_item": "未领取红利及给付利息支出",
+      "normalized_item": "未领取红利及给付利息支出",
+      "canonical_item": null,
+      "mapping_status": "UNMAPPED",
+      "row_type": "DETAIL",
+      "row_level": 1,
+      "parent_section": "计算，金额为33,626,859.33元，本年抵扣的进项税为853,692.14元。",
+      "cells": [
+        {
+          "column_ordinal": 0,
+          "source_column_index": 1,
+          "raw": "12,749,766.76",
+          "parsed_number": 12749766.76,
+          "unit_original": "元",
+          "value_yuan": 12749766.76
+        },
+        {
+          "column_ordinal": 1,
+          "source_column_index": 2,
+          "raw": "8,505,274.67",
+          "parsed_number": 8505274.67,
+          "unit_original": "元",
+          "value_yuan": 8505274.67
+        }
+      ],
+      "header_source_page": null
+    },
+    {
+      "row_order": 27,
+      "page": 95,
+      "block_id": "spatial_p95",
+      "source_method": "spatial_roi+column_anchors",
+      "raw_item": "租赁负债利息支出",
+      "normalized_item": "租赁负债利息支出",
+      "canonical_item": null,
+      "mapping_status": "UNMAPPED",
+      "row_type": "DETAIL",
+      "row_level": 1,
+      "parent_section": "计算，金额为33,626,859.33元，本年抵扣的进项税为853,692.14元。",
+      "cells": [
+        {
+          "column_ordinal": 0,
+          "source_column_index": 1,
+          "raw": "6,303,423.92",
+          "parsed_number": 6303423.92,
+          "unit_original": "元",
+          "value_yuan": 6303423.92
+        },
+        {
+          "column_ordinal": 1,
+          "source_column_index": 2,
+          "raw": "4,388,059.16",
+          "parsed_number": 4388059.16,
+          "unit_original": "元",
+          "value_yuan": 4388059.16
+        }
+      ],
+      "header_source_page": null
+    },
+    {
+      "row_order": 28,
+      "page": 95,
+      "block_id": "spatial_p95",
+      "source_method": "spatial_roi+column_anchors",
+      "raw_item": "摊回再保险合同收益",
+      "normalized_item": "摊回再保险合同收益",
+      "canonical_item": null,
+      "mapping_status": "UNMAPPED",
+      "row_type": "DETAIL",
+      "row_level": 1,
+      "parent_section": "计算，金额为33,626,859.33元，本年抵扣的进项税为853,692.14元。",
+      "cells": [
+        {
+          "column_ordinal": 0,
+          "source_column_index": 1,
+          "raw": "(88,864,943.22)",
+          "parsed_number": -88864943.22,
+          "unit_original": "元",
+          "value_yuan": -88864943.22
+        },
+        {
+          "column_ordinal": 1,
+          "source_column_index": 2,
+          "raw": "(53,140,373.07)",
+          "parsed_number": -53140373.07,
+          "unit_original": "元",
+          "value_yuan": -53140373.07
+        }
+      ],
+      "header_source_page": null
+    },
+    {
+      "row_order": 29,
+      "page": 95,
+      "block_id": "spatial_p95",
+      "source_method": "spatial_roi+column_anchors",
+      "raw_item": "其他",
+      "normalized_item": "其他",
+      "canonical_item": null,
+      "mapping_status": "UNMAPPED",
+      "row_type": "DETAIL",
+      "row_level": 1,
+      "parent_section": "计算，金额为33,626,859.33元，本年抵扣的进项税为853,692.14元。",
+      "cells": [
+        {
+          "column_ordinal": 0,
+          "source_column_index": 1,
+          "raw": "39,941.53",
+          "parsed_number": 39941.53,
+          "unit_original": "元",
+          "value_yuan": 39941.53
+        },
+        {
+          "column_ordinal": 1,
+          "source_column_index": 2,
+          "raw": "71,148.22",
+          "parsed_number": 71148.22,
+          "unit_original": "元",
+          "value_yuan": 71148.22
+        }
+      ],
+      "header_source_page": null
+    },
+    {
+      "row_order": 30,
+      "page": 95,
+      "block_id": "spatial_p95",
+      "source_method": "spatial_roi+column_anchors",
+      "raw_item": "合计",
+      "normalized_item": "合计",
+      "canonical_item": null,
+      "mapping_status": "UNMAPPED",
+      "row_type": "TOTAL",
+      "row_level": 1,
+      "parent_section": "计算，金额为33,626,859.33元，本年抵扣的进项税为853,692.14元。",
+      "cells": [
+        {
+          "column_ordinal": 0,
+          "source_column_index": 1,
+          "raw": "848,594,833.90",
+          "parsed_number": 848594833.9,
+          "unit_original": "元",
+          "value_yuan": 848594833.9
+        },
+        {
+          "column_ordinal": 1,
+          "source_column_index": 2,
+          "raw": "748,451,943.41",
+          "parsed_number": 748451943.41,
+          "unit_original": "元",
+          "value_yuan": 748451943.41
+        }
+      ],
+      "header_source_page": null
+    },
+    {
+      "row_order": 31,
+      "page": 95,
+      "block_id": "spatial_p95",
+      "source_method": "spatial_roi",
+      "raw_item": "42.所得税费用",
+      "normalized_item": "42.所得税费用",
+      "canonical_item": null,
+      "mapping_status": "UNMAPPED",
+      "row_type": "SECTION_HEADER",
+      "row_level": 0,
+      "parent_section": null,
+      "cells": [],
+      "header_source_page": 94
+    },
+    {
+      "row_order": 32,
+      "page": 95,
+      "block_id": "spatial_p95",
+      "source_method": "spatial_roi+column_anchors",
+      "raw_item": "递延所得税费用",
+      "normalized_item": "递延所得税费用",
+      "canonical_item": null,
+      "mapping_status": "UNMAPPED",
+      "row_type": "DETAIL",
+      "row_level": 1,
+      "parent_section": "42.所得税费用",
+      "cells": [
+        {
+          "column_ordinal": 0,
+          "source_column_index": 1,
+          "raw": "77,208,121.83",
+          "parsed_number": 77208121.83,
+          "unit_original": "元",
+          "value_yuan": 77208121.83
+        },
+        {
+          "column_ordinal": 1,
+          "source_column_index": 2,
+          "raw": "(73,441,059.00)",
+          "parsed_number": -73441059.0,
+          "unit_original": "元",
+          "value_yuan": -73441059.0
+        }
+      ],
+      "header_source_page": null
+    },
+    {
+      "row_order": 33,
+      "page": 95,
+      "block_id": "spatial_p95",
+      "source_method": "spatial_roi",
+      "raw_item": "本公司所得税费用与利润总额的关系如下：",
+      "normalized_item": "本公司所得税费用与利润总额的关系如下",
+      "canonical_item": null,
+      "mapping_status": "UNMAPPED",
+      "row_type": "SECTION_HEADER",
+      "row_level": 0,
+      "parent_section": null,
+      "cells": [],
+      "header_source_page": 94
+    },
+    {
+      "row_order": 34,
+      "page": 95,
+      "block_id": "spatial_p95",
+      "source_method": "spatial_roi+column_anchors",
+      "raw_item": "利润总额",
+      "normalized_item": "利润总额",
+      "canonical_item": null,
+      "mapping_status": "UNMAPPED",
+      "row_type": "DETAIL",
+      "row_level": 1,
+      "parent_section": "本公司所得税费用与利润总额的关系如下",
+      "cells": [
+        {
+          "column_ordinal": 0,
+          "source_column_index": 1,
+          "raw": "84,978,121.97",
+          "parsed_number": 84978121.97,
+          "unit_original": "元",
+          "value_yuan": 84978121.97
+        },
+        {
+          "column_ordinal": 1,
+          "source_column_index": 2,
+          "raw": "60,901,284.93",
+          "parsed_number": 60901284.93,
+          "unit_original": "元",
+          "value_yuan": 60901284.93
+        }
+      ],
+      "header_source_page": null
+    },
+    {
+      "row_order": 35,
+      "page": 95,
+      "block_id": "spatial_p95",
+      "source_method": "spatial_roi+column_anchors",
+      "raw_item": "按适用税率计算的所得税费用",
+      "normalized_item": "按适用税率计算的所得税费用",
+      "canonical_item": null,
+      "mapping_status": "UNMAPPED",
+      "row_type": "DETAIL",
+      "row_level": 1,
+      "parent_section": "本公司所得税费用与利润总额的关系如下",
+      "cells": [
+        {
+          "column_ordinal": 0,
+          "source_column_index": 1,
+          "raw": "21,244,530.49",
+          "parsed_number": 21244530.49,
+          "unit_original": "元",
+          "value_yuan": 21244530.49
+        },
+        {
+          "column_ordinal": 1,
+          "source_column_index": 2,
+          "raw": "15,225,321.23",
+          "parsed_number": 15225321.23,
+          "unit_original": "元",
+          "value_yuan": 15225321.23
+        }
+      ],
+      "header_source_page": null
+    },
+    {
+      "row_order": 36,
+      "page": 95,
+      "block_id": "spatial_p95",
+      "source_method": "spatial_roi+column_anchors",
+      "raw_item": "无须纳税的收入",
+      "normalized_item": "无须纳税的收入",
+      "canonical_item": null,
+      "mapping_status": "UNMAPPED",
+      "row_type": "DETAIL",
+      "row_level": 1,
+      "parent_section": "本公司所得税费用与利润总额的关系如下",
+      "cells": [
+        {
+          "column_ordinal": 0,
+          "source_column_index": 1,
+          "raw": "(262,620,272.02)",
+          "parsed_number": -262620272.02,
+          "unit_original": "元",
+          "value_yuan": -262620272.02
+        },
+        {
+          "column_ordinal": 1,
+          "source_column_index": 2,
+          "raw": "(103,947,299.61)",
+          "parsed_number": -103947299.61,
+          "unit_original": "元",
+          "value_yuan": -103947299.61
+        }
+      ],
+      "header_source_page": null
+    },
+    {
+      "row_order": 37,
+      "page": 95,
+      "block_id": "spatial_p95",
+      "source_method": "spatial_roi+column_anchors",
+      "raw_item": "不可抵扣的费用",
+      "normalized_item": "不可抵扣的费用",
+      "canonical_item": null,
+      "mapping_status": "UNMAPPED",
+      "row_type": "DETAIL",
+      "row_level": 1,
+      "parent_section": "本公司所得税费用与利润总额的关系如下",
+      "cells": [
+        {
+          "column_ordinal": 0,
+          "source_column_index": 1,
+          "raw": "3,129,484.07",
+          "parsed_number": 3129484.07,
+          "unit_original": "元",
+          "value_yuan": 3129484.07
+        },
+        {
+          "column_ordinal": 1,
+          "source_column_index": 2,
+          "raw": "2,096,073.98",
+          "parsed_number": 2096073.98,
+          "unit_original": "元",
+          "value_yuan": 2096073.98
+        }
+      ],
+      "header_source_page": null
+    },
+    {
+      "row_order": 38,
+      "page": 95,
+      "block_id": "spatial_p95",
+      "source_method": "spatial_roi",
+      "raw_item": "未确认递延所得税资产的可抵扣暂时",
+      "normalized_item": "未确认递延所得税资产的可抵扣暂时",
+      "canonical_item": null,
+      "mapping_status": "UNMAPPED",
+      "row_type": "SECTION_HEADER",
+      "row_level": 0,
+      "parent_section": null,
+      "cells": [],
+      "header_source_page": 94
+    },
+    {
+      "row_order": 39,
+      "page": 95,
+      "block_id": "spatial_p95",
+      "source_method": "spatial_roi+column_anchors",
+      "raw_item": "性差异和可抵扣亏损的影响",
+      "normalized_item": "性差异和可抵扣亏损的影响",
+      "canonical_item": null,
+      "mapping_status": "UNMAPPED",
+      "row_type": "DETAIL",
+      "row_level": 1,
+      "parent_section": "未确认递延所得税资产的可抵扣暂时",
+      "cells": [
+        {
+          "column_ordinal": 0,
+          "source_column_index": 1,
+          "raw": "313,609,347.49",
+          "parsed_number": 313609347.49,
+          "unit_original": "元",
+          "value_yuan": 313609347.49
+        },
+        {
+          "column_ordinal": 1,
+          "source_column_index": 2,
+          "raw": "83,872,684.29",
+          "parsed_number": 83872684.29,
+          "unit_original": "元",
+          "value_yuan": 83872684.29
+        }
+      ],
+      "header_source_page": null
+    },
+    {
+      "row_order": 40,
+      "page": 95,
+      "block_id": "spatial_p95",
+      "source_method": "spatial_roi",
+      "raw_item": "以前期间未确认递延所得税资产的可",
+      "normalized_item": "以前期间未确认递延所得税资产的可",
+      "canonical_item": null,
+      "mapping_status": "UNMAPPED",
+      "row_type": "SECTION_HEADER",
+      "row_level": 0,
+      "parent_section": null,
+      "cells": [],
+      "header_source_page": 94
+    },
+    {
+      "row_order": 41,
+      "page": 95,
+      "block_id": "spatial_p95",
+      "source_method": "spatial_roi+column_anchors",
+      "raw_item": "抵扣暂时性差异和可抵扣亏损的影响在当期的转回",
+      "normalized_item": "抵扣暂时性差异和可抵扣亏损的影响在当期的转回",
+      "canonical_item": null,
+      "mapping_status": "UNMAPPED",
+      "row_type": "DETAIL",
+      "row_level": 1,
+      "parent_section": "以前期间未确认递延所得税资产的可",
+      "cells": [
+        {
+          "column_ordinal": 0,
+          "source_column_index": 1,
+          "raw": "-",
+          "parsed_number": null,
+          "unit_original": "元",
+          "value_yuan": null
+        },
+        {
+          "column_ordinal": 1,
+          "source_column_index": 2,
+          "raw": "(70,687,838.89)",
+          "parsed_number": -70687838.89,
+          "unit_original": "元",
+          "value_yuan": -70687838.89
+        }
+      ],
+      "header_source_page": null
+    },
+    {
+      "row_order": 42,
+      "page": 95,
+      "block_id": "spatial_p95",
+      "source_method": "spatial_roi+column_anchors",
+      "raw_item": "其他",
+      "normalized_item": "其他",
+      "canonical_item": null,
+      "mapping_status": "UNMAPPED",
+      "row_type": "DETAIL",
+      "row_level": 1,
+      "parent_section": "以前期间未确认递延所得税资产的可",
+      "cells": [
+        {
+          "column_ordinal": 0,
+          "source_column_index": 1,
+          "raw": "1,845,031.80",
+          "parsed_number": 1845031.8,
+          "unit_original": "元",
+          "value_yuan": 1845031.8
+        },
+        {
+          "column_ordinal": 1,
+          "source_column_index": 2,
+          "raw": "-",
+          "parsed_number": null,
+          "unit_original": "元",
+          "value_yuan": null
+        }
+      ],
+      "header_source_page": null
+    },
+    {
+      "row_order": 43,
+      "page": 95,
+      "block_id": "spatial_p95",
+      "source_method": "spatial_roi+column_anchors",
+      "raw_item": "所得税费用",
+      "normalized_item": "所得税费用",
+      "canonical_item": null,
+      "mapping_status": "UNMAPPED",
+      "row_type": "DETAIL",
+      "row_level": 1,
+      "parent_section": "以前期间未确认递延所得税资产的可",
+      "cells": [
+        {
+          "column_ordinal": 0,
+          "source_column_index": 1,
+          "raw": "77,208,121.83",
+          "parsed_number": 77208121.83,
+          "unit_original": "元",
+          "value_yuan": 77208121.83
+        },
+        {
+          "column_ordinal": 1,
+          "source_column_index": 2,
+          "raw": "(73,441,059.00)",
+          "parsed_number": -73441059.0,
+          "unit_original": "元",
+          "value_yuan": -73441059.0
+        }
+      ],
+      "header_source_page": null
+    }
+  ],
+  "warnings": [
+    "未发现下一附注编号作为硬结束边界，当前使用max_pages边界，请人工核对末尾。"
+  ],
+  "stats": {
+    "engine": "SPATIAL_ROI_V1",
+    "boundary_reason": "max_pages",
+    "roi": {
+      "start_page": 94,
+      "start_y": 169.1799774169922,
+      "end_page": 95,
+      "end_y": 842.0399780273438
+    },
+    "logical_columns": 2,
+    "rows": 43,
+    "numeric_rows": 38,
+    "header_dimension_check": {
+      "status": "AUTO_CONFIRMED",
+      "issues": [],
+      "columns": [
+        {
+          "ordinal": 0,
+          "year": "2022",
+          "scope": "",
+          "restated": false,
+          "header_raw": "2022",
+          "dimension_key": "2022||ORIGINAL"
+        },
+        {
+          "ordinal": 1,
+          "year": "2021",
+          "scope": "",
+          "restated": false,
+          "header_raw": "2021",
+          "dimension_key": "2021||ORIGINAL"
+        }
+      ]
+    }
+  },
+  "boundary_status": "HUMAN_CONFIRMED",
+  "boundary_review": {
+    "status": "HUMAN_CONFIRMED",
+    "last_included_row_order": 20,
+    "last_included_raw_item": "合计",
+    "excluded_table_rows": 23,
+    "excluded_long_records": 41,
+    "reviewed_at": "2026-07-22T09:14:44",
+    "reviewer_note": ""
+  },
+  "header_dimension_status": "AUTO_CONFIRMED",
+  "header_review": null
+}

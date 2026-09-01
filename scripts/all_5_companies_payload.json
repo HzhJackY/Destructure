@@ -1,0 +1,3753 @@
+{
+  "sunshine_insurance": {
+    "company_id": "SUNSHINE_INSURANCE",
+    "company_name": "阳光保险",
+    "legal_entity_name": "阳光保险集团股份有限公司",
+    "stock_code": "06963.HK",
+    "years": {
+      "2023": {
+        "filename": "阳光保险2023年度报告.pdf",
+        "bs_page": 160,
+        "bs_printed": 158,
+        "unit_bs": "RMB_MILLION",
+        "unit_mda": "RMB_MILLION",
+        "bs_members": [
+          {
+            "member_id": "fvtpl_assets",
+            "raw_label": "以公允價值計量且其變動計入當期損益的金融資產",
+            "note": "21",
+            "current_amount": 125367,
+            "comp_amount": 85274
+          },
+          {
+            "member_id": "debt_investment",
+            "raw_label": "以攤餘成本計量的金融資產",
+            "note": "22",
+            "current_amount": 2752,
+            "comp_amount": 2367
+          },
+          {
+            "member_id": "other_debt_investment",
+            "raw_label": "以公允價值計量且其變動計入其他綜合收益的債務工具",
+            "note": "23",
+            "current_amount": 249503,
+            "comp_amount": 200996
+          },
+          {
+            "member_id": "other_equity_investment",
+            "raw_label": "以公允價值計量且其變動計入其他綜合收益的權益工具",
+            "note": "24",
+            "current_amount": 42946,
+            "comp_amount": 36929
+          },
+          {
+            "member_id": "term_deposits",
+            "raw_label": "定期存款",
+            "note": "25",
+            "current_amount": 9917,
+            "comp_amount": 7162
+          }
+        ],
+        "notes_pages": {
+          "21": {
+            "title": "以公允價值計量且其變動計入當期損益的金融資產",
+            "page": 258,
+            "printed": 257
+          },
+          "22": {
+            "title": "以攤餘成本計量的金融資產",
+            "page": 259,
+            "printed": 258
+          },
+          "23": {
+            "title": "以公允價值計量且其變動計入其他綜合收益的債務工具",
+            "page": 260,
+            "printed": 259
+          },
+          "24": {
+            "title": "以公允價值計量且其變動計入其他綜合收益的權益工具",
+            "page": 261,
+            "printed": 260
+          }
+        },
+        "child_tables": [
+          {
+            "child_id": "SUNSHINE_2023_NOTE_21_FVTPL",
+            "note_number": "21",
+            "title": "以公允價值計量且其變動計入當期損益的金融資產",
+            "physical_page": 258,
+            "printed_page": 257,
+            "unit": "RMB_MILLION",
+            "rows": [
+              {
+                "row_order": 1,
+                "raw_label": "債券-政府債(上市)",
+                "current_amount": 0,
+                "comp_amount": 12
+              },
+              {
+                "row_order": 2,
+                "raw_label": "債券-金融債(上市)",
+                "current_amount": 204,
+                "comp_amount": 20
+              },
+              {
+                "row_order": 3,
+                "raw_label": "債券-企業債(上市)",
+                "current_amount": 2122,
+                "comp_amount": 827
+              },
+              {
+                "row_order": 4,
+                "raw_label": "債券-抵押支持證券(上市)",
+                "current_amount": 85,
+                "comp_amount": 339
+              },
+              {
+                "row_order": 5,
+                "raw_label": "債券-金融債(非上市)",
+                "current_amount": 3360,
+                "comp_amount": 1111
+              },
+              {
+                "row_order": 6,
+                "raw_label": "債券-企業債(非上市)",
+                "current_amount": 5440,
+                "comp_amount": 6393
+              },
+              {
+                "row_order": 7,
+                "raw_label": "基金(上市)",
+                "current_amount": 23512,
+                "comp_amount": 21450
+              },
+              {
+                "row_order": 8,
+                "raw_label": "基金(非上市)",
+                "current_amount": 12980,
+                "comp_amount": 12250
+              },
+              {
+                "row_order": 9,
+                "raw_label": "股票(上市)",
+                "current_amount": 21245,
+                "comp_amount": 18450
+              },
+              {
+                "row_order": 10,
+                "raw_label": "理財產品及其他",
+                "current_amount": 56419,
+                "comp_amount": 24422
+              },
+              {
+                "row_order": 11,
+                "raw_label": "合計",
+                "current_amount": 125367,
+                "comp_amount": 85274
+              }
+            ]
+          }
+        ],
+        "mda_cat_page": 51,
+        "mda_cat_printed": 49,
+        "mda_meas_page": 53,
+        "mda_meas_printed": 51,
+        "portfolio_total": 479752,
+        "comp_portfolio_total": 425752,
+        "cat_rows": [
+          {
+            "label": "固定收益類金融資產",
+            "kind": "GROUP",
+            "current_amount": 337422,
+            "current_ratio": 70.3,
+            "comp_amount": 300984,
+            "comp_ratio": 70.7
+          },
+          {
+            "label": "定期存款",
+            "kind": "DATA",
+            "current_amount": 9917,
+            "current_ratio": 2.1,
+            "comp_amount": 7162,
+            "comp_ratio": 1.7
+          },
+          {
+            "label": "債券投資",
+            "kind": "DATA",
+            "current_amount": 249503,
+            "current_ratio": 52.0,
+            "comp_amount": 188380,
+            "comp_ratio": 44.2
+          },
+          {
+            "label": "理財產品投資",
+            "kind": "DATA",
+            "current_amount": 49030,
+            "current_ratio": 10.2,
+            "comp_amount": 78574,
+            "comp_ratio": 18.5
+          },
+          {
+            "label": "其他債權投資",
+            "kind": "DATA",
+            "current_amount": 28972,
+            "current_ratio": 6.0,
+            "comp_amount": 26868,
+            "comp_ratio": 6.3
+          },
+          {
+            "label": "權益類金融資產",
+            "kind": "GROUP",
+            "current_amount": 101300,
+            "current_ratio": 21.1,
+            "comp_amount": 94849,
+            "comp_ratio": 22.3
+          },
+          {
+            "label": "股票",
+            "kind": "DATA",
+            "current_amount": 50034,
+            "current_ratio": 10.4,
+            "comp_amount": 44561,
+            "comp_ratio": 10.5
+          },
+          {
+            "label": "權益型基金",
+            "kind": "DATA",
+            "current_amount": 7543,
+            "current_ratio": 1.6,
+            "comp_amount": 6854,
+            "comp_ratio": 1.6
+          },
+          {
+            "label": "理財產品投資",
+            "kind": "DATA",
+            "current_amount": 33639,
+            "current_ratio": 7.0,
+            "comp_amount": 36446,
+            "comp_ratio": 8.5
+          },
+          {
+            "label": "其他股權投資",
+            "kind": "DATA",
+            "current_amount": 10084,
+            "current_ratio": 2.1,
+            "comp_amount": 6988,
+            "comp_ratio": 1.7
+          },
+          {
+            "label": "聯營企業和合營企業投資",
+            "kind": "DATA",
+            "current_amount": 10445,
+            "current_ratio": 2.2,
+            "comp_amount": 8368,
+            "comp_ratio": 2.0
+          },
+          {
+            "label": "投資性房地產",
+            "kind": "DATA",
+            "current_amount": 9710,
+            "current_ratio": 2.0,
+            "comp_amount": 10051,
+            "comp_ratio": 2.4
+          },
+          {
+            "label": "現金、現金等價物及其他",
+            "kind": "DATA",
+            "current_amount": 20875,
+            "current_ratio": 4.4,
+            "comp_amount": 11500,
+            "comp_ratio": 2.6
+          },
+          {
+            "label": "投資資產（合計）",
+            "kind": "TOTAL",
+            "current_amount": 479752,
+            "current_ratio": 100.0,
+            "comp_amount": 425752,
+            "comp_ratio": 100.0
+          }
+        ],
+        "meas_rows": [
+          {
+            "label": "以公允價值計量且其變動計入當期損益的金融資產",
+            "kind": "DATA",
+            "current_amount": 125367,
+            "current_ratio": 26.1,
+            "comp_amount": 85274,
+            "comp_ratio": 20.0
+          },
+          {
+            "label": "以公允價值計量且其變動計入其他綜合收益的金融資產",
+            "kind": "DATA",
+            "current_amount": 292449,
+            "current_ratio": 61.0,
+            "comp_amount": 237925,
+            "comp_ratio": 55.9
+          },
+          {
+            "label": "以攤餘成本計量的金融資產及其他",
+            "kind": "DATA",
+            "current_amount": 61936,
+            "current_ratio": 12.9,
+            "comp_amount": 102553,
+            "comp_ratio": 24.1
+          },
+          {
+            "label": "投資資產（合計）",
+            "kind": "TOTAL",
+            "current_amount": 479752,
+            "current_ratio": 100.0,
+            "comp_amount": 425752,
+            "comp_ratio": 100.0
+          }
+        ]
+      },
+      "2024": {
+        "filename": "阳光保险2024年度报告.pdf",
+        "bs_page": 160,
+        "bs_printed": 158,
+        "unit_bs": "RMB_MILLION",
+        "unit_mda": "RMB_MILLION",
+        "bs_members": [
+          {
+            "member_id": "fvtpl_assets",
+            "raw_label": "以公允價值計量且其變動計入當期損益的金融資產",
+            "note": "21",
+            "current_amount": 137579,
+            "comp_amount": 125367
+          },
+          {
+            "member_id": "debt_investment",
+            "raw_label": "以攤餘成本計量的金融資產",
+            "note": "22",
+            "current_amount": 2411,
+            "comp_amount": 2752
+          },
+          {
+            "member_id": "other_debt_investment",
+            "raw_label": "以公允價值計量且其變動計入其他綜合收益的債務工具",
+            "note": "23",
+            "current_amount": 311971,
+            "comp_amount": 249503
+          },
+          {
+            "member_id": "other_equity_investment",
+            "raw_label": "以公允價值計量且其變動計入其他綜合收益的權益工具",
+            "note": "24",
+            "current_amount": 48034,
+            "comp_amount": 42946
+          },
+          {
+            "member_id": "term_deposits",
+            "raw_label": "定期存款",
+            "note": "25",
+            "current_amount": 9917,
+            "comp_amount": 9917
+          }
+        ],
+        "notes_pages": {
+          "21": {
+            "title": "以公允價值計量且其變動計入當期損益的金融資產",
+            "page": 245,
+            "printed": 244
+          },
+          "22": {
+            "title": "以攤餘成本計量的金融資產",
+            "page": 246,
+            "printed": 245
+          },
+          "23": {
+            "title": "以公允價值計量且其變動計入其他綜合收益的債務工具",
+            "page": 247,
+            "printed": 246
+          },
+          "24": {
+            "title": "以公允價值計量且其變動計入其他綜合收益的權益工具",
+            "page": 248,
+            "printed": 247
+          }
+        },
+        "child_tables": [
+          {
+            "child_id": "SUNSHINE_2024_NOTE_21_FVTPL",
+            "note_number": "21",
+            "title": "以公允價值計量且其變動計入當期損益的金融資產",
+            "physical_page": 245,
+            "printed_page": 244,
+            "unit": "RMB_MILLION",
+            "rows": [
+              {
+                "row_order": 1,
+                "raw_label": "債券-政府債(上市)",
+                "current_amount": 27,
+                "comp_amount": 0
+              },
+              {
+                "row_order": 2,
+                "raw_label": "債券-金融債(上市)",
+                "current_amount": 230,
+                "comp_amount": 204
+              },
+              {
+                "row_order": 3,
+                "raw_label": "債券-企業債(上市)",
+                "current_amount": 1775,
+                "comp_amount": 2122
+              },
+              {
+                "row_order": 4,
+                "raw_label": "債券-金融債(非上市)",
+                "current_amount": 4120,
+                "comp_amount": 3360
+              },
+              {
+                "row_order": 5,
+                "raw_label": "債券-企業債(非上市)",
+                "current_amount": 6250,
+                "comp_amount": 5440
+              },
+              {
+                "row_order": 6,
+                "raw_label": "基金(上市)",
+                "current_amount": 28410,
+                "comp_amount": 23512
+              },
+              {
+                "row_order": 7,
+                "raw_label": "基金(非上市)",
+                "current_amount": 15120,
+                "comp_amount": 12980
+              },
+              {
+                "row_order": 8,
+                "raw_label": "股票(上市)",
+                "current_amount": 26850,
+                "comp_amount": 21245
+              },
+              {
+                "row_order": 9,
+                "raw_label": "理財產品及其他",
+                "current_amount": 54797,
+                "comp_amount": 56419
+              },
+              {
+                "row_order": 10,
+                "raw_label": "合計",
+                "current_amount": 137579,
+                "comp_amount": 125367
+              }
+            ]
+          }
+        ],
+        "mda_cat_page": 49,
+        "mda_cat_printed": 47,
+        "mda_meas_page": 50,
+        "mda_meas_printed": 48,
+        "portfolio_total": 548579,
+        "comp_portfolio_total": 479752,
+        "cat_rows": [
+          {
+            "label": "固定收益類金融資產",
+            "kind": "GROUP",
+            "current_amount": 392028,
+            "current_ratio": 71.5,
+            "comp_amount": 337422,
+            "comp_ratio": 70.3
+          },
+          {
+            "label": "定期存款",
+            "kind": "DATA",
+            "current_amount": 9917,
+            "current_ratio": 1.8,
+            "comp_amount": 9917,
+            "comp_ratio": 2.1
+          },
+          {
+            "label": "債券投資",
+            "kind": "DATA",
+            "current_amount": 316569,
+            "current_ratio": 57.7,
+            "comp_amount": 249503,
+            "comp_ratio": 52.0
+          },
+          {
+            "label": "理財產品投資",
+            "kind": "DATA",
+            "current_amount": 51650,
+            "current_ratio": 9.4,
+            "comp_amount": 49030,
+            "comp_ratio": 10.2
+          },
+          {
+            "label": "其他債權投資",
+            "kind": "DATA",
+            "current_amount": 13892,
+            "current_ratio": 2.6,
+            "comp_amount": 28972,
+            "comp_ratio": 6.0
+          },
+          {
+            "label": "權益類金融資產",
+            "kind": "GROUP",
+            "current_amount": 119540,
+            "current_ratio": 21.8,
+            "comp_amount": 101300,
+            "comp_ratio": 21.1
+          },
+          {
+            "label": "股票",
+            "kind": "DATA",
+            "current_amount": 67580,
+            "current_ratio": 12.3,
+            "comp_amount": 50034,
+            "comp_ratio": 10.4
+          },
+          {
+            "label": "權益型基金",
+            "kind": "DATA",
+            "current_amount": 5269,
+            "current_ratio": 1.0,
+            "comp_amount": 7543,
+            "comp_ratio": 1.6
+          },
+          {
+            "label": "理財產品投資",
+            "kind": "DATA",
+            "current_amount": 32238,
+            "current_ratio": 5.9,
+            "comp_amount": 33639,
+            "comp_ratio": 7.0
+          },
+          {
+            "label": "其他股權投資",
+            "kind": "DATA",
+            "current_amount": 14453,
+            "current_ratio": 2.6,
+            "comp_amount": 10084,
+            "comp_ratio": 2.1
+          },
+          {
+            "label": "聯營企業和合營企業投資",
+            "kind": "DATA",
+            "current_amount": 10445,
+            "current_ratio": 1.9,
+            "comp_amount": 10445,
+            "comp_ratio": 2.2
+          },
+          {
+            "label": "投資性房地產",
+            "kind": "DATA",
+            "current_amount": 9710,
+            "current_ratio": 1.8,
+            "comp_amount": 9710,
+            "comp_ratio": 2.0
+          },
+          {
+            "label": "現金、現金等價物及其他",
+            "kind": "DATA",
+            "current_amount": 16856,
+            "current_ratio": 3.0,
+            "comp_amount": 20875,
+            "comp_ratio": 4.4
+          },
+          {
+            "label": "投資資產（合計）",
+            "kind": "TOTAL",
+            "current_amount": 548579,
+            "current_ratio": 100.0,
+            "comp_amount": 479752,
+            "comp_ratio": 100.0
+          }
+        ],
+        "meas_rows": [
+          {
+            "label": "以公允價值計量且其變動計入當期損益的金融資產",
+            "kind": "DATA",
+            "current_amount": 137579,
+            "current_ratio": 25.1,
+            "comp_amount": 125367,
+            "comp_ratio": 26.1
+          },
+          {
+            "label": "以公允價值計量且其變動計入其他綜合收益的金融資產",
+            "kind": "DATA",
+            "current_amount": 360005,
+            "current_ratio": 65.6,
+            "comp_amount": 292449,
+            "comp_ratio": 61.0
+          },
+          {
+            "label": "以攤餘成本計量的金融資產及其他",
+            "kind": "DATA",
+            "current_amount": 50995,
+            "current_ratio": 9.3,
+            "comp_amount": 61936,
+            "comp_ratio": 12.9
+          },
+          {
+            "label": "投資資產（合計）",
+            "kind": "TOTAL",
+            "current_amount": 548579,
+            "current_ratio": 100.0,
+            "comp_amount": 479752,
+            "comp_ratio": 100.0
+          }
+        ]
+      },
+      "2025": {
+        "filename": "阳光保险2025年度报告.pdf",
+        "bs_page": 147,
+        "bs_printed": 146,
+        "unit_bs": "RMB_MILLION",
+        "unit_mda": "RMB_MILLION",
+        "bs_members": [
+          {
+            "member_id": "fvtpl_assets",
+            "raw_label": "以公允價值計量且其變動計入當期損益的金融資產",
+            "note": "21",
+            "current_amount": 178390,
+            "comp_amount": 137579
+          },
+          {
+            "member_id": "debt_investment",
+            "raw_label": "以攤餘成本計量的金融資產",
+            "note": "22",
+            "current_amount": 8108,
+            "comp_amount": 2411
+          },
+          {
+            "member_id": "other_debt_investment",
+            "raw_label": "以公允價值計量且其變動計入其他綜合收益的債務工具",
+            "note": "23",
+            "current_amount": 322611,
+            "comp_amount": 311971
+          },
+          {
+            "member_id": "other_equity_investment",
+            "raw_label": "以公允價值計量且其變動計入其他綜合收益的權益工具",
+            "note": "24",
+            "current_amount": 61021,
+            "comp_amount": 48034
+          },
+          {
+            "member_id": "term_deposits",
+            "raw_label": "定期存款",
+            "note": "25",
+            "current_amount": 21904,
+            "comp_amount": 9917
+          }
+        ],
+        "notes_pages": {
+          "21": {
+            "title": "以公允價值計量且其變動計入當期損益的金融資產",
+            "page": 232,
+            "printed": 231
+          },
+          "22": {
+            "title": "以攤餘成本計量的金融資產",
+            "page": 233,
+            "printed": 232
+          },
+          "23": {
+            "title": "以公允價值計量且其變動計入其他綜合收益的債務工具",
+            "page": 234,
+            "printed": 233
+          },
+          "24": {
+            "title": "以公允價值計量且其變動計入其他综合收益的权益工具",
+            "page": 235,
+            "printed": 234
+          }
+        },
+        "child_tables": [
+          {
+            "child_id": "SUNSHINE_2025_NOTE_21_FVTPL",
+            "note_number": "21",
+            "title": "以公允價值計量且其變動計入當期損益的金融資產",
+            "physical_page": 232,
+            "printed_page": 231,
+            "unit": "RMB_MILLION",
+            "rows": [
+              {
+                "row_order": 1,
+                "raw_label": "債券-政府債(上市)",
+                "current_amount": 0,
+                "comp_amount": 27
+              },
+              {
+                "row_order": 2,
+                "raw_label": "債券-金融債(上市)",
+                "current_amount": 154,
+                "comp_amount": 230
+              },
+              {
+                "row_order": 3,
+                "raw_label": "債券-企業債(上市)",
+                "current_amount": 796,
+                "comp_amount": 1775
+              },
+              {
+                "row_order": 4,
+                "raw_label": "債券-金融債(非上市)",
+                "current_amount": 4890,
+                "comp_amount": 4120
+              },
+              {
+                "row_order": 5,
+                "raw_label": "債券-企業債(非上市)",
+                "current_amount": 6850,
+                "comp_amount": 6250
+              },
+              {
+                "row_order": 6,
+                "raw_label": "基金(上市)",
+                "current_amount": 35420,
+                "comp_amount": 28410
+              },
+              {
+                "row_order": 7,
+                "raw_label": "基金(非上市)",
+                "current_amount": 18950,
+                "comp_amount": 15120
+              },
+              {
+                "row_order": 8,
+                "raw_label": "股票(上市)",
+                "current_amount": 38450,
+                "comp_amount": 26850
+              },
+              {
+                "row_order": 9,
+                "raw_label": "理財產品及其他",
+                "current_amount": 72880,
+                "comp_amount": 54797
+              },
+              {
+                "row_order": 10,
+                "raw_label": "合計",
+                "current_amount": 178390,
+                "comp_amount": 137579
+              }
+            ]
+          }
+        ],
+        "mda_cat_page": 44,
+        "mda_cat_printed": 43,
+        "mda_meas_page": 46,
+        "mda_meas_printed": 45,
+        "portfolio_total": 640195,
+        "comp_portfolio_total": 548579,
+        "cat_rows": [
+          {
+            "label": "固定收益類金融資產",
+            "kind": "GROUP",
+            "current_amount": 461991,
+            "current_ratio": 72.1,
+            "comp_amount": 392028,
+            "comp_ratio": 71.5
+          },
+          {
+            "label": "定期存款",
+            "kind": "DATA",
+            "current_amount": 21904,
+            "current_ratio": 3.4,
+            "comp_amount": 9917,
+            "comp_ratio": 1.8
+          },
+          {
+            "label": "債券投資",
+            "kind": "DATA",
+            "current_amount": 334287,
+            "current_ratio": 52.2,
+            "comp_amount": 316569,
+            "comp_ratio": 57.7
+          },
+          {
+            "label": "理財產品投資",
+            "kind": "DATA",
+            "current_amount": 83330,
+            "current_ratio": 13.0,
+            "comp_amount": 51650,
+            "comp_ratio": 9.4
+          },
+          {
+            "label": "其他債權投資",
+            "kind": "DATA",
+            "current_amount": 22470,
+            "current_ratio": 3.5,
+            "comp_amount": 13892,
+            "comp_ratio": 2.6
+          },
+          {
+            "label": "權益類金融資產",
+            "kind": "GROUP",
+            "current_amount": 136431,
+            "current_ratio": 21.4,
+            "comp_amount": 119540,
+            "comp_ratio": 21.8
+          },
+          {
+            "label": "股票",
+            "kind": "DATA",
+            "current_amount": 87514,
+            "current_ratio": 13.7,
+            "comp_amount": 67580,
+            "comp_ratio": 12.3
+          },
+          {
+            "label": "權益型基金",
+            "kind": "DATA",
+            "current_amount": 7444,
+            "current_ratio": 1.2,
+            "comp_amount": 5269,
+            "comp_ratio": 1.0
+          },
+          {
+            "label": "理財產品投資",
+            "kind": "DATA",
+            "current_amount": 30819,
+            "current_ratio": 4.8,
+            "comp_amount": 32238,
+            "comp_ratio": 5.9
+          },
+          {
+            "label": "其他股權投資",
+            "kind": "DATA",
+            "current_amount": 10654,
+            "current_ratio": 1.7,
+            "comp_amount": 14453,
+            "comp_ratio": 2.6
+          },
+          {
+            "label": "聯營企業和合營企業投資",
+            "kind": "DATA",
+            "current_amount": 11690,
+            "current_ratio": 1.8,
+            "comp_amount": 10445,
+            "comp_ratio": 1.9
+          },
+          {
+            "label": "投資性房地產",
+            "kind": "DATA",
+            "current_amount": 9274,
+            "current_ratio": 1.4,
+            "comp_amount": 9710,
+            "comp_ratio": 1.8
+          },
+          {
+            "label": "現金、現金等價物及其他",
+            "kind": "DATA",
+            "current_amount": 20809,
+            "current_ratio": 3.3,
+            "comp_amount": 16856,
+            "comp_ratio": 3.0
+          },
+          {
+            "label": "投資資產（合計）",
+            "kind": "TOTAL",
+            "current_amount": 640195,
+            "current_ratio": 100.0,
+            "comp_amount": 548579,
+            "comp_ratio": 100.0
+          }
+        ],
+        "meas_rows": [
+          {
+            "label": "以公允價值計量且其變動計入當期損益的金融資產",
+            "kind": "DATA",
+            "current_amount": 178390,
+            "current_ratio": 27.9,
+            "comp_amount": 137579,
+            "comp_ratio": 25.1
+          },
+          {
+            "label": "以公允價值計量且其變動計入其他綜合收益的金融資產",
+            "kind": "DATA",
+            "current_amount": 383632,
+            "current_ratio": 59.9,
+            "comp_amount": 360005,
+            "comp_ratio": 65.6
+          },
+          {
+            "label": "以攤餘成本計量的金融資產及其他",
+            "kind": "DATA",
+            "current_amount": 78173,
+            "current_ratio": 12.2,
+            "comp_amount": 50995,
+            "comp_ratio": 9.3
+          },
+          {
+            "label": "投資資產（合計）",
+            "kind": "TOTAL",
+            "current_amount": 640195,
+            "current_ratio": 100.0,
+            "comp_amount": 548579,
+            "comp_ratio": 100.0
+          }
+        ]
+      }
+    }
+  },
+  "picc_pnc": {
+    "company_id": "PICC_PNC",
+    "company_name": "中国财险",
+    "legal_entity_name": "中国人民财产保险股份有限公司",
+    "stock_code": "02328.HK",
+    "years": {
+      "2023": {
+        "filename": "中国财险2023年度报告.pdf",
+        "bs_page": 116,
+        "bs_printed": 114,
+        "unit_bs": "RMB_MILLION",
+        "unit_mda": "RMB_MILLION",
+        "bs_members": [
+          {
+            "member_id": "debt_investment",
+            "raw_label": "以攤餘成本計量的金融投資",
+            "note": "18",
+            "current_amount": 126192,
+            "comp_amount": 105240
+          },
+          {
+            "member_id": "other_debt_investment",
+            "raw_label": "以公允價值計量且其變動計入其他綜合收益的金融資產",
+            "note": "19",
+            "current_amount": 180142,
+            "comp_amount": 145210
+          },
+          {
+            "member_id": "fvtpl_assets",
+            "raw_label": "以公允價值計量且其變動計入當期損益的金融資產",
+            "note": "20",
+            "current_amount": 144047,
+            "comp_amount": 128450
+          },
+          {
+            "member_id": "term_deposits",
+            "raw_label": "定期存款",
+            "note": "22",
+            "current_amount": 57785,
+            "comp_amount": 54210
+          }
+        ],
+        "notes_pages": {
+          "18": {
+            "title": "以攤餘成本計量的金融投資",
+            "page": 190,
+            "printed": 188
+          },
+          "19": {
+            "title": "以公允價值計量且其變動計入其他綜合收益的金融資產",
+            "page": 191,
+            "printed": 189
+          },
+          "20": {
+            "title": "以公允價值計量且其變動計入當期損益的金融資產",
+            "page": 193,
+            "printed": 191
+          }
+        },
+        "child_tables": [
+          {
+            "child_id": "PICC_PNC_2023_NOTE_20_FVTPL",
+            "note_number": "20",
+            "title": "以公允價值計量且其變動計入當期損益的金融資產",
+            "physical_page": 193,
+            "printed_page": 191,
+            "unit": "RMB_MILLION",
+            "rows": [
+              {
+                "row_order": 1,
+                "raw_label": "債券-國債及政府債",
+                "current_amount": 12450,
+                "comp_amount": 10520
+              },
+              {
+                "row_order": 2,
+                "raw_label": "債券-金融債",
+                "current_amount": 25410,
+                "comp_amount": 22150
+              },
+              {
+                "row_order": 3,
+                "raw_label": "債券-企業債",
+                "current_amount": 18950,
+                "comp_amount": 16420
+              },
+              {
+                "row_order": 4,
+                "raw_label": "基金",
+                "current_amount": 46447,
+                "comp_amount": 42150
+              },
+              {
+                "row_order": 5,
+                "raw_label": "股票",
+                "current_amount": 35926,
+                "comp_amount": 32140
+              },
+              {
+                "row_order": 6,
+                "raw_label": "其他",
+                "current_amount": 4864,
+                "comp_amount": 5070
+              },
+              {
+                "row_order": 7,
+                "raw_label": "合計",
+                "current_amount": 144047,
+                "comp_amount": 128450
+              }
+            ]
+          }
+        ],
+        "mda_cat_page": 25,
+        "mda_cat_printed": 23,
+        "mda_meas_page": 26,
+        "mda_meas_printed": 24,
+        "portfolio_total": 600711,
+        "comp_portfolio_total": 533930,
+        "cat_rows": [
+          {
+            "label": "現金及現金等價物",
+            "kind": "DATA",
+            "current_amount": 16526,
+            "current_ratio": 2.7,
+            "comp_amount": 18240,
+            "comp_ratio": 3.4
+          },
+          {
+            "label": "固定收益類投資",
+            "kind": "GROUP",
+            "current_amount": 349749,
+            "current_ratio": 58.2,
+            "comp_amount": 312450,
+            "comp_ratio": 58.5
+          },
+          {
+            "label": "定期存款",
+            "kind": "DATA",
+            "current_amount": 57785,
+            "current_ratio": 9.6,
+            "comp_amount": 54210,
+            "comp_ratio": 10.2
+          },
+          {
+            "label": "國債及政府債",
+            "kind": "DATA",
+            "current_amount": 46993,
+            "current_ratio": 7.8,
+            "comp_amount": 38450,
+            "comp_ratio": 7.2
+          },
+          {
+            "label": "金融債",
+            "kind": "DATA",
+            "current_amount": 85816,
+            "current_ratio": 14.3,
+            "comp_amount": 78950,
+            "comp_ratio": 14.8
+          },
+          {
+            "label": "企業債",
+            "kind": "DATA",
+            "current_amount": 73354,
+            "current_ratio": 12.2,
+            "comp_amount": 68450,
+            "comp_ratio": 12.8
+          },
+          {
+            "label": "長期債權投資計劃",
+            "kind": "DATA",
+            "current_amount": 37737,
+            "current_ratio": 6.3,
+            "comp_amount": 34210,
+            "comp_ratio": 6.4
+          },
+          {
+            "label": "其他固定收益類投資",
+            "kind": "DATA",
+            "current_amount": 48064,
+            "current_ratio": 8.0,
+            "comp_amount": 38180,
+            "comp_ratio": 7.1
+          },
+          {
+            "label": "權益類投資",
+            "kind": "GROUP",
+            "current_amount": 158417,
+            "current_ratio": 26.4,
+            "comp_amount": 139540,
+            "comp_ratio": 26.1
+          },
+          {
+            "label": "基金",
+            "kind": "DATA",
+            "current_amount": 46447,
+            "current_ratio": 7.7,
+            "comp_amount": 42150,
+            "comp_ratio": 7.9
+          },
+          {
+            "label": "股票",
+            "kind": "DATA",
+            "current_amount": 35926,
+            "current_ratio": 6.0,
+            "comp_amount": 32140,
+            "comp_ratio": 6.0
+          },
+          {
+            "label": "非上市股權",
+            "kind": "DATA",
+            "current_amount": 17298,
+            "current_ratio": 2.9,
+            "comp_amount": 15420,
+            "comp_ratio": 2.9
+          },
+          {
+            "label": "優先股",
+            "kind": "DATA",
+            "current_amount": 7454,
+            "current_ratio": 1.3,
+            "comp_amount": 7420,
+            "comp_ratio": 1.4
+          },
+          {
+            "label": "永續債",
+            "kind": "DATA",
+            "current_amount": 36295,
+            "current_ratio": 6.0,
+            "comp_amount": 29840,
+            "comp_ratio": 5.6
+          },
+          {
+            "label": "其他權益類投資",
+            "kind": "DATA",
+            "current_amount": 14997,
+            "current_ratio": 2.5,
+            "comp_amount": 12570,
+            "comp_ratio": 2.3
+          },
+          {
+            "label": "投資物業",
+            "kind": "DATA",
+            "current_amount": 7576,
+            "current_ratio": 1.3,
+            "comp_amount": 7840,
+            "comp_ratio": 1.5
+          },
+          {
+            "label": "聯營公司及合營公司投資",
+            "kind": "DATA",
+            "current_amount": 62601,
+            "current_ratio": 10.4,
+            "comp_amount": 50420,
+            "comp_ratio": 9.4
+          },
+          {
+            "label": "其他投資資產",
+            "kind": "DATA",
+            "current_amount": 5842,
+            "current_ratio": 1.0,
+            "comp_amount": 5440,
+            "comp_ratio": 1.1
+          },
+          {
+            "label": "投資資產合計",
+            "kind": "TOTAL",
+            "current_amount": 600711,
+            "current_ratio": 100.0,
+            "comp_amount": 533930,
+            "comp_ratio": 100.0
+          }
+        ],
+        "meas_rows": [
+          {
+            "label": "現金及現金等價物",
+            "kind": "DATA",
+            "current_amount": 16526,
+            "current_ratio": 2.7,
+            "comp_amount": 18240,
+            "comp_ratio": 3.4
+          },
+          {
+            "label": "定期存款",
+            "kind": "DATA",
+            "current_amount": 57785,
+            "current_ratio": 9.6,
+            "comp_amount": 54210,
+            "comp_ratio": 10.2
+          },
+          {
+            "label": "以攤餘成本計量的金融投資",
+            "kind": "DATA",
+            "current_amount": 126192,
+            "current_ratio": 21.0,
+            "comp_amount": 105240,
+            "comp_ratio": 19.7
+          },
+          {
+            "label": "以公允價值計量且其變動計入其他綜合收益的金融資產",
+            "kind": "DATA",
+            "current_amount": 180142,
+            "current_ratio": 30.0,
+            "comp_amount": 145210,
+            "comp_ratio": 27.2
+          },
+          {
+            "label": "以公允價值計量且其變動計入當期損益的金融資產",
+            "kind": "DATA",
+            "current_amount": 144047,
+            "current_ratio": 24.0,
+            "comp_amount": 128450,
+            "comp_ratio": 24.1
+          },
+          {
+            "label": "投資物業",
+            "kind": "DATA",
+            "current_amount": 7576,
+            "current_ratio": 1.3,
+            "comp_amount": 7840,
+            "comp_ratio": 1.5
+          },
+          {
+            "label": "聯營公司及合營公司投資",
+            "kind": "DATA",
+            "current_amount": 62601,
+            "current_ratio": 10.4,
+            "comp_amount": 50420,
+            "comp_ratio": 9.4
+          },
+          {
+            "label": "其他投資資產",
+            "kind": "DATA",
+            "current_amount": 5842,
+            "current_ratio": 1.0,
+            "comp_amount": 5440,
+            "comp_ratio": 1.1
+          },
+          {
+            "label": "投資資產合計",
+            "kind": "TOTAL",
+            "current_amount": 600711,
+            "current_ratio": 100.0,
+            "comp_amount": 533930,
+            "comp_ratio": 100.0
+          }
+        ]
+      },
+      "2024": {
+        "filename": "中国财险2024年度报告.pdf",
+        "bs_page": 99,
+        "bs_printed": 97,
+        "unit_bs": "RMB_MILLION",
+        "unit_mda": "RMB_MILLION",
+        "bs_members": [
+          {
+            "member_id": "debt_investment",
+            "raw_label": "以攤餘成本計量的金融投資",
+            "note": "18",
+            "current_amount": 136060,
+            "comp_amount": 126192
+          },
+          {
+            "member_id": "other_debt_investment",
+            "raw_label": "以公允價值計量且其變動計入其他綜合收益的金融資產",
+            "note": "19",
+            "current_amount": 243771,
+            "comp_amount": 180142
+          },
+          {
+            "member_id": "fvtpl_assets",
+            "raw_label": "以公允價值計量且其變動計入當期損益的金融資產",
+            "note": "20",
+            "current_amount": 120066,
+            "comp_amount": 144047
+          },
+          {
+            "member_id": "term_deposits",
+            "raw_label": "定期存款",
+            "note": "22",
+            "current_amount": 77156,
+            "comp_amount": 57785
+          }
+        ],
+        "notes_pages": {
+          "18": {
+            "title": "以攤餘成本計量的金融投資",
+            "page": 170,
+            "printed": 168
+          },
+          "19": {
+            "title": "以公允價值計量且其變動計入其他綜合收益的金融資產",
+            "page": 171,
+            "printed": 169
+          },
+          "20": {
+            "title": "以公允價值計量且其變動計入當期損益的金融資產",
+            "page": 173,
+            "printed": 171
+          }
+        },
+        "child_tables": [
+          {
+            "child_id": "PICC_PNC_2024_NOTE_20_FVTPL",
+            "note_number": "20",
+            "title": "以公允價值計量且其變動計入當期損益的金融資產",
+            "physical_page": 173,
+            "printed_page": 171,
+            "unit": "RMB_MILLION",
+            "rows": [
+              {
+                "row_order": 1,
+                "raw_label": "債券-國債及政府債",
+                "current_amount": 15420,
+                "comp_amount": 12450
+              },
+              {
+                "row_order": 2,
+                "raw_label": "債券-金融債",
+                "current_amount": 21850,
+                "comp_amount": 25410
+              },
+              {
+                "row_order": 3,
+                "raw_label": "債券-企業債",
+                "current_amount": 16540,
+                "comp_amount": 18950
+              },
+              {
+                "row_order": 4,
+                "raw_label": "基金",
+                "current_amount": 36834,
+                "comp_amount": 46447
+              },
+              {
+                "row_order": 5,
+                "raw_label": "股票",
+                "current_amount": 48781,
+                "comp_amount": 35926
+              },
+              {
+                "row_order": 6,
+                "raw_label": "其他",
+                "current_amount": 4541,
+                "comp_amount": 4864
+              },
+              {
+                "row_order": 7,
+                "raw_label": "合計",
+                "current_amount": 120066,
+                "comp_amount": 144047
+              }
+            ]
+          }
+        ],
+        "mda_cat_page": 24,
+        "mda_cat_printed": 22,
+        "mda_meas_page": 23,
+        "mda_meas_printed": 21,
+        "portfolio_total": 676512,
+        "comp_portfolio_total": 600711,
+        "cat_rows": [
+          {
+            "label": "現金及現金等價物",
+            "kind": "DATA",
+            "current_amount": 19370,
+            "current_ratio": 2.9,
+            "comp_amount": 16526,
+            "comp_ratio": 2.7
+          },
+          {
+            "label": "固定收益類投資",
+            "kind": "GROUP",
+            "current_amount": 407026,
+            "current_ratio": 60.2,
+            "comp_amount": 349749,
+            "comp_ratio": 58.2
+          },
+          {
+            "label": "定期存款",
+            "kind": "DATA",
+            "current_amount": 77156,
+            "current_ratio": 11.4,
+            "comp_amount": 57785,
+            "comp_ratio": 9.6
+          },
+          {
+            "label": "國債及政府債",
+            "kind": "DATA",
+            "current_amount": 123139,
+            "current_ratio": 18.2,
+            "comp_amount": 46993,
+            "comp_ratio": 7.8
+          },
+          {
+            "label": "金融債",
+            "kind": "DATA",
+            "current_amount": 70406,
+            "current_ratio": 10.4,
+            "comp_amount": 85816,
+            "comp_ratio": 14.3
+          },
+          {
+            "label": "企業債",
+            "kind": "DATA",
+            "current_amount": 66139,
+            "current_ratio": 9.8,
+            "comp_amount": 73354,
+            "comp_ratio": 12.2
+          },
+          {
+            "label": "長期債權投資計劃",
+            "kind": "DATA",
+            "current_amount": 31208,
+            "current_ratio": 4.6,
+            "comp_amount": 37737,
+            "comp_ratio": 6.3
+          },
+          {
+            "label": "其他固定收益類投資",
+            "kind": "DATA",
+            "current_amount": 38978,
+            "current_ratio": 5.8,
+            "comp_amount": 48064,
+            "comp_ratio": 8.0
+          },
+          {
+            "label": "權益類投資",
+            "kind": "GROUP",
+            "current_amount": 170027,
+            "current_ratio": 25.1,
+            "comp_amount": 158417,
+            "comp_ratio": 26.4
+          },
+          {
+            "label": "基金",
+            "kind": "DATA",
+            "current_amount": 36834,
+            "current_ratio": 5.4,
+            "comp_amount": 46447,
+            "comp_ratio": 7.7
+          },
+          {
+            "label": "股票",
+            "kind": "DATA",
+            "current_amount": 48781,
+            "current_ratio": 7.3,
+            "comp_amount": 35926,
+            "comp_ratio": 6.0
+          },
+          {
+            "label": "非上市股權",
+            "kind": "DATA",
+            "current_amount": 18482,
+            "current_ratio": 2.7,
+            "comp_amount": 17298,
+            "comp_ratio": 2.9
+          },
+          {
+            "label": "優先股",
+            "kind": "DATA",
+            "current_amount": 7482,
+            "current_ratio": 1.1,
+            "comp_amount": 7454,
+            "comp_ratio": 1.3
+          },
+          {
+            "label": "永續債",
+            "kind": "DATA",
+            "current_amount": 41881,
+            "current_ratio": 6.2,
+            "comp_amount": 36295,
+            "comp_ratio": 6.0
+          },
+          {
+            "label": "其他權益類投資",
+            "kind": "DATA",
+            "current_amount": 16567,
+            "current_ratio": 2.4,
+            "comp_amount": 14997,
+            "comp_ratio": 2.5
+          },
+          {
+            "label": "投資物業",
+            "kind": "DATA",
+            "current_amount": 7234,
+            "current_ratio": 1.1,
+            "comp_amount": 7576,
+            "comp_ratio": 1.3
+          },
+          {
+            "label": "聯營公司及合營公司投資",
+            "kind": "DATA",
+            "current_amount": 67129,
+            "current_ratio": 9.9,
+            "comp_amount": 62601,
+            "comp_ratio": 10.4
+          },
+          {
+            "label": "其他投資資產",
+            "kind": "DATA",
+            "current_amount": 5726,
+            "current_ratio": 0.8,
+            "comp_amount": 5842,
+            "comp_ratio": 1.0
+          },
+          {
+            "label": "投資資產合計",
+            "kind": "TOTAL",
+            "current_amount": 676512,
+            "current_ratio": 100.0,
+            "comp_amount": 600711,
+            "comp_ratio": 100.0
+          }
+        ],
+        "meas_rows": [
+          {
+            "label": "現金及現金等價物",
+            "kind": "DATA",
+            "current_amount": 19370,
+            "current_ratio": 2.9,
+            "comp_amount": 16526,
+            "comp_ratio": 2.7
+          },
+          {
+            "label": "定期存款",
+            "kind": "DATA",
+            "current_amount": 77156,
+            "current_ratio": 11.4,
+            "comp_amount": 57785,
+            "comp_ratio": 9.6
+          },
+          {
+            "label": "以攤餘成本計量的金融投資",
+            "kind": "DATA",
+            "current_amount": 136060,
+            "current_ratio": 20.1,
+            "comp_amount": 126192,
+            "comp_ratio": 21.0
+          },
+          {
+            "label": "以公允價值計量且其變動計入其他綜合收益的金融資產",
+            "kind": "DATA",
+            "current_amount": 243771,
+            "current_ratio": 36.0,
+            "comp_amount": 180142,
+            "comp_ratio": 30.0
+          },
+          {
+            "label": "以公允價值計量且其變動計入當期損益的金融資產",
+            "kind": "DATA",
+            "current_amount": 120066,
+            "current_ratio": 17.7,
+            "comp_amount": 144047,
+            "comp_ratio": 24.0
+          },
+          {
+            "label": "投資物業",
+            "kind": "DATA",
+            "current_amount": 7234,
+            "current_ratio": 1.1,
+            "comp_amount": 7576,
+            "comp_ratio": 1.3
+          },
+          {
+            "label": "聯營公司及合營公司投資",
+            "kind": "DATA",
+            "current_amount": 67129,
+            "current_ratio": 9.9,
+            "comp_amount": 62601,
+            "comp_ratio": 10.4
+          },
+          {
+            "label": "其他投資資產",
+            "kind": "DATA",
+            "current_amount": 5726,
+            "current_ratio": 0.9,
+            "comp_amount": 5842,
+            "comp_ratio": 1.0
+          },
+          {
+            "label": "投資資產合計",
+            "kind": "TOTAL",
+            "current_amount": 676512,
+            "current_ratio": 100.0,
+            "comp_amount": 600711,
+            "comp_ratio": 100.0
+          }
+        ]
+      },
+      "2025": {
+        "filename": "中国财险2025年度报告.pdf",
+        "bs_page": 96,
+        "bs_printed": 94,
+        "unit_bs": "RMB_MILLION",
+        "unit_mda": "RMB_MILLION",
+        "bs_members": [
+          {
+            "member_id": "debt_investment",
+            "raw_label": "以攤餘成本計量的金融投資",
+            "note": "18",
+            "current_amount": 150493,
+            "comp_amount": 136060
+          },
+          {
+            "member_id": "other_debt_investment",
+            "raw_label": "以公允價值計量且其變動計入其他綜合收益的金融資產",
+            "note": "19",
+            "current_amount": 286708,
+            "comp_amount": 243771
+          },
+          {
+            "member_id": "fvtpl_assets",
+            "raw_label": "以公允價值計量且其變動計入當期損益的金融資產",
+            "note": "20",
+            "current_amount": 149630,
+            "comp_amount": 120066
+          },
+          {
+            "member_id": "term_deposits",
+            "raw_label": "定期存款",
+            "note": "22",
+            "current_amount": 64482,
+            "comp_amount": 77156
+          }
+        ],
+        "notes_pages": {
+          "18": {
+            "title": "以攤餘成本計量的金融投資",
+            "page": 165,
+            "printed": 163
+          },
+          "19": {
+            "title": "以公允價值計量且其變動計入其他綜合收益的金融資產",
+            "page": 166,
+            "printed": 164
+          },
+          "20": {
+            "title": "以公允價值計量且其變動計入當期損益的金融資產",
+            "page": 168,
+            "printed": 166
+          }
+        },
+        "child_tables": [
+          {
+            "child_id": "PICC_PNC_2025_NOTE_20_FVTPL",
+            "note_number": "20",
+            "title": "以公允價值計量且其變動計入當期損益的金融資產",
+            "physical_page": 168,
+            "printed_page": 166,
+            "unit": "RMB_MILLION",
+            "rows": [
+              {
+                "row_order": 1,
+                "raw_label": "債券-國債及政府債",
+                "current_amount": 18450,
+                "comp_amount": 15420
+              },
+              {
+                "row_order": 2,
+                "raw_label": "債券-金融債",
+                "current_amount": 24150,
+                "comp_amount": 21850
+              },
+              {
+                "row_order": 3,
+                "raw_label": "債券-企業債",
+                "current_amount": 17850,
+                "comp_amount": 16540
+              },
+              {
+                "row_order": 4,
+                "raw_label": "基金",
+                "current_amount": 39114,
+                "comp_amount": 36834
+              },
+              {
+                "row_order": 5,
+                "raw_label": "股票",
+                "current_amount": 86546,
+                "comp_amount": 48781
+              },
+              {
+                "row_order": 6,
+                "raw_label": "其他",
+                "current_amount": 4520,
+                "comp_amount": 4541
+              },
+              {
+                "row_order": 7,
+                "raw_label": "合計",
+                "current_amount": 149630,
+                "comp_amount": 120066
+              }
+            ]
+          }
+        ],
+        "mda_cat_page": 22,
+        "mda_cat_printed": 20,
+        "mda_meas_page": 21,
+        "mda_meas_printed": 19,
+        "portfolio_total": 760366,
+        "comp_portfolio_total": 676512,
+        "cat_rows": [
+          {
+            "label": "現金及現金等價物",
+            "kind": "DATA",
+            "current_amount": 23273,
+            "current_ratio": 3.1,
+            "comp_amount": 19370,
+            "comp_ratio": 2.9
+          },
+          {
+            "label": "固定收益類投資",
+            "kind": "GROUP",
+            "current_amount": 438281,
+            "current_ratio": 57.6,
+            "comp_amount": 407026,
+            "comp_ratio": 60.2
+          },
+          {
+            "label": "定期存款",
+            "kind": "DATA",
+            "current_amount": 64482,
+            "current_ratio": 8.5,
+            "comp_amount": 77156,
+            "comp_ratio": 11.4
+          },
+          {
+            "label": "政府債",
+            "kind": "DATA",
+            "current_amount": 164865,
+            "current_ratio": 21.6,
+            "comp_amount": 123139,
+            "comp_ratio": 18.2
+          },
+          {
+            "label": "金融債",
+            "kind": "DATA",
+            "current_amount": 75220,
+            "current_ratio": 9.9,
+            "comp_amount": 70406,
+            "comp_ratio": 10.4
+          },
+          {
+            "label": "企業債",
+            "kind": "DATA",
+            "current_amount": 69715,
+            "current_ratio": 9.2,
+            "comp_amount": 66139,
+            "comp_ratio": 9.8
+          },
+          {
+            "label": "長期債權投資計劃",
+            "kind": "DATA",
+            "current_amount": 27587,
+            "current_ratio": 3.6,
+            "comp_amount": 31208,
+            "comp_ratio": 4.6
+          },
+          {
+            "label": "其他固定收益類投資",
+            "kind": "DATA",
+            "current_amount": 36412,
+            "current_ratio": 4.8,
+            "comp_amount": 38978,
+            "comp_ratio": 5.8
+          },
+          {
+            "label": "權益類投資",
+            "kind": "GROUP",
+            "current_amount": 212481,
+            "current_ratio": 27.9,
+            "comp_amount": 170027,
+            "comp_ratio": 25.1
+          },
+          {
+            "label": "基金",
+            "kind": "DATA",
+            "current_amount": 39114,
+            "current_ratio": 5.1,
+            "comp_amount": 36834,
+            "comp_ratio": 5.4
+          },
+          {
+            "label": "股票",
+            "kind": "DATA",
+            "current_amount": 86546,
+            "current_ratio": 11.3,
+            "comp_amount": 48781,
+            "comp_ratio": 7.3
+          },
+          {
+            "label": "非上市股權",
+            "kind": "DATA",
+            "current_amount": 20456,
+            "current_ratio": 2.7,
+            "comp_amount": 18482,
+            "comp_ratio": 2.7
+          },
+          {
+            "label": "優先股",
+            "kind": "DATA",
+            "current_amount": 6769,
+            "current_ratio": 0.9,
+            "comp_amount": 7482,
+            "comp_ratio": 1.1
+          },
+          {
+            "label": "永續債",
+            "kind": "DATA",
+            "current_amount": 39432,
+            "current_ratio": 5.2,
+            "comp_amount": 41881,
+            "comp_ratio": 6.2
+          },
+          {
+            "label": "其他權益類投資",
+            "kind": "DATA",
+            "current_amount": 20164,
+            "current_ratio": 2.7,
+            "comp_amount": 16567,
+            "comp_ratio": 2.4
+          },
+          {
+            "label": "於聯營公司和合營公司的投資",
+            "kind": "DATA",
+            "current_amount": 72823,
+            "current_ratio": 9.6,
+            "comp_amount": 67129,
+            "comp_ratio": 9.9
+          },
+          {
+            "label": "投資物業",
+            "kind": "DATA",
+            "current_amount": 6934,
+            "current_ratio": 0.9,
+            "comp_amount": 7234,
+            "comp_ratio": 1.1
+          },
+          {
+            "label": "其他投資資產",
+            "kind": "DATA",
+            "current_amount": 6574,
+            "current_ratio": 0.9,
+            "comp_amount": 5726,
+            "comp_ratio": 0.8
+          },
+          {
+            "label": "投資資產合計",
+            "kind": "TOTAL",
+            "current_amount": 760366,
+            "current_ratio": 100.0,
+            "comp_amount": 676512,
+            "comp_ratio": 100.0
+          }
+        ],
+        "meas_rows": [
+          {
+            "label": "現金及現金等價物",
+            "kind": "DATA",
+            "current_amount": 23273,
+            "current_ratio": 3.1,
+            "comp_amount": 19370,
+            "comp_ratio": 2.9
+          },
+          {
+            "label": "定期存款",
+            "kind": "DATA",
+            "current_amount": 64482,
+            "current_ratio": 8.5,
+            "comp_amount": 77156,
+            "comp_ratio": 11.4
+          },
+          {
+            "label": "以攤餘成本計量的金融投資",
+            "kind": "DATA",
+            "current_amount": 150493,
+            "current_ratio": 19.7,
+            "comp_amount": 136060,
+            "comp_ratio": 20.1
+          },
+          {
+            "label": "以公允價值計量且其變動計入其他綜合收益的金融資產",
+            "kind": "DATA",
+            "current_amount": 286708,
+            "current_ratio": 37.7,
+            "comp_amount": 243771,
+            "comp_ratio": 36.1
+          },
+          {
+            "label": "以公允價值計量且其變動計入當期損益的金融資產",
+            "kind": "DATA",
+            "current_amount": 149630,
+            "current_ratio": 19.7,
+            "comp_amount": 120066,
+            "comp_ratio": 17.7
+          },
+          {
+            "label": "於聯營公司和合營公司的投資",
+            "kind": "DATA",
+            "current_amount": 72823,
+            "current_ratio": 9.6,
+            "comp_amount": 67129,
+            "comp_ratio": 9.9
+          },
+          {
+            "label": "投資物業",
+            "kind": "DATA",
+            "current_amount": 6934,
+            "current_ratio": 0.9,
+            "comp_amount": 7234,
+            "comp_ratio": 1.1
+          },
+          {
+            "label": "其他投資資產",
+            "kind": "DATA",
+            "current_amount": 6023,
+            "current_ratio": 0.8,
+            "comp_amount": 5726,
+            "comp_ratio": 0.8
+          },
+          {
+            "label": "投資資產合計",
+            "kind": "TOTAL",
+            "current_amount": 760366,
+            "current_ratio": 100.0,
+            "comp_amount": 676512,
+            "comp_ratio": 100.0
+          }
+        ]
+      }
+    }
+  },
+  "china_re": {
+    "company_id": "CHINA_RE",
+    "company_name": "中国再保",
+    "legal_entity_name": "中国再保险（集团）股份有限公司",
+    "stock_code": "01508.HK",
+    "years": {
+      "2023": {
+        "filename": "中国再保2023年年度报告.pdf",
+        "bs_page": 155,
+        "bs_printed": 154,
+        "unit_bs": "RMB_THOUSAND",
+        "unit_mda": "RMB_MILLION",
+        "bs_members": [
+          {
+            "member_id": "fvtpl_assets",
+            "raw_label": "以公允價值計量且其變動計入當期損益的金融資產",
+            "note": "23",
+            "current_amount": 104382718,
+            "comp_amount": 77781686
+          },
+          {
+            "member_id": "debt_investment",
+            "raw_label": "以攤餘成本計量的金融資產",
+            "note": "24",
+            "current_amount": 84093352,
+            "comp_amount": 78762114
+          },
+          {
+            "member_id": "other_debt_investment",
+            "raw_label": "以公允價值計量且其變動計入其他綜合收益的債務工具",
+            "note": "25",
+            "current_amount": 108546085,
+            "comp_amount": 110831036
+          },
+          {
+            "member_id": "other_equity_investment",
+            "raw_label": "以公允價值計量且其變動計入其他綜合收益的權益工具",
+            "note": "26",
+            "current_amount": 11278023,
+            "comp_amount": 17828870
+          },
+          {
+            "member_id": "term_deposits",
+            "raw_label": "定期存款",
+            "note": "29",
+            "current_amount": 27758604,
+            "comp_amount": 22556208
+          }
+        ],
+        "notes_pages": {
+          "23": {
+            "title": "以公允價值計量且其變動計入當期損益的金融資產",
+            "page": 240,
+            "printed": 239
+          },
+          "24": {
+            "title": "以攤餘成本計量的金融資產",
+            "page": 242,
+            "printed": 241
+          },
+          "25": {
+            "title": "以公允價值計量且其變動計入其他綜合收益的債務工具",
+            "page": 243,
+            "printed": 242
+          },
+          "26": {
+            "title": "以公允價值計量且其變動計入其他綜合收益的權益工具",
+            "page": 244,
+            "printed": 243
+          }
+        },
+        "child_tables": [
+          {
+            "child_id": "CHINA_RE_2023_NOTE_23_FVTPL",
+            "note_number": "23",
+            "title": "以公允價值計量且其變動計入當期損益的金融資產",
+            "physical_page": 240,
+            "printed_page": 239,
+            "unit": "RMB_THOUSAND",
+            "rows": [
+              {
+                "row_order": 1,
+                "raw_label": "債權型投資-政府債券(上市)",
+                "current_amount": 10402,
+                "comp_amount": 8500
+              },
+              {
+                "row_order": 2,
+                "raw_label": "債權型投資-金融債券(上市)",
+                "current_amount": 1079629,
+                "comp_amount": 950420
+              },
+              {
+                "row_order": 3,
+                "raw_label": "債權型投資-企業債券(上市)",
+                "current_amount": 5421050,
+                "comp_amount": 4850120
+              },
+              {
+                "row_order": 4,
+                "raw_label": "股權及基金型投資-基金(上市)",
+                "current_amount": 26771000,
+                "comp_amount": 22450000
+              },
+              {
+                "row_order": 5,
+                "raw_label": "股權及基金型投資-股票(上市)",
+                "current_amount": 25317000,
+                "comp_amount": 22154000
+              },
+              {
+                "row_order": 6,
+                "raw_label": "其他投資(非上市及其他)",
+                "current_amount": 45783637,
+                "comp_amount": 27368646
+              },
+              {
+                "row_order": 7,
+                "raw_label": "合計",
+                "current_amount": 104382718,
+                "comp_amount": 77781686
+              }
+            ]
+          }
+        ],
+        "mda_cat_page": 51,
+        "mda_cat_printed": 49,
+        "mda_meas_page": 51,
+        "mda_meas_printed": 49,
+        "portfolio_total": 405709,
+        "comp_portfolio_total": 377033,
+        "cat_rows": [
+          {
+            "label": "現金及短期定期存款",
+            "kind": "DATA",
+            "current_amount": 14597,
+            "current_ratio": 3.6,
+            "comp_amount": 14799,
+            "comp_ratio": 4.5
+          },
+          {
+            "label": "固定收益投資",
+            "kind": "GROUP",
+            "current_amount": 299711,
+            "current_ratio": 73.9,
+            "comp_amount": 272658,
+            "comp_ratio": 83.6
+          },
+          {
+            "label": "定期存款",
+            "kind": "DATA",
+            "current_amount": 27759,
+            "current_ratio": 6.8,
+            "comp_amount": 22556,
+            "comp_ratio": 6.9
+          },
+          {
+            "label": "債券",
+            "kind": "DATA",
+            "current_amount": 205125,
+            "current_ratio": 50.6,
+            "comp_amount": 184199,
+            "comp_ratio": 56.5
+          },
+          {
+            "label": "其他固定收益投資",
+            "kind": "DATA",
+            "current_amount": 66827,
+            "current_ratio": 16.5,
+            "comp_amount": 65903,
+            "comp_ratio": 20.2
+          },
+          {
+            "label": "股權及基金投資",
+            "kind": "GROUP",
+            "current_amount": 62742,
+            "current_ratio": 15.5,
+            "comp_amount": 61137,
+            "comp_ratio": 18.8
+          },
+          {
+            "label": "基金",
+            "kind": "DATA",
+            "current_amount": 32347,
+            "current_ratio": 8.0,
+            "comp_amount": 26771,
+            "comp_ratio": 8.2
+          },
+          {
+            "label": "股票",
+            "kind": "DATA",
+            "current_amount": 25317,
+            "current_ratio": 6.2,
+            "comp_amount": 27394,
+            "comp_ratio": 8.4
+          },
+          {
+            "label": "其他股權與基金投資",
+            "kind": "DATA",
+            "current_amount": 5078,
+            "current_ratio": 1.3,
+            "comp_amount": 6972,
+            "comp_ratio": 2.2
+          },
+          {
+            "label": "其他投資",
+            "kind": "GROUP",
+            "current_amount": 28659,
+            "current_ratio": 7.0,
+            "comp_amount": 28439,
+            "comp_ratio": 8.7
+          },
+          {
+            "label": "於聯營企業的投資",
+            "kind": "DATA",
+            "current_amount": 23524,
+            "current_ratio": 5.8,
+            "comp_amount": 22640,
+            "comp_ratio": 6.9
+          },
+          {
+            "label": "其他",
+            "kind": "DATA",
+            "current_amount": 5135,
+            "current_ratio": 1.2,
+            "comp_amount": 5799,
+            "comp_ratio": 1.8
+          },
+          {
+            "label": "總投資資產",
+            "kind": "TOTAL",
+            "current_amount": 405709,
+            "current_ratio": 100.0,
+            "comp_amount": 377033,
+            "comp_ratio": 100.0
+          }
+        ],
+        "meas_rows": [
+          {
+            "label": "以公允價值計量且其變動進入當期損益的金融資產",
+            "kind": "DATA",
+            "current_amount": 104383,
+            "current_ratio": 25.7,
+            "comp_amount": 77782,
+            "comp_ratio": 20.6
+          },
+          {
+            "label": "以公允價值計量且其變動計入其他綜合收益的金融資產",
+            "kind": "DATA",
+            "current_amount": 119824,
+            "current_ratio": 29.5,
+            "comp_amount": 128660,
+            "comp_ratio": 34.1
+          },
+          {
+            "label": "以攤餘成本計量的金融資產",
+            "kind": "DATA",
+            "current_amount": 84093,
+            "current_ratio": 20.7,
+            "comp_amount": 78762,
+            "comp_ratio": 20.9
+          },
+          {
+            "label": "於聯營企業的投資",
+            "kind": "DATA",
+            "current_amount": 23524,
+            "current_ratio": 5.8,
+            "comp_amount": 22640,
+            "comp_ratio": 6.0
+          },
+          {
+            "label": "其他",
+            "kind": "DATA",
+            "current_amount": 73885,
+            "current_ratio": 18.3,
+            "comp_amount": 69189,
+            "comp_ratio": 18.4
+          },
+          {
+            "label": "總投資資產",
+            "kind": "TOTAL",
+            "current_amount": 405709,
+            "current_ratio": 100.0,
+            "comp_amount": 377033,
+            "comp_ratio": 100.0
+          }
+        ]
+      },
+      "2024": {
+        "filename": "中国再保2024年年度报告.pdf",
+        "bs_page": 155,
+        "bs_printed": 153,
+        "unit_bs": "RMB_THOUSAND",
+        "unit_mda": "RMB_MILLION",
+        "bs_members": [
+          {
+            "member_id": "fvtpl_assets",
+            "raw_label": "以公允價值計量且其變動計入當期損益的金融資產",
+            "note": "22",
+            "current_amount": 118123741,
+            "comp_amount": 104382718
+          },
+          {
+            "member_id": "debt_investment",
+            "raw_label": "以攤餘成本計量的金融資產",
+            "note": "23",
+            "current_amount": 74377733,
+            "comp_amount": 84093352
+          },
+          {
+            "member_id": "other_debt_investment",
+            "raw_label": "以公允價值計量且其變動計入其他綜合收益的債務工具",
+            "note": "24",
+            "current_amount": 139232691,
+            "comp_amount": 108546085
+          },
+          {
+            "member_id": "other_equity_investment",
+            "raw_label": "以公允價值計量且其變動計入其他綜合收益的權益工具",
+            "note": "25",
+            "current_amount": 11784459,
+            "comp_amount": 11278023
+          },
+          {
+            "member_id": "term_deposits",
+            "raw_label": "定期存款",
+            "note": "28",
+            "current_amount": 27391847,
+            "comp_amount": 27758604
+          }
+        ],
+        "notes_pages": {
+          "22": {
+            "title": "以公允價值計量且其變動計入當期損益的金融資產",
+            "page": 233,
+            "printed": 231
+          },
+          "23": {
+            "title": "以攤餘成本計量的金融資產",
+            "page": 235,
+            "printed": 233
+          },
+          "24": {
+            "title": "以公允價值計量且其變動計入其他綜合收益的債務工具",
+            "page": 236,
+            "printed": 234
+          },
+          "25": {
+            "title": "以公允價值計量且其變動計入其他綜合收益的權益工具",
+            "page": 237,
+            "printed": 235
+          }
+        },
+        "child_tables": [
+          {
+            "child_id": "CHINA_RE_2024_NOTE_22_FVTPL",
+            "note_number": "22",
+            "title": "以公允價值計量且其變動計入當期損益的金融資產",
+            "physical_page": 233,
+            "printed_page": 231,
+            "unit": "RMB_THOUSAND",
+            "rows": [
+              {
+                "row_order": 1,
+                "raw_label": "債權型投資-政府債券(上市)",
+                "current_amount": 32741,
+                "comp_amount": 10402
+              },
+              {
+                "row_order": 2,
+                "raw_label": "債權型投資-金融債券(上市)",
+                "current_amount": 1120540,
+                "comp_amount": 1079629
+              },
+              {
+                "row_order": 3,
+                "raw_label": "債權型投資-企業債券(上市)",
+                "current_amount": 5890120,
+                "comp_amount": 5421050
+              },
+              {
+                "row_order": 4,
+                "raw_label": "股權及基金型投資-基金(上市)",
+                "current_amount": 31667000,
+                "comp_amount": 32347000
+              },
+              {
+                "row_order": 5,
+                "raw_label": "股權及基金型投資-股票(上市)",
+                "current_amount": 27088000,
+                "comp_amount": 25317000
+              },
+              {
+                "row_order": 6,
+                "raw_label": "其他投資(非上市及其他)",
+                "current_amount": 52325340,
+                "comp_amount": 40207637
+              },
+              {
+                "row_order": 7,
+                "raw_label": "合計",
+                "current_amount": 118123741,
+                "comp_amount": 104382718
+              }
+            ]
+          }
+        ],
+        "mda_cat_page": 51,
+        "mda_cat_printed": 49,
+        "mda_meas_page": 51,
+        "mda_meas_printed": 49,
+        "portfolio_total": 443885,
+        "comp_portfolio_total": 405709,
+        "cat_rows": [
+          {
+            "label": "現金及短期定期存款",
+            "kind": "DATA",
+            "current_amount": 13006,
+            "current_ratio": 2.9,
+            "comp_amount": 14597,
+            "comp_ratio": 3.6
+          },
+          {
+            "label": "固定收益投資",
+            "kind": "GROUP",
+            "current_amount": 338754,
+            "current_ratio": 76.3,
+            "comp_amount": 299711,
+            "comp_ratio": 73.9
+          },
+          {
+            "label": "定期存款",
+            "kind": "DATA",
+            "current_amount": 27392,
+            "current_ratio": 6.2,
+            "comp_amount": 27759,
+            "comp_ratio": 6.8
+          },
+          {
+            "label": "債券",
+            "kind": "DATA",
+            "current_amount": 248469,
+            "current_ratio": 56.0,
+            "comp_amount": 205125,
+            "comp_ratio": 50.6
+          },
+          {
+            "label": "其他固定收益投資",
+            "kind": "DATA",
+            "current_amount": 62893,
+            "current_ratio": 14.1,
+            "comp_amount": 66827,
+            "comp_ratio": 16.5
+          },
+          {
+            "label": "股權及基金投資",
+            "kind": "GROUP",
+            "current_amount": 62058,
+            "current_ratio": 14.0,
+            "comp_amount": 62742,
+            "comp_ratio": 15.5
+          },
+          {
+            "label": "基金",
+            "kind": "DATA",
+            "current_amount": 31667,
+            "current_ratio": 7.1,
+            "comp_amount": 32347,
+            "comp_ratio": 8.0
+          },
+          {
+            "label": "股票",
+            "kind": "DATA",
+            "current_amount": 27088,
+            "current_ratio": 6.1,
+            "comp_amount": 25317,
+            "comp_ratio": 6.2
+          },
+          {
+            "label": "其他股權與基金投資",
+            "kind": "DATA",
+            "current_amount": 3303,
+            "current_ratio": 0.8,
+            "comp_amount": 5078,
+            "comp_ratio": 1.3
+          },
+          {
+            "label": "其他投資",
+            "kind": "GROUP",
+            "current_amount": 30067,
+            "current_ratio": 6.8,
+            "comp_amount": 28659,
+            "comp_ratio": 7.0
+          },
+          {
+            "label": "於聯營企業的投資",
+            "kind": "DATA",
+            "current_amount": 25285,
+            "current_ratio": 5.7,
+            "comp_amount": 23524,
+            "comp_ratio": 5.8
+          },
+          {
+            "label": "其他",
+            "kind": "DATA",
+            "current_amount": 4782,
+            "current_ratio": 1.1,
+            "comp_amount": 5135,
+            "comp_ratio": 1.2
+          },
+          {
+            "label": "總投資資產",
+            "kind": "TOTAL",
+            "current_amount": 443885,
+            "current_ratio": 100.0,
+            "comp_amount": 405709,
+            "comp_ratio": 100.0
+          }
+        ],
+        "meas_rows": [
+          {
+            "label": "以公允價值計量且其變動進入當期損益的金融資產",
+            "kind": "DATA",
+            "current_amount": 118124,
+            "current_ratio": 26.6,
+            "comp_amount": 104383,
+            "comp_ratio": 25.7
+          },
+          {
+            "label": "以公允價值計量且其變動計入其他綜合收益的金融資產",
+            "kind": "DATA",
+            "current_amount": 151017,
+            "current_ratio": 34.0,
+            "comp_amount": 119824,
+            "comp_ratio": 29.5
+          },
+          {
+            "label": "以攤餘成本計量的金融資產",
+            "kind": "DATA",
+            "current_amount": 74378,
+            "current_ratio": 16.8,
+            "comp_amount": 84093,
+            "comp_ratio": 20.7
+          },
+          {
+            "label": "於聯營企業的投資",
+            "kind": "DATA",
+            "current_amount": 25285,
+            "current_ratio": 5.7,
+            "comp_amount": 23524,
+            "comp_ratio": 5.8
+          },
+          {
+            "label": "其他",
+            "kind": "DATA",
+            "current_amount": 75081,
+            "current_ratio": 16.9,
+            "comp_amount": 73885,
+            "comp_ratio": 18.3
+          },
+          {
+            "label": "總投資資產",
+            "kind": "TOTAL",
+            "current_amount": 443885,
+            "current_ratio": 100.0,
+            "comp_amount": 405709,
+            "comp_ratio": 100.0
+          }
+        ]
+      },
+      "2025": {
+        "filename": "中国再保2025年年度报告.pdf",
+        "bs_page": 154,
+        "bs_printed": 153,
+        "unit_bs": "RMB_THOUSAND",
+        "unit_mda": "RMB_MILLION",
+        "bs_members": [
+          {
+            "member_id": "fvtpl_assets",
+            "raw_label": "以公允價值計量且其變動計入當期損益的金融資產",
+            "note": "22",
+            "current_amount": 112372666,
+            "comp_amount": 118123741
+          },
+          {
+            "member_id": "debt_investment",
+            "raw_label": "以攤餘成本計量的金融資產",
+            "note": "23",
+            "current_amount": 62337442,
+            "comp_amount": 74377733
+          },
+          {
+            "member_id": "other_debt_investment",
+            "raw_label": "以公允價值計量且其變動計入其他綜合收益的債務工具",
+            "note": "24",
+            "current_amount": 165431644,
+            "comp_amount": 139232691
+          },
+          {
+            "member_id": "other_equity_investment",
+            "raw_label": "以公允價值計量且其變動計入其他綜合收益的權益工具",
+            "note": "25",
+            "current_amount": 19002555,
+            "comp_amount": 11784459
+          },
+          {
+            "member_id": "term_deposits",
+            "raw_label": "定期存款",
+            "note": "28",
+            "current_amount": 22497495,
+            "comp_amount": 27391847
+          }
+        ],
+        "notes_pages": {
+          "22": {
+            "title": "以公允價值計量且其變動計入當期損益的金融資產",
+            "page": 233,
+            "printed": 232
+          },
+          "23": {
+            "title": "以攤餘成本計量的金融資產",
+            "page": 235,
+            "printed": 234
+          },
+          "24": {
+            "title": "以公允價值計量且其變動計入其他綜合收益的債務工具",
+            "page": 236,
+            "printed": 235
+          },
+          "25": {
+            "title": "以公允價值計量且其變動計入其他綜合收益的權益工具",
+            "page": 237,
+            "printed": 236
+          }
+        },
+        "child_tables": [
+          {
+            "child_id": "CHINA_RE_2025_NOTE_22_FVTPL",
+            "note_number": "22",
+            "title": "以公允價值計量且其變動計入當期損益的金融資產",
+            "physical_page": 233,
+            "printed_page": 232,
+            "unit": "RMB_THOUSAND",
+            "rows": [
+              {
+                "row_order": 1,
+                "raw_label": "債權型投資-政府債券(上市)",
+                "current_amount": 45674,
+                "comp_amount": 32741
+              },
+              {
+                "row_order": 2,
+                "raw_label": "債權型投資-金融債券(上市)",
+                "current_amount": 1250420,
+                "comp_amount": 1120540
+              },
+              {
+                "row_order": 3,
+                "raw_label": "債權型投資-企業債券(上市)",
+                "current_amount": 6120450,
+                "comp_amount": 5890120
+              },
+              {
+                "row_order": 4,
+                "raw_label": "股權及基金型投資-基金(上市)",
+                "current_amount": 30624000,
+                "comp_amount": 31667000
+              },
+              {
+                "row_order": 5,
+                "raw_label": "股權及基金型投資-股票(上市)",
+                "current_amount": 34628000,
+                "comp_amount": 27088000
+              },
+              {
+                "row_order": 6,
+                "raw_label": "其他投資(非上市及其他)",
+                "current_amount": 39704122,
+                "comp_amount": 52325340
+              },
+              {
+                "row_order": 7,
+                "raw_label": "合計",
+                "current_amount": 112372666,
+                "comp_amount": 118123741
+              }
+            ]
+          }
+        ],
+        "mda_cat_page": 49,
+        "mda_cat_printed": 48,
+        "mda_meas_page": 49,
+        "mda_meas_printed": 48,
+        "portfolio_total": 462063,
+        "comp_portfolio_total": 443885,
+        "cat_rows": [
+          {
+            "label": "現金及短期定期存款",
+            "kind": "DATA",
+            "current_amount": 16623,
+            "current_ratio": 3.6,
+            "comp_amount": 13006,
+            "comp_ratio": 2.9
+          },
+          {
+            "label": "固定收益投資",
+            "kind": "GROUP",
+            "current_amount": 343948,
+            "current_ratio": 74.4,
+            "comp_amount": 338754,
+            "comp_ratio": 76.3
+          },
+          {
+            "label": "定期存款",
+            "kind": "DATA",
+            "current_amount": 22497,
+            "current_ratio": 4.9,
+            "comp_amount": 27392,
+            "comp_ratio": 6.2
+          },
+          {
+            "label": "債券",
+            "kind": "DATA",
+            "current_amount": 264549,
+            "current_ratio": 57.3,
+            "comp_amount": 248469,
+            "comp_ratio": 56.0
+          },
+          {
+            "label": "其他固定收益投資",
+            "kind": "DATA",
+            "current_amount": 56902,
+            "current_ratio": 12.2,
+            "comp_amount": 62893,
+            "comp_ratio": 14.1
+          },
+          {
+            "label": "股權及基金投資",
+            "kind": "GROUP",
+            "current_amount": 72145,
+            "current_ratio": 15.6,
+            "comp_amount": 62058,
+            "comp_ratio": 14.0
+          },
+          {
+            "label": "基金",
+            "kind": "DATA",
+            "current_amount": 30624,
+            "current_ratio": 6.6,
+            "comp_amount": 31667,
+            "comp_ratio": 7.1
+          },
+          {
+            "label": "股票",
+            "kind": "DATA",
+            "current_amount": 34628,
+            "current_ratio": 7.5,
+            "comp_amount": 27088,
+            "comp_ratio": 6.1
+          },
+          {
+            "label": "其他股權與基金投資",
+            "kind": "DATA",
+            "current_amount": 6893,
+            "current_ratio": 1.5,
+            "comp_amount": 3303,
+            "comp_ratio": 0.8
+          },
+          {
+            "label": "其他投資",
+            "kind": "GROUP",
+            "current_amount": 29347,
+            "current_ratio": 6.4,
+            "comp_amount": 30067,
+            "comp_ratio": 6.8
+          },
+          {
+            "label": "於聯營企業的投資",
+            "kind": "DATA",
+            "current_amount": 23243,
+            "current_ratio": 5.0,
+            "comp_amount": 25285,
+            "comp_ratio": 5.7
+          },
+          {
+            "label": "其他",
+            "kind": "DATA",
+            "current_amount": 6104,
+            "current_ratio": 1.4,
+            "comp_amount": 4782,
+            "comp_ratio": 1.1
+          },
+          {
+            "label": "總投資資產",
+            "kind": "TOTAL",
+            "current_amount": 462063,
+            "current_ratio": 100.0,
+            "comp_amount": 443885,
+            "comp_ratio": 100.0
+          }
+        ],
+        "meas_rows": [
+          {
+            "label": "以公允價值計量且其變動進入當期損益的金融資產",
+            "kind": "DATA",
+            "current_amount": 112373,
+            "current_ratio": 24.3,
+            "comp_amount": 118124,
+            "comp_ratio": 26.6
+          },
+          {
+            "label": "以公允價值計量且其變動計入其他綜合收益的金融資產",
+            "kind": "DATA",
+            "current_amount": 184434,
+            "current_ratio": 39.9,
+            "comp_amount": 151017,
+            "comp_ratio": 34.0
+          },
+          {
+            "label": "以攤餘成本計量的金融資產",
+            "kind": "DATA",
+            "current_amount": 62337,
+            "current_ratio": 13.5,
+            "comp_amount": 74378,
+            "comp_ratio": 16.8
+          },
+          {
+            "label": "於聯營企業的投資",
+            "kind": "DATA",
+            "current_amount": 23243,
+            "current_ratio": 5.0,
+            "comp_amount": 25285,
+            "comp_ratio": 5.7
+          },
+          {
+            "label": "其他",
+            "kind": "DATA",
+            "current_amount": 79676,
+            "current_ratio": 17.3,
+            "comp_amount": 75081,
+            "comp_ratio": 16.9
+          },
+          {
+            "label": "總投資資產",
+            "kind": "TOTAL",
+            "current_amount": 462063,
+            "current_ratio": 100.0,
+            "comp_amount": 443885,
+            "comp_ratio": 100.0
+          }
+        ]
+      }
+    }
+  },
+  "aia": {
+    "company_id": "AIA",
+    "company_name": "友邦保险",
+    "legal_entity_name": "友邦保險控股有限公司",
+    "stock_code": "01299.HK",
+    "years": {
+      "2023": {
+        "filename": "友邦保险2023年报.pdf",
+        "bs_page": 160,
+        "bs_printed": 158,
+        "unit_bs": "USD_MILLION",
+        "unit_mda": "USD_MILLION",
+        "bs_members": [
+          {
+            "member_id": "fvtpl_assets",
+            "raw_label": "金融投資",
+            "note": "18",
+            "current_amount": 235936,
+            "comp_amount": 218295
+          },
+          {
+            "member_id": "investment_properties",
+            "raw_label": "投資物業",
+            "note": "17",
+            "current_amount": 4520,
+            "comp_amount": 4610
+          },
+          {
+            "member_id": "derivative_financial_instruments",
+            "raw_label": "衍生金融工具",
+            "note": "19",
+            "current_amount": 1180,
+            "comp_amount": 1090
+          }
+        ],
+        "notes_pages": {
+          "18": {
+            "title": "金融投資",
+            "page": 220,
+            "printed": 218
+          }
+        },
+        "child_tables": [
+          {
+            "child_id": "AIA_2023_NOTE_18_FINANCIAL_INVESTMENTS",
+            "note_number": "18",
+            "title": "金融投資",
+            "physical_page": 220,
+            "printed_page": 218,
+            "unit": "USD_MILLION",
+            "rows": [
+              {
+                "row_order": 1,
+                "raw_label": "債務證券(保單持有人及股東)",
+                "current_amount": 165420,
+                "comp_amount": 154210
+              },
+              {
+                "row_order": 2,
+                "raw_label": "股權及投資基金權益(保單持有人及股東)",
+                "current_amount": 62800,
+                "comp_amount": 56420
+              },
+              {
+                "row_order": 3,
+                "raw_label": "貸款及其他(保單持有人及股東)",
+                "current_amount": 7716,
+                "comp_amount": 7665
+              },
+              {
+                "row_order": 4,
+                "raw_label": "小計(保單持有人及股東)",
+                "current_amount": 235936,
+                "comp_amount": 218295
+              },
+              {
+                "row_order": 5,
+                "raw_label": "單位連結式投資",
+                "current_amount": 32612,
+                "comp_amount": 33506
+              },
+              {
+                "row_order": 6,
+                "raw_label": "合計",
+                "current_amount": 268548,
+                "comp_amount": 251801
+              }
+            ]
+          }
+        ],
+        "mda_cat_page": 42,
+        "mda_cat_printed": 40,
+        "mda_meas_page": 42,
+        "mda_meas_printed": 40,
+        "portfolio_total": 268548,
+        "comp_portfolio_total": 251801,
+        "cat_rows": [
+          {
+            "label": "保單持有人及股東總計",
+            "kind": "DATA",
+            "current_amount": 235936,
+            "current_ratio": 88.0,
+            "comp_amount": 218295,
+            "comp_ratio": 87.0
+          },
+          {
+            "label": "單位連結式合約及合併投資基金總計",
+            "kind": "DATA",
+            "current_amount": 32612,
+            "current_ratio": 12.0,
+            "comp_amount": 33506,
+            "comp_ratio": 13.0
+          },
+          {
+            "label": "總投資",
+            "kind": "TOTAL",
+            "current_amount": 268548,
+            "current_ratio": 100.0,
+            "comp_amount": 251801,
+            "comp_ratio": 100.0
+          }
+        ],
+        "meas_rows": []
+      },
+      "2024": {
+        "filename": "友邦保险2024年报.pdf",
+        "bs_page": 154,
+        "bs_printed": 152,
+        "unit_bs": "USD_MILLION",
+        "unit_mda": "USD_MILLION",
+        "bs_members": [
+          {
+            "member_id": "fvtpl_assets",
+            "raw_label": "金融投資",
+            "note": "18",
+            "current_amount": 227159,
+            "comp_amount": 235936
+          },
+          {
+            "member_id": "investment_properties",
+            "raw_label": "投資物業",
+            "note": "17",
+            "current_amount": 4527,
+            "comp_amount": 4520
+          },
+          {
+            "member_id": "derivative_financial_instruments",
+            "raw_label": "衍生金融工具",
+            "note": "19",
+            "current_amount": 1223,
+            "comp_amount": 1180
+          }
+        ],
+        "notes_pages": {
+          "18": {
+            "title": "金融投資",
+            "page": 223,
+            "printed": 221
+          }
+        },
+        "child_tables": [
+          {
+            "child_id": "AIA_2024_NOTE_18_FINANCIAL_INVESTMENTS",
+            "note_number": "18",
+            "title": "金融投資",
+            "physical_page": 223,
+            "printed_page": 221,
+            "unit": "USD_MILLION",
+            "rows": [
+              {
+                "row_order": 1,
+                "raw_label": "債務證券(保單持有人及股東)",
+                "current_amount": 172335,
+                "comp_amount": 165420
+              },
+              {
+                "row_order": 2,
+                "raw_label": "股權及投資基金權益(保單持有人及股東)",
+                "current_amount": 75450,
+                "comp_amount": 62800
+              },
+              {
+                "row_order": 3,
+                "raw_label": "貸款及其他(保單持有人及股東)",
+                "current_amount": 7548,
+                "comp_amount": 7716
+              },
+              {
+                "row_order": 4,
+                "raw_label": "小計(保單持有人及股東)",
+                "current_amount": 255333,
+                "comp_amount": 235936
+              },
+              {
+                "row_order": 5,
+                "raw_label": "單位連結式投資",
+                "current_amount": 33288,
+                "comp_amount": 32612
+              },
+              {
+                "row_order": 6,
+                "raw_label": "合計",
+                "current_amount": 288621,
+                "comp_amount": 268548
+              }
+            ]
+          }
+        ],
+        "mda_cat_page": 45,
+        "mda_cat_printed": 43,
+        "mda_meas_page": 45,
+        "mda_meas_printed": 43,
+        "portfolio_total": 288621,
+        "comp_portfolio_total": 268548,
+        "cat_rows": [
+          {
+            "label": "保單持有人及股東總計",
+            "kind": "DATA",
+            "current_amount": 255333,
+            "current_ratio": 88.0,
+            "comp_amount": 235936,
+            "comp_ratio": 88.0
+          },
+          {
+            "label": "單位連結式合約及合併投資基金總計",
+            "kind": "DATA",
+            "current_amount": 33288,
+            "current_ratio": 12.0,
+            "comp_amount": 32612,
+            "comp_ratio": 12.0
+          },
+          {
+            "label": "總投資",
+            "kind": "TOTAL",
+            "current_amount": 288621,
+            "current_ratio": 100.0,
+            "comp_amount": 268548,
+            "comp_ratio": 100.0
+          }
+        ],
+        "meas_rows": []
+      },
+      "2025": {
+        "filename": "友邦保险2025年报.pdf",
+        "bs_page": 154,
+        "bs_printed": 152,
+        "unit_bs": "USD_MILLION",
+        "unit_mda": "USD_MILLION",
+        "bs_members": [
+          {
+            "member_id": "fvtpl_assets",
+            "raw_label": "金融投資",
+            "note": "18",
+            "current_amount": 254124,
+            "comp_amount": 227159
+          },
+          {
+            "member_id": "investment_properties",
+            "raw_label": "投資物業",
+            "note": "17",
+            "current_amount": 4499,
+            "comp_amount": 4527
+          },
+          {
+            "member_id": "derivative_financial_instruments",
+            "raw_label": "衍生金融工具",
+            "note": "19",
+            "current_amount": 1489,
+            "comp_amount": 1223
+          }
+        ],
+        "notes_pages": {
+          "18": {
+            "title": "金融投資",
+            "page": 221,
+            "printed": 219
+          }
+        },
+        "child_tables": [
+          {
+            "child_id": "AIA_2025_NOTE_18_FINANCIAL_INVESTMENTS",
+            "note_number": "18",
+            "title": "金融投資",
+            "physical_page": 221,
+            "printed_page": 219,
+            "unit": "USD_MILLION",
+            "rows": [
+              {
+                "row_order": 1,
+                "raw_label": "債務證券(保單持有人及股東)",
+                "current_amount": 181271,
+                "comp_amount": 172335
+              },
+              {
+                "row_order": 2,
+                "raw_label": "股權及投資基金權益(保單持有人及股東)",
+                "current_amount": 95820,
+                "comp_amount": 75450
+              },
+              {
+                "row_order": 3,
+                "raw_label": "貸款及其他(保單持有人及股東)",
+                "current_amount": 8144,
+                "comp_amount": 7548
+              },
+              {
+                "row_order": 4,
+                "raw_label": "小計(保單持有人及股東)",
+                "current_amount": 285235,
+                "comp_amount": 255333
+              },
+              {
+                "row_order": 5,
+                "raw_label": "單位連結式投資",
+                "current_amount": 40090,
+                "comp_amount": 33288
+              },
+              {
+                "row_order": 6,
+                "raw_label": "合計",
+                "current_amount": 325325,
+                "comp_amount": 288621
+              }
+            ]
+          }
+        ],
+        "mda_cat_page": 44,
+        "mda_cat_printed": 42,
+        "mda_meas_page": 44,
+        "mda_meas_printed": 42,
+        "portfolio_total": 325325,
+        "comp_portfolio_total": 288621,
+        "cat_rows": [
+          {
+            "label": "保單持有人及股東總計",
+            "kind": "DATA",
+            "current_amount": 285235,
+            "current_ratio": 88.0,
+            "comp_amount": 255333,
+            "comp_ratio": 88.0
+          },
+          {
+            "label": "單位連結式合約及合併投資基金總計",
+            "kind": "DATA",
+            "current_amount": 40090,
+            "current_ratio": 12.0,
+            "comp_amount": 33288,
+            "comp_ratio": 12.0
+          },
+          {
+            "label": "總投資",
+            "kind": "TOTAL",
+            "current_amount": 325325,
+            "current_ratio": 100.0,
+            "comp_amount": 288621,
+            "comp_ratio": 100.0
+          }
+        ],
+        "meas_rows": []
+      }
+    }
+  },
+  "zhongan_online": {
+    "company_id": "ZHONGAN_ONLINE",
+    "company_name": "众安在线",
+    "legal_entity_name": "众安在线财产保险股份有限公司",
+    "stock_code": "06060.HK",
+    "years": {
+      "2023": {
+        "filename": "众安在线2023年度报告.pdf",
+        "bs_page": 84,
+        "bs_printed": 82,
+        "unit_bs": "RMB_THOUSAND",
+        "unit_mda": "RMB_THOUSAND",
+        "bs_members": [
+          {
+            "member_id": "fvtpl_assets",
+            "raw_label": "以公允價值計量且其變動計入當期損益的金融資產",
+            "note": "21",
+            "current_amount": 22251949,
+            "comp_amount": 21862817
+          },
+          {
+            "member_id": "debt_investment",
+            "raw_label": "以攤餘成本計量的金融資產",
+            "note": "22",
+            "current_amount": 1452127,
+            "comp_amount": 1625145
+          },
+          {
+            "member_id": "other_debt_investment",
+            "raw_label": "以公允價值計量且其變動計入其他綜合收益的債務工具",
+            "note": "23",
+            "current_amount": 8075473,
+            "comp_amount": 9180074
+          },
+          {
+            "member_id": "other_equity_investment",
+            "raw_label": "以公允價值計量且其变动計入其他綜合收益的權益工具",
+            "note": "24",
+            "current_amount": 92351,
+            "comp_amount": 92351
+          },
+          {
+            "member_id": "term_deposits",
+            "raw_label": "定期存款",
+            "note": "26",
+            "current_amount": 30184,
+            "comp_amount": 31380
+          }
+        ],
+        "notes_pages": {
+          "21": {
+            "title": "以公允價值計量且其變動計入當期損益的金融資產",
+            "page": 167,
+            "printed": 165
+          },
+          "22": {
+            "title": "以攤餘成本計量的金融資產",
+            "page": 168,
+            "printed": 166
+          },
+          "23": {
+            "title": "以公允價值計量且其變動計入其他綜合收益的債務工具",
+            "page": 169,
+            "printed": 167
+          },
+          "24": {
+            "title": "以公允價值計量且其變動計入其他綜合收益的權益工具",
+            "page": 170,
+            "printed": 168
+          }
+        },
+        "child_tables": [
+          {
+            "child_id": "ZHONGAN_2023_NOTE_21_FVTPL",
+            "note_number": "21",
+            "title": "以公允價值計量且其變動計入當期損益的金融資產",
+            "physical_page": 167,
+            "printed_page": 165,
+            "unit": "RMB_THOUSAND",
+            "rows": [
+              {
+                "row_order": 1,
+                "raw_label": "已上市-債權投資",
+                "current_amount": 1097927,
+                "comp_amount": 1557719
+              },
+              {
+                "row_order": 2,
+                "raw_label": "已上市-股權投資",
+                "current_amount": 871700,
+                "comp_amount": 1208332
+              },
+              {
+                "row_order": 3,
+                "raw_label": "已上市-基金投資",
+                "current_amount": 551010,
+                "comp_amount": 683432
+              },
+              {
+                "row_order": 4,
+                "raw_label": "非上市-債權投資",
+                "current_amount": 8781767,
+                "comp_amount": 4822698
+              },
+              {
+                "row_order": 5,
+                "raw_label": "非上市-基金投資",
+                "current_amount": 7651831,
+                "comp_amount": 9931569
+              },
+              {
+                "row_order": 6,
+                "raw_label": "非上市-理財產品",
+                "current_amount": 2817604,
+                "comp_amount": 3300268
+              },
+              {
+                "row_order": 7,
+                "raw_label": "非上市-股權投資",
+                "current_amount": 480110,
+                "comp_amount": 358799
+              },
+              {
+                "row_order": 8,
+                "raw_label": "合計",
+                "current_amount": 22251949,
+                "comp_amount": 21862817
+              }
+            ]
+          }
+        ],
+        "mda_cat_page": 33,
+        "mda_cat_printed": 31,
+        "mda_meas_page": 33,
+        "mda_meas_printed": 31,
+        "portfolio_total": 39193055,
+        "comp_portfolio_total": 40183100,
+        "cat_rows": [
+          {
+            "label": "現金、存放銀行及其他金融機構款項",
+            "kind": "DATA",
+            "current_amount": 1576424,
+            "current_ratio": 4.0,
+            "comp_amount": 3526174,
+            "comp_ratio": 8.8
+          },
+          {
+            "label": "固定收益類投資",
+            "kind": "GROUP",
+            "current_amount": 29204330,
+            "current_ratio": 74.5,
+            "comp_amount": 28145200,
+            "comp_ratio": 70.0
+          },
+          {
+            "label": "定期存款",
+            "kind": "DATA",
+            "current_amount": 30184,
+            "current_ratio": 0.1,
+            "comp_amount": 31380,
+            "comp_ratio": 0.1
+          },
+          {
+            "label": "債券",
+            "kind": "DATA",
+            "current_amount": 18436216,
+            "current_ratio": 47.0,
+            "comp_amount": 17850200,
+            "comp_ratio": 44.4
+          },
+          {
+            "label": "債券型基金",
+            "kind": "DATA",
+            "current_amount": 6426231,
+            "current_ratio": 16.4,
+            "comp_amount": 5980420,
+            "comp_ratio": 14.9
+          },
+          {
+            "label": "股權及權益型基金",
+            "kind": "GROUP",
+            "current_amount": 8412301,
+            "current_ratio": 21.5,
+            "comp_amount": 8511726,
+            "comp_ratio": 21.2
+          },
+          {
+            "label": "股票",
+            "kind": "DATA",
+            "current_amount": 923595,
+            "current_ratio": 2.4,
+            "comp_amount": 1250420,
+            "comp_ratio": 3.1
+          },
+          {
+            "label": "未上市公司股權",
+            "kind": "DATA",
+            "current_amount": 5817306,
+            "current_ratio": 14.8,
+            "comp_amount": 5640210,
+            "comp_ratio": 14.0
+          },
+          {
+            "label": "投資資產總額",
+            "kind": "TOTAL",
+            "current_amount": 39193055,
+            "current_ratio": 100.0,
+            "comp_amount": 40183100,
+            "comp_ratio": 100.0
+          }
+        ],
+        "meas_rows": []
+      },
+      "2024": {
+        "filename": "众安在线2024年度报告.pdf",
+        "bs_page": 83,
+        "bs_printed": 81,
+        "unit_bs": "RMB_THOUSAND",
+        "unit_mda": "RMB_THOUSAND",
+        "bs_members": [
+          {
+            "member_id": "fvtpl_assets",
+            "raw_label": "以公允價值計量且其變動計入當期損益的金融資產",
+            "note": "21",
+            "current_amount": 20706284,
+            "comp_amount": 22251949
+          },
+          {
+            "member_id": "debt_investment",
+            "raw_label": "以攤餘成本計量的金融資產",
+            "note": "22",
+            "current_amount": 1051049,
+            "comp_amount": 1452127
+          },
+          {
+            "member_id": "other_debt_investment",
+            "raw_label": "以公允價值計量且其變動計入其他綜合收益的債務工具",
+            "note": "23",
+            "current_amount": 10528854,
+            "comp_amount": 8075473
+          },
+          {
+            "member_id": "other_equity_investment",
+            "raw_label": "以公允價值計量且其變動計入其他綜合收益的權益工具",
+            "note": "24",
+            "current_amount": 789783,
+            "comp_amount": 92351
+          },
+          {
+            "member_id": "term_deposits",
+            "raw_label": "定期存款",
+            "note": "26",
+            "current_amount": 30827,
+            "comp_amount": 30184
+          }
+        ],
+        "notes_pages": {
+          "21": {
+            "title": "以公允價值計量且其變動計入當期損益的金融資產",
+            "page": 159,
+            "printed": 157
+          },
+          "22": {
+            "title": "以攤餘成本計量的金融資產",
+            "page": 160,
+            "printed": 158
+          },
+          "23": {
+            "title": "以公允價值計量且其變動計入其他綜合收益的債務工具",
+            "page": 161,
+            "printed": 159
+          },
+          "24": {
+            "title": "以公允價值計量且其變動計入其他綜合收益的權益工具",
+            "page": 162,
+            "printed": 160
+          }
+        },
+        "child_tables": [
+          {
+            "child_id": "ZHONGAN_2024_NOTE_21_FVTPL",
+            "note_number": "21",
+            "title": "以公允價值計量且其變動計入當期損益的金融資產",
+            "physical_page": 159,
+            "printed_page": 157,
+            "unit": "RMB_THOUSAND",
+            "rows": [
+              {
+                "row_order": 1,
+                "raw_label": "債權投資",
+                "current_amount": 10540326,
+                "comp_amount": 9859447
+              },
+              {
+                "row_order": 2,
+                "raw_label": "基金投資",
+                "current_amount": 6512880,
+                "comp_amount": 8202841
+              },
+              {
+                "row_order": 3,
+                "raw_label": "理財產品",
+                "current_amount": 2111237,
+                "comp_amount": 2817604
+              },
+              {
+                "row_order": 4,
+                "raw_label": "股權投資",
+                "current_amount": 1521556,
+                "comp_amount": 1351810
+              },
+              {
+                "row_order": 5,
+                "raw_label": "資產支持證券",
+                "current_amount": 20285,
+                "comp_amount": 20247
+              },
+              {
+                "row_order": 6,
+                "raw_label": "合計",
+                "current_amount": 20706284,
+                "comp_amount": 22251949
+              }
+            ]
+          }
+        ],
+        "mda_cat_page": 32,
+        "mda_cat_printed": 30,
+        "mda_meas_page": 32,
+        "mda_meas_printed": 30,
+        "portfolio_total": 41007150,
+        "comp_portfolio_total": 39193055,
+        "cat_rows": [
+          {
+            "label": "現金、存放銀行及其他金融機構款項",
+            "kind": "DATA",
+            "current_amount": 1466741,
+            "current_ratio": 3.6,
+            "comp_amount": 1576424,
+            "comp_ratio": 4.0
+          },
+          {
+            "label": "固定收益類投資",
+            "kind": "GROUP",
+            "current_amount": 30945296,
+            "current_ratio": 75.4,
+            "comp_amount": 29204330,
+            "comp_ratio": 74.5
+          },
+          {
+            "label": "定期存款",
+            "kind": "DATA",
+            "current_amount": 30827,
+            "current_ratio": 0.1,
+            "comp_amount": 30184,
+            "comp_ratio": 0.1
+          },
+          {
+            "label": "債券",
+            "kind": "DATA",
+            "current_amount": 21596077,
+            "current_ratio": 52.6,
+            "comp_amount": 18436216,
+            "comp_ratio": 47.0
+          },
+          {
+            "label": "債券型基金",
+            "kind": "DATA",
+            "current_amount": 5503340,
+            "current_ratio": 13.4,
+            "comp_amount": 6426231,
+            "comp_ratio": 16.4
+          },
+          {
+            "label": "股權及權益型基金",
+            "kind": "GROUP",
+            "current_amount": 8595112,
+            "current_ratio": 21.0,
+            "comp_amount": 8412301,
+            "comp_ratio": 21.5
+          },
+          {
+            "label": "股票",
+            "kind": "DATA",
+            "current_amount": 1713198,
+            "current_ratio": 4.2,
+            "comp_amount": 923595,
+            "comp_ratio": 2.4
+          },
+          {
+            "label": "未上市公司股權",
+            "kind": "DATA",
+            "current_amount": 6189476,
+            "current_ratio": 15.1,
+            "comp_amount": 5817306,
+            "comp_ratio": 14.8
+          },
+          {
+            "label": "投資資產總額",
+            "kind": "TOTAL",
+            "current_amount": 41007150,
+            "current_ratio": 100.0,
+            "comp_amount": 39193055,
+            "comp_ratio": 100.0
+          }
+        ],
+        "meas_rows": []
+      },
+      "2025": {
+        "filename": "众安在线2025年度报告.pdf",
+        "bs_page": 80,
+        "bs_printed": 78,
+        "unit_bs": "RMB_THOUSAND",
+        "unit_mda": "RMB_THOUSAND",
+        "bs_members": [
+          {
+            "member_id": "fvtpl_assets",
+            "raw_label": "以公允價值計量且其變動計入當期損益的金融資產",
+            "note": "21",
+            "current_amount": 20906890,
+            "comp_amount": 20706284
+          },
+          {
+            "member_id": "debt_investment",
+            "raw_label": "以攤餘成本計量的金融資產",
+            "note": "22",
+            "current_amount": 782103,
+            "comp_amount": 1051049
+          },
+          {
+            "member_id": "other_debt_investment",
+            "raw_label": "以公允價值計量且其變動計入其他綜合收益的債務工具",
+            "note": "23",
+            "current_amount": 9926132,
+            "comp_amount": 10528854
+          },
+          {
+            "member_id": "other_equity_investment",
+            "raw_label": "以公允價值計量且其變動計入其他綜合收益的權益工具",
+            "note": "24",
+            "current_amount": 1004570,
+            "comp_amount": 789783
+          },
+          {
+            "member_id": "term_deposits",
+            "raw_label": "定期存款",
+            "note": "26",
+            "current_amount": 30077,
+            "comp_amount": 30827
+          }
+        ],
+        "notes_pages": {
+          "21": {
+            "title": "以公允價值計量且其變動計入當期損益的金融資產",
+            "page": 156,
+            "printed": 154
+          },
+          "22": {
+            "title": "以攤餘成本計量的金融資產",
+            "page": 157,
+            "printed": 155
+          },
+          "23": {
+            "title": "以公允價值計量且其變動計入其他綜合收益的債務工具",
+            "page": 158,
+            "printed": 156
+          },
+          "24": {
+            "title": "以公允價值計量且其變動計入其他綜合收益的權益工具",
+            "page": 159,
+            "printed": 157
+          }
+        },
+        "child_tables": [
+          {
+            "child_id": "ZHONGAN_2025_NOTE_21_FVTPL",
+            "note_number": "21",
+            "title": "以公允價值計量且其變動計入當期損益的金融資產",
+            "physical_page": 156,
+            "printed_page": 154,
+            "unit": "RMB_THOUSAND",
+            "rows": [
+              {
+                "row_order": 1,
+                "raw_label": "債券投資",
+                "current_amount": 8730253,
+                "comp_amount": 10540326
+              },
+              {
+                "row_order": 2,
+                "raw_label": "基金投資",
+                "current_amount": 6377784,
+                "comp_amount": 6512880
+              },
+              {
+                "row_order": 3,
+                "raw_label": "理財產品",
+                "current_amount": 3133827,
+                "comp_amount": 2111237
+              },
+              {
+                "row_order": 4,
+                "raw_label": "股權投資",
+                "current_amount": 2635615,
+                "comp_amount": 1521556
+              },
+              {
+                "row_order": 5,
+                "raw_label": "資產支持證券",
+                "current_amount": 20271,
+                "comp_amount": 20285
+              },
+              {
+                "row_order": 6,
+                "raw_label": "債權投資計劃",
+                "current_amount": 9140,
+                "comp_amount": 0
+              },
+              {
+                "row_order": 7,
+                "raw_label": "合計",
+                "current_amount": 20906890,
+                "comp_amount": 20706284
+              }
+            ]
+          }
+        ],
+        "mda_cat_page": 28,
+        "mda_cat_printed": 26,
+        "mda_meas_page": 28,
+        "mda_meas_printed": 26,
+        "portfolio_total": 41340618,
+        "comp_portfolio_total": 41007150,
+        "cat_rows": [
+          {
+            "label": "現金、存放銀行及其他金融機構款項",
+            "kind": "DATA",
+            "current_amount": 3035292,
+            "current_ratio": 7.3,
+            "comp_amount": 1466741,
+            "comp_ratio": 3.6
+          },
+          {
+            "label": "固定收益類投資",
+            "kind": "GROUP",
+            "current_amount": 29175933,
+            "current_ratio": 70.6,
+            "comp_amount": 30945296,
+            "comp_ratio": 75.4
+          },
+          {
+            "label": "定期存款",
+            "kind": "DATA",
+            "current_amount": 30077,
+            "current_ratio": 0.1,
+            "comp_amount": 30827,
+            "comp_ratio": 0.1
+          },
+          {
+            "label": "債券",
+            "kind": "DATA",
+            "current_amount": 18703060,
+            "current_ratio": 45.2,
+            "comp_amount": 21596077,
+            "comp_ratio": 52.6
+          },
+          {
+            "label": "債券型基金",
+            "kind": "DATA",
+            "current_amount": 5677239,
+            "current_ratio": 13.7,
+            "comp_amount": 5503340,
+            "comp_ratio": 13.4
+          },
+          {
+            "label": "股權及權益型基金",
+            "kind": "GROUP",
+            "current_amount": 9129393,
+            "current_ratio": 22.1,
+            "comp_amount": 8595112,
+            "comp_ratio": 21.0
+          },
+          {
+            "label": "股票",
+            "kind": "DATA",
+            "current_amount": 3042853,
+            "current_ratio": 7.4,
+            "comp_amount": 1713198,
+            "comp_ratio": 4.2
+          },
+          {
+            "label": "未上市公司股權",
+            "kind": "DATA",
+            "current_amount": 5472711,
+            "current_ratio": 13.2,
+            "comp_amount": 6189476,
+            "comp_ratio": 15.1
+          },
+          {
+            "label": "投資資產總額",
+            "kind": "TOTAL",
+            "current_amount": 41340618,
+            "current_ratio": 100.0,
+            "comp_amount": 41007150,
+            "comp_ratio": 100.0
+          }
+        ],
+        "meas_rows": []
+      }
+    }
+  }
+}

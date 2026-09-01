@@ -1,0 +1,280 @@
+identity_contract_version: GOLDEN_IDENTITY_V1_2
+definition_id: FINANCIAL_INVESTMENT_V1
+family: financial_investment
+source_golden_id: CHINA_RE_2024_GOLDEN_VALUES
+filing_identity:
+  company_id: CHINA_RE
+  legal_entity_name: 中国再保险（集团）股份有限公司
+  report_year: 2024
+  source_scope: CONSOLIDATED
+  canonical_pdf_filename: 中国再保2024年年度报告.pdf
+  pdf_sha256: 69055942faf87757f7f0826fa988cf87516a7e3684fd927de3026571b6d480ad
+  page_count: 379
+  source_type: ANNUAL_REPORT
+physical_tables:
+- physical_table_id: CHINA_RE_2024::fvtpl_assets::PRIMARY
+  physical_page_number: 233
+  printed_page_number: '231'
+  title: 以公允價值計量且其變動計入當期損益的金融資產
+  unit: RMB_THOUSAND
+  table_classification: PRIMARY_TABLE
+rows:
+- golden_row_id: GROW_4f355f2d4d238b8f2c7e
+  physical_table_id: CHINA_RE_2024::MAIN_STATEMENT
+  member_table_id: fvtpl_assets
+  classification_axis: FINANCIAL_INVESTMENT_MEMBER_SET
+  raw_label: 以公允價值計量且其變動計入當期損益的金融資產
+  normalized_label: 以公允價值計量且其變動計入當期損益的金融資產
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: MEMBER
+  source_row_order: null
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: SOURCE_DECLARED
+    value: 118,123,741
+- golden_row_id: GROW_ece9bad349c3e0c48def
+  physical_table_id: CHINA_RE_2024::fvtpl_assets::PRIMARY
+  member_table_id: fvtpl_assets
+  classification_axis: ASSET_TYPE
+  raw_label: 債權型投資-政府債券(上市)
+  normalized_label: 債權型投資-政府債券(上市)
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 1
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: RMB_THOUSAND
+    value: 32,741
+  - period_role: COMPARATIVE
+    period_label: 2023年重述
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: RMB_THOUSAND
+    value: 10,402
+- golden_row_id: GROW_7aa4787c78210f6fa189
+  physical_table_id: CHINA_RE_2024::fvtpl_assets::PRIMARY
+  member_table_id: fvtpl_assets
+  classification_axis: ASSET_TYPE
+  raw_label: 債權型投資-金融債券(上市)
+  normalized_label: 債權型投資-金融債券(上市)
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 2
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: RMB_THOUSAND
+    value: 1,120,540
+  - period_role: COMPARATIVE
+    period_label: 2023年重述
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: RMB_THOUSAND
+    value: 1,079,629
+- golden_row_id: GROW_4499f02683c30bba1d97
+  physical_table_id: CHINA_RE_2024::fvtpl_assets::PRIMARY
+  member_table_id: fvtpl_assets
+  classification_axis: ASSET_TYPE
+  raw_label: 債權型投資-企業債券(上市)
+  normalized_label: 債權型投資-企業債券(上市)
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 3
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: RMB_THOUSAND
+    value: 5,890,120
+  - period_role: COMPARATIVE
+    period_label: 2023年重述
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: RMB_THOUSAND
+    value: 5,421,050
+- golden_row_id: GROW_5202141a93578ab91784
+  physical_table_id: CHINA_RE_2024::fvtpl_assets::PRIMARY
+  member_table_id: fvtpl_assets
+  classification_axis: ASSET_TYPE
+  raw_label: 股權及基金型投資-基金(上市)
+  normalized_label: 股權及基金型投資-基金(上市)
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 4
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: RMB_THOUSAND
+    value: 31,667,000
+  - period_role: COMPARATIVE
+    period_label: 2023年重述
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: RMB_THOUSAND
+    value: 32,347,000
+- golden_row_id: GROW_99d15b52ae4417a6ef8b
+  physical_table_id: CHINA_RE_2024::fvtpl_assets::PRIMARY
+  member_table_id: fvtpl_assets
+  classification_axis: ASSET_TYPE
+  raw_label: 股權及基金型投資-股票(上市)
+  normalized_label: 股權及基金型投資-股票(上市)
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 5
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: RMB_THOUSAND
+    value: 27,088,000
+  - period_role: COMPARATIVE
+    period_label: 2023年重述
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: RMB_THOUSAND
+    value: 25,317,000
+- golden_row_id: GROW_7682c789fc3700adb9c0
+  physical_table_id: CHINA_RE_2024::fvtpl_assets::PRIMARY
+  member_table_id: fvtpl_assets
+  classification_axis: ASSET_TYPE
+  raw_label: 其他投資(非上市及其他)
+  normalized_label: 其他投資(非上市及其他)
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 6
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: RMB_THOUSAND
+    value: 52,325,340
+  - period_role: COMPARATIVE
+    period_label: 2023年重述
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: RMB_THOUSAND
+    value: 40,207,637
+- golden_row_id: GROW_3594820cc862219615e5
+  physical_table_id: CHINA_RE_2024::fvtpl_assets::PRIMARY
+  member_table_id: fvtpl_assets
+  classification_axis: ASSET_TYPE
+  raw_label: 合計
+  normalized_label: 合計
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 7
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: RMB_THOUSAND
+    value: 118,123,741
+  - period_role: COMPARATIVE
+    period_label: 2023年重述
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: RMB_THOUSAND
+    value: 104,382,718
+- golden_row_id: GROW_841f62f1d523cdf1d732
+  physical_table_id: CHINA_RE_2024::MAIN_STATEMENT
+  member_table_id: debt_investment
+  classification_axis: FINANCIAL_INVESTMENT_MEMBER_SET
+  raw_label: 以攤餘成本計量的金融資產
+  normalized_label: 以攤餘成本計量的金融資產
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: MEMBER
+  source_row_order: null
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: SOURCE_DECLARED
+    value: 74,377,733
+- golden_row_id: GROW_0de7b9fb59daf5cac5e5
+  physical_table_id: CHINA_RE_2024::MAIN_STATEMENT
+  member_table_id: other_debt_investment
+  classification_axis: FINANCIAL_INVESTMENT_MEMBER_SET
+  raw_label: 以公允價值計量且其變動計入其他綜合收益的債務工具
+  normalized_label: 以公允價值計量且其變動計入其他綜合收益的債務工具
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: MEMBER
+  source_row_order: null
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: SOURCE_DECLARED
+    value: 139,232,691
+- golden_row_id: GROW_35118bca3bf7241a3968
+  physical_table_id: CHINA_RE_2024::MAIN_STATEMENT
+  member_table_id: other_equity_investment
+  classification_axis: FINANCIAL_INVESTMENT_MEMBER_SET
+  raw_label: 以公允價值計量且其變動計入其他綜合收益的權益工具
+  normalized_label: 以公允價值計量且其變動計入其他綜合收益的權益工具
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: MEMBER
+  source_row_order: null
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: SOURCE_DECLARED
+    value: 11,784,459
+- golden_row_id: GROW_8f25cbd73aae968a384a
+  physical_table_id: CHINA_RE_2024::MAIN_STATEMENT
+  member_table_id: term_deposits
+  classification_axis: FINANCIAL_INVESTMENT_MEMBER_SET
+  raw_label: 定期存款
+  normalized_label: 定期存款
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: MEMBER
+  source_row_order: null
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: SOURCE_DECLARED
+    value: 27,391,847
+identity_provenance: DERIVED_FROM_CERTIFIED_GOLDEN_FACTS_NOT_RUNTIME_CAPTURE

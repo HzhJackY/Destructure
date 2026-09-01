@@ -1,0 +1,49 @@
+[project]
+name = "axa-research"
+version = "6.13.0"
+description = "Auditable insurance annual-report table extraction and research-data workflow"
+readme = "README.md"
+requires-python = ">=3.11,<3.15"
+dependencies = [
+    "streamlit==1.58.0",
+    "pandas==3.0.3",
+    "openpyxl==3.1.5",
+    "tabulate==0.10.0",
+    "PyMuPDF==1.27.2.3",
+    "pdfplumber==0.11.9",
+    "PyYAML==6.0.3",
+]
+
+[project.optional-dependencies]
+ocr = [
+    "numpy==2.3.5",
+    "Pillow==12.2.0",
+]
+llm = [
+    "openai==2.46.0",
+    "google-genai==2.8.0",
+    "pydantic==2.13.4",
+]
+dev = [
+    "pytest==9.0.3",
+]
+
+# This repository is a flat source application, not a wheel distribution.
+# uv should create the environment and install dependencies without packaging
+# the source tree. The application is launched from the checked-out directory.
+[tool.uv]
+package = false
+
+[tool.axa_research.release]
+lock-file = "uv.lock"
+lock-kind = "uv-universal-lock"
+lock-tool = "uv 0.12.3"
+lock-python = ">=3.11,<3.15"
+lock-platform = "universal-resolution"
+environment-snapshot = "requirements.environment-snapshot.txt"
+clean-environment-validation = "NOT_RUN_FOR_V6_13_DEVELOPMENT_CANDIDATE"
+license-decision = "AGPL-3.0-only; PyMuPDF AGPL path selected; Windows companion carries fixed runtime provenance, licenses, and corresponding source"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra --ignore=tests/user_journeys"

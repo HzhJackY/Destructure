@@ -1,0 +1,1575 @@
+{
+  "source_file": "年报.pdf",
+  "file_sha256": "e115146901c46d16bb5b3ce34883955755c4266b86a8a6d5c590a36118be45ef",
+  "extraction_stats": {
+    "pages": 159,
+    "pages_with_text": 142,
+    "pages_with_tables": 143,
+    "table_blocks": 157,
+    "fallback_row_blocks": 131,
+    "likely_scanned_pages": [
+      51,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71
+    ]
+  },
+  "results": [
+    {
+      "file": "年报.pdf",
+      "file_sha256": "e115146901c46d16bb5b3ce34883955755c4266b86a8a6d5c590a36118be45ef",
+      "metric_input": "营业收入",
+      "aliases_input": [],
+      "standard_metric": "营业收入",
+      "layer": "L0",
+      "confidence": 1.0,
+      "status": "RESOLVED",
+      "reason": "standard; high_score",
+      "selected": {
+        "candidate_id": "c0005",
+        "page": 5,
+        "block_id": "p5_r10",
+        "source_method": "coordinate_rows",
+        "table_type": "利润表",
+        "row_index": 9,
+        "label": "营业收入",
+        "normalized_label": "营业收入",
+        "score": 1.0,
+        "score_detail": {
+          "exact_standard": 1.0,
+          "table_bonus": 0.08,
+          "position_bonus": 0.015,
+          "numeric_bonus": 0.035
+        },
+        "unit_hint": null,
+        "values": [
+          {
+            "column_index": 1,
+            "raw": "6,546,454,936.56",
+            "parsed_number": 6546454936.56,
+            "header_context": "2024年度 | 本集团",
+            "unit_original": null,
+            "unit_multiplier": null,
+            "value_yuan": null,
+            "period_score": 24.0
+          },
+          {
+            "column_index": 2,
+            "raw": "7,992,978,922.57",
+            "parsed_number": 7992978922.57,
+            "header_context": "",
+            "unit_original": null,
+            "unit_multiplier": null,
+            "value_yuan": null,
+            "period_score": 0.0
+          }
+        ],
+        "snippet_rows": [
+          [
+            "本集团",
+            "本集团"
+          ],
+          [
+            "营业收入",
+            "6,546,454,936.56",
+            "7,992,978,922.57"
+          ],
+          [
+            "保险服务收入",
+            "2,266,929,535.88",
+            "1,928,295,192.60"
+          ]
+        ]
+      },
+      "primary_value": {
+        "column_index": 1,
+        "raw": "6,546,454,936.56",
+        "parsed_number": 6546454936.56,
+        "header_context": "2024年度 | 本集团",
+        "unit_original": null,
+        "unit_multiplier": null,
+        "value_yuan": null,
+        "period_score": 24.0
+      },
+      "primary_value_confidence": "MEDIUM",
+      "warnings": [
+        "未可靠识别原始单位；value_yuan 未自动生成或需人工确认。",
+        "该候选来自坐标行重建而非结构化表格识别，建议人工核对PDF原页。"
+      ],
+      "top_candidates": [
+        {
+          "candidate_id": "c0005",
+          "page": 5,
+          "block_id": "p5_r10",
+          "source_method": "coordinate_rows",
+          "table_type": "利润表",
+          "row_index": 9,
+          "label": "营业收入",
+          "normalized_label": "营业收入",
+          "score": 1.0,
+          "score_detail": {
+            "exact_standard": 1.0,
+            "table_bonus": 0.08,
+            "position_bonus": 0.015,
+            "numeric_bonus": 0.035
+          },
+          "unit_hint": null,
+          "values": [
+            {
+              "column_index": 1,
+              "raw": "6,546,454,936.56",
+              "parsed_number": 6546454936.56,
+              "header_context": "2024年度 | 本集团",
+              "unit_original": null,
+              "unit_multiplier": null,
+              "value_yuan": null,
+              "period_score": 24.0
+            },
+            {
+              "column_index": 2,
+              "raw": "7,992,978,922.57",
+              "parsed_number": 7992978922.57,
+              "header_context": "",
+              "unit_original": null,
+              "unit_multiplier": null,
+              "value_yuan": null,
+              "period_score": 0.0
+            }
+          ],
+          "snippet_rows": [
+            [
+              "本集团",
+              "本集团"
+            ],
+            [
+              "营业收入",
+              "6,546,454,936.56",
+              "7,992,978,922.57"
+            ],
+            [
+              "保险服务收入",
+              "2,266,929,535.88",
+              "1,928,295,192.60"
+            ]
+          ]
+        },
+        {
+          "candidate_id": "c0020",
+          "page": 11,
+          "block_id": "p11_r22",
+          "source_method": "coordinate_rows",
+          "table_type": "资产负债表",
+          "row_index": 21,
+          "label": "营业收入",
+          "normalized_label": "营业收入",
+          "score": 0.985,
+          "score_detail": {
+            "exact_standard": 1.0,
+            "table_mismatch_penalty": -0.05,
+            "position_bonus": 0.0,
+            "numeric_bonus": 0.035
+          },
+          "unit_hint": null,
+          "values": [
+            {
+              "column_index": 1,
+              "raw": "6,521,035,428.96",
+              "parsed_number": 6521035428.96,
+              "header_context": "2024年度 | 本公司",
+              "unit_original": null,
+              "unit_multiplier": null,
+              "value_yuan": null,
+              "period_score": 24.0
+            },
+            {
+              "column_index": 2,
+              "raw": "7,975,679,087.11",
+              "parsed_number": 7975679087.11,
+              "header_context": "-",
+              "unit_original": null,
+              "unit_multiplier": null,
+              "value_yuan": null,
+              "period_score": 0.0
+            }
+          ],
+          "snippet_rows": [
+            [
+              "本公司",
+              "本公司"
+            ],
+            [
+              "营业收入",
+              "6,521,035,428.96",
+              "7,975,679,087.11"
+            ],
+            [
+              "保险服务收入",
+              "2,266,929,535.88",
+              "1,928,295,192.60"
+            ]
+          ]
+        },
+        {
+          "candidate_id": "c0025",
+          "page": 12,
+          "block_id": "p12_r24",
+          "source_method": "coordinate_rows",
+          "table_type": "利润表",
+          "row_index": 2,
+          "label": "营业利润",
+          "normalized_label": "营业利润",
+          "score": 0.57,
+          "score_detail": {
+            "string_similarity": 0.315,
+            "keyword_overlap": 0.11,
+            "table_bonus": 0.08,
+            "position_bonus": 0.03,
+            "numeric_bonus": 0.035
+          },
+          "unit_hint": null,
+          "values": [
+            {
+              "column_index": 1,
+              "raw": "1,128,474,010.91",
+              "parsed_number": 1128474010.91,
+              "header_context": "",
+              "unit_original": null,
+              "unit_multiplier": null,
+              "value_yuan": null,
+              "period_score": 0.0
+            },
+            {
+              "column_index": 2,
+              "raw": "2,501,548,790.90",
+              "parsed_number": 2501548790.9,
+              "header_context": "",
+              "unit_original": null,
+              "unit_multiplier": null,
+              "value_yuan": null,
+              "period_score": 0.0
+            }
+          ],
+          "snippet_rows": [
+            [
+              "其他业务成本",
+              "(353,960,338.35)",
+              "(491,295,910.48)"
+            ],
+            [
+              "营业利润",
+              "1,128,474,010.91",
+              "2,501,548,790.90"
+            ],
+            [
+              "加：营业外收入",
+              "172,677.77",
+              "317,327.61"
+            ]
+          ]
+        },
+        {
+          "candidate_id": "c0001",
+          "page": 5,
+          "block_id": "p5_t9",
+          "source_method": "pdfplumber_table",
+          "table_type": "利润表",
+          "row_index": 9,
+          "label": "业收入 6,5",
+          "normalized_label": "业收入65",
+          "score": 0.544286,
+          "score_detail": {
+            "string_similarity": 0.42,
+            "keyword_overlap": 0.11,
+            "table_bonus": 0.08,
+            "position_bonus": 0.014286,
+            "no_numeric_penalty": -0.08
+          },
+          "unit_hint": null,
+          "values": [],
+          "snippet_rows": [
+            [
+              "",
+              "本集团 本集团"
+            ],
+            [
+              "业收入 6,5",
+              "46,454,936.56 7,992,978,922.57"
+            ],
+            [
+              "保险服务收入 2,2",
+              "66,929,535.88 1,928,295,192.60"
+            ]
+          ]
+        },
+        {
+          "candidate_id": "c0009",
+          "page": 5,
+          "block_id": "p5_r10",
+          "source_method": "coordinate_rows",
+          "table_type": "利润表",
+          "row_index": 19,
+          "label": "营业支出",
+          "normalized_label": "营业支出",
+          "score": 0.54,
+          "score_detail": {
+            "string_similarity": 0.315,
+            "keyword_overlap": 0.11,
+            "table_bonus": 0.08,
+            "position_bonus": 0.0,
+            "numeric_bonus": 0.035
+          },
+          "unit_hint": null,
+          "values": [
+            {
+              "column_index": 1,
+              "raw": "5,416,790,255.74",
+              "parsed_number": 5416790255.74,
+              "header_context": "2024年度 | 本集团",
+              "unit_original": null,
+              "unit_multiplier": null,
+              "value_yuan": null,
+              "period_score": 24.0
+            },
+            {
+              "column_index": 2,
+              "raw": "5,491,430,131.67",
+              "parsed_number": 5491430131.67,
+              "header_context": "",
+              "unit_original": null,
+              "unit_multiplier": null,
+              "value_yuan": null,
+              "period_score": 0.0
+            }
+          ],
+          "snippet_rows": [
+            [
+              "其他收益",
+              "1,155,584.88",
+              "4,602,777.67"
+            ],
+            [
+              "营业支出",
+              "5,416,790,255.74",
+              "5,491,430,131.67"
+            ],
+            [
+              "保险服务费用",
+              "1,235,536,466.56",
+              "1,248,635,854.14"
+            ]
+          ]
+        },
+        {
+          "candidate_id": "c0016",
+          "page": 5,
+          "block_id": "p5_r10",
+          "source_method": "coordinate_rows",
+          "table_type": "利润表",
+          "row_index": 30,
+          "label": "营业利润",
+          "normalized_label": "营业利润",
+          "score": 0.54,
+          "score_detail": {
+            "string_similarity": 0.315,
+            "keyword_overlap": 0.11,
+            "table_bonus": 0.08,
+            "position_bonus": 0.0,
+            "numeric_bonus": 0.035
+          },
+          "unit_hint": null,
+          "values": [
+            {
+              "column_index": 1,
+              "raw": "1,129,664,680.82",
+              "parsed_number": 1129664680.82,
+              "header_context": "2024年度 | 本集团",
+              "unit_original": null,
+              "unit_multiplier": null,
+              "value_yuan": null,
+              "period_score": 24.0
+            },
+            {
+              "column_index": 2,
+              "raw": "2,501,548,790.90",
+              "parsed_number": 2501548790.9,
+              "header_context": "",
+              "unit_original": null,
+              "unit_multiplier": null,
+              "value_yuan": null,
+              "period_score": 0.0
+            }
+          ],
+          "snippet_rows": [
+            [
+              "其他业务成本",
+              "(327,804,340.33)",
+              "(473,498,825.35)"
+            ],
+            [
+              "营业利润",
+              "1,129,664,680.82",
+              "2,501,548,790.90"
+            ],
+            [
+              "加：营业外收入",
+              "172,677.77",
+              "317,327.61"
+            ]
+          ]
+        },
+        {
+          "candidate_id": "c0026",
+          "page": 12,
+          "block_id": "p12_r24",
+          "source_method": "coordinate_rows",
+          "table_type": "利润表",
+          "row_index": 4,
+          "label": "减：营业外支出",
+          "normalized_label": "营业外支出",
+          "score": 0.525,
+          "score_detail": {
+            "string_similarity": 0.28,
+            "keyword_overlap": 0.11,
+            "table_bonus": 0.08,
+            "position_bonus": 0.02,
+            "numeric_bonus": 0.035
+          },
+          "unit_hint": null,
+          "values": [
+            {
+              "column_index": 1,
+              "raw": "1,248,410.08",
+              "parsed_number": 1248410.08,
+              "header_context": "",
+              "unit_original": null,
+              "unit_multiplier": null,
+              "value_yuan": null,
+              "period_score": 0.0
+            },
+            {
+              "column_index": 2,
+              "raw": "1,194,942.11",
+              "parsed_number": 1194942.11,
+              "header_context": "",
+              "unit_original": null,
+              "unit_multiplier": null,
+              "value_yuan": null,
+              "period_score": 0.0
+            }
+          ],
+          "snippet_rows": [
+            [
+              "加：营业外收入",
+              "172,677.77",
+              "317,327.61"
+            ],
+            [
+              "减：营业外支出",
+              "1,248,410.08",
+              "1,194,942.11"
+            ],
+            [
+              "利润总额",
+              "1,127,398,278.60",
+              "2,500,671,176.40"
+            ]
+          ]
+        },
+        {
+          "candidate_id": "c0017",
+          "page": 5,
+          "block_id": "p5_r10",
+          "source_method": "coordinate_rows",
+          "table_type": "利润表",
+          "row_index": 32,
+          "label": "减：营业外支出",
+          "normalized_label": "营业外支出",
+          "score": 0.505,
+          "score_detail": {
+            "string_similarity": 0.28,
+            "keyword_overlap": 0.11,
+            "table_bonus": 0.08,
+            "position_bonus": 0.0,
+            "numeric_bonus": 0.035
+          },
+          "unit_hint": null,
+          "values": [
+            {
+              "column_index": 1,
+              "raw": "1,248,410.08",
+              "parsed_number": 1248410.08,
+              "header_context": "2024年度 | 本集团",
+              "unit_original": null,
+              "unit_multiplier": null,
+              "value_yuan": null,
+              "period_score": 24.0
+            },
+            {
+              "column_index": 2,
+              "raw": "1,194,942.11",
+              "parsed_number": 1194942.11,
+              "header_context": "",
+              "unit_original": null,
+              "unit_multiplier": null,
+              "value_yuan": null,
+              "period_score": 0.0
+            }
+          ],
+          "snippet_rows": [
+            [
+              "加：营业外收入",
+              "172,677.77",
+              "317,327.61"
+            ],
+            [
+              "减：营业外支出",
+              "1,248,410.08",
+              "1,194,942.11"
+            ],
+            [
+              "利润总额",
+              "1,128,588,948.51",
+              "2,500,671,176.40"
+            ]
+          ]
+        },
+        {
+          "candidate_id": "c0035",
+          "page": 131,
+          "block_id": "p131_r232",
+          "source_method": "coordinate_rows",
+          "table_type": "未知表",
+          "row_index": 9,
+          "label": "股息收入",
+          "normalized_label": "股息收入",
+          "score": 0.479286,
+          "score_detail": {
+            "string_similarity": 0.315,
+            "keyword_overlap": 0.11,
+            "position_bonus": 0.014286,
+            "numeric_bonus": 0.04
+          },
+          "unit_hint": "元",
+          "values": [
+            {
+              "column_index": 1,
+              "raw": "700,945,162.85",
+              "parsed_number": 700945162.85,
+              "header_context": "2025年度 | 本公司 | （已重述）",
+              "unit_original": "元",
+              "unit_multiplier": 1.0,
+              "value_yuan": 700945162.85,
+              "period_score": 25.0
+            },
+            {
+              "column_index": 2,
+              "raw": "741,619,227.84",
+              "parsed_number": 741619227.84,
+              "header_context": "2024年度 | 本集团",
+              "unit_original": "元",
+              "unit_multiplier": 1.0,
+              "value_yuan": 741619227.84,
+              "period_score": 24.0
+            },
+            {
+              "column_index": 3,
+              "raw": "429,685,615.21",
+              "parsed_number": 429685615.21,
+              "header_context": "2024年度 | 本公司",
+              "unit_original": "元",
+              "unit_multiplier": 1.0,
+              "value_yuan": 429685615.21,
+              "period_score": 24.0
+            },
+            {
+              "column_index": 4,
+              "raw": "429,685,615.21",
+              "parsed_number": 429685615.21,
+              "header_context": "",
+              "unit_original": "元",
+              "unit_multiplier": 1.0,
+              "value_yuan": 429685615.21,
+              "period_score": 0.0
+            }
+          ],
+          "snippet_rows": [
+            [
+              "股息及利息收入"
+            ],
+            [
+              "股息收入",
+              "700,945,162.85",
+              "741,619,227.84",
+              "429,685,615.21",
+              "429,685,615.21"
+            ],
+            [
+              "交易性金融资产",
+              "603,897,084.56",
+              "644,571,149.55",
+              "429,685,615.21",
+              "429,685,615.21"
+            ]
+          ]
+        },
+        {
+          "candidate_id": "c0042",
+          "page": 134,
+          "block_id": "p134_r238",
+          "source_method": "coordinate_rows",
+          "table_type": "利润表",
+          "row_index": 27,
+          "label": "无须纳税的收入",
+          "normalized_label": "无须纳税的收入",
+          "score": 0.459091,
+          "score_detail": {
+            "string_similarity": 0.229091,
+            "keyword_overlap": 0.11,
+            "table_bonus": 0.08,
+            "position_bonus": 0.0,
+            "numeric_bonus": 0.04
+          },
+          "unit_hint": "元",
+          "values": [
+            {
+              "column_index": 1,
+              "raw": "(390,256,038.81)",
+              "parsed_number": -390256038.81,
+              "header_context": "（已重述） | 所得税费用 | -",
+              "unit_original": "元",
+              "unit_multiplier": 1.0,
+              "value_yuan": -390256038.81,
+              "period_score": 0.0
+            },
+            {
+              "column_index": 2,
+              "raw": "(390,256,038.81)",
+              "parsed_number": -390256038.81,
+              "header_context": "2024年度 | 本集团 | -",
+              "unit_original": "元",
+              "unit_multiplier": 1.0,
+              "value_yuan": -390256038.81,
+              "period_score": 24.0
+            },
+            {
+              "column_index": 3,
+              "raw": "(240,746,273.42)",
+              "parsed_number": -240746273.42,
+              "header_context": "2024年度 | 本公司 | -",
+              "unit_original": "元",
+              "unit_multiplier": 1.0,
+              "value_yuan": -240746273.42,
+              "period_score": 24.0
+            },
+            {
+              "column_index": 4,
+              "raw": "(240,746,273.42)",
+              "parsed_number": -240746273.42,
+              "header_context": "-",
+              "unit_original": "元",
+              "unit_multiplier": 1.0,
+              "value_yuan": -240746273.42,
+              "period_score": 0.0
+            }
+          ],
+          "snippet_rows": [
+            [
+              "费用",
+              "282,147,237.13",
+              "281,849,569.65",
+              "625,167,794.10",
+              "625,167,794.10"
+            ],
+            [
+              "无须纳税的收入",
+              "(390,256,038.81)",
+              "(390,256,038.81)",
+              "(240,746,273.42)",
+              "(240,746,273.42)"
+            ],
+            [
+              "不可抵扣的费用",
+              "17,562,767.79",
+              "17,562,767.79",
+              "14,708,693.98",
+              "14,708,693.98"
+            ]
+          ]
+        },
+        {
+          "candidate_id": "c0021",
+          "page": 11,
+          "block_id": "p11_r22",
+          "source_method": "coordinate_rows",
+          "table_type": "资产负债表",
+          "row_index": 31,
+          "label": "营业支出",
+          "normalized_label": "营业支出",
+          "score": 0.41,
+          "score_detail": {
+            "string_similarity": 0.315,
+            "keyword_overlap": 0.11,
+            "table_mismatch_penalty": -0.05,
+            "position_bonus": 0.0,
+            "numeric_bonus": 0.035
+          },
+          "unit_hint": null,
+          "values": [
+            {
+              "column_index": 1,
+              "raw": "5,392,561,418.05",
+              "parsed_number": 5392561418.05,
+              "header_context": "2024年度 | 本公司",
+              "unit_original": null,
+              "unit_multiplier": null,
+              "value_yuan": null,
+              "period_score": 24.0
+            },
+            {
+              "column_index": 2,
+              "raw": "5,474,130,296.21",
+              "parsed_number": 5474130296.21,
+              "header_context": "-",
+              "unit_original": null,
+              "unit_multiplier": null,
+              "value_yuan": null,
+              "period_score": 0.0
+            }
+          ],
+          "snippet_rows": [
+            [
+              "其他收益",
+              "1,155,584.88",
+              "4,602,777.67"
+            ],
+            [
+              "营业支出",
+              "5,392,561,418.05",
+              "5,474,130,296.21"
+            ],
+            [
+              "保险服务费用",
+              "1,235,536,466.56",
+              "1,248,635,854.14"
+            ]
+          ]
+        },
+        {
+          "candidate_id": "c0023",
+          "page": 12,
+          "block_id": "p12_t23",
+          "source_method": "pdfplumber_table",
+          "table_type": "利润表",
+          "row_index": 4,
+          "label": "减：营业外支出",
+          "normalized_label": "营业外支出",
+          "score": 0.408947,
+          "score_detail": {
+            "string_similarity": 0.28,
+            "keyword_overlap": 0.11,
+            "table_bonus": 0.08,
+            "position_bonus": 0.018947,
+            "no_numeric_penalty": -0.08
+          },
+          "unit_hint": null,
+          "values": [],
+          "snippet_rows": [
+            [
+              "加：营业外收入",
+              "172,677.77 317,327.61"
+            ],
+            [
+              "减：营业外支出",
+              "1,248,410.08 1,194,942.11"
+            ],
+            [
+              "润总额 1,1",
+              "27,398,278.60 2,500,671,176.40"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "file": "年报.pdf",
+      "file_sha256": "e115146901c46d16bb5b3ce34883955755c4266b86a8a6d5c590a36118be45ef",
+      "metric_input": "净利润",
+      "aliases_input": [],
+      "standard_metric": "净利润",
+      "layer": "L0",
+      "confidence": 1.0,
+      "status": "RESOLVED",
+      "reason": "standard; high_score",
+      "selected": {
+        "candidate_id": "c0012",
+        "page": 5,
+        "block_id": "p5_r10",
+        "source_method": "coordinate_rows",
+        "table_type": "利润表",
+        "row_index": 35,
+        "label": "净利润",
+        "normalized_label": "净利润",
+        "score": 1.0,
+        "score_detail": {
+          "exact_standard": 1.0,
+          "table_bonus": 0.08,
+          "position_bonus": 0.037222,
+          "numeric_bonus": 0.035
+        },
+        "unit_hint": null,
+        "values": [
+          {
+            "column_index": 1,
+            "raw": "705,550,188.15",
+            "parsed_number": 705550188.15,
+            "header_context": "2024年度 | 本集团",
+            "unit_original": null,
+            "unit_multiplier": null,
+            "value_yuan": null,
+            "period_score": 24.0
+          },
+          {
+            "column_index": 2,
+            "raw": "1,686,331,733.54",
+            "parsed_number": 1686331733.54,
+            "header_context": "",
+            "unit_original": null,
+            "unit_multiplier": null,
+            "value_yuan": null,
+            "period_score": 0.0
+          }
+        ],
+        "snippet_rows": [
+          [
+            "减：所得税费用",
+            "423,038,760.36",
+            "814,339,442.86"
+          ],
+          [
+            "净利润",
+            "705,550,188.15",
+            "1,686,331,733.54"
+          ],
+          [
+            "3"
+          ]
+        ]
+      },
+      "primary_value": {
+        "column_index": 1,
+        "raw": "705,550,188.15",
+        "parsed_number": 705550188.15,
+        "header_context": "2024年度 | 本集团",
+        "unit_original": null,
+        "unit_multiplier": null,
+        "value_yuan": null,
+        "period_score": 24.0
+      },
+      "primary_value_confidence": "MEDIUM",
+      "warnings": [
+        "未可靠识别原始单位；value_yuan 未自动生成或需人工确认。",
+        "该候选来自坐标行重建而非结构化表格识别，建议人工核对PDF原页。"
+      ],
+      "top_candidates": [
+        {
+          "candidate_id": "c0012",
+          "page": 5,
+          "block_id": "p5_r10",
+          "source_method": "coordinate_rows",
+          "table_type": "利润表",
+          "row_index": 35,
+          "label": "净利润",
+          "normalized_label": "净利润",
+          "score": 1.0,
+          "score_detail": {
+            "exact_standard": 1.0,
+            "table_bonus": 0.08,
+            "position_bonus": 0.037222,
+            "numeric_bonus": 0.035
+          },
+          "unit_hint": null,
+          "values": [
+            {
+              "column_index": 1,
+              "raw": "705,550,188.15",
+              "parsed_number": 705550188.15,
+              "header_context": "2024年度 | 本集团",
+              "unit_original": null,
+              "unit_multiplier": null,
+              "value_yuan": null,
+              "period_score": 24.0
+            },
+            {
+              "column_index": 2,
+              "raw": "1,686,331,733.54",
+              "parsed_number": 1686331733.54,
+              "header_context": "",
+              "unit_original": null,
+              "unit_multiplier": null,
+              "value_yuan": null,
+              "period_score": 0.0
+            }
+          ],
+          "snippet_rows": [
+            [
+              "减：所得税费用",
+              "423,038,760.36",
+              "814,339,442.86"
+            ],
+            [
+              "净利润",
+              "705,550,188.15",
+              "1,686,331,733.54"
+            ],
+            [
+              "3"
+            ]
+          ]
+        },
+        {
+          "candidate_id": "c0013",
+          "page": 6,
+          "block_id": "p6_t11",
+          "source_method": "pdfplumber_table",
+          "table_type": "综合收益表",
+          "row_index": 2,
+          "label": "其中：持续经营净利润 7",
+          "normalized_label": "持续经营净利润7",
+          "score": 1.0,
+          "score_detail": {
+            "string_similarity": 0.343636,
+            "contains_name": 0.8,
+            "keyword_overlap": 0.22,
+            "table_mismatch_penalty": -0.05,
+            "position_bonus": 0.0,
+            "no_numeric_penalty": -0.08
+          },
+          "unit_hint": null,
+          "values": [],
+          "snippet_rows": [
+            [
+              "经营持续性分类",
+              ""
+            ],
+            [
+              "其中：持续经营净利润 7",
+              "05,550,188.15 1,686,331,733.54"
+            ],
+            [
+              "他综合收益的税后净额 (4",
+              "34,535,105.59) (5,377,845,777.18)"
+            ]
+          ]
+        },
+        {
+          "candidate_id": "c0014",
+          "page": 6,
+          "block_id": "p6_r12",
+          "source_method": "coordinate_rows",
+          "table_type": "综合收益表",
+          "row_index": 2,
+          "label": "其中：持续经营净利润",
+          "normalized_label": "持续经营净利润",
+          "score": 1.0,
+          "score_detail": {
+            "string_similarity": 0.378,
+            "contains_name": 0.8,
+            "keyword_overlap": 0.22,
+            "table_mismatch_penalty": -0.05,
+            "position_bonus": 0.0,
+            "numeric_bonus": 0.035
+          },
+          "unit_hint": null,
+          "values": [
+            {
+              "column_index": 1,
+              "raw": "705,550,188.15",
+              "parsed_number": 705550188.15,
+              "header_context": "",
+              "unit_original": null,
+              "unit_multiplier": null,
+              "value_yuan": null,
+              "period_score": 0.0
+            },
+            {
+              "column_index": 2,
+              "raw": "1,686,331,733.54",
+              "parsed_number": 1686331733.54,
+              "header_context": "",
+              "unit_original": null,
+              "unit_multiplier": null,
+              "value_yuan": null,
+              "period_score": 0.0
+            }
+          ],
+          "snippet_rows": [
+            [
+              "按经营持续性分类"
+            ],
+            [
+              "其中：持续经营净利润",
+              "705,550,188.15",
+              "1,686,331,733.54"
+            ],
+            [
+              "其他综合收益的税后净额",
+              "(434,535,105.59)",
+              "(5,377,845,777.18)"
+            ]
+          ]
+        },
+        {
+          "candidate_id": "c0022",
+          "page": 12,
+          "block_id": "p12_t23",
+          "source_method": "pdfplumber_table",
+          "table_type": "利润表",
+          "row_index": 9,
+          "label": "其中：持续经营净利润 7",
+          "normalized_label": "持续经营净利润7",
+          "score": 1.0,
+          "score_detail": {
+            "string_similarity": 0.343636,
+            "contains_name": 0.8,
+            "keyword_overlap": 0.22,
+            "table_bonus": 0.08,
+            "position_bonus": 0.0,
+            "no_numeric_penalty": -0.08
+          },
+          "unit_hint": null,
+          "values": [],
+          "snippet_rows": [
+            [
+              "经营持续性分类",
+              ""
+            ],
+            [
+              "其中：持续经营净利润 7",
+              "03,991,143.94 1,686,331,733.54"
+            ],
+            [
+              "他综合收益的税后净额 (4",
+              "64,522,749.35) (5,362,250,044.70)"
+            ]
+          ]
+        },
+        {
+          "candidate_id": "c0026",
+          "page": 12,
+          "block_id": "p12_r24",
+          "source_method": "coordinate_rows",
+          "table_type": "利润表",
+          "row_index": 7,
+          "label": "净利润",
+          "normalized_label": "净利润",
+          "score": 1.0,
+          "score_detail": {
+            "exact_standard": 1.0,
+            "table_bonus": 0.08,
+            "position_bonus": 0.0,
+            "numeric_bonus": 0.035
+          },
+          "unit_hint": null,
+          "values": [
+            {
+              "column_index": 1,
+              "raw": "703,991,143.94",
+              "parsed_number": 703991143.94,
+              "header_context": "",
+              "unit_original": null,
+              "unit_multiplier": null,
+              "value_yuan": null,
+              "period_score": 0.0
+            },
+            {
+              "column_index": 2,
+              "raw": "1,686,331,733.54",
+              "parsed_number": 1686331733.54,
+              "header_context": "",
+              "unit_original": null,
+              "unit_multiplier": null,
+              "value_yuan": null,
+              "period_score": 0.0
+            }
+          ],
+          "snippet_rows": [
+            [
+              "减：所得税费用",
+              "423,407,134.66",
+              "814,339,442.86"
+            ],
+            [
+              "净利润",
+              "703,991,143.94",
+              "1,686,331,733.54"
+            ],
+            [
+              "按经营持续性分类"
+            ]
+          ]
+        },
+        {
+          "candidate_id": "c0027",
+          "page": 12,
+          "block_id": "p12_r24",
+          "source_method": "coordinate_rows",
+          "table_type": "利润表",
+          "row_index": 9,
+          "label": "其中：持续经营净利润",
+          "normalized_label": "持续经营净利润",
+          "score": 1.0,
+          "score_detail": {
+            "string_similarity": 0.378,
+            "contains_name": 0.8,
+            "keyword_overlap": 0.22,
+            "table_bonus": 0.08,
+            "position_bonus": 0.0,
+            "numeric_bonus": 0.035
+          },
+          "unit_hint": null,
+          "values": [
+            {
+              "column_index": 1,
+              "raw": "703,991,143.94",
+              "parsed_number": 703991143.94,
+              "header_context": "",
+              "unit_original": null,
+              "unit_multiplier": null,
+              "value_yuan": null,
+              "period_score": 0.0
+            },
+            {
+              "column_index": 2,
+              "raw": "1,686,331,733.54",
+              "parsed_number": 1686331733.54,
+              "header_context": "",
+              "unit_original": null,
+              "unit_multiplier": null,
+              "value_yuan": null,
+              "period_score": 0.0
+            }
+          ],
+          "snippet_rows": [
+            [
+              "按经营持续性分类"
+            ],
+            [
+              "其中：持续经营净利润",
+              "703,991,143.94",
+              "1,686,331,733.54"
+            ],
+            [
+              "其他综合收益的税后净额",
+              "(464,522,749.35)",
+              "(5,362,250,044.70)"
+            ]
+          ]
+        },
+        {
+          "candidate_id": "c0036",
+          "page": 79,
+          "block_id": "p79_t120",
+          "source_method": "pdfplumber_table",
+          "table_type": "资产负债表",
+          "row_index": 25,
+          "label": "产减值损失的，应全额确认），对被投资单位的净利润进行调整后确认，但投出或出售的",
+          "normalized_label": "产减值损失的应全额确认对被投资单位的净利润进行调整后确认但投出或出售的",
+          "score": 1.0,
+          "score_detail": {
+            "string_similarity": 0.099474,
+            "contains_name": 0.8,
+            "keyword_overlap": 0.22,
+            "table_mismatch_penalty": -0.05,
+            "position_bonus": 0.023333,
+            "no_numeric_penalty": -0.08
+          },
+          "unit_hint": "元",
+          "values": [],
+          "snippet_rows": [
+            [
+              "发生的内部交易损益按照应享有的比例计算归属于投资方的部分（但内部交易损失属于资"
+            ],
+            [
+              "产减值损失的，应全额确认），对被投资单位的净利润进行调整后确认，但投出或出售的"
+            ],
+            [
+              "资产构成业务的除外。按照被投资单位宣告分派的利润或现金股利计算应享有的部分，相"
+            ]
+          ]
+        },
+        {
+          "candidate_id": "c0055",
+          "page": 135,
+          "block_id": "p135_t239",
+          "source_method": "pdfplumber_table",
+          "table_type": "利润表",
+          "row_index": 0,
+          "label": "将净利润调节为",
+          "normalized_label": "将净利润调节为",
+          "score": 1.0,
+          "score_detail": {
+            "string_similarity": 0.378,
+            "contains_name": 0.8,
+            "keyword_overlap": 0.22,
+            "table_bonus": 0.08,
+            "position_bonus": 0.0,
+            "no_numeric_penalty": -0.08
+          },
+          "unit_hint": "元",
+          "values": [],
+          "snippet_rows": [
+            [
+              "(1)",
+              "将净利润调节为",
+              "",
+              "经营活动现金流量",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "",
+              "2025年度",
+              "2025年度",
+              "2024年度",
+              "2024年度"
+            ]
+          ]
+        },
+        {
+          "candidate_id": "c0061",
+          "page": 135,
+          "block_id": "p135_r240",
+          "source_method": "coordinate_rows",
+          "table_type": "利润表",
+          "row_index": 5,
+          "label": "将净利润调节为经营活动现金流量",
+          "normalized_label": "将净利润调节为经营活动现金流量",
+          "score": 1.0,
+          "score_detail": {
+            "string_similarity": 0.21,
+            "contains_name": 0.8,
+            "keyword_overlap": 0.22,
+            "table_bonus": 0.08,
+            "position_bonus": 0.0,
+            "no_numeric_penalty": -0.08
+          },
+          "unit_hint": "元",
+          "values": [],
+          "snippet_rows": [
+            [
+              "37.",
+              "现金流量补充资料"
+            ],
+            [
+              "(1)",
+              "将净利润调节为经营活动现金流量"
+            ],
+            [
+              "2025年度",
+              "2025年度",
+              "2024年度",
+              "2024年度"
+            ]
+          ]
+        },
+        {
+          "candidate_id": "c0062",
+          "page": 135,
+          "block_id": "p135_r240",
+          "source_method": "coordinate_rows",
+          "table_type": "利润表",
+          "row_index": 9,
+          "label": "净利润",
+          "normalized_label": "净利润",
+          "score": 1.0,
+          "score_detail": {
+            "exact_standard": 1.0,
+            "table_bonus": 0.08,
+            "position_bonus": 0.0,
+            "numeric_bonus": 0.04
+          },
+          "unit_hint": "元",
+          "values": [
+            {
+              "column_index": 1,
+              "raw": "705,550,188.15",
+              "parsed_number": 705550188.15,
+              "header_context": "2025年度 | 本公司 | （已重述）",
+              "unit_original": "元",
+              "unit_multiplier": 1.0,
+              "value_yuan": 705550188.15,
+              "period_score": 25.0
+            },
+            {
+              "column_index": 2,
+              "raw": "703,991,143.94",
+              "parsed_number": 703991143.94,
+              "header_context": "2024年度 | 本集团",
+              "unit_original": "元",
+              "unit_multiplier": 1.0,
+              "value_yuan": 703991143.94,
+              "period_score": 24.0
+            },
+            {
+              "column_index": 3,
+              "raw": "1,686,331,733.54",
+              "parsed_number": 1686331733.54,
+              "header_context": "2024年度 | 本公司",
+              "unit_original": "元",
+              "unit_multiplier": 1.0,
+              "value_yuan": 1686331733.54,
+              "period_score": 24.0
+            },
+            {
+              "column_index": 4,
+              "raw": "1,686,331,733.54",
+              "parsed_number": 1686331733.54,
+              "header_context": "",
+              "unit_original": "元",
+              "unit_multiplier": 1.0,
+              "value_yuan": 1686331733.54,
+              "period_score": 0.0
+            }
+          ],
+          "snippet_rows": [
+            [
+              "（已重述）",
+              "（已重述）"
+            ],
+            [
+              "净利润",
+              "705,550,188.15",
+              "703,991,143.94",
+              "1,686,331,733.54",
+              "1,686,331,733.54"
+            ],
+            [
+              "加：信用减值损失",
+              "436,217,252.18",
+              "438,377,010.45",
+              "2,060,416.74",
+              "2,557,725.35"
+            ]
+          ]
+        },
+        {
+          "candidate_id": "c0015",
+          "page": 7,
+          "block_id": "p7_t13",
+          "source_method": "pdfplumber_table",
+          "table_type": "综合收益表",
+          "row_index": 6,
+          "label": "净利润",
+          "normalized_label": "净利润",
+          "score": 0.985,
+          "score_detail": {
+            "exact_standard": 1.0,
+            "table_mismatch_penalty": -0.05,
+            "position_bonus": 0.0,
+            "numeric_bonus": 0.035
+          },
+          "unit_hint": null,
+          "values": [
+            {
+              "column_index": 7,
+              "raw": "705,550,188.15",
+              "parsed_number": 705550188.15,
+              "header_context": "未分配利润",
+              "unit_original": null,
+              "unit_multiplier": null,
+              "value_yuan": null,
+              "period_score": 0.0
+            },
+            {
+              "column_index": 8,
+              "raw": "705,550,188.15",
+              "parsed_number": 705550188.15,
+              "header_context": "所有者权益合计",
+              "unit_original": null,
+              "unit_multiplier": null,
+              "value_yuan": null,
+              "period_score": 0.0
+            }
+          ],
+          "snippet_rows": [
+            [
+              "本年增减变动金额",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "净利润",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "705,550,188.15",
+              "705,550,188.15"
+            ],
+            [
+              "其他综合收益",
+              "-",
+              "-",
+              "-",
+              "(434,535,105.59)",
+              "-",
+              "-",
+              "-",
+              "(434,535,105.59)"
+            ]
+          ]
+        },
+        {
+          "candidate_id": "c0017",
+          "page": 8,
+          "block_id": "p8_t15",
+          "source_method": "pdfplumber_table",
+          "table_type": "综合收益表",
+          "row_index": 6,
+          "label": "净利润",
+          "normalized_label": "净利润",
+          "score": 0.985,
+          "score_detail": {
+            "exact_standard": 1.0,
+            "table_mismatch_penalty": -0.05,
+            "position_bonus": 0.0,
+            "numeric_bonus": 0.035
+          },
+          "unit_hint": null,
+          "values": [
+            {
+              "column_index": 6,
+              "raw": "1,686,331,733.54",
+              "parsed_number": 1686331733.54,
+              "header_context": "未分配利润",
+              "unit_original": null,
+              "unit_multiplier": null,
+              "value_yuan": null,
+              "period_score": 0.0
+            },
+            {
+              "column_index": 7,
+              "raw": "1,686,331,733.54",
+              "parsed_number": 1686331733.54,
+              "header_context": "所有者权益合计",
+              "unit_original": null,
+              "unit_multiplier": null,
+              "value_yuan": null,
+              "period_score": 0.0
+            }
+          ],
+          "snippet_rows": [
+            [
+              "本年增减变动金额",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "净利润",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "1,686,331,733.54",
+              "1,686,331,733.54"
+            ],
+            [
+              "其他综合收益",
+              "-",
+              "-",
+              "(5,377,845,777.18)",
+              "-",
+              "-",
+              "-",
+              "(5,377,845,777.18)"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "file": "年报.pdf",
+      "file_sha256": "e115146901c46d16bb5b3ce34883955755c4266b86a8a6d5c590a36118be45ef",
+      "metric_input": "核心偿付能力",
+      "aliases_input": [],
+      "standard_metric": null,
+      "layer": "L2",
+      "confidence": 0.0,
+      "status": "UNRESOLVED",
+      "reason": "无法安全映射标准科目: 用户指标'核心偿付能力'是保险行业监管指标，不直接匹配任何标准财务报表科目。输入属于专业领域，候选科目中缺乏相关偿付能力或监管指标，因此无法映射。",
+      "selected": null,
+      "primary_value": null,
+      "primary_value_confidence": "NONE",
+      "warnings": [
+        "建议人工确认标准科目后，将别名加入规则库。"
+      ],
+      "top_candidates": []
+    },
+    {
+      "file": "年报.pdf",
+      "file_sha256": "e115146901c46d16bb5b3ce34883955755c4266b86a8a6d5c590a36118be45ef",
+      "metric_input": "权益",
+      "aliases_input": [],
+      "standard_metric": null,
+      "layer": "L2",
+      "confidence": 0.0,
+      "status": "UNRESOLVED",
+      "reason": "无法安全映射标准科目: 用户输入'权益'是标准科目'所有者权益合计'的常见别名，且该候选科目得分最高（0.6333）。",
+      "selected": null,
+      "primary_value": null,
+      "primary_value_confidence": "NONE",
+      "warnings": [
+        "建议人工确认标准科目后，将别名加入规则库。"
+      ],
+      "top_candidates": []
+    },
+    {
+      "file": "年报.pdf",
+      "file_sha256": "e115146901c46d16bb5b3ce34883955755c4266b86a8a6d5c590a36118be45ef",
+      "metric_input": "总保费\n",
+      "aliases_input": [],
+      "standard_metric": null,
+      "layer": "L2",
+      "confidence": 0.18,
+      "status": "UNRESOLVED",
+      "reason": "无法安全映射标准科目: 用户输入'总保费'通常指保险公司收取的保费总额，但标准科目中无直接匹配。最相关的是'保险服务收入'（与保险合同相关），但'总保费'可能包含投资成分，不完全相同。因证据不足且匹配度较低，返回低置信度。",
+      "selected": null,
+      "primary_value": null,
+      "primary_value_confidence": "NONE",
+      "warnings": [
+        "建议人工确认标准科目后，将别名加入规则库。"
+      ],
+      "top_candidates": []
+    }
+  ]
+}

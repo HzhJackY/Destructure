@@ -1,0 +1,376 @@
+identity_contract_version: GOLDEN_IDENTITY_V1_2
+definition_id: FINANCIAL_INVESTMENT_V1
+family: financial_investment
+source_golden_id: SUNSHINE_INSURANCE_2023_GOLDEN_VALUES
+filing_identity:
+  company_id: SUNSHINE_INSURANCE
+  legal_entity_name: 阳光保险集团股份有限公司
+  report_year: 2023
+  source_scope: CONSOLIDATED
+  canonical_pdf_filename: 阳光保险2023年度报告.pdf
+  pdf_sha256: 6a8bab4aabc6573f0a9b409879ef068e8772ec98d01ca0d37b45e1f7829d3b9f
+  page_count: 314
+  source_type: ANNUAL_REPORT
+physical_tables:
+- physical_table_id: SUNSHINE_INSURANCE_2023::fvtpl_assets::PRIMARY
+  physical_page_number: 258
+  printed_page_number: '257'
+  title: 以公允價值計量且其變動計入當期損益的金融資產
+  unit: RMB_MILLION
+  table_classification: PRIMARY_TABLE
+rows:
+- golden_row_id: GROW_fcfc5a967a0e39b30c42
+  physical_table_id: SUNSHINE_INSURANCE_2023::MAIN_STATEMENT
+  member_table_id: fvtpl_assets
+  classification_axis: FINANCIAL_INVESTMENT_MEMBER_SET
+  raw_label: 以公允價值計量且其變動計入當期損益的金融資產
+  normalized_label: 以公允價值計量且其變動計入當期損益的金融資產
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: MEMBER
+  source_row_order: null
+  period_values:
+  - period_role: CURRENT
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: SOURCE_DECLARED
+    value: 125,367
+- golden_row_id: GROW_4294419f381e906e60e0
+  physical_table_id: SUNSHINE_INSURANCE_2023::fvtpl_assets::PRIMARY
+  member_table_id: fvtpl_assets
+  classification_axis: ASSET_TYPE
+  raw_label: 債券-政府債(上市)
+  normalized_label: 債券-政府債(上市)
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 1
+  period_values:
+  - period_role: CURRENT
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: '0'
+  - period_role: COMPARATIVE
+    period_label: 2022年重述
+    period_identity: YEAR:2022
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: '12'
+- golden_row_id: GROW_8dca1de2b337af96bc31
+  physical_table_id: SUNSHINE_INSURANCE_2023::fvtpl_assets::PRIMARY
+  member_table_id: fvtpl_assets
+  classification_axis: ASSET_TYPE
+  raw_label: 債券-金融債(上市)
+  normalized_label: 債券-金融債(上市)
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 2
+  period_values:
+  - period_role: CURRENT
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: '204'
+  - period_role: COMPARATIVE
+    period_label: 2022年重述
+    period_identity: YEAR:2022
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: '20'
+- golden_row_id: GROW_5cc728338da6ff280467
+  physical_table_id: SUNSHINE_INSURANCE_2023::fvtpl_assets::PRIMARY
+  member_table_id: fvtpl_assets
+  classification_axis: ASSET_TYPE
+  raw_label: 債券-企業債(上市)
+  normalized_label: 債券-企業債(上市)
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 3
+  period_values:
+  - period_role: CURRENT
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 2,122
+  - period_role: COMPARATIVE
+    period_label: 2022年重述
+    period_identity: YEAR:2022
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: '827'
+- golden_row_id: GROW_f2c8db4586027b3dd0ad
+  physical_table_id: SUNSHINE_INSURANCE_2023::fvtpl_assets::PRIMARY
+  member_table_id: fvtpl_assets
+  classification_axis: ASSET_TYPE
+  raw_label: 債券-抵押支持證券(上市)
+  normalized_label: 債券-抵押支持證券(上市)
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 4
+  period_values:
+  - period_role: CURRENT
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: '85'
+  - period_role: COMPARATIVE
+    period_label: 2022年重述
+    period_identity: YEAR:2022
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: '339'
+- golden_row_id: GROW_bb3c03bd47dd77a9e415
+  physical_table_id: SUNSHINE_INSURANCE_2023::fvtpl_assets::PRIMARY
+  member_table_id: fvtpl_assets
+  classification_axis: ASSET_TYPE
+  raw_label: 債券-金融債(非上市)
+  normalized_label: 債券-金融債(非上市)
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 5
+  period_values:
+  - period_role: CURRENT
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 3,360
+  - period_role: COMPARATIVE
+    period_label: 2022年重述
+    period_identity: YEAR:2022
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 1,111
+- golden_row_id: GROW_9ae9b33931f936035a2d
+  physical_table_id: SUNSHINE_INSURANCE_2023::fvtpl_assets::PRIMARY
+  member_table_id: fvtpl_assets
+  classification_axis: ASSET_TYPE
+  raw_label: 債券-企業債(非上市)
+  normalized_label: 債券-企業債(非上市)
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 6
+  period_values:
+  - period_role: CURRENT
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 5,440
+  - period_role: COMPARATIVE
+    period_label: 2022年重述
+    period_identity: YEAR:2022
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 6,393
+- golden_row_id: GROW_02e429d01cf2cf4760e7
+  physical_table_id: SUNSHINE_INSURANCE_2023::fvtpl_assets::PRIMARY
+  member_table_id: fvtpl_assets
+  classification_axis: ASSET_TYPE
+  raw_label: 基金(上市)
+  normalized_label: 基金(上市)
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 7
+  period_values:
+  - period_role: CURRENT
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 23,512
+  - period_role: COMPARATIVE
+    period_label: 2022年重述
+    period_identity: YEAR:2022
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 21,450
+- golden_row_id: GROW_58cf9d3470c30e8c4dab
+  physical_table_id: SUNSHINE_INSURANCE_2023::fvtpl_assets::PRIMARY
+  member_table_id: fvtpl_assets
+  classification_axis: ASSET_TYPE
+  raw_label: 基金(非上市)
+  normalized_label: 基金(非上市)
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 8
+  period_values:
+  - period_role: CURRENT
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 12,980
+  - period_role: COMPARATIVE
+    period_label: 2022年重述
+    period_identity: YEAR:2022
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 12,250
+- golden_row_id: GROW_83152705be9ce69b9a1e
+  physical_table_id: SUNSHINE_INSURANCE_2023::fvtpl_assets::PRIMARY
+  member_table_id: fvtpl_assets
+  classification_axis: ASSET_TYPE
+  raw_label: 股票(上市)
+  normalized_label: 股票(上市)
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 9
+  period_values:
+  - period_role: CURRENT
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 21,245
+  - period_role: COMPARATIVE
+    period_label: 2022年重述
+    period_identity: YEAR:2022
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 18,450
+- golden_row_id: GROW_86cca8cfd1d1ee031a59
+  physical_table_id: SUNSHINE_INSURANCE_2023::fvtpl_assets::PRIMARY
+  member_table_id: fvtpl_assets
+  classification_axis: ASSET_TYPE
+  raw_label: 理財產品及其他
+  normalized_label: 理財產品及其他
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 10
+  period_values:
+  - period_role: CURRENT
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 56,419
+  - period_role: COMPARATIVE
+    period_label: 2022年重述
+    period_identity: YEAR:2022
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 24,422
+- golden_row_id: GROW_ef1ba33a31c45019ec55
+  physical_table_id: SUNSHINE_INSURANCE_2023::fvtpl_assets::PRIMARY
+  member_table_id: fvtpl_assets
+  classification_axis: ASSET_TYPE
+  raw_label: 合計
+  normalized_label: 合計
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 11
+  period_values:
+  - period_role: CURRENT
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 125,367
+  - period_role: COMPARATIVE
+    period_label: 2022年重述
+    period_identity: YEAR:2022
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 85,274
+- golden_row_id: GROW_f4e5a524413ac561b35d
+  physical_table_id: SUNSHINE_INSURANCE_2023::MAIN_STATEMENT
+  member_table_id: debt_investment
+  classification_axis: FINANCIAL_INVESTMENT_MEMBER_SET
+  raw_label: 以攤餘成本計量的金融資產
+  normalized_label: 以攤餘成本計量的金融資產
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: MEMBER
+  source_row_order: null
+  period_values:
+  - period_role: CURRENT
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: SOURCE_DECLARED
+    value: 2,752
+- golden_row_id: GROW_bd05351d8f087176463f
+  physical_table_id: SUNSHINE_INSURANCE_2023::MAIN_STATEMENT
+  member_table_id: other_debt_investment
+  classification_axis: FINANCIAL_INVESTMENT_MEMBER_SET
+  raw_label: 以公允價值計量且其變動計入其他綜合收益的債務工具
+  normalized_label: 以公允價值計量且其變動計入其他綜合收益的債務工具
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: MEMBER
+  source_row_order: null
+  period_values:
+  - period_role: CURRENT
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: SOURCE_DECLARED
+    value: 249,503
+- golden_row_id: GROW_08f72cfc68c1eeced07d
+  physical_table_id: SUNSHINE_INSURANCE_2023::MAIN_STATEMENT
+  member_table_id: other_equity_investment
+  classification_axis: FINANCIAL_INVESTMENT_MEMBER_SET
+  raw_label: 以公允價值計量且其變動計入其他綜合收益的權益工具
+  normalized_label: 以公允價值計量且其變動計入其他綜合收益的權益工具
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: MEMBER
+  source_row_order: null
+  period_values:
+  - period_role: CURRENT
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: SOURCE_DECLARED
+    value: 42,946
+- golden_row_id: GROW_d177b7337b4c277aee6d
+  physical_table_id: SUNSHINE_INSURANCE_2023::MAIN_STATEMENT
+  member_table_id: term_deposits
+  classification_axis: FINANCIAL_INVESTMENT_MEMBER_SET
+  raw_label: 定期存款
+  normalized_label: 定期存款
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: MEMBER
+  source_row_order: null
+  period_values:
+  - period_role: CURRENT
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: SOURCE_DECLARED
+    value: 9,917
+identity_provenance: DERIVED_FROM_CERTIFIED_GOLDEN_FACTS_NOT_RUNTIME_CAPTURE

@@ -1,0 +1,16 @@
+{
+  "run_id": "交银人寿2022年报__业务及管理费__20260721T173423",
+  "display_name": "交银人寿2022年报 · 业务及管理费",
+  "note": "",
+  "source_pdf_display": "交银人寿2022年报.pdf",
+  "table_query": "业务及管理费",
+  "created_at": "2026-07-21T17:34:23",
+  "boundary_status": "HUMAN_CONFIRMED",
+  "header_dimension_status": "AUTO_CONFIRMED",
+  "merge_ready": true,
+  "merge_blockers": [],
+  "start_page": 91,
+  "end_page": 92,
+  "row_count_machine": 44,
+  "row_count_official": 22
+}

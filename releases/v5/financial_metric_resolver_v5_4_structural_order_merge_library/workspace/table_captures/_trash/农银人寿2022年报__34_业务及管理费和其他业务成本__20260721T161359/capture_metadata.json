@@ -1,0 +1,13 @@
+{
+  "run_id": "农银人寿2022年报__34_业务及管理费和其他业务成本__20260721T161359",
+  "display_name": "农银人寿2022年报 · 34. 业务及管理费和其他业务成本",
+  "note": "",
+  "source_pdf_display": "农银人寿2022年报.pdf",
+  "table_query": "业务及管理费和其他业务成本",
+  "created_at": "2026-07-21T16:14:00",
+  "boundary_status": "HARD_BOUNDARY_CONFIRMED",
+  "start_page": 105,
+  "end_page": 106,
+  "row_count_machine": 10,
+  "row_count_official": 10
+}

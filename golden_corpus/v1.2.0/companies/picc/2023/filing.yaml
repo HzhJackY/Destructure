@@ -1,0 +1,17 @@
+schema_version: '1.1'
+filing_id: PICC_2023_ANNUAL_REPORT
+company_id: PICC
+company_name: 中国人保
+company_legal_name: 中国人民保险集团股份有限公司
+report_year: 2023
+report_type: ANNUAL_REPORT
+language: zh-CN
+canonical_pdf_filename: 中国人保2023年年度报告.pdf
+pdf_sha256: f30387d9797371de358b10fd0f9f8237c8909a0ce1d5033ca6ab26378fcc48ce
+page_count: 311
+file_size_bytes: 11761172
+document_modality: NATIVE_DIGITAL
+canonical_for_testing: true
+duplicate_group: null
+annotation_status: CERTIFIED_GOLDEN
+source_directory: C:\dev\AXA_research\docu

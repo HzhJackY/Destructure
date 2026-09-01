@@ -1,0 +1,18 @@
+{
+  "version": "v6.8",
+  "release_name": "Unified Capture and Logical Asset Governance",
+  "date": "2026-07-27",
+  "metadata_registry_schema_version": 9,
+  "release_isolation": "releases/v6.8",
+  "shared_data_home": true,
+  "key_features": [
+    "Unified CaptureRequest and CaptureOrchestrator",
+    "Dependency-injected discovery strategies",
+    "Logical assets and immutable capture versions",
+    "Review Inbox and lifecycle transitions",
+    "Archive and restore governance",
+    "Current certified active merge eligibility",
+    "Explicit runner join and shutdown",
+    "Capture Center and logical asset workspace"
+  ]
+}

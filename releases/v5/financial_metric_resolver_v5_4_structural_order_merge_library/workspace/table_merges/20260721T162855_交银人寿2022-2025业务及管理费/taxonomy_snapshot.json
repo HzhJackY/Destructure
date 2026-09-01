@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "tables": {
+    "交银人寿20222025业务及管理费": {
+      "mappings": [
+        {
+          "canonical_section": "",
+          "canonical_item": "合计",
+          "category": "",
+          "source_keys": [
+            "||总计"
+          ]
+        }
+      ]
+    }
+  }
+}

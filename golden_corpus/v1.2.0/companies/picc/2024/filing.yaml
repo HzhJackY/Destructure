@@ -1,0 +1,17 @@
+schema_version: '1.1'
+filing_id: PICC_2024_ANNUAL_REPORT
+company_id: PICC
+company_name: 中国人保
+company_legal_name: 中国人民保险集团股份有限公司
+report_year: 2024
+report_type: ANNUAL_REPORT
+language: zh-CN
+canonical_pdf_filename: 中国人保2024年年度报告.pdf
+pdf_sha256: 7ede132c8af8d5215b24ecf7b0375374649555e55d058b2eebed02f2e9aac978
+page_count: 299
+file_size_bytes: 3579323
+document_modality: NATIVE_DIGITAL
+canonical_for_testing: true
+duplicate_group: null
+annotation_status: CERTIFIED_GOLDEN
+source_directory: C:\dev\AXA_research\docu

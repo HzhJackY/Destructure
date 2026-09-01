@@ -1,0 +1,28 @@
+{
+  "fixture_id": "PINGAN_2023",
+  "company": "中国平安",
+  "report_year": "2023",
+  "pdf_filename": "中国平安2023年报.pdf",
+  "pdf_sha256": "f55538814200d77a61492ba216e45508f487064207bca6a4d90c7b55add43823",
+  "document_modality": "TEXT_LAYER",
+  "disclosure_pattern": "EXPLICIT_PARENT_STANDARD",
+  "statement_scope": "CONSOLIDATED",
+  "research_definition_id": "FINANCIAL_INVESTMENT_V1",
+  "definition_version": "FINANCIAL_INVESTMENT_V1",
+  "expected_resolution_mode": "EXPLICIT_PARENT",
+  "expected_parent_present": true,
+  "expected_parent_label": "金融投资",
+  "expected_required_members": [
+    "fvtpl_assets",
+    "debt_investment",
+    "other_debt_investment",
+    "other_equity_investment"
+  ],
+  "expected_forbidden_members": [
+    "time_deposits",
+    "long_term_equity"
+  ],
+  "known_constraints": [],
+  "source_pages": [],
+  "annotation_status": "PATTERN_CANDIDATE"
+}

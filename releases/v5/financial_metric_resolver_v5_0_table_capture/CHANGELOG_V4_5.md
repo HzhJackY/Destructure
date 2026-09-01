@@ -1,0 +1,24 @@
+# CHANGELOG v4.5
+
+- Added live per-PDF progress for parallel batch jobs.
+- Added multiprocessing worker progress queue.
+- Added per-document Fast Index / OCR / deep-parse / metric progress.
+- Added `batch_activity.log`.
+- Fixed terminal progress event ordering.
+- Fixed shifted PDF period-header column binding.
+- Added ordinal period mapping when period-header count equals numeric-column count.
+- Added target document year to primary-value selection in batch jobs.
+- Fixed 2022/2021 misbinding case for net profit.
+- Added machine vs adjudicated output separation.
+- Added `machine_long.csv` / `machine_wide.csv`.
+- Added `adjudicated_long.csv` / `adjudicated_wide.csv`.
+- `batch_long.csv` / `batch_wide.csv` now represent final adjudicated views.
+- Human review now freezes candidate and chosen value snapshots.
+- Human confirmation / override immediately refreshes final long/wide tables.
+- Added Excel sheets:
+  - machine_long
+  - machine_wide
+  - adjudicated_long
+  - adjudicated_wide
+  - review_log
+- Unreviewed REVIEW_REQUIRED results no longer enter final research values.

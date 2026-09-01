@@ -1,0 +1,53 @@
+{
+  "version": "v5.4",
+  "table_id": "业务及管理费",
+  "sources": [
+    {
+      "capture_run_id": "中银三星2022年报__业务及管理费__20260722T090304",
+      "capture_dir": "C:\\dev\\AXA_research\\financial_metric_resolver_v5_5_hierarchical_header_review\\workspace\\table_captures\\中银三星2022年报__业务及管理费__20260722T090304",
+      "pdf_name": "91e001708c2b_中银三星2022年报.pdf",
+      "pdf_sha256": "91e001708c2bf56bbb6bff1921d2d19c9367a96cdccc31d7eb8dd072558127db",
+      "company": "中银三星",
+      "document_year": "2022",
+      "table_query": "业务及管理费",
+      "note_number": NaN,
+      "located_title": "六、 财务报表附注(续)40. 业务及管理费"
+    },
+    {
+      "capture_run_id": "中银三星2023年报__业务及管理费__20260722T090301",
+      "capture_dir": "C:\\dev\\AXA_research\\financial_metric_resolver_v5_5_hierarchical_header_review\\workspace\\table_captures\\中银三星2023年报__业务及管理费__20260722T090301",
+      "pdf_name": "cb203ed177ce_中银三星2023年报.pdf",
+      "pdf_sha256": "cb203ed177ce8a5dd800d19a1ba018032b6ed8f01b847a658dca77e676c20d9e",
+      "company": "中银三星",
+      "document_year": "2023",
+      "table_query": "业务及管理费",
+      "note_number": NaN,
+      "located_title": "七、 财务报表附注(续)39. 业务及管理费"
+    },
+    {
+      "capture_run_id": "中银三星2024年报__43_业务及管理费__20260722T090819",
+      "capture_dir": "C:\\dev\\AXA_research\\financial_metric_resolver_v5_5_hierarchical_header_review\\workspace\\table_captures\\中银三星2024年报__43_业务及管理费__20260722T090819",
+      "pdf_name": "d5b6dbbe98d6_中银三星2024年报.pdf",
+      "pdf_sha256": "d5b6dbbe98d6e39310ed52f81d29ea843dd82fc18709578048177c166908d9b7",
+      "company": "中银三星",
+      "document_year": "2024",
+      "table_query": "业务及管理费",
+      "note_number": "43",
+      "located_title": "43. 业务及管理费"
+    },
+    {
+      "capture_run_id": "中银三星2025年报__业务及管理费__20260722T090230",
+      "capture_dir": "C:\\dev\\AXA_research\\financial_metric_resolver_v5_5_hierarchical_header_review\\workspace\\table_captures\\中银三星2025年报__业务及管理费__20260722T090230",
+      "pdf_name": "e115146901c4_中银三星2025年报.pdf",
+      "pdf_sha256": "e115146901c46d16bb5b3ce34883955755c4266b86a8a6d5c590a36118be45ef",
+      "company": "中银三星",
+      "document_year": "2025",
+      "table_query": "业务及管理费",
+      "note_number": NaN,
+      "located_title": "六、 财务报表附注（续）34. 业务及管理费和其他业务成本"
+    }
+  ],
+  "taxonomy_path": "C:\\dev\\AXA_research\\financial_metric_resolver_v5_5_hierarchical_header_review\\workspace\\table_taxonomy.json",
+  "order_policy": "REFERENCE_CAPTURE_PRESERVE_WITH_CONTEXTUAL_INSERTION",
+  "reference_capture_run_id": "中银三星2025年报__业务及管理费__20260722T090230"
+}

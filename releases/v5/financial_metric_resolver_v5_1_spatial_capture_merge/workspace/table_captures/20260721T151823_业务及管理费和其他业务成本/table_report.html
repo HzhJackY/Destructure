@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<title>整表抓取报告</title>
+<style>
+body{font-family:Arial,'Microsoft YaHei',sans-serif;margin:28px;color:#1f2937}
+pre{white-space:pre-wrap;background:#f6f8fa;padding:16px;border-radius:8px}
+table{border-collapse:collapse;width:100%;font-size:13px}
+th,td{border:1px solid #d1d5db;padding:6px 8px;text-align:right}
+th:first-child,td:first-child{text-align:left}
+</style></head><body>
+<h1>整表抓取报告</h1>
+<pre># 整表抓取报告
+
+- PDF: `4936c61b6938_建信人寿2025年报.pdf`
+- 查询表: `业务及管理费和其他业务成本`
+- 定位标题: `34. 利息支出`
+- 页码: `138–139`
+- 实际表格页: `138, 139`
+- 列数: `2`
+- 行数: `8`
+
+## 列结构
+
+- col0: year=2025 | scope=- | restated=False | raw=2025
+- col1: year=2024 | scope=- | restated=False | raw=2024
+
+## 说明
+
+- `raw_item` 永久保留PDF原始行名。
+- `normalized_item` 只做确定性文本清洗，不改变经济含义。
+- `canonical_item` 整表抓取层默认不强制映射；跨公司细项统一由“合表 / Taxonomy”工作区完成。</pre>
+<h2>宽表预览</h2>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>row_order</th>
+      <th>row_type</th>
+      <th>parent_section</th>
+      <th>raw_item</th>
+      <th>normalized_item</th>
+      <th>unit</th>
+      <th>2024</th>
+      <th>2025</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>DETAIL</td>
+      <td>None</td>
+      <td>应付债券</td>
+      <td>应付债券</td>
+      <td>元</td>
+      <td>471570668.0</td>
+      <td>470259050.0</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>DETAIL</td>
+      <td>None</td>
+      <td>卖出回购金融资产款</td>
+      <td>卖出回购金融资产款</td>
+      <td>元</td>
+      <td>240870612.0</td>
+      <td>413624223.0</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>TOTAL</td>
+      <td>None</td>
+      <td>合计</td>
+      <td>合计</td>
+      <td>元</td>
+      <td>712441280.0</td>
+      <td>883883273.0</td>
+    </tr>
+  </tbody>
+</table>
+</body></html>

@@ -44,3 +44,7 @@ The underlying `merge_sources` relationship is indexed in SQLite for fast impact
 Capture management uses SQL filters and pagination instead of reading every Capture JSON on every Streamlit interaction.
 
 The registry can be rebuilt at any time from filesystem evidence.
+
+## Logical Asset workspace
+
+归档当前 Logical Asset 后，工作区必须保留该资产的稳定路由并自动显示归档项；后续的恢复操作只能作用于同一 Logical Asset，不能因页面重跑而漂移到列表首项。

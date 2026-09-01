@@ -1,0 +1,35 @@
+schema_version: '1.1'
+fixture_id: PING_AN_2023_CONSOLIDATED_FINANCIAL_INVESTMENT_PAGE_ANCHOR
+page_number_system: PDF_READER_ONE_BASED
+pdf_page_number: 145
+pdf_page_index_zero_based: 144
+printed_page_label: '141'
+statement_scope: CONSOLIDATED
+statement_type: BALANCE_SHEET
+expected_family: FINANCIAL_INVESTMENT
+requires_ocr: false
+requires_existing_conditional_ocr: false
+page_image_crop: evidence/page_crops/ping_an_2023_p145_crop.png
+annotation_status: CERTIFIED_GOLDEN
+evidence_note: 直接从 PDF 第 145 页核对中国平安2023年报合并资产负债表。
+expectation_source: DIRECT_PDF_INSPECTION
+evidence_type: PAGE_CROP_AND_TEXT_VERIFICATION
+reviewer: Codex_Agent_Adjudicator
+review_date: '2026-07-29'
+source_page: 145
+child_note_pages:
+  pdf_page_start: 221
+  pdf_page_end: 222
+  notes:
+    - note_number: 9
+      label: 以公允价值计量且其变动计入当期损益的金融资产
+      pdf_page_number: 221
+    - note_number: 10
+      label: 债权投资
+      pdf_page_number: 221
+    - note_number: 11
+      label: 其他债权投资
+      pdf_page_number: 222
+    - note_number: 12
+      label: 其他权益工具投资
+      pdf_page_number: 222

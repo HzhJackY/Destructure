@@ -1,0 +1,27 @@
+AXA Research v6.12.1 Public Pre-release Candidate
+
+This NOTICE is informational and is not a software license. The project source
+is declared under AGPL-3.0-only in LICENSE. Individual contributors retain
+their copyright in their contributions unless a separate written agreement says
+otherwise.
+
+The project name is an existing workspace/project identifier and does not by
+itself state sponsorship, endorsement, or affiliation with AXA Group or any
+insurer whose public filings may be processed by a user.
+
+Third-party components retain their own copyright and license terms. PyMuPDF is
+used under its GNU AGPL path for this candidate. Its Windows wheel embeds MuPDF
+1.27.2 and statically compiled third-party sources, including OCR components.
+The Windows full-package companion therefore contains the PyMuPDF 1.27.2.3 sdist
+and official MuPDF 1.27.2 source archive with its complete thirdparty tree, together with
+the Python wheel lock, Tesseract/Leptonica/DLL conda package records, license
+texts, build recipes, source URLs and hashes. See
+docs/windows_runtime_provenance.md and the THIRD_PARTY directory in the bundle.
+The selected conda-forge libarchive GPL build statically contains LZO 2.10;
+LZO is GPL-2.0-or-later and this AGPL distribution selects its GPLv3-compatible
+option. The companion contains the exact LZO source, license and recipe.
+
+The component inventory and SBOM are informational and do not replace the
+individual license texts. No real annual-report PDF, Golden corpus, user
+DATA_HOME, model credential, cache, or other workspace asset is authorized for
+redistribution merely because it appears in a developer workspace.

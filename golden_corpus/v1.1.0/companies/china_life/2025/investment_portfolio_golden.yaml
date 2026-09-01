@@ -1,0 +1,218 @@
+schema_version: investment_portfolio_golden_v2
+golden_id: CHINA_LIFE_2025_INVESTMENT_PORTFOLIO
+family: investment_portfolio
+company_id: CHINA_LIFE
+legal_entity_name: 中国人寿保险股份有限公司
+report_year: 2025
+source:
+  canonical_pdf_filename: 中国人寿2025年年度报告.pdf
+  pdf_sha256: 575A833FD7B83AD3568483273645236EDDB751A92AB89F7E1C09105D92CEDB27
+  page_count: 228
+  source_type: ANNUAL_REPORT
+source_scope: LISTED_PARENT_CONSOLIDATED
+disclosure_topology: DIRECT_COMPOUND_TABLE
+reported_portfolio_total:
+  status: DISCLOSED
+  derivation_allowed: false
+physical_assets:
+- asset_id: CHINA_LIFE_2025_INVESTMENT_PORTFOLIO
+  physical_page_number: 20
+  printed_page_number: 18
+  title: 投资资产情况
+  unit: RMB_MILLION
+  native_text_verified: true
+  ocr_used: false
+  blocks:
+  - member_id: portfolio_by_category
+    classification_axis: BY_INVESTMENT_OBJECT
+    logical_title: 按投资对象分类
+    current_period:
+      label: 2025年12月31日
+      amount: 7423705
+      ratio_percent: 100.0
+    comparative_period:
+      label: 2024年12月31日
+      amount: 6611071
+      ratio_percent: 100.0
+    rows:
+    - row_order: 1
+      raw_label: 固定到期日金融资产
+      normalized_label: 固定到期日金融资产
+      row_kind: GROUP
+      current_amount: 5234179
+      current_ratio_percent: 70.51
+      comparative_amount: 4911524
+      comparative_ratio_percent: 74.29
+    - row_order: 2
+      raw_label: 定期存款
+      normalized_label: 定期存款
+      row_kind: DATA
+      current_amount: 418688
+      current_ratio_percent: 5.64
+      comparative_amount: 438455
+      comparative_ratio_percent: 6.63
+    - row_order: 3
+      raw_label: 债券
+      normalized_label: 债券
+      row_kind: DATA
+      current_amount: 4257872
+      current_ratio_percent: 57.36
+      comparative_amount: 3903074
+      comparative_ratio_percent: 59.04
+    - row_order: 4
+      raw_label: 债权型金融产品1
+      normalized_label: 债权型金融产品
+      row_kind: DATA
+      current_amount: 519517
+      current_ratio_percent: 7.0
+      comparative_amount: 523721
+      comparative_ratio_percent: 7.92
+    - row_order: 5
+      raw_label: 其他固定到期日投资2
+      normalized_label: 其他固定到期日投资
+      row_kind: DATA
+      current_amount: 38102
+      current_ratio_percent: 0.51
+      comparative_amount: 46274
+      comparative_ratio_percent: 0.7
+    - row_order: 6
+      raw_label: 权益类金融资产
+      normalized_label: 权益类金融资产
+      row_kind: GROUP
+      current_amount: 1676327
+      current_ratio_percent: 22.57
+      comparative_amount: 1269086
+      comparative_ratio_percent: 19.19
+    - row_order: 7
+      raw_label: 股票
+      normalized_label: 股票
+      row_kind: DATA
+      current_amount: 835342
+      current_ratio_percent: 11.25
+      comparative_amount: 501083
+      comparative_ratio_percent: 7.58
+    - row_order: 8
+      raw_label: 基金3
+      normalized_label: 基金
+      row_kind: DATA
+      current_amount: 421842
+      current_ratio_percent: 5.68
+      comparative_amount: 306551
+      comparative_ratio_percent: 4.64
+    - row_order: 9
+      raw_label: 其他权益类投资4
+      normalized_label: 其他权益类投资
+      row_kind: DATA
+      current_amount: 419143
+      current_ratio_percent: 5.64
+      comparative_amount: 461452
+      comparative_ratio_percent: 6.97
+    - row_order: 10
+      raw_label: 投资性房地产
+      normalized_label: 投资性房地产
+      row_kind: DATA
+      parent_row_order: null
+      current_amount: 11702
+      current_ratio_percent: 0.16
+      comparative_amount: 12319
+      comparative_ratio_percent: 0.19
+    - row_order: 11
+      raw_label: 现金及其他5
+      normalized_label: 现金及其他
+      row_kind: DATA
+      current_amount: 193709
+      current_ratio_percent: 2.61
+      comparative_amount: 116065
+      comparative_ratio_percent: 1.76
+    - row_order: 12
+      raw_label: 联营企业和合营企业投资
+      normalized_label: 联营企业和合营企业投资
+      row_kind: DATA
+      current_amount: 307788
+      current_ratio_percent: 4.15
+      comparative_amount: 302077
+      comparative_ratio_percent: 4.57
+    - row_order: 13
+      raw_label: 合计
+      normalized_label: 合计
+      row_kind: TOTAL
+      current_amount: 7423705
+      current_ratio_percent: 100.0
+      comparative_amount: 6611071
+      comparative_ratio_percent: 100.0
+  - member_id: portfolio_by_measurement
+    classification_axis: BY_ACCOUNTING_MEASUREMENT
+    logical_title: 按会计核算方法分类
+    current_period:
+      label: 2025年12月31日
+      amount: 7423705
+      ratio_percent: 100.0
+    comparative_period:
+      label: 2024年12月31日
+      amount: 6611071
+      ratio_percent: 100.0
+    rows:
+    - row_order: 1
+      raw_label: 交易性金融资产
+      normalized_label: 交易性金融资产
+      row_kind: DATA
+      current_amount: 2067288
+      current_ratio_percent: 27.85
+      comparative_amount: 1908098
+      comparative_ratio_percent: 28.86
+    - row_order: 2
+      raw_label: 债权投资
+      normalized_label: 债权投资
+      row_kind: DATA
+      current_amount: 173992
+      current_ratio_percent: 2.34
+      comparative_amount: 196754
+      comparative_ratio_percent: 2.98
+    - row_order: 3
+      raw_label: 其他债权投资
+      normalized_label: 其他债权投资
+      row_kind: DATA
+      current_amount: 3926042
+      current_ratio_percent: 52.89
+      comparative_amount: 3458895
+      comparative_ratio_percent: 52.32
+    - row_order: 4
+      raw_label: 其他权益工具投资
+      normalized_label: 其他权益工具投资
+      row_kind: DATA
+      current_amount: 317876
+      current_ratio_percent: 4.28
+      comparative_amount: 171817
+      comparative_ratio_percent: 2.6
+    - row_order: 5
+      raw_label: 长期股权投资
+      normalized_label: 长期股权投资
+      row_kind: DATA
+      current_amount: 307788
+      current_ratio_percent: 4.15
+      comparative_amount: 302077
+      comparative_ratio_percent: 4.57
+    - row_order: 6
+      raw_label: 其他
+      normalized_label: 其他
+      row_kind: DATA
+      current_amount: 630719
+      current_ratio_percent: 8.49
+      comparative_amount: 573430
+      comparative_ratio_percent: 8.67
+    - row_order: 7
+      raw_label: 合计
+      normalized_label: 合计
+      row_kind: TOTAL
+      current_amount: 7423705
+      current_ratio_percent: 100.0
+      comparative_amount: 6611071
+      comparative_ratio_percent: 100.0
+coverage:
+  asset_identity: FULL
+  total_values: FULL
+  row_values: FULL
+annotation_status: CERTIFIED_GOLDEN_ROW_VALUES
+reviewer: Codex_Agent_Adjudicator
+review_date: '2026-08-13'
+audit_note: 一张物理表包含两个逻辑分类轴；两块共享同一披露总额。 行级值来自已核物理页原生文字/坐标，Golden 仅作验收且禁止回填机器结果。 行级值来自已核物理页原生文字/坐标，Golden 仅作验收且禁止回填机器结果。

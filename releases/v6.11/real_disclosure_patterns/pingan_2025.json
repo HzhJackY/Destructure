@@ -1,0 +1,28 @@
+{
+  "fixture_id": "PINGAN_2025",
+  "company": "中国平安",
+  "report_year": "2025",
+  "pdf_filename": "中国平安2025年报.pdf",
+  "pdf_sha256": "860c455bbad9be59d3d1bf64bf683733feb79157212532df44b91d49a0b03c2a",
+  "document_modality": "TEXT_LAYER",
+  "disclosure_pattern": "EXPLICIT_PARENT_STANDARD",
+  "statement_scope": "CONSOLIDATED",
+  "research_definition_id": "FINANCIAL_INVESTMENT_V1",
+  "definition_version": "FINANCIAL_INVESTMENT_V1",
+  "expected_resolution_mode": "EXPLICIT_PARENT",
+  "expected_parent_present": true,
+  "expected_parent_label": "金融投资",
+  "expected_required_members": [
+    "fvtpl_assets",
+    "debt_investment",
+    "other_debt_investment",
+    "other_equity_investment"
+  ],
+  "expected_forbidden_members": [
+    "time_deposits",
+    "long_term_equity"
+  ],
+  "known_constraints": [],
+  "source_pages": [],
+  "annotation_status": "PATTERN_CANDIDATE"
+}

@@ -1,0 +1,6 @@
+schema_version: '1.1'
+accounting_standard: CAS_IFRS_9_ALIGNED
+transition_regime: NEW_FINANCIAL_INSTRUMENT_CLASSIFICATION
+presentation_style: EXPLICIT_OR_IMPLICIT_MEMBERS
+statement_scope: CONSOLIDATED
+currency_unit: 人民币百万元

@@ -1,0 +1,19 @@
+financial_investment_statement_page: 96
+financial_investment_statement_printed_page: 94
+portfolio_category_page: 22
+portfolio_category_printed_page: 20
+portfolio_measurement_page: 21
+portfolio_measurement_printed_page: 19
+notes_pages:
+  '18':
+    title: 以攤餘成本計量的金融投資
+    page: 165
+    printed: 163
+  '19':
+    title: 以公允價值計量且其變動計入其他綜合收益的金融資產
+    page: 166
+    printed: 164
+  '20':
+    title: 以公允價值計量且其變動計入當期損益的金融資產
+    page: 168
+    printed: 166

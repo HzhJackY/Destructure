@@ -1,0 +1,17 @@
+schema_version: '1.1'
+filing_id: CPIC_2024_ANNUAL_REPORT
+company_id: CPIC
+company_name: 中国太保
+company_legal_name: 中国太平洋保险（集团）股份有限公司
+report_year: 2024
+report_type: ANNUAL_REPORT
+language: zh-CN
+canonical_pdf_filename: 中国太保2024年报.pdf
+pdf_sha256: 3b6117c82942349be225d531b342cbbaf36255d02a2556525e697164a42e6b66
+page_count: 302
+file_size_bytes: 13373232
+document_modality: NATIVE_DIGITAL
+canonical_for_testing: true
+duplicate_group: null
+annotation_status: CERTIFIED_GOLDEN
+source_directory: C:\dev\AXA_research\docu

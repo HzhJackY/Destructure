@@ -1,0 +1,17 @@
+schema_version: '1.1'
+filing_id: PING_AN_2024_ANNUAL_REPORT
+company_id: PING_AN
+company_name: 中国平安
+company_legal_name: 中国平安保险（集团）股份有限公司
+report_year: 2024
+report_type: ANNUAL_REPORT
+language: zh-CN
+canonical_pdf_filename: 中国平安2024年报.pdf
+pdf_sha256: 6ffff1cade59c64c8178494c083cac8a4011ef5ae2fed32f85dd488a64a809b2
+page_count: 346
+file_size_bytes: 11542073
+document_modality: TEXT_DOMINANT_OR_HYBRID
+canonical_for_testing: true
+duplicate_group: null
+annotation_status: CERTIFIED_GOLDEN
+source_directory: C:\dev\AXA_research\docu

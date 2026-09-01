@@ -1,0 +1,475 @@
+{
+  "pdf_name": "dup.pdf",
+  "pdf_sha256": "dup",
+  "table_query": "业务及管理费",
+  "note_number": "34",
+  "located_title": "34业务及管理费",
+  "start_page": 1,
+  "end_page": 1,
+  "pages": [
+    1
+  ],
+  "unit": "元",
+  "columns": [
+    {
+      "ordinal": 0,
+      "source_column_index": 1,
+      "header_raw": "本集团|2024",
+      "year": "2024",
+      "scope": "本集团",
+      "restated": false,
+      "period_label": "2024",
+      "measure": null
+    },
+    {
+      "ordinal": 1,
+      "source_column_index": 2,
+      "header_raw": "本集团|2024",
+      "year": "2024",
+      "scope": "本集团",
+      "restated": false,
+      "period_label": "2024",
+      "measure": null
+    },
+    {
+      "ordinal": 2,
+      "source_column_index": 3,
+      "header_raw": "本集团|2023",
+      "year": "2023",
+      "scope": "本集团",
+      "restated": true,
+      "period_label": "2023",
+      "measure": null
+    },
+    {
+      "ordinal": 3,
+      "source_column_index": 4,
+      "header_raw": "本集团|2023",
+      "year": "2023",
+      "scope": "本集团",
+      "restated": true,
+      "period_label": "2023",
+      "measure": null
+    },
+    {
+      "ordinal": 4,
+      "source_column_index": 5,
+      "header_raw": "本公司|2024",
+      "year": "2024",
+      "scope": "本公司",
+      "restated": false,
+      "period_label": "2024",
+      "measure": null
+    },
+    {
+      "ordinal": 5,
+      "source_column_index": 6,
+      "header_raw": "本公司|2024",
+      "year": "2024",
+      "scope": "本公司",
+      "restated": false,
+      "period_label": "2024",
+      "measure": null
+    },
+    {
+      "ordinal": 6,
+      "source_column_index": 7,
+      "header_raw": "本公司|2023",
+      "year": "2023",
+      "scope": "本公司",
+      "restated": true,
+      "period_label": "2023",
+      "measure": null
+    },
+    {
+      "ordinal": 7,
+      "source_column_index": 8,
+      "header_raw": "本公司|2023",
+      "year": "2023",
+      "scope": "本公司",
+      "restated": true,
+      "period_label": "2023",
+      "measure": null
+    }
+  ],
+  "rows": [
+    {
+      "row_order": 1,
+      "page": 1,
+      "block_id": "b",
+      "source_method": "test",
+      "raw_item": "合计",
+      "normalized_item": "合计",
+      "canonical_item": null,
+      "mapping_status": "UNMAPPED",
+      "row_type": "TOTAL",
+      "row_level": 0,
+      "parent_section": null,
+      "cells": [
+        {
+          "column_ordinal": 0,
+          "source_column_index": 1,
+          "raw": "100",
+          "parsed_number": 100.0,
+          "unit_original": "元",
+          "value_yuan": 100.0,
+          "cell_role": "NUMERIC",
+          "context_source_page": null,
+          "currency": null,
+          "cell_state": null
+        },
+        {
+          "column_ordinal": 1,
+          "source_column_index": 2,
+          "raw": "100",
+          "parsed_number": 100.0,
+          "unit_original": "元",
+          "value_yuan": 100.0,
+          "cell_role": "NUMERIC",
+          "context_source_page": null,
+          "currency": null,
+          "cell_state": null
+        },
+        {
+          "column_ordinal": 2,
+          "source_column_index": 3,
+          "raw": "90",
+          "parsed_number": 90.0,
+          "unit_original": "元",
+          "value_yuan": 90.0,
+          "cell_role": "NUMERIC",
+          "context_source_page": null,
+          "currency": null,
+          "cell_state": null
+        },
+        {
+          "column_ordinal": 3,
+          "source_column_index": 4,
+          "raw": "90",
+          "parsed_number": 90.0,
+          "unit_original": "元",
+          "value_yuan": 90.0,
+          "cell_role": "NUMERIC",
+          "context_source_page": null,
+          "currency": null,
+          "cell_state": null
+        },
+        {
+          "column_ordinal": 4,
+          "source_column_index": 5,
+          "raw": "80",
+          "parsed_number": 80.0,
+          "unit_original": "元",
+          "value_yuan": 80.0,
+          "cell_role": "NUMERIC",
+          "context_source_page": null,
+          "currency": null,
+          "cell_state": null
+        },
+        {
+          "column_ordinal": 5,
+          "source_column_index": 6,
+          "raw": "80",
+          "parsed_number": 80.0,
+          "unit_original": "元",
+          "value_yuan": 80.0,
+          "cell_role": "NUMERIC",
+          "context_source_page": null,
+          "currency": null,
+          "cell_state": null
+        },
+        {
+          "column_ordinal": 6,
+          "source_column_index": 7,
+          "raw": "70",
+          "parsed_number": 70.0,
+          "unit_original": "元",
+          "value_yuan": 70.0,
+          "cell_role": "NUMERIC",
+          "context_source_page": null,
+          "currency": null,
+          "cell_state": null
+        },
+        {
+          "column_ordinal": 7,
+          "source_column_index": 8,
+          "raw": "70",
+          "parsed_number": 70.0,
+          "unit_original": "元",
+          "value_yuan": 70.0,
+          "cell_role": "NUMERIC",
+          "context_source_page": null,
+          "currency": null,
+          "cell_state": null
+        }
+      ],
+      "header_source_page": null,
+      "row_role": "DETAIL",
+      "row_item_raw": null,
+      "row_item_normalized": null,
+      "label_derivation": "EXPLICIT_TEXT",
+      "derivation_method": null,
+      "derived_from_rows": null,
+      "derivation_evidence": null,
+      "bbox": null,
+      "observation_type": "SOURCE_OBSERVATION",
+      "derived_status": "",
+      "container_id": null,
+      "table_block_id": null,
+      "block_order": null,
+      "classification_axis": "UNRESOLVED",
+      "block_role": "UNRESOLVED",
+      "block_terminal_type": "UNRESOLVED",
+      "excluded_from_table_logic": false
+    }
+  ],
+  "warnings": [
+    "表头维度存在碰撞/缺失：重复期间列无法由 year/scope/restated 唯一区分；请完成“表头维度复核”后再进入正式合表。"
+  ],
+  "stats": {
+    "boundary_reason": "next_note_35",
+    "header_arbitration": {},
+    "header_dimension_check": {
+      "status": "REVIEW_REQUIRED",
+      "issues": [
+        {
+          "issue": "DUPLICATE_PERIOD_WITHOUT_COMPLETE_SCOPE",
+          "year": "2023",
+          "ordinals": [
+            2,
+            3,
+            6,
+            7
+          ],
+          "missing_scope_ordinals": [],
+          "detail": "年份 2023 出现多个逻辑列，但 scope/measure 组合不唯一；可能存在父级表头或计量维度未绑定。"
+        },
+        {
+          "issue": "DUPLICATE_PERIOD_WITHOUT_COMPLETE_SCOPE",
+          "year": "2024",
+          "ordinals": [
+            0,
+            1,
+            4,
+            5
+          ],
+          "missing_scope_ordinals": [],
+          "detail": "年份 2024 出现多个逻辑列，但 scope/measure 组合不唯一；可能存在父级表头或计量维度未绑定。"
+        },
+        {
+          "issue": "HEADER_DIMENSION_COLLISION",
+          "dimension_key": "2024|本集团|ORIGINAL|",
+          "ordinals": [
+            0,
+            1
+          ],
+          "detail": "多个逻辑数值列拥有相同 year/scope/restated 维度，无法唯一识别。"
+        },
+        {
+          "issue": "HEADER_DIMENSION_COLLISION",
+          "dimension_key": "2023|本集团|RESTATED|",
+          "ordinals": [
+            2,
+            3
+          ],
+          "detail": "多个逻辑数值列拥有相同 year/scope/restated 维度，无法唯一识别。"
+        },
+        {
+          "issue": "HEADER_DIMENSION_COLLISION",
+          "dimension_key": "2024|本公司|ORIGINAL|",
+          "ordinals": [
+            4,
+            5
+          ],
+          "detail": "多个逻辑数值列拥有相同 year/scope/restated 维度，无法唯一识别。"
+        },
+        {
+          "issue": "HEADER_DIMENSION_COLLISION",
+          "dimension_key": "2023|本公司|RESTATED|",
+          "ordinals": [
+            6,
+            7
+          ],
+          "detail": "多个逻辑数值列拥有相同 year/scope/restated 维度，无法唯一识别。"
+        }
+      ],
+      "columns": [
+        {
+          "ordinal": 0,
+          "year": "2024",
+          "scope": "本集团",
+          "measure": "",
+          "restated": false,
+          "header_raw": "本集团|2024",
+          "dimension_key": "2024|本集团|ORIGINAL|"
+        },
+        {
+          "ordinal": 1,
+          "year": "2024",
+          "scope": "本集团",
+          "measure": "",
+          "restated": false,
+          "header_raw": "本集团|2024",
+          "dimension_key": "2024|本集团|ORIGINAL|"
+        },
+        {
+          "ordinal": 2,
+          "year": "2023",
+          "scope": "本集团",
+          "measure": "",
+          "restated": true,
+          "header_raw": "本集团|2023",
+          "dimension_key": "2023|本集团|RESTATED|"
+        },
+        {
+          "ordinal": 3,
+          "year": "2023",
+          "scope": "本集团",
+          "measure": "",
+          "restated": true,
+          "header_raw": "本集团|2023",
+          "dimension_key": "2023|本集团|RESTATED|"
+        },
+        {
+          "ordinal": 4,
+          "year": "2024",
+          "scope": "本公司",
+          "measure": "",
+          "restated": false,
+          "header_raw": "本公司|2024",
+          "dimension_key": "2024|本公司|ORIGINAL|"
+        },
+        {
+          "ordinal": 5,
+          "year": "2024",
+          "scope": "本公司",
+          "measure": "",
+          "restated": false,
+          "header_raw": "本公司|2024",
+          "dimension_key": "2024|本公司|ORIGINAL|"
+        },
+        {
+          "ordinal": 6,
+          "year": "2023",
+          "scope": "本公司",
+          "measure": "",
+          "restated": true,
+          "header_raw": "本公司|2023",
+          "dimension_key": "2023|本公司|RESTATED|"
+        },
+        {
+          "ordinal": 7,
+          "year": "2023",
+          "scope": "本公司",
+          "measure": "",
+          "restated": true,
+          "header_raw": "本公司|2023",
+          "dimension_key": "2023|本公司|RESTATED|"
+        }
+      ]
+    }
+  },
+  "boundary_status": "AUTO_HIGH_CONFIDENCE",
+  "boundary_review": null,
+  "header_dimension_status": "HUMAN_CONFIRMED",
+  "header_review": null,
+  "document_context": null,
+  "boundary_status_source": "MACHINE_DERIVED",
+  "producer_version": "v6.11",
+  "capture_schema_version": "6.7",
+  "reconciliation_schema_version": 2,
+  "column_topology_review": {
+    "status": "HUMAN_CONFIRMED",
+    "active_ordinals": [
+      0,
+      2,
+      4,
+      6
+    ],
+    "dropped_ordinals": [
+      1,
+      3,
+      5,
+      7
+    ],
+    "actions": [
+      {
+        "ordinal": 0,
+        "action": "KEEP"
+      },
+      {
+        "ordinal": 1,
+        "action": "DROP_DUPLICATE"
+      },
+      {
+        "ordinal": 2,
+        "action": "KEEP"
+      },
+      {
+        "ordinal": 3,
+        "action": "DROP_DUPLICATE"
+      },
+      {
+        "ordinal": 4,
+        "action": "KEEP"
+      },
+      {
+        "ordinal": 5,
+        "action": "DROP_DUPLICATE"
+      },
+      {
+        "ordinal": 6,
+        "action": "KEEP"
+      },
+      {
+        "ordinal": 7,
+        "action": "DROP_DUPLICATE"
+      }
+    ],
+    "reviewed_at": "2026-08-04T13:04:49",
+    "reviewer_note": "",
+    "dimension_check_after_topology": {
+      "status": "AUTO_CONFIRMED",
+      "issues": [],
+      "columns": [
+        {
+          "ordinal": 0,
+          "year": "2024",
+          "scope": "本集团",
+          "measure": "",
+          "restated": false,
+          "header_raw": "本集团|2024",
+          "dimension_key": "2024|本集团|ORIGINAL|"
+        },
+        {
+          "ordinal": 2,
+          "year": "2023",
+          "scope": "本集团",
+          "measure": "",
+          "restated": true,
+          "header_raw": "本集团|2023",
+          "dimension_key": "2023|本集团|RESTATED|"
+        },
+        {
+          "ordinal": 4,
+          "year": "2024",
+          "scope": "本公司",
+          "measure": "",
+          "restated": false,
+          "header_raw": "本公司|2024",
+          "dimension_key": "2024|本公司|ORIGINAL|"
+        },
+        {
+          "ordinal": 6,
+          "year": "2023",
+          "scope": "本公司",
+          "measure": "",
+          "restated": true,
+          "header_raw": "本公司|2023",
+          "dimension_key": "2023|本公司|RESTATED|"
+        }
+      ]
+    },
+    "contract": "SAFE_KEEP_DROP_ONLY_NO_VALUE_CONCATENATION"
+  }
+}

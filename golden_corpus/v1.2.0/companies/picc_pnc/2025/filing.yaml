@@ -1,0 +1,14 @@
+filing_id: PICC_PNC_2025
+company_id: PICC_PNC
+company_name: 中国财险
+company_legal_name: 中国人民财产保险股份有限公司
+legal_entity_name: 中国人民财产保险股份有限公司
+stock_code: 02328.HK
+report_year: 2025
+report_type: ANNUAL_REPORT
+canonical_pdf_filename: 中国财险2025年度报告.pdf
+pdf_sha256: 36363db8e934dcfea8124a5b9450f7a26bf13be949cb28254b51873328a126f2
+page_count: 276
+file_size_bytes: 4816401
+source_url: https://www.hkexnews.hk/picc_pnc/2025
+modality: DIGITAL_VECTOR_PDF

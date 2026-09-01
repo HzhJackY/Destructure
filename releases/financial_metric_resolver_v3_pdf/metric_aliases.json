@@ -1,0 +1,434 @@
+{
+  "营业收入": {
+    "aliases": ["营业总收入", "总营业收入"],
+    "soft_aliases": ["主营业务收入"],
+    "keywords": ["营业", "收入"],
+    "exclude": ["营业外收入", "其他业务收入", "利息收入", "手续费及佣金收入", "保险服务收入"],
+    "table_hint": ["利润表"],
+    "position_hint": "top"
+  },
+  "保险服务收入": {
+    "aliases": ["保险合同服务收入"],
+    "soft_aliases": [],
+    "keywords": ["保险", "服务", "收入"],
+    "exclude": ["分出保费", "保险财务收益", "保险财务费用"],
+    "table_hint": ["利润表"],
+    "position_hint": "top"
+  },
+  "净利润": {
+    "aliases": ["净利润（净亏损以“-”号填列）", "净利润(净亏损以-号填列)", "本期净利润"],
+    "soft_aliases": [],
+    "keywords": ["净利润"],
+    "exclude": ["归属于母公司", "归属于母公司股东", "少数股东损益", "综合收益总额", "其他综合收益"],
+    "table_hint": ["利润表"],
+    "position_hint": "bottom"
+  },
+  "归母净利润": {
+    "aliases": ["归属于母公司所有者的净利润", "归属于母公司股东的净利润", "归属于母公司股东净利润", "归母净利润"],
+    "soft_aliases": [],
+    "keywords": ["归属于", "母公司", "净利润"],
+    "exclude": ["少数股东", "综合收益总额"],
+    "table_hint": ["利润表"],
+    "position_hint": "bottom"
+  },
+  "利润总额": {
+    "aliases": ["利润总额（亏损总额以“-”号填列）", "税前利润"],
+    "soft_aliases": [],
+    "keywords": ["利润", "总额"],
+    "exclude": ["净利润", "综合收益"],
+    "table_hint": ["利润表"],
+    "position_hint": "bottom"
+  },
+  "投资收益": {
+    "aliases": ["投资收益（损失以“-”号填列）"],
+    "soft_aliases": ["投资净收益"],
+    "keywords": ["投资", "收益"],
+    "exclude": ["公允价值变动收益", "其他收益", "利息收入"],
+    "table_hint": ["利润表"],
+    "position_hint": "middle"
+  },
+  "公允价值变动损益": {
+    "aliases": ["公允价值变动收益", "公允价值变动收益（损失以“-”号填列）"],
+    "soft_aliases": ["公允价值变动净收益"],
+    "keywords": ["公允价值", "变动"],
+    "exclude": [],
+    "table_hint": ["利润表"],
+    "position_hint": "middle"
+  },
+  "信用减值损失": {
+    "aliases": ["信用减值损失（损失以“-”号填列）"],
+    "soft_aliases": ["预期信用损失"],
+    "keywords": ["信用", "减值"],
+    "exclude": ["资产减值损失"],
+    "table_hint": ["利润表"],
+    "position_hint": "middle"
+  },
+  "其他综合收益": {
+    "aliases": ["其他综合收益的税后净额"],
+    "soft_aliases": [],
+    "keywords": ["其他", "综合收益"],
+    "exclude": ["综合收益总额"],
+    "table_hint": ["利润表", "综合收益表"],
+    "position_hint": "bottom"
+  },
+  "综合收益总额": {
+    "aliases": ["综合收益总额"],
+    "soft_aliases": [],
+    "keywords": ["综合收益", "总额"],
+    "exclude": ["其他综合收益"],
+    "table_hint": ["利润表", "综合收益表"],
+    "position_hint": "bottom"
+  },
+  "货币资金": {
+    "aliases": ["现金及银行存款"],
+    "soft_aliases": ["库存现金及银行存款"],
+    "keywords": ["货币", "资金"],
+    "exclude": ["受限制货币资金"],
+    "table_hint": ["资产负债表"],
+    "position_hint": "top"
+  },
+  "交易性金融资产": {
+    "aliases": ["以公允价值计量且其变动计入当期损益的金融资产"],
+    "soft_aliases": ["FVTPL金融资产"],
+    "keywords": ["交易性", "金融资产"],
+    "exclude": ["交易性金融负债"],
+    "table_hint": ["资产负债表"],
+    "position_hint": "top"
+  },
+  "债权投资": {
+    "aliases": ["以摊余成本计量的债务工具投资"],
+    "soft_aliases": ["摊余成本债权投资"],
+    "keywords": ["债权", "投资"],
+    "exclude": ["其他债权投资", "长期债权投资"],
+    "table_hint": ["资产负债表"],
+    "position_hint": "middle"
+  },
+  "其他债权投资": {
+    "aliases": ["以公允价值计量且其变动计入其他综合收益的债务工具投资"],
+    "soft_aliases": ["FVOCI债务工具"],
+    "keywords": ["其他", "债权", "投资"],
+    "exclude": [],
+    "table_hint": ["资产负债表"],
+    "position_hint": "middle"
+  },
+  "其他权益工具投资": {
+    "aliases": ["指定为以公允价值计量且其变动计入其他综合收益的权益工具投资"],
+    "soft_aliases": ["FVOCI权益工具"],
+    "keywords": ["其他", "权益", "工具", "投资"],
+    "exclude": ["长期股权投资"],
+    "table_hint": ["资产负债表"],
+    "position_hint": "middle"
+  },
+  "长期股权投资": {
+    "aliases": [],
+    "soft_aliases": ["长期权益投资"],
+    "keywords": ["长期", "股权", "投资"],
+    "exclude": ["其他权益工具投资"],
+    "table_hint": ["资产负债表"],
+    "position_hint": "middle"
+  },
+  "保险合同资产": {
+    "aliases": [],
+    "soft_aliases": [],
+    "keywords": ["保险", "合同", "资产"],
+    "exclude": ["分出再保险合同资产"],
+    "table_hint": ["资产负债表"],
+    "position_hint": "middle"
+  },
+  "分出再保险合同资产": {
+    "aliases": ["再保险合同资产", "持有的再保险合同资产"],
+    "soft_aliases": [],
+    "keywords": ["再保险", "合同", "资产"],
+    "exclude": ["保险合同资产"],
+    "table_hint": ["资产负债表"],
+    "position_hint": "middle"
+  },
+  "保险合同负债": {
+    "aliases": [],
+    "soft_aliases": [],
+    "keywords": ["保险", "合同", "负债"],
+    "exclude": ["分出再保险合同负债"],
+    "table_hint": ["资产负债表"],
+    "position_hint": "middle"
+  },
+  "资产总计": {
+    "aliases": ["资产合计", "总资产"],
+    "soft_aliases": [],
+    "keywords": ["资产", "总计"],
+    "exclude": ["流动资产合计", "非流动资产合计"],
+    "table_hint": ["资产负债表"],
+    "position_hint": "bottom"
+  },
+  "负债合计": {
+    "aliases": ["负债总计", "总负债"],
+    "soft_aliases": [],
+    "keywords": ["负债", "合计"],
+    "exclude": ["流动负债合计", "非流动负债合计"],
+    "table_hint": ["资产负债表"],
+    "position_hint": "bottom"
+  },
+  "所有者权益合计": {
+    "aliases": ["股东权益合计", "所有者权益（或股东权益）合计", "权益合计"],
+    "soft_aliases": ["净资产"],
+    "keywords": ["权益", "合计"],
+    "exclude": ["归属于母公司所有者权益合计"],
+    "table_hint": ["资产负债表"],
+    "position_hint": "bottom"
+  },
+  "归母所有者权益": {
+    "aliases": ["归属于母公司所有者权益合计", "归属于母公司股东权益合计"],
+    "soft_aliases": ["归母净资产"],
+    "keywords": ["归属于", "母公司", "权益"],
+    "exclude": [],
+    "table_hint": ["资产负债表"],
+    "position_hint": "bottom"
+  },
+  "经营活动产生的现金流量净额": {
+    "aliases": ["经营活动现金流量净额"],
+    "soft_aliases": ["经营现金流净额"],
+    "keywords": ["经营活动", "现金流量", "净额"],
+    "exclude": [],
+    "table_hint": ["现金流量表"],
+    "position_hint": "middle"
+  },
+  "投资活动产生的现金流量净额": {
+    "aliases": ["投资活动现金流量净额"],
+    "soft_aliases": ["投资现金流净额"],
+    "keywords": ["投资活动", "现金流量", "净额"],
+    "exclude": [],
+    "table_hint": ["现金流量表"],
+    "position_hint": "middle"
+  },
+  "筹资活动产生的现金流量净额": {
+    "aliases": ["筹资活动现金流量净额"],
+    "soft_aliases": ["筹资现金流净额"],
+    "keywords": ["筹资活动", "现金流量", "净额"],
+    "exclude": [],
+    "table_hint": ["现金流量表"],
+    "position_hint": "middle"
+  },
+"核心偿付能力充足率": {
+  "aliases": [
+    "核心偿付能力充足率",
+    "核心偿付能力充足比例",
+    "核心偿付能力充足率（%）"
+  ],
+  "soft_aliases": [
+    "核心偿付能力",
+    "核心偿付率"
+  ],
+  "keywords": [
+    "核心",
+    "偿付能力",
+    "充足率"
+  ],
+  "exclude": [
+    "综合偿付能力充足率",
+    "综合偿付能力",
+    "最低资本",
+    "实际资本"
+  ],
+  "table_hint": [
+    "偿付能力表",
+    "偿付能力指标表",
+    "监管指标表"
+  ],
+  "position_hint": "any",
+  "metric_type": "regulatory_metric",
+  "value_type": "percentage"
+},
+"综合偿付能力充足率": {
+  "aliases": [
+    "综合偿付能力充足率",
+    "综合偿付能力充足比例",
+    "综合偿付能力充足率（%）"
+  ],
+  "soft_aliases": [
+    "综合偿付能力",
+    "综合偿付率"
+  ],
+  "keywords": [
+    "综合",
+    "偿付能力",
+    "充足率"
+  ],
+  "exclude": [
+    "核心偿付能力充足率",
+    "核心偿付能力"
+  ],
+  "table_hint": [
+    "偿付能力表",
+    "偿付能力指标表",
+    "监管指标表"
+  ],
+  "position_hint": "any",
+  "metric_type": "regulatory_metric",
+  "value_type": "percentage"
+},
+"权益类投资资产": {
+  "aliases": [
+    "权益类资产",
+    "权益类投资",
+    "权益投资资产",
+    "权益类投资资产余额"
+  ],
+  "soft_aliases": [
+    "权益资产"
+  ],
+  "keywords": [
+    "权益",
+    "投资"
+  ],
+  "exclude": [
+    "所有者权益",
+    "股东权益",
+    "其他权益工具投资",
+    "长期股权投资",
+    "归属于母公司所有者权益"
+  ],
+  "table_hint": [
+    "投资资产配置表",
+    "资产配置表",
+    "监管指标表"
+  ],
+  "position_hint": "any",
+  "metric_type": "investment_metric",
+  "value_type": "monetary"
+},
+"新业务保费": {
+  "aliases": [
+    "新业务保费",
+    "新单保费",
+    "新契约保费"
+  ],
+  "soft_aliases": [
+    "NBP"
+  ],
+  "keywords": [
+    "新业务",
+    "保费"
+  ],
+  "exclude": [
+    "续期保费",
+    "总保费",
+    "新业务价值"
+  ],
+  "table_hint": [
+    "经营指标表",
+    "业务指标表",
+    "核心指标表"
+  ],
+  "position_hint": "any",
+  "metric_type": "operating_metric",
+  "value_type": "monetary"
+},
+"总保费": {
+  "aliases": [
+    "总保费",
+    "总保费收入",
+    "保费总收入",
+    "总保费规模"
+  ],
+  "soft_aliases": [
+    "保费收入"
+  ],
+  "keywords": [
+    "保费"
+  ],
+  "exclude": [
+    "新业务保费",
+    "首年保费",
+    "期交保费",
+    "续期保费",
+    "分出保费",
+    "分入保费",
+    "保险服务收入"
+  ],
+  "table_hint": [
+    "经营指标表",
+    "业务指标表",
+    "核心指标表"
+  ],
+  "position_hint": "any",
+  "metric_type": "operating_metric",
+  "value_type": "monetary"
+},
+"新业务保费": {
+  "aliases": [
+    "新业务保费",
+    "新单保费",
+    "新契约保费"
+  ],
+  "soft_aliases": [
+    "NBP"
+  ],
+  "keywords": [
+    "新业务",
+    "保费"
+  ],
+  "exclude": [
+    "续期保费",
+    "总保费",
+    "新业务价值"
+  ],
+  "table_hint": [
+    "经营指标表",
+    "业务指标表",
+    "核心指标表"
+  ],
+  "position_hint": "any",
+  "metric_type": "operating_metric",
+  "value_type": "monetary"
+},
+"新业务价值": {
+  "aliases": [
+    "一年新业务价值",
+    "新业务价值",
+    "新业务价值额"
+  ],
+  "soft_aliases": [
+    "NBV"
+  ],
+  "keywords": [
+    "新业务",
+    "价值"
+  ],
+  "exclude": [
+    "新业务保费",
+    "新业务价值率"
+  ],
+  "table_hint": [
+    "价值指标表",
+    "经营指标表",
+    "核心指标表"
+  ],
+  "position_hint": "any",
+  "metric_type": "value_metric",
+  "value_type": "monetary"
+},
+"新业务价值率": {
+  "aliases": [
+    "新业务价值率",
+    "新业务价值率（%）"
+  ],
+  "soft_aliases": [
+    "NBV Margin",
+    "NBV率"
+  ],
+  "keywords": [
+    "新业务",
+    "价值率"
+  ],
+  "exclude": [
+    "新业务价值"
+  ],
+  "table_hint": [
+    "价值指标表",
+    "经营指标表",
+    "核心指标表"
+  ],
+  "position_hint": "any",
+  "metric_type": "value_metric",
+  "value_type": "percentage"
+}
+}

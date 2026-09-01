@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AXA_research Discovery Page Anchor Golden Fixture",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "fixture_id",
+    "fixture_type",
+    "annotation_status",
+    "filing_identity",
+    "page_anchor",
+    "blocking_assertions_after_activation",
+    "evidence"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "string"
+    },
+    "fixture_id": {
+      "type": "string"
+    },
+    "fixture_type": {
+      "const": "DISCOVERY_PAGE_ANCHOR"
+    },
+    "annotation_status": {
+      "enum": [
+        "PATTERN_CANDIDATE",
+        "HUMAN_VERIFIED_PENDING_SHA",
+        "HUMAN_VERIFIED",
+        "INDEPENDENTLY_ADJUDICATED",
+        "CERTIFIED_GOLDEN",
+        "DISPUTED",
+        "RETIRED"
+      ]
+    },
+    "release_blocking": {
+      "type": "boolean"
+    },
+    "release_blocking_after_sha_binding": {
+      "type": "boolean"
+    },
+    "filing_identity": {
+      "type": "object"
+    },
+    "page_anchor": {
+      "type": "object"
+    },
+    "blocking_assertions_after_activation": {
+      "type": "array",
+      "minItems": 1
+    },
+    "evidence": {
+      "type": "object"
+    }
+  }
+}

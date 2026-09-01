@@ -1,0 +1,8 @@
+# Core plus both supported opt-in LLM providers. No API client is needed for
+# deterministic/offline operation.
+-r requirements-core.txt
+
+openai==2.46.0
+google-genai==2.8.0
+pydantic==2.13.4
+

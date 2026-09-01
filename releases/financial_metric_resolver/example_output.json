@@ -1,0 +1,1298 @@
+[
+  {
+    "file": "/mnt/data/financial_metric_resolver/sample_financial.xlsx",
+    "file_sha256": "b35fc5aa6c24b9afda1ed85ab32d51e13603fa2753584356b4d211bfcfdd577d",
+    "metric_input": "营业收入",
+    "standard_metric": "营业收入",
+    "layer": "L0",
+    "confidence": 1.0,
+    "status": "RESOLVED",
+    "reason": "standard; high_score",
+    "selected": {
+      "candidate_id": "c0001",
+      "sheet": "利润表",
+      "sheet_type": "利润表",
+      "excel_row": 4,
+      "label_col_zero_based": 0,
+      "label": "一、营业总收入",
+      "normalized_label": "营业总收入",
+      "score": 1.0,
+      "score_detail": {
+        "exact_alias": 0.97,
+        "table_bonus": 0.08,
+        "position_bonus": 0.008831,
+        "numeric_bonus": 0.04
+      },
+      "values": [
+        {
+          "column_zero_based": 1,
+          "excel_col": "B",
+          "header_context": "2025年度",
+          "raw_value": 125000,
+          "number_like": true
+        },
+        {
+          "column_zero_based": 2,
+          "excel_col": "C",
+          "header_context": "2024年度",
+          "raw_value": 110000,
+          "number_like": true
+        }
+      ],
+      "unit_hint": "单位：人民币百万元"
+    },
+    "top_candidates": [
+      {
+        "candidate_id": "c0001",
+        "sheet": "利润表",
+        "sheet_type": "利润表",
+        "excel_row": 4,
+        "label_col_zero_based": 0,
+        "label": "一、营业总收入",
+        "normalized_label": "营业总收入",
+        "score": 1.0,
+        "score_detail": {
+          "exact_alias": 0.97,
+          "table_bonus": 0.08,
+          "position_bonus": 0.008831,
+          "numeric_bonus": 0.04
+        },
+        "values": [
+          {
+            "column_zero_based": 1,
+            "excel_col": "B",
+            "header_context": "2025年度",
+            "raw_value": 125000,
+            "number_like": true
+          },
+          {
+            "column_zero_based": 2,
+            "excel_col": "C",
+            "header_context": "2024年度",
+            "raw_value": 110000,
+            "number_like": true
+          }
+        ],
+        "unit_hint": "单位：人民币百万元"
+      },
+      {
+        "candidate_id": "c0004",
+        "sheet": "利润表",
+        "sheet_type": "利润表",
+        "excel_row": 8,
+        "label_col_zero_based": 0,
+        "label": "三、利润总额",
+        "normalized_label": "利润总额",
+        "score": 0.257778,
+        "score_detail": {
+          "string_similarity": 0.137778,
+          "keyword_overlap": 0.0,
+          "table_bonus": 0.08,
+          "position_bonus": 0.0,
+          "numeric_bonus": 0.04
+        },
+        "values": [
+          {
+            "column_zero_based": 1,
+            "excel_col": "B",
+            "header_context": "2025年度",
+            "raw_value": 21000,
+            "number_like": true
+          },
+          {
+            "column_zero_based": 2,
+            "excel_col": "C",
+            "header_context": "2024年度",
+            "raw_value": 17000,
+            "number_like": true
+          }
+        ],
+        "unit_hint": "单位：人民币百万元"
+      },
+      {
+        "candidate_id": "c0006",
+        "sheet": "利润表",
+        "sheet_type": "利润表",
+        "excel_row": 12,
+        "label_col_zero_based": 0,
+        "label": "综合收益总额",
+        "normalized_label": "综合收益总额",
+        "score": 0.244,
+        "score_detail": {
+          "string_similarity": 0.124,
+          "keyword_overlap": 0.0,
+          "table_bonus": 0.08,
+          "position_bonus": 0.0,
+          "numeric_bonus": 0.04
+        },
+        "values": [
+          {
+            "column_zero_based": 1,
+            "excel_col": "B",
+            "header_context": "2025年度",
+            "raw_value": 20100,
+            "number_like": true
+          },
+          {
+            "column_zero_based": 2,
+            "excel_col": "C",
+            "header_context": "2024年度",
+            "raw_value": 13700,
+            "number_like": true
+          }
+        ],
+        "unit_hint": "单位：人民币百万元"
+      },
+      {
+        "candidate_id": "c0003",
+        "sheet": "利润表",
+        "sheet_type": "利润表",
+        "excel_row": 7,
+        "label_col_zero_based": 0,
+        "label": "公允价值变动收益",
+        "normalized_label": "公允价值变动收益",
+        "score": 0.223333,
+        "score_detail": {
+          "string_similarity": 0.103333,
+          "keyword_overlap": 0.0,
+          "table_bonus": 0.08,
+          "position_bonus": 0.0,
+          "numeric_bonus": 0.04
+        },
+        "values": [
+          {
+            "column_zero_based": 1,
+            "excel_col": "B",
+            "header_context": "2025年度",
+            "raw_value": 3500,
+            "number_like": true
+          },
+          {
+            "column_zero_based": 2,
+            "excel_col": "C",
+            "header_context": "2024年度",
+            "raw_value": -1200,
+            "number_like": true
+          }
+        ],
+        "unit_hint": "单位：人民币百万元"
+      },
+      {
+        "candidate_id": "c0002",
+        "sheet": "利润表",
+        "sheet_type": "利润表",
+        "excel_row": 6,
+        "label_col_zero_based": 0,
+        "label": "投资收益（损失以“-”号填列）",
+        "normalized_label": "投资收益损失以号填列",
+        "score": 0.208571,
+        "score_detail": {
+          "string_similarity": 0.088571,
+          "keyword_overlap": 0.0,
+          "table_bonus": 0.08,
+          "position_bonus": 0.0,
+          "numeric_bonus": 0.04
+        },
+        "values": [
+          {
+            "column_zero_based": 1,
+            "excel_col": "B",
+            "header_context": "2025年度",
+            "raw_value": 16000,
+            "number_like": true
+          },
+          {
+            "column_zero_based": 2,
+            "excel_col": "C",
+            "header_context": "2024年度",
+            "raw_value": 9800,
+            "number_like": true
+          }
+        ],
+        "unit_hint": "单位：人民币百万元"
+      },
+      {
+        "candidate_id": "c0005",
+        "sheet": "利润表",
+        "sheet_type": "利润表",
+        "excel_row": 11,
+        "label_col_zero_based": 0,
+        "label": "其他综合收益的税后净额",
+        "normalized_label": "其他综合收益的税后净额",
+        "score": 0.202667,
+        "score_detail": {
+          "string_similarity": 0.082667,
+          "keyword_overlap": 0.0,
+          "table_bonus": 0.08,
+          "position_bonus": 0.0,
+          "numeric_bonus": 0.04
+        },
+        "values": [
+          {
+            "column_zero_based": 1,
+            "excel_col": "B",
+            "header_context": "2025年度",
+            "raw_value": 2100,
+            "number_like": true
+          },
+          {
+            "column_zero_based": 2,
+            "excel_col": "C",
+            "header_context": "2024年度",
+            "raw_value": -800,
+            "number_like": true
+          }
+        ],
+        "unit_hint": "单位：人民币百万元"
+      }
+    ]
+  },
+  {
+    "file": "/mnt/data/financial_metric_resolver/sample_financial.xlsx",
+    "file_sha256": "b35fc5aa6c24b9afda1ed85ab32d51e13603fa2753584356b4d211bfcfdd577d",
+    "metric_input": "净利润",
+    "standard_metric": "净利润",
+    "layer": "L0",
+    "confidence": 1.0,
+    "status": "RESOLVED",
+    "reason": "standard; high_score",
+    "selected": {
+      "candidate_id": "c0004",
+      "sheet": "利润表",
+      "sheet_type": "利润表",
+      "excel_row": 9,
+      "label_col_zero_based": 0,
+      "label": "四、净利润",
+      "normalized_label": "净利润",
+      "score": 1.0,
+      "score_detail": {
+        "exact_standard": 1.0,
+        "table_bonus": 0.08,
+        "position_bonus": 0.008831,
+        "numeric_bonus": 0.04
+      },
+      "values": [
+        {
+          "column_zero_based": 1,
+          "excel_col": "B",
+          "header_context": "2025年度",
+          "raw_value": 18000,
+          "number_like": true
+        },
+        {
+          "column_zero_based": 2,
+          "excel_col": "C",
+          "header_context": "2024年度",
+          "raw_value": 14500,
+          "number_like": true
+        }
+      ],
+      "unit_hint": "单位：人民币百万元"
+    },
+    "top_candidates": [
+      {
+        "candidate_id": "c0004",
+        "sheet": "利润表",
+        "sheet_type": "利润表",
+        "excel_row": 9,
+        "label_col_zero_based": 0,
+        "label": "四、净利润",
+        "normalized_label": "净利润",
+        "score": 1.0,
+        "score_detail": {
+          "exact_standard": 1.0,
+          "table_bonus": 0.08,
+          "position_bonus": 0.008831,
+          "numeric_bonus": 0.04
+        },
+        "values": [
+          {
+            "column_zero_based": 1,
+            "excel_col": "B",
+            "header_context": "2025年度",
+            "raw_value": 18000,
+            "number_like": true
+          },
+          {
+            "column_zero_based": 2,
+            "excel_col": "C",
+            "header_context": "2024年度",
+            "raw_value": 14500,
+            "number_like": true
+          }
+        ],
+        "unit_hint": "单位：人民币百万元"
+      },
+      {
+        "candidate_id": "c0005",
+        "sheet": "利润表",
+        "sheet_type": "利润表",
+        "excel_row": 10,
+        "label_col_zero_based": 0,
+        "label": "归属于母公司股东的净利润",
+        "normalized_label": "归属于母公司股东的净利润",
+        "score": 0.607221,
+        "score_detail": {
+          "exclude_penalty": -0.8,
+          "contains_name": 0.8,
+          "string_similarity": 0.248,
+          "keyword_overlap": 0.22,
+          "table_bonus": 0.08,
+          "position_bonus": 0.019221,
+          "numeric_bonus": 0.04
+        },
+        "values": [
+          {
+            "column_zero_based": 1,
+            "excel_col": "B",
+            "header_context": "2025年度",
+            "raw_value": 17200,
+            "number_like": true
+          },
+          {
+            "column_zero_based": 2,
+            "excel_col": "C",
+            "header_context": "2024年度",
+            "raw_value": 13800,
+            "number_like": true
+          }
+        ],
+        "unit_hint": "单位：人民币百万元"
+      },
+      {
+        "candidate_id": "c0003",
+        "sheet": "利润表",
+        "sheet_type": "利润表",
+        "excel_row": 8,
+        "label_col_zero_based": 0,
+        "label": "三、利润总额",
+        "normalized_label": "利润总额",
+        "score": 0.474286,
+        "score_detail": {
+          "string_similarity": 0.354286,
+          "keyword_overlap": 0.0,
+          "table_bonus": 0.08,
+          "position_bonus": 0.0,
+          "numeric_bonus": 0.04
+        },
+        "values": [
+          {
+            "column_zero_based": 1,
+            "excel_col": "B",
+            "header_context": "2025年度",
+            "raw_value": 21000,
+            "number_like": true
+          },
+          {
+            "column_zero_based": 2,
+            "excel_col": "C",
+            "header_context": "2024年度",
+            "raw_value": 17000,
+            "number_like": true
+          }
+        ],
+        "unit_hint": "单位：人民币百万元"
+      },
+      {
+        "candidate_id": "c0002",
+        "sheet": "利润表",
+        "sheet_type": "利润表",
+        "excel_row": 6,
+        "label_col_zero_based": 0,
+        "label": "投资收益（损失以“-”号填列）",
+        "normalized_label": "投资收益损失以号填列",
+        "score": 0.43,
+        "score_detail": {
+          "string_similarity": 0.31,
+          "keyword_overlap": 0.0,
+          "table_bonus": 0.08,
+          "position_bonus": 0.0,
+          "numeric_bonus": 0.04
+        },
+        "values": [
+          {
+            "column_zero_based": 1,
+            "excel_col": "B",
+            "header_context": "2025年度",
+            "raw_value": 16000,
+            "number_like": true
+          },
+          {
+            "column_zero_based": 2,
+            "excel_col": "C",
+            "header_context": "2024年度",
+            "raw_value": 9800,
+            "number_like": true
+          }
+        ],
+        "unit_hint": "单位：人民币百万元"
+      },
+      {
+        "candidate_id": "c0001",
+        "sheet": "利润表",
+        "sheet_type": "利润表",
+        "excel_row": 1,
+        "label_col_zero_based": 0,
+        "label": "某上市公司利润表",
+        "normalized_label": "某上市公司利润表",
+        "score": 0.255455,
+        "score_detail": {
+          "string_similarity": 0.225455,
+          "keyword_overlap": 0.0,
+          "table_bonus": 0.08,
+          "position_bonus": 0.0,
+          "no_values_penalty": -0.05
+        },
+        "values": [],
+        "unit_hint": "单位：人民币百万元"
+      }
+    ]
+  },
+  {
+    "file": "/mnt/data/financial_metric_resolver/sample_financial.xlsx",
+    "file_sha256": "b35fc5aa6c24b9afda1ed85ab32d51e13603fa2753584356b4d211bfcfdd577d",
+    "metric_input": "归母净利润",
+    "standard_metric": "归母净利润",
+    "layer": "L0",
+    "confidence": 1.0,
+    "status": "RESOLVED",
+    "reason": "standard; high_score",
+    "selected": {
+      "candidate_id": "c0004",
+      "sheet": "利润表",
+      "sheet_type": "利润表",
+      "excel_row": 10,
+      "label_col_zero_based": 0,
+      "label": "归属于母公司股东的净利润",
+      "normalized_label": "归属于母公司股东的净利润",
+      "score": 1.0,
+      "score_detail": {
+        "exact_alias": 0.97,
+        "table_bonus": 0.08,
+        "position_bonus": 0.019221,
+        "numeric_bonus": 0.04
+      },
+      "values": [
+        {
+          "column_zero_based": 1,
+          "excel_col": "B",
+          "header_context": "2025年度",
+          "raw_value": 17200,
+          "number_like": true
+        },
+        {
+          "column_zero_based": 2,
+          "excel_col": "C",
+          "header_context": "2024年度",
+          "raw_value": 13800,
+          "number_like": true
+        }
+      ],
+      "unit_hint": "单位：人民币百万元"
+    },
+    "top_candidates": [
+      {
+        "candidate_id": "c0004",
+        "sheet": "利润表",
+        "sheet_type": "利润表",
+        "excel_row": 10,
+        "label_col_zero_based": 0,
+        "label": "归属于母公司股东的净利润",
+        "normalized_label": "归属于母公司股东的净利润",
+        "score": 1.0,
+        "score_detail": {
+          "exact_alias": 0.97,
+          "table_bonus": 0.08,
+          "position_bonus": 0.019221,
+          "numeric_bonus": 0.04
+        },
+        "values": [
+          {
+            "column_zero_based": 1,
+            "excel_col": "B",
+            "header_context": "2025年度",
+            "raw_value": 17200,
+            "number_like": true
+          },
+          {
+            "column_zero_based": 2,
+            "excel_col": "C",
+            "header_context": "2024年度",
+            "raw_value": 13800,
+            "number_like": true
+          }
+        ],
+        "unit_hint": "单位：人民币百万元"
+      },
+      {
+        "candidate_id": "c0003",
+        "sheet": "利润表",
+        "sheet_type": "利润表",
+        "excel_row": 9,
+        "label_col_zero_based": 0,
+        "label": "四、净利润",
+        "normalized_label": "净利润",
+        "score": 0.667165,
+        "score_detail": {
+          "string_similarity": 0.465,
+          "keyword_overlap": 0.073333,
+          "table_bonus": 0.08,
+          "position_bonus": 0.008831,
+          "numeric_bonus": 0.04
+        },
+        "values": [
+          {
+            "column_zero_based": 1,
+            "excel_col": "B",
+            "header_context": "2025年度",
+            "raw_value": 18000,
+            "number_like": true
+          },
+          {
+            "column_zero_based": 2,
+            "excel_col": "C",
+            "header_context": "2024年度",
+            "raw_value": 14500,
+            "number_like": true
+          }
+        ],
+        "unit_hint": "单位：人民币百万元"
+      },
+      {
+        "candidate_id": "c0006",
+        "sheet": "资产负债表",
+        "sheet_type": "资产负债表",
+        "excel_row": 14,
+        "label_col_zero_based": 0,
+        "label": "归属于母公司所有者权益合计",
+        "normalized_label": "归属于母公司所有者权益合计",
+        "score": 0.597734,
+        "score_detail": {
+          "string_similarity": 0.429231,
+          "keyword_overlap": 0.146667,
+          "table_mismatch_penalty": -0.05,
+          "position_bonus": 0.031837,
+          "numeric_bonus": 0.04
+        },
+        "values": [
+          {
+            "column_zero_based": 1,
+            "excel_col": "B",
+            "header_context": "2025-12-31",
+            "raw_value": 390000,
+            "number_like": true
+          },
+          {
+            "column_zero_based": 2,
+            "excel_col": "C",
+            "header_context": "2024-12-31",
+            "raw_value": 360000,
+            "number_like": true
+          }
+        ],
+        "unit_hint": "单位：人民币百万元"
+      },
+      {
+        "candidate_id": "c0002",
+        "sheet": "利润表",
+        "sheet_type": "利润表",
+        "excel_row": 8,
+        "label_col_zero_based": 0,
+        "label": "三、利润总额",
+        "normalized_label": "利润总额",
+        "score": 0.395556,
+        "score_detail": {
+          "string_similarity": 0.275556,
+          "keyword_overlap": 0.0,
+          "table_bonus": 0.08,
+          "position_bonus": 0.0,
+          "numeric_bonus": 0.04
+        },
+        "values": [
+          {
+            "column_zero_based": 1,
+            "excel_col": "B",
+            "header_context": "2025年度",
+            "raw_value": 21000,
+            "number_like": true
+          },
+          {
+            "column_zero_based": 2,
+            "excel_col": "C",
+            "header_context": "2024年度",
+            "raw_value": 17000,
+            "number_like": true
+          }
+        ],
+        "unit_hint": "单位：人民币百万元"
+      },
+      {
+        "candidate_id": "c0001",
+        "sheet": "利润表",
+        "sheet_type": "利润表",
+        "excel_row": 1,
+        "label_col_zero_based": 0,
+        "label": "某上市公司利润表",
+        "normalized_label": "某上市公司利润表",
+        "score": 0.291053,
+        "score_detail": {
+          "string_similarity": 0.261053,
+          "keyword_overlap": 0.0,
+          "table_bonus": 0.08,
+          "position_bonus": 0.0,
+          "no_values_penalty": -0.05
+        },
+        "values": [],
+        "unit_hint": "单位：人民币百万元"
+      },
+      {
+        "candidate_id": "c0005",
+        "sheet": "利润表",
+        "sheet_type": "利润表",
+        "excel_row": 11,
+        "label_col_zero_based": 0,
+        "label": "其他综合收益的税后净额",
+        "normalized_label": "其他综合收益的税后净额",
+        "score": 0.257436,
+        "score_detail": {
+          "string_similarity": 0.107826,
+          "keyword_overlap": 0.0,
+          "table_bonus": 0.08,
+          "position_bonus": 0.02961,
+          "numeric_bonus": 0.04
+        },
+        "values": [
+          {
+            "column_zero_based": 1,
+            "excel_col": "B",
+            "header_context": "2025年度",
+            "raw_value": 2100,
+            "number_like": true
+          },
+          {
+            "column_zero_based": 2,
+            "excel_col": "C",
+            "header_context": "2024年度",
+            "raw_value": -800,
+            "number_like": true
+          }
+        ],
+        "unit_hint": "单位：人民币百万元"
+      },
+      {
+        "candidate_id": "c0007",
+        "sheet": "资产负债表",
+        "sheet_type": "资产负债表",
+        "excel_row": 15,
+        "label_col_zero_based": 0,
+        "label": "所有者权益合计",
+        "normalized_label": "所有者权益合计",
+        "score": 0.216,
+        "score_detail": {
+          "string_similarity": 0.186,
+          "keyword_overlap": 0.0,
+          "table_mismatch_penalty": -0.05,
+          "position_bonus": 0.04,
+          "numeric_bonus": 0.04
+        },
+        "values": [
+          {
+            "column_zero_based": 1,
+            "excel_col": "B",
+            "header_context": "2025-12-31",
+            "raw_value": 440000,
+            "number_like": true
+          },
+          {
+            "column_zero_based": 2,
+            "excel_col": "C",
+            "header_context": "2024-12-31",
+            "raw_value": 410000,
+            "number_like": true
+          }
+        ],
+        "unit_hint": "单位：人民币百万元"
+      }
+    ]
+  },
+  {
+    "file": "/mnt/data/financial_metric_resolver/sample_financial.xlsx",
+    "file_sha256": "b35fc5aa6c24b9afda1ed85ab32d51e13603fa2753584356b4d211bfcfdd577d",
+    "metric_input": "货币资金",
+    "standard_metric": "货币资金",
+    "layer": "L0",
+    "confidence": 1.0,
+    "status": "RESOLVED",
+    "reason": "standard; high_score",
+    "selected": {
+      "candidate_id": "c0001",
+      "sheet": "资产负债表",
+      "sheet_type": "资产负债表",
+      "excel_row": 4,
+      "label_col_zero_based": 0,
+      "label": "货币资金",
+      "normalized_label": "货币资金",
+      "score": 1.0,
+      "score_detail": {
+        "exact_standard": 1.0,
+        "table_bonus": 0.08,
+        "position_bonus": 0.01551,
+        "numeric_bonus": 0.04
+      },
+      "values": [
+        {
+          "column_zero_based": 1,
+          "excel_col": "B",
+          "header_context": "2025-12-31",
+          "raw_value": 188000,
+          "number_like": true
+        },
+        {
+          "column_zero_based": 2,
+          "excel_col": "C",
+          "header_context": "2024-12-31",
+          "raw_value": 171000,
+          "number_like": true
+        }
+      ],
+      "unit_hint": "单位：人民币百万元"
+    },
+    "top_candidates": [
+      {
+        "candidate_id": "c0001",
+        "sheet": "资产负债表",
+        "sheet_type": "资产负债表",
+        "excel_row": 4,
+        "label_col_zero_based": 0,
+        "label": "货币资金",
+        "normalized_label": "货币资金",
+        "score": 1.0,
+        "score_detail": {
+          "exact_standard": 1.0,
+          "table_bonus": 0.08,
+          "position_bonus": 0.01551,
+          "numeric_bonus": 0.04
+        },
+        "values": [
+          {
+            "column_zero_based": 1,
+            "excel_col": "B",
+            "header_context": "2025-12-31",
+            "raw_value": 188000,
+            "number_like": true
+          },
+          {
+            "column_zero_based": 2,
+            "excel_col": "C",
+            "header_context": "2024-12-31",
+            "raw_value": 171000,
+            "number_like": true
+          }
+        ],
+        "unit_hint": "单位：人民币百万元"
+      },
+      {
+        "candidate_id": "c0007",
+        "sheet": "资产负债表",
+        "sheet_type": "资产负债表",
+        "excel_row": 11,
+        "label_col_zero_based": 0,
+        "label": "资产总计",
+        "normalized_label": "资产总计",
+        "score": 0.275,
+        "score_detail": {
+          "string_similarity": 0.155,
+          "keyword_overlap": 0.0,
+          "table_bonus": 0.08,
+          "position_bonus": 0.0,
+          "numeric_bonus": 0.04
+        },
+        "values": [
+          {
+            "column_zero_based": 1,
+            "excel_col": "B",
+            "header_context": "2025-12-31",
+            "raw_value": 3200000,
+            "number_like": true
+          },
+          {
+            "column_zero_based": 2,
+            "excel_col": "C",
+            "header_context": "2024-12-31",
+            "raw_value": 2950000,
+            "number_like": true
+          }
+        ],
+        "unit_hint": "单位：人民币百万元"
+      },
+      {
+        "candidate_id": "c0003",
+        "sheet": "资产负债表",
+        "sheet_type": "资产负债表",
+        "excel_row": 6,
+        "label_col_zero_based": 0,
+        "label": "其他债权投资",
+        "normalized_label": "其他债权投资",
+        "score": 0.244,
+        "score_detail": {
+          "string_similarity": 0.124,
+          "keyword_overlap": 0.0,
+          "table_bonus": 0.08,
+          "position_bonus": 0.0,
+          "numeric_bonus": 0.04
+        },
+        "values": [
+          {
+            "column_zero_based": 1,
+            "excel_col": "B",
+            "header_context": "2025-12-31",
+            "raw_value": 820000,
+            "number_like": true
+          },
+          {
+            "column_zero_based": 2,
+            "excel_col": "C",
+            "header_context": "2024-12-31",
+            "raw_value": 760000,
+            "number_like": true
+          }
+        ],
+        "unit_hint": "单位：人民币百万元"
+      },
+      {
+        "candidate_id": "c0005",
+        "sheet": "资产负债表",
+        "sheet_type": "资产负债表",
+        "excel_row": 8,
+        "label_col_zero_based": 0,
+        "label": "长期股权投资",
+        "normalized_label": "长期股权投资",
+        "score": 0.244,
+        "score_detail": {
+          "string_similarity": 0.124,
+          "keyword_overlap": 0.0,
+          "table_bonus": 0.08,
+          "position_bonus": 0.0,
+          "numeric_bonus": 0.04
+        },
+        "values": [
+          {
+            "column_zero_based": 1,
+            "excel_col": "B",
+            "header_context": "2025-12-31",
+            "raw_value": 42000,
+            "number_like": true
+          },
+          {
+            "column_zero_based": 2,
+            "excel_col": "C",
+            "header_context": "2024-12-31",
+            "raw_value": 40000,
+            "number_like": true
+          }
+        ],
+        "unit_hint": "单位：人民币百万元"
+      },
+      {
+        "candidate_id": "c0002",
+        "sheet": "资产负债表",
+        "sheet_type": "资产负债表",
+        "excel_row": 5,
+        "label_col_zero_based": 0,
+        "label": "交易性金融资产",
+        "normalized_label": "交易性金融资产",
+        "score": 0.240074,
+        "score_detail": {
+          "string_similarity": 0.112727,
+          "keyword_overlap": 0.0,
+          "table_bonus": 0.08,
+          "position_bonus": 0.007347,
+          "numeric_bonus": 0.04
+        },
+        "values": [
+          {
+            "column_zero_based": 1,
+            "excel_col": "B",
+            "header_context": "2025-12-31",
+            "raw_value": 355000,
+            "number_like": true
+          },
+          {
+            "column_zero_based": 2,
+            "excel_col": "C",
+            "header_context": "2024-12-31",
+            "raw_value": 310000,
+            "number_like": true
+          }
+        ],
+        "unit_hint": "单位：人民币百万元"
+      },
+      {
+        "candidate_id": "c0004",
+        "sheet": "资产负债表",
+        "sheet_type": "资产负债表",
+        "excel_row": 7,
+        "label_col_zero_based": 0,
+        "label": "其他权益工具投资",
+        "normalized_label": "其他权益工具投资",
+        "score": 0.223333,
+        "score_detail": {
+          "string_similarity": 0.103333,
+          "keyword_overlap": 0.0,
+          "table_bonus": 0.08,
+          "position_bonus": 0.0,
+          "numeric_bonus": 0.04
+        },
+        "values": [
+          {
+            "column_zero_based": 1,
+            "excel_col": "B",
+            "header_context": "2025-12-31",
+            "raw_value": 65000,
+            "number_like": true
+          },
+          {
+            "column_zero_based": 2,
+            "excel_col": "C",
+            "header_context": "2024-12-31",
+            "raw_value": 59000,
+            "number_like": true
+          }
+        ],
+        "unit_hint": "单位：人民币百万元"
+      },
+      {
+        "candidate_id": "c0006",
+        "sheet": "资产负债表",
+        "sheet_type": "资产负债表",
+        "excel_row": 10,
+        "label_col_zero_based": 0,
+        "label": "分出再保险合同资产",
+        "normalized_label": "分出再保险合同资产",
+        "score": 0.215385,
+        "score_detail": {
+          "string_similarity": 0.095385,
+          "keyword_overlap": 0.0,
+          "table_bonus": 0.08,
+          "position_bonus": 0.0,
+          "numeric_bonus": 0.04
+        },
+        "values": [
+          {
+            "column_zero_based": 1,
+            "excel_col": "B",
+            "header_context": "2025-12-31",
+            "raw_value": 23000,
+            "number_like": true
+          },
+          {
+            "column_zero_based": 2,
+            "excel_col": "C",
+            "header_context": "2024-12-31",
+            "raw_value": 21000,
+            "number_like": true
+          }
+        ],
+        "unit_hint": "单位：人民币百万元"
+      }
+    ]
+  },
+  {
+    "file": "/mnt/data/financial_metric_resolver/sample_financial.xlsx",
+    "file_sha256": "b35fc5aa6c24b9afda1ed85ab32d51e13603fa2753584356b4d211bfcfdd577d",
+    "metric_input": "保险合同负债",
+    "standard_metric": "保险合同负债",
+    "layer": "L0",
+    "confidence": 1.0,
+    "status": "RESOLVED",
+    "reason": "standard; high_score",
+    "selected": {
+      "candidate_id": "c0006",
+      "sheet": "资产负债表",
+      "sheet_type": "资产负债表",
+      "excel_row": 12,
+      "label_col_zero_based": 0,
+      "label": "保险合同负债",
+      "normalized_label": "保险合同负债",
+      "score": 1.0,
+      "score_detail": {
+        "exact_standard": 1.0,
+        "table_bonus": 0.08,
+        "position_bonus": 0.008571,
+        "numeric_bonus": 0.04
+      },
+      "values": [
+        {
+          "column_zero_based": 1,
+          "excel_col": "B",
+          "header_context": "2025-12-31",
+          "raw_value": 2440000,
+          "number_like": true
+        },
+        {
+          "column_zero_based": 2,
+          "excel_col": "C",
+          "header_context": "2024-12-31",
+          "raw_value": 2210000,
+          "number_like": true
+        }
+      ],
+      "unit_hint": "单位：人民币百万元"
+    },
+    "top_candidates": [
+      {
+        "candidate_id": "c0006",
+        "sheet": "资产负债表",
+        "sheet_type": "资产负债表",
+        "excel_row": 12,
+        "label_col_zero_based": 0,
+        "label": "保险合同负债",
+        "normalized_label": "保险合同负债",
+        "score": 1.0,
+        "score_detail": {
+          "exact_standard": 1.0,
+          "table_bonus": 0.08,
+          "position_bonus": 0.008571,
+          "numeric_bonus": 0.04
+        },
+        "values": [
+          {
+            "column_zero_based": 1,
+            "excel_col": "B",
+            "header_context": "2025-12-31",
+            "raw_value": 2440000,
+            "number_like": true
+          },
+          {
+            "column_zero_based": 2,
+            "excel_col": "C",
+            "header_context": "2024-12-31",
+            "raw_value": 2210000,
+            "number_like": true
+          }
+        ],
+        "unit_hint": "单位：人民币百万元"
+      },
+      {
+        "candidate_id": "c0005",
+        "sheet": "资产负债表",
+        "sheet_type": "资产负债表",
+        "excel_row": 10,
+        "label_col_zero_based": 0,
+        "label": "分出再保险合同资产",
+        "normalized_label": "分出再保险合同资产",
+        "score": 0.611619,
+        "score_detail": {
+          "string_similarity": 0.330667,
+          "keyword_overlap": 0.146667,
+          "table_bonus": 0.08,
+          "position_bonus": 0.014286,
+          "numeric_bonus": 0.04
+        },
+        "values": [
+          {
+            "column_zero_based": 1,
+            "excel_col": "B",
+            "header_context": "2025-12-31",
+            "raw_value": 23000,
+            "number_like": true
+          },
+          {
+            "column_zero_based": 2,
+            "excel_col": "C",
+            "header_context": "2024-12-31",
+            "raw_value": 21000,
+            "number_like": true
+          }
+        ],
+        "unit_hint": "单位：人民币百万元"
+      },
+      {
+        "candidate_id": "c0004",
+        "sheet": "资产负债表",
+        "sheet_type": "资产负债表",
+        "excel_row": 9,
+        "label_col_zero_based": 0,
+        "label": "保险合同资产",
+        "normalized_label": "保险合同资产",
+        "score": 0.607143,
+        "score_detail": {
+          "string_similarity": 0.413333,
+          "keyword_overlap": 0.146667,
+          "table_bonus": 0.08,
+          "position_bonus": 0.017143,
+          "no_values_penalty": -0.05
+        },
+        "values": [],
+        "unit_hint": "单位：人民币百万元"
+      },
+      {
+        "candidate_id": "c0007",
+        "sheet": "资产负债表",
+        "sheet_type": "资产负债表",
+        "excel_row": 13,
+        "label_col_zero_based": 0,
+        "label": "负债合计",
+        "normalized_label": "负债合计",
+        "score": 0.447048,
+        "score_detail": {
+          "string_similarity": 0.248,
+          "keyword_overlap": 0.073333,
+          "table_bonus": 0.08,
+          "position_bonus": 0.005714,
+          "numeric_bonus": 0.04
+        },
+        "values": [
+          {
+            "column_zero_based": 1,
+            "excel_col": "B",
+            "header_context": "2025-12-31",
+            "raw_value": 2760000,
+            "number_like": true
+          },
+          {
+            "column_zero_based": 2,
+            "excel_col": "C",
+            "header_context": "2024-12-31",
+            "raw_value": 2540000,
+            "number_like": true
+          }
+        ],
+        "unit_hint": "单位：人民币百万元"
+      },
+      {
+        "candidate_id": "c0001",
+        "sheet": "利润表",
+        "sheet_type": "利润表",
+        "excel_row": 5,
+        "label_col_zero_based": 0,
+        "label": "其中：保险服务收入",
+        "normalized_label": "保险服务收入",
+        "score": 0.284545,
+        "score_detail": {
+          "string_similarity": 0.206667,
+          "keyword_overlap": 0.073333,
+          "table_mismatch_penalty": -0.05,
+          "position_bonus": 0.014545,
+          "numeric_bonus": 0.04
+        },
+        "values": [
+          {
+            "column_zero_based": 1,
+            "excel_col": "B",
+            "header_context": "2025年度",
+            "raw_value": 82000,
+            "number_like": true
+          },
+          {
+            "column_zero_based": 2,
+            "excel_col": "C",
+            "header_context": "2024年度",
+            "raw_value": 76000,
+            "number_like": true
+          }
+        ],
+        "unit_hint": "单位：人民币百万元"
+      },
+      {
+        "candidate_id": "c0002",
+        "sheet": "资产负债表",
+        "sheet_type": "资产负债表",
+        "excel_row": 1,
+        "label_col_zero_based": 0,
+        "label": "某上市公司资产负债表",
+        "normalized_label": "某上市公司资产负债表",
+        "score": 0.258333,
+        "score_detail": {
+          "string_similarity": 0.155,
+          "keyword_overlap": 0.073333,
+          "table_bonus": 0.08,
+          "position_bonus": 0.0,
+          "no_values_penalty": -0.05
+        },
+        "values": [],
+        "unit_hint": "单位：人民币百万元"
+      },
+      {
+        "candidate_id": "c0003",
+        "sheet": "资产负债表",
+        "sheet_type": "资产负债表",
+        "excel_row": 6,
+        "label_col_zero_based": 0,
+        "label": "其他债权投资",
+        "normalized_label": "其他债权投资",
+        "score": 0.237619,
+        "score_detail": {
+          "string_similarity": 0.103333,
+          "keyword_overlap": 0.0,
+          "table_bonus": 0.08,
+          "position_bonus": 0.014286,
+          "numeric_bonus": 0.04
+        },
+        "values": [
+          {
+            "column_zero_based": 1,
+            "excel_col": "B",
+            "header_context": "2025-12-31",
+            "raw_value": 820000,
+            "number_like": true
+          },
+          {
+            "column_zero_based": 2,
+            "excel_col": "C",
+            "header_context": "2024-12-31",
+            "raw_value": 760000,
+            "number_like": true
+          }
+        ],
+        "unit_hint": "单位：人民币百万元"
+      },
+      {
+        "candidate_id": "c0008",
+        "sheet": "资产负债表",
+        "sheet_type": "资产负债表",
+        "excel_row": 15,
+        "label_col_zero_based": 0,
+        "label": "所有者权益合计",
+        "normalized_label": "所有者权益合计",
+        "score": 0.215385,
+        "score_detail": {
+          "string_similarity": 0.095385,
+          "keyword_overlap": 0.0,
+          "table_bonus": 0.08,
+          "position_bonus": 0.0,
+          "numeric_bonus": 0.04
+        },
+        "values": [
+          {
+            "column_zero_based": 1,
+            "excel_col": "B",
+            "header_context": "2025-12-31",
+            "raw_value": 440000,
+            "number_like": true
+          },
+          {
+            "column_zero_based": 2,
+            "excel_col": "C",
+            "header_context": "2024-12-31",
+            "raw_value": 410000,
+            "number_like": true
+          }
+        ],
+        "unit_hint": "单位：人民币百万元"
+      }
+    ]
+  },
+  {
+    "file": "/mnt/data/financial_metric_resolver/sample_financial.xlsx",
+    "file_sha256": "b35fc5aa6c24b9afda1ed85ab32d51e13603fa2753584356b4d211bfcfdd577d",
+    "metric_input": "收入",
+    "standard_metric": null,
+    "layer": "L1",
+    "confidence": 0.63,
+    "status": "UNRESOLVED",
+    "reason": "输入科目无法安全映射到规则库标准科目；建议新增规则、人工复核或启用 LLM bounded-choice。",
+    "selected": null,
+    "top_candidates": []
+  }
+]

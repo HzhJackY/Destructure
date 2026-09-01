@@ -1,0 +1,176 @@
+schema_version: '1.1'
+fixture_id: PING_AN_2023_GOLDEN_VALUES
+family: financial_investment
+values:
+- member_id: fvtpl_assets
+  raw_label: 以公允价值计量且其变动计入当期损益的金融资产
+  note_reference: '9'
+  current_amount_raw: 1,803,047
+  status: ACTIVE_CURRENT_PERIOD
+  child_table:
+    classification: PRIMARY_TABLE
+    pdf_page_number: 221
+    note_title: 9. 以公允价值计量且其变动计入当期损益的金融资产
+    items:
+    - raw_label: 政府债
+      amount_2023: 200,566
+      amount_2022_restated: 135,150
+    - raw_label: 金融债
+      amount_2023: 307,378
+      amount_2022_restated: 290,788
+    - raw_label: 企业债
+      amount_2023: 78,485
+      amount_2022_restated: 81,142
+    - raw_label: 基金
+      amount_2023: 475,511
+      amount_2022_restated: 517,951
+    - raw_label: 股票
+      amount_2023: 156,514
+      amount_2022_restated: 83,995
+    - raw_label: 优先股
+      amount_2023: 22,929
+      amount_2022_restated: 23,164
+    - raw_label: 非上市股权
+      amount_2023: 127,304
+      amount_2022_restated: 133,295
+    - raw_label: 债权计划
+      amount_2023: 72,237
+      amount_2022_restated: 60,698
+    - raw_label: 理财产品投资
+      amount_2023: 258,313
+      amount_2022_restated: 238,092
+    - raw_label: 其他投资
+      amount_2023: 103,810
+      amount_2022_restated: 76,244
+    - raw_label: 合计
+      amount_2023: 1,803,047
+      amount_2022_restated: 1,640,519
+    - raw_label: 上市
+      amount_2023: 316,044
+      amount_2022_restated: 198,459
+    - raw_label: 非上市
+      amount_2023: 1,487,003
+      amount_2022_restated: 1,442,060
+- member_id: debt_investment
+  raw_label: 债权投资
+  note_reference: '10'
+  current_amount_raw: 1,243,353
+  status: ACTIVE_CURRENT_PERIOD
+  child_table:
+    classification: PRIMARY_TABLE
+    pdf_page_number: 221
+    note_title: 10. 债权投资
+    items:
+    - raw_label: 政府债
+      amount_2023: 892,641
+      amount_2022_restated: 767,761
+    - raw_label: 金融债
+      amount_2023: 32,113
+      amount_2022_restated: 32,047
+    - raw_label: 企业债
+      amount_2023: 47,433
+      amount_2022_restated: 53,131
+    - raw_label: 债权计划
+      amount_2023: 14,196
+      amount_2022_restated: 16,102
+    - raw_label: 理财产品投资
+      amount_2023: 117,172
+      amount_2022_restated: 147,424
+    - raw_label: 其他投资
+      amount_2023: 186,775
+      amount_2022_restated: 148,373
+    - raw_label: 总额
+      amount_2023: 1,290,330
+      amount_2022_restated: 1,164,838
+    - raw_label: 减：减值准备
+      amount_2023: (46,977)
+      amount_2022_restated: (40,803)
+    - raw_label: 净额
+      amount_2023: 1,243,353
+      amount_2022_restated: 1,124,035
+    - raw_label: 上市
+      amount_2023: 62,757
+      amount_2022_restated: 61,208
+    - raw_label: 非上市
+      amount_2023: 1,180,596
+      amount_2022_restated: 1,062,827
+- member_id: other_debt_investment
+  raw_label: 其他债权投资
+  note_reference: '11'
+  current_amount_raw: 2,637,008
+  status: ACTIVE_CURRENT_PERIOD
+  child_table:
+    classification: PRIMARY_TABLE
+    pdf_page_number: 222
+    note_title: 11. 其他债权投资
+    items:
+    - raw_label: 政府债
+      amount_2023: 1,973,152
+      amount_2022_restated: 1,733,996
+    - raw_label: 金融债
+      amount_2023: 352,063
+      amount_2022_restated: 380,170
+    - raw_label: 企业债
+      amount_2023: 75,772
+      amount_2022_restated: 78,393
+    - raw_label: 债权计划
+      amount_2023: 108,515
+      amount_2022_restated: 114,289
+    - raw_label: 融出资金
+      amount_2023: '-'
+      amount_2022_restated: 49,126
+    - raw_label: 理财产品投资
+      amount_2023: 127,506
+      amount_2022_restated: 144,816
+    - raw_label: 合计
+      amount_2023: 2,637,008
+      amount_2022_restated: 2,500,790
+    - raw_label: 摊余成本
+      amount_2023: 2,365,076
+      amount_2022_restated: 2,350,214
+    - raw_label: 累计公允价值变动
+      amount_2023: 271,932
+      amount_2022_restated: 150,576
+    - raw_label: 上市
+      amount_2023: 364,740
+      amount_2022_restated: 375,826
+    - raw_label: 非上市
+      amount_2023: 2,272,268
+      amount_2022_restated: 2,124,964
+- member_id: other_equity_investment
+  raw_label: 其他权益工具投资
+  note_reference: '12'
+  current_amount_raw: 264,877
+  status: ACTIVE_CURRENT_PERIOD
+  child_table:
+    classification: PRIMARY_TABLE
+    pdf_page_number: 222
+    note_title: 12. 其他权益工具投资
+    items:
+    - raw_label: 股票
+      amount_2023: 177,686
+      amount_2022_restated: 174,047
+    - raw_label: 优先股
+      amount_2023: 81,893
+      amount_2022_restated: 85,784
+    - raw_label: 其他权益投资
+      amount_2023: 5,298
+      amount_2022_restated: 4,940
+    - raw_label: 合计
+      amount_2023: 264,877
+      amount_2022_restated: 264,771
+    - raw_label: 成本
+      amount_2023: 284,902
+      amount_2022_restated: 312,228
+    - raw_label: 累计公允价值变动
+      amount_2023: (20,025)
+      amount_2022_restated: (47,457)
+    - raw_label: 上市
+      amount_2023: 259,579
+      amount_2022_restated: 259,831
+    - raw_label: 非上市
+      amount_2023: 5,298
+      amount_2022_restated: 4,940
+annotation_status: CERTIFIED_GOLDEN
+reviewer: Codex_Agent_Adjudicator
+review_date: '2026-08-03'

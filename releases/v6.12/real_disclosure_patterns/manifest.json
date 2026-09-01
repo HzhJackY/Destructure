@@ -1,0 +1,28 @@
+{
+  "corpus_version": "v1",
+  "created": "2026-07-29",
+  "description": "Real Disclosure Pattern Corpus v1 — 4 insurers × 2023–2025 = 12 filings",
+  "annotation_status_policy": {
+    "PATTERN_CANDIDATE": "initial state, not yet reviewed",
+    "PROVISIONAL_PATTERN": "evidence collected, pending human verification",
+    "HUMAN_VERIFIED": "one person has confirmed the pattern",
+    "INDEPENDENTLY_ADJUDICATED": "second independent reviewer confirmed",
+    "CERTIFIED_PATTERN": "release-blocking assertion ready",
+    "DISPUTED": "evidence contradicts expected pattern",
+    "RETIRED": "no longer applicable"
+  },
+  "patterns": [
+    {"fixture_id": "PINGAN_2023", "file": "pingan_2023.json"},
+    {"fixture_id": "PINGAN_2024", "file": "pingan_2024.json"},
+    {"fixture_id": "PINGAN_2025", "file": "pingan_2025.json"},
+    {"fixture_id": "XINHUA_2023", "file": "xinhua_2023.json"},
+    {"fixture_id": "XINHUA_2024", "file": "xinhua_2024.json"},
+    {"fixture_id": "XINHUA_2025", "file": "xinhua_2025.json"},
+    {"fixture_id": "CPIC_2023", "file": "cpic_2023.json"},
+    {"fixture_id": "CPIC_2024", "file": "cpic_2024.json"},
+    {"fixture_id": "CPIC_2025", "file": "cpic_2025.json"},
+    {"fixture_id": "CHINA_LIFE_2023", "file": "china_life_2023.json"},
+    {"fixture_id": "CHINA_LIFE_2024", "file": "china_life_2024.json"},
+    {"fixture_id": "CHINA_LIFE_2025", "file": "china_life_2025.json"}
+  ]
+}

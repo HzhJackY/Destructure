@@ -1,0 +1,17 @@
+schema_version: '1.1'
+filing_id: CHINA_LIFE_2023_ANNUAL_REPORT
+company_id: CHINA_LIFE
+company_name: 中国人寿
+company_legal_name: 中国人寿保险股份有限公司
+report_year: 2023
+report_type: ANNUAL_REPORT
+language: zh-CN
+canonical_pdf_filename: 中国人寿2023年年度报告.pdf
+pdf_sha256: 5ea1048c3a9323b37b1ad2e870da0fb54d9cfacdfba159aad4b9bec070edc18a
+page_count: 244
+file_size_bytes: 5800764
+document_modality: TEXT_DOMINANT_OR_HYBRID
+canonical_for_testing: true
+duplicate_group: null
+annotation_status: CERTIFIED_GOLDEN
+source_directory: C:\dev\AXA_research\docu

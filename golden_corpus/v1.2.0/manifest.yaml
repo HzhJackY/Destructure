@@ -1,0 +1,32 @@
+schema_version: '1.1'
+governance_contract_version: '2.0.0'
+golden_set_id: GL-FOUR-INSURERS-CONSOLIDATED-FINANCIAL-INVESTMENT-CORPUS-v1.1.0
+golden_set_version: 1.1.0
+title: 四家保险公司（平安、新华、太保、国寿）2023-2025年报真实披露 Golden Lite 语料库
+asset_class: REAL_DISCLOSURE_CORPUS_GOLDEN_LITE
+research_definition_id: FINANCIAL_INVESTMENT_STATEMENT_FAMILY
+statement_scope: CONSOLIDATED
+annotation_status: CERTIFIED_GOLDEN
+release_blocking: true
+total_filings: 12
+covered_companies:
+- PING_AN
+- NEW_CHINA_LIFE
+- CPIC
+- CHINA_LIFE
+covered_years:
+- 2023
+- 2024
+- 2025
+created_by: Codex_Agent_Adjudicator
+created_date: '2026-07-29'
+predecessor_version: 1.0.0
+governance_migration:
+  migration_id: ACL-1.1.1-GOVERNANCE-MIGRATION
+  migration_date: '2026-08-04'
+  archived_inventory: migration/filing_inventory.pre_governance_v1.1.0.csv
+  canonical_inventory: filing_inventory.csv
+  exclusions_registry: filing_exclusions.csv
+  coverage_registry: golden_coverage_registry.csv
+  table_segment_registry: golden_table_segment_registry.csv
+  release_gate: PRIMARY_ONLY_AND_ALL_NOTE_TABLES_SEPARATE

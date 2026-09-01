@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<title>整表抓取报告</title>
+<style>
+body{font-family:Arial,'Microsoft YaHei',sans-serif;margin:28px;color:#1f2937}
+pre{white-space:pre-wrap;background:#f6f8fa;padding:16px;border-radius:8px}
+table{border-collapse:collapse;width:100%;font-size:13px}
+th,td{border:1px solid #d1d5db;padding:6px 8px;text-align:right}
+th:first-child,td:first-child{text-align:left}
+</style></head><body>
+<h1>整表抓取报告</h1>
+<pre># 整表抓取报告
+
+- PDF: `相对期间保险2025年度报告.pdf`
+- 查询表: `业务及管理费`
+- 定位标题: `34. 业务及管理费`
+- 页码: `2–2`
+- 实际表格页: `2`
+- 列数: `4`
+- 行数: `7`
+
+## 列结构
+
+- col0: year=本年累计数 | scope=本集团 | restated=False | raw=本集团 | 本年累计数
+- col1: year=上年累计数 | scope=本集团 | restated=False | raw=本集团 | 上年累计数
+- col2: year=本年累计数 | scope=本公司 | restated=False | raw=本公司 | 本年累计数
+- col3: year=上年累计数 | scope=本公司 | restated=False | raw=本公司 | 上年累计数
+
+## 警告
+
+- HEADER_PARSER_AUTO_SELECTED：GENERALIZED_PERIOD_V57；numeric_clusters=4；leaf_columns=4。
+- 未在目标附注首页识别到明确单位；原始单位保持UNKNOWN，不做金额单位推断。
+
+## 说明
+
+- `raw_item` 永久保留PDF原始行名。
+- `normalized_item` 只做确定性文本清洗，不改变经济含义。
+- `canonical_item` 整表抓取层默认不强制映射；跨公司细项统一由“合表 / Taxonomy”工作区完成。</pre>
+<h2>宽表预览</h2>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>row_order</th>
+      <th>row_type</th>
+      <th>parent_section</th>
+      <th>raw_item</th>
+      <th>normalized_item</th>
+      <th>unit</th>
+      <th>container_id</th>
+      <th>table_block_id</th>
+      <th>block_order</th>
+      <th>classification_axis</th>
+      <th>block_role</th>
+      <th>block_terminal_type</th>
+      <th>row_role</th>
+      <th>row_item_raw</th>
+      <th>row_item_normalized</th>
+      <th>label_derivation</th>
+      <th>derivation_method</th>
+      <th>derived_from_rows</th>
+      <th>derivation_evidence</th>
+      <th>上年累计数 本公司 nan</th>
+      <th>上年累计数 本集团 nan</th>
+      <th>本年累计数 本公司 nan</th>
+      <th>本年累计数 本集团 nan</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>DETAIL</td>
+      <td>NaN</td>
+      <td>工资和福利费</td>
+      <td>工资和福利费</td>
+      <td></td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>UNRESOLVED</td>
+      <td>UNRESOLVED</td>
+      <td>UNRESOLVED</td>
+      <td>DETAIL</td>
+      <td>工资和福利费</td>
+      <td>工资和福利费</td>
+      <td>EXPLICIT_TEXT</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>1000374052.0</td>
+      <td>1100025060.0</td>
+      <td>1063416253.0</td>
+      <td>1169648937.0</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>DETAIL</td>
+      <td>NaN</td>
+      <td>其他</td>
+      <td>其他</td>
+      <td></td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>UNRESOLVED</td>
+      <td>UNRESOLVED</td>
+      <td>UNRESOLVED</td>
+      <td>DETAIL</td>
+      <td>其他</td>
+      <td>其他</td>
+      <td>EXPLICIT_TEXT</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>34827366.0</td>
+      <td>37047850.0</td>
+      <td>35521028.0</td>
+      <td>37906512.0</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>SUBTOTAL</td>
+      <td>NaN</td>
+      <td>小计</td>
+      <td>小计</td>
+      <td></td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>UNRESOLVED</td>
+      <td>UNRESOLVED</td>
+      <td>UNRESOLVED</td>
+      <td>SUBTOTAL</td>
+      <td>小计</td>
+      <td>小计</td>
+      <td>EXPLICIT_TEXT</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>1035201418.0</td>
+      <td>1137072910.0</td>
+      <td>1098937281.0</td>
+      <td>1207555449.0</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>DETAIL</td>
+      <td>减</td>
+      <td>当期发生的保费获取现金流</td>
+      <td>当期发生的保费获取现金流</td>
+      <td></td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>UNRESOLVED</td>
+      <td>UNRESOLVED</td>
+      <td>UNRESOLVED</td>
+      <td>DETAIL</td>
+      <td>当期发生的保费获取现金流</td>
+      <td>当期发生的保费获取现金流</td>
+      <td>EXPLICIT_TEXT</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>70000000.0</td>
+      <td>90000000.0</td>
+      <td>80000000.0</td>
+      <td>100000000.0</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>DETAIL</td>
+      <td>减</td>
+      <td>当期发生的其他保险履约现金流</td>
+      <td>当期发生的其他保险履约现金流</td>
+      <td></td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>UNRESOLVED</td>
+      <td>UNRESOLVED</td>
+      <td>UNRESOLVED</td>
+      <td>DETAIL</td>
+      <td>当期发生的其他保险履约现金流</td>
+      <td>当期发生的其他保险履约现金流</td>
+      <td>EXPLICIT_TEXT</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>170000000.0</td>
+      <td>190000000.0</td>
+      <td>180000000.0</td>
+      <td>200000000.0</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>TOTAL</td>
+      <td>NaN</td>
+      <td>合计</td>
+      <td>合计</td>
+      <td></td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>UNRESOLVED</td>
+      <td>UNRESOLVED</td>
+      <td>UNRESOLVED</td>
+      <td>TOTAL</td>
+      <td>合计</td>
+      <td>合计</td>
+      <td>EXPLICIT_TEXT</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>795201418.0</td>
+      <td>857072910.0</td>
+      <td>838937281.0</td>
+      <td>907555449.0</td>
+    </tr>
+  </tbody>
+</table>
+</body></html>

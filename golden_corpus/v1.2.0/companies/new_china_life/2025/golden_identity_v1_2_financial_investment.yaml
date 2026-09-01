@@ -1,0 +1,1882 @@
+identity_contract_version: GOLDEN_IDENTITY_V1_2
+definition_id: FINANCIAL_INVESTMENT_V1
+family: financial_investment
+source_golden_id: NEW_CHINA_LIFE_2025_GOLDEN_VALUES
+filing_identity:
+  company_id: NEW_CHINA_LIFE
+  legal_entity_name: 新华人寿保险股份有限公司
+  report_year: 2025
+  source_scope: CONSOLIDATED
+  canonical_pdf_filename: 新华保险2025年报.pdf
+  pdf_sha256: 4a5d6ee54dc0a351acac6d9d3ce1d0eee6d4a388c4c36c1668a35d5ffd35c528
+  page_count: 295
+  source_type: ANNUAL_REPORT
+physical_tables:
+- physical_table_id: NEW_CHINA_LIFE_2025_ANNUAL_REPORT::fvtpl_assets::PRIMARY
+  physical_page_number: 194
+  printed_page_number: null
+  title: 12 交易性金融资产
+  unit: 百万元
+  table_classification: PRIMARY_TABLE
+- physical_table_id: NEW_CHINA_LIFE_2025_ANNUAL_REPORT::debt_investment::PRIMARY
+  physical_page_number: 195
+  printed_page_number: null
+  title: 13 债权投资
+  unit: 百万元
+  table_classification: PRIMARY_TABLE
+- physical_table_id: NEW_CHINA_LIFE_2025_ANNUAL_REPORT::other_debt_investment::PRIMARY
+  physical_page_number: 196
+  printed_page_number: null
+  title: 14 其他债权投资
+  unit: 百万元
+  table_classification: PRIMARY_TABLE
+- physical_table_id: NEW_CHINA_LIFE_2025_ANNUAL_REPORT::other_equity_investment::PRIMARY
+  physical_page_number: 198
+  printed_page_number: null
+  title: 15 其他权益工具投资
+  unit: 百万元
+  table_classification: PRIMARY_TABLE
+- physical_table_id: NEW_CHINA_LIFE_2025_ANNUAL_REPORT::debt_investment_ecl_2025
+  physical_page_number: 195
+  printed_page_number: null
+  title: 13 债权投资（续）- 2025年度信用损失准备变动情况
+  unit: 百万元
+  table_classification: SUPPLEMENTARY_TABLE
+- physical_table_id: NEW_CHINA_LIFE_2025_ANNUAL_REPORT::debt_investment_ecl_2024
+  physical_page_number: 196
+  printed_page_number: null
+  title: 13 债权投资（续）- 2024年度信用损失准备变动情况
+  unit: 百万元
+  table_classification: SUPPLEMENTARY_TABLE
+- physical_table_id: NEW_CHINA_LIFE_2025_ANNUAL_REPORT::other_debt_investment_ecl
+  physical_page_number: 197
+  printed_page_number: null
+  title: 14 其他债权投资（续）- 2025年度及2024年度信用损失准备变动情况
+  unit: 百万元
+  table_classification: SUPPLEMENTARY_TABLE
+rows:
+- golden_row_id: GROW_89843b098a7c3cb1f66b
+  physical_table_id: NEW_CHINA_LIFE_2025_ANNUAL_REPORT::MAIN_STATEMENT
+  member_table_id: fvtpl_assets
+  classification_axis: FINANCIAL_INVESTMENT_MEMBER_SET
+  raw_label: 交易性金融资产
+  normalized_label: 交易性金融资产
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: MEMBER
+  source_row_order: null
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年
+    period_identity: YEAR:2025
+    measure: AMOUNT
+    unit: SOURCE_DECLARED
+    value: 579,756
+- golden_row_id: GROW_af158a71873f6b90ddff
+  physical_table_id: NEW_CHINA_LIFE_2025_ANNUAL_REPORT::fvtpl_assets::PRIMARY
+  member_table_id: fvtpl_assets
+  classification_axis: ASSET_TYPE
+  raw_label: 国债及政府债
+  normalized_label: 国债及政府债
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 1
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年
+    period_identity: YEAR:2025
+    measure: AMOUNT
+    unit: 百万元
+    value: 8,913
+  - period_role: COMPARATIVE
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: '178'
+- golden_row_id: GROW_21fe555f7e331f0454a0
+  physical_table_id: NEW_CHINA_LIFE_2025_ANNUAL_REPORT::fvtpl_assets::PRIMARY
+  member_table_id: fvtpl_assets
+  classification_axis: ASSET_TYPE
+  raw_label: 金融债券
+  normalized_label: 金融债券
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 2
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年
+    period_identity: YEAR:2025
+    measure: AMOUNT
+    unit: 百万元
+    value: 12,784
+  - period_role: COMPARATIVE
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: 18,675
+- golden_row_id: GROW_792d163eb47400ceb129
+  physical_table_id: NEW_CHINA_LIFE_2025_ANNUAL_REPORT::fvtpl_assets::PRIMARY
+  member_table_id: fvtpl_assets
+  classification_axis: ASSET_TYPE
+  raw_label: 企业债券
+  normalized_label: 企业债券
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 3
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年
+    period_identity: YEAR:2025
+    measure: AMOUNT
+    unit: 百万元
+    value: 35,991
+  - period_role: COMPARATIVE
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: 15,172
+- golden_row_id: GROW_7b8e0f745ba5d1177c00
+  physical_table_id: NEW_CHINA_LIFE_2025_ANNUAL_REPORT::fvtpl_assets::PRIMARY
+  member_table_id: fvtpl_assets
+  classification_axis: ASSET_TYPE
+  raw_label: 次级债券
+  normalized_label: 次级债券
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 4
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年
+    period_identity: YEAR:2025
+    measure: AMOUNT
+    unit: 百万元
+    value: 74,902
+  - period_role: COMPARATIVE
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: 94,261
+- golden_row_id: GROW_55bac98fb4fce754d9f2
+  physical_table_id: NEW_CHINA_LIFE_2025_ANNUAL_REPORT::fvtpl_assets::PRIMARY
+  member_table_id: fvtpl_assets
+  classification_axis: ASSET_TYPE
+  raw_label: 基金
+  normalized_label: 基金
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 5
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年
+    period_identity: YEAR:2025
+    measure: AMOUNT
+    unit: 百万元
+    value: 172,574
+  - period_role: COMPARATIVE
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: 126,324
+- golden_row_id: GROW_3784288f5ee6ba73af67
+  physical_table_id: NEW_CHINA_LIFE_2025_ANNUAL_REPORT::fvtpl_assets::PRIMARY
+  member_table_id: fvtpl_assets
+  classification_axis: ASSET_TYPE
+  raw_label: 股票
+  normalized_label: 股票
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 6
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年
+    period_identity: YEAR:2025
+    measure: AMOUNT
+    unit: 百万元
+    value: 168,261
+  - period_role: COMPARATIVE
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: 140,715
+- golden_row_id: GROW_b2516f2308e4f97bfd35
+  physical_table_id: NEW_CHINA_LIFE_2025_ANNUAL_REPORT::fvtpl_assets::PRIMARY
+  member_table_id: fvtpl_assets
+  classification_axis: ASSET_TYPE
+  raw_label: 股权计划
+  normalized_label: 股权计划
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 7
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年
+    period_identity: YEAR:2025
+    measure: AMOUNT
+    unit: 百万元
+    value: 22,103
+  - period_role: COMPARATIVE
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: 20,174
+- golden_row_id: GROW_e7e190d7fd326750642c
+  physical_table_id: NEW_CHINA_LIFE_2025_ANNUAL_REPORT::fvtpl_assets::PRIMARY
+  member_table_id: fvtpl_assets
+  classification_axis: ASSET_TYPE
+  raw_label: 永续债
+  normalized_label: 永续债
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 8
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年
+    period_identity: YEAR:2025
+    measure: AMOUNT
+    unit: 百万元
+    value: 16,252
+  - period_role: COMPARATIVE
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: 6,775
+- golden_row_id: GROW_2c864c25f685c517c2db
+  physical_table_id: NEW_CHINA_LIFE_2025_ANNUAL_REPORT::fvtpl_assets::PRIMARY
+  member_table_id: fvtpl_assets
+  classification_axis: ASSET_TYPE
+  raw_label: 私募股权基金
+  normalized_label: 私募股权基金
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 9
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年
+    period_identity: YEAR:2025
+    measure: AMOUNT
+    unit: 百万元
+    value: 14,063
+  - period_role: COMPARATIVE
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: 14,065
+- golden_row_id: GROW_54b94e2cf1d976b5c2b9
+  physical_table_id: NEW_CHINA_LIFE_2025_ANNUAL_REPORT::fvtpl_assets::PRIMARY
+  member_table_id: fvtpl_assets
+  classification_axis: ASSET_TYPE
+  raw_label: 理财产品
+  normalized_label: 理财产品
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 10
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年
+    period_identity: YEAR:2025
+    measure: AMOUNT
+    unit: 百万元
+    value: 14,028
+  - period_role: COMPARATIVE
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: 1,011
+- golden_row_id: GROW_bff3a4e2c970be9a2a87
+  physical_table_id: NEW_CHINA_LIFE_2025_ANNUAL_REPORT::fvtpl_assets::PRIMARY
+  member_table_id: fvtpl_assets
+  classification_axis: ASSET_TYPE
+  raw_label: 同业存单
+  normalized_label: 同业存单
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 11
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年
+    period_identity: YEAR:2025
+    measure: AMOUNT
+    unit: 百万元
+    value: 11,893
+  - period_role: COMPARATIVE
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: 1,880
+- golden_row_id: GROW_aacee1a8ae9947776e3c
+  physical_table_id: NEW_CHINA_LIFE_2025_ANNUAL_REPORT::fvtpl_assets::PRIMARY
+  member_table_id: fvtpl_assets
+  classification_axis: ASSET_TYPE
+  raw_label: 优先股
+  normalized_label: 优先股
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 12
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年
+    period_identity: YEAR:2025
+    measure: AMOUNT
+    unit: 百万元
+    value: 9,659
+  - period_role: COMPARATIVE
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: 9,462
+- golden_row_id: GROW_ed65a8227b8d367f9a3f
+  physical_table_id: NEW_CHINA_LIFE_2025_ANNUAL_REPORT::fvtpl_assets::PRIMARY
+  member_table_id: fvtpl_assets
+  classification_axis: ASSET_TYPE
+  raw_label: 未上市股权
+  normalized_label: 未上市股权
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 13
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年
+    period_identity: YEAR:2025
+    measure: AMOUNT
+    unit: 百万元
+    value: 7,334
+  - period_role: COMPARATIVE
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: 7,337
+- golden_row_id: GROW_dd68c94fb5a6cb9e1b5e
+  physical_table_id: NEW_CHINA_LIFE_2025_ANNUAL_REPORT::fvtpl_assets::PRIMARY
+  member_table_id: fvtpl_assets
+  classification_axis: ASSET_TYPE
+  raw_label: 资产管理计划
+  normalized_label: 资产管理计划
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 14
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年
+    period_identity: YEAR:2025
+    measure: AMOUNT
+    unit: 百万元
+    value: 7,000
+  - period_role: COMPARATIVE
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: 15,302
+- golden_row_id: GROW_c7bae50b9b3fee57c2ed
+  physical_table_id: NEW_CHINA_LIFE_2025_ANNUAL_REPORT::fvtpl_assets::PRIMARY
+  member_table_id: fvtpl_assets
+  classification_axis: ASSET_TYPE
+  raw_label: 信托计划
+  normalized_label: 信托计划
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 15
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年
+    period_identity: YEAR:2025
+    measure: AMOUNT
+    unit: 百万元
+    value: –
+  - period_role: COMPARATIVE
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: 9,688
+- golden_row_id: GROW_249d8c52e7bf1e111d0b
+  physical_table_id: NEW_CHINA_LIFE_2025_ANNUAL_REPORT::fvtpl_assets::PRIMARY
+  member_table_id: fvtpl_assets
+  classification_axis: ASSET_TYPE
+  raw_label: 其他投资（注）
+  normalized_label: 其他投资（注）
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 16
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年
+    period_identity: YEAR:2025
+    measure: AMOUNT
+    unit: 百万元
+    value: 3,999
+  - period_role: COMPARATIVE
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: 4,909
+- golden_row_id: GROW_419dce291d7b4200ce24
+  physical_table_id: NEW_CHINA_LIFE_2025_ANNUAL_REPORT::fvtpl_assets::PRIMARY
+  member_table_id: fvtpl_assets
+  classification_axis: ASSET_TYPE
+  raw_label: 合计
+  normalized_label: 合计
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 17
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年
+    period_identity: YEAR:2025
+    measure: AMOUNT
+    unit: 百万元
+    value: 579,756
+  - period_role: COMPARATIVE
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: 485,928
+- golden_row_id: GROW_b60574d76b3dd865aa74
+  physical_table_id: NEW_CHINA_LIFE_2025_ANNUAL_REPORT::MAIN_STATEMENT
+  member_table_id: debt_investment
+  classification_axis: FINANCIAL_INVESTMENT_MEMBER_SET
+  raw_label: 债权投资
+  normalized_label: 债权投资
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: MEMBER
+  source_row_order: null
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年
+    period_identity: YEAR:2025
+    measure: AMOUNT
+    unit: SOURCE_DECLARED
+    value: 256,913
+- golden_row_id: GROW_3d3ca624bada30268503
+  physical_table_id: NEW_CHINA_LIFE_2025_ANNUAL_REPORT::debt_investment::PRIMARY
+  member_table_id: debt_investment
+  classification_axis: ASSET_TYPE
+  raw_label: 国债及政府债
+  normalized_label: 国债及政府债
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 1
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年
+    period_identity: YEAR:2025
+    measure: AMOUNT
+    unit: 百万元
+    value: 237,575
+  - period_role: COMPARATIVE
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: 246,842
+- golden_row_id: GROW_b289060c73cee00a2b8f
+  physical_table_id: NEW_CHINA_LIFE_2025_ANNUAL_REPORT::debt_investment::PRIMARY
+  member_table_id: debt_investment
+  classification_axis: ASSET_TYPE
+  raw_label: 金融债券
+  normalized_label: 金融债券
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 2
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年
+    period_identity: YEAR:2025
+    measure: AMOUNT
+    unit: 百万元
+    value: 4,161
+  - period_role: COMPARATIVE
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: 3,851
+- golden_row_id: GROW_5de3dc149043838d0326
+  physical_table_id: NEW_CHINA_LIFE_2025_ANNUAL_REPORT::debt_investment::PRIMARY
+  member_table_id: debt_investment
+  classification_axis: ASSET_TYPE
+  raw_label: 企业债券
+  normalized_label: 企业债券
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 3
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年
+    period_identity: YEAR:2025
+    measure: AMOUNT
+    unit: 百万元
+    value: 7,326
+  - period_role: COMPARATIVE
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: 7,963
+- golden_row_id: GROW_2b7fe634548bc8ca9ba5
+  physical_table_id: NEW_CHINA_LIFE_2025_ANNUAL_REPORT::debt_investment::PRIMARY
+  member_table_id: debt_investment
+  classification_axis: ASSET_TYPE
+  raw_label: 次级债券
+  normalized_label: 次级债券
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 4
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年
+    period_identity: YEAR:2025
+    measure: AMOUNT
+    unit: 百万元
+    value: '603'
+  - period_role: COMPARATIVE
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: '622'
+- golden_row_id: GROW_61ed444b7492b207a7fb
+  physical_table_id: NEW_CHINA_LIFE_2025_ANNUAL_REPORT::debt_investment::PRIMARY
+  member_table_id: debt_investment
+  classification_axis: ASSET_TYPE
+  raw_label: 债权投资计划
+  normalized_label: 债权投资计划
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 5
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年
+    period_identity: YEAR:2025
+    measure: AMOUNT
+    unit: 百万元
+    value: 9,569
+  - period_role: COMPARATIVE
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: 11,958
+- golden_row_id: GROW_614c8b52c1b7b626c19d
+  physical_table_id: NEW_CHINA_LIFE_2025_ANNUAL_REPORT::debt_investment::PRIMARY
+  member_table_id: debt_investment
+  classification_axis: ASSET_TYPE
+  raw_label: 信托计划
+  normalized_label: 信托计划
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 6
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年
+    period_identity: YEAR:2025
+    measure: AMOUNT
+    unit: 百万元
+    value: 2,248
+  - period_role: COMPARATIVE
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: 6,090
+- golden_row_id: GROW_d232849671a1000fdf87
+  physical_table_id: NEW_CHINA_LIFE_2025_ANNUAL_REPORT::debt_investment::PRIMARY
+  member_table_id: debt_investment
+  classification_axis: ASSET_TYPE
+  raw_label: 资产支持计划
+  normalized_label: 资产支持计划
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 7
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年
+    period_identity: YEAR:2025
+    measure: AMOUNT
+    unit: 百万元
+    value: '266'
+  - period_role: COMPARATIVE
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: '465'
+- golden_row_id: GROW_e9f3494c01585128617e
+  physical_table_id: NEW_CHINA_LIFE_2025_ANNUAL_REPORT::debt_investment::PRIMARY
+  member_table_id: debt_investment
+  classification_axis: ASSET_TYPE
+  raw_label: 小计
+  normalized_label: 小计
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 8
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年
+    period_identity: YEAR:2025
+    measure: AMOUNT
+    unit: 百万元
+    value: 261,748
+  - period_role: COMPARATIVE
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: 277,791
+- golden_row_id: GROW_1eab543796213de1399d
+  physical_table_id: NEW_CHINA_LIFE_2025_ANNUAL_REPORT::debt_investment::PRIMARY
+  member_table_id: debt_investment
+  classification_axis: ASSET_TYPE
+  raw_label: 减：信用损失准备
+  normalized_label: 减：信用损失准备
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 9
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年
+    period_identity: YEAR:2025
+    measure: AMOUNT
+    unit: 百万元
+    value: (4,835)
+  - period_role: COMPARATIVE
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: (2,900)
+- golden_row_id: GROW_bb6eb308439a75b8ff1c
+  physical_table_id: NEW_CHINA_LIFE_2025_ANNUAL_REPORT::debt_investment::PRIMARY
+  member_table_id: debt_investment
+  classification_axis: ASSET_TYPE
+  raw_label: 合计
+  normalized_label: 合计
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 10
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年
+    period_identity: YEAR:2025
+    measure: AMOUNT
+    unit: 百万元
+    value: 256,913
+  - period_role: COMPARATIVE
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: 274,891
+- golden_row_id: GROW_c39571988e7bbe8291ff
+  physical_table_id: NEW_CHINA_LIFE_2025_ANNUAL_REPORT::MAIN_STATEMENT
+  member_table_id: other_debt_investment
+  classification_axis: FINANCIAL_INVESTMENT_MEMBER_SET
+  raw_label: 其他债权投资
+  normalized_label: 其他债权投资
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: MEMBER
+  source_row_order: null
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年
+    period_identity: YEAR:2025
+    measure: AMOUNT
+    unit: SOURCE_DECLARED
+    value: 535,968
+- golden_row_id: GROW_20079636e9c1b71e55b5
+  physical_table_id: NEW_CHINA_LIFE_2025_ANNUAL_REPORT::other_debt_investment::PRIMARY
+  member_table_id: other_debt_investment
+  classification_axis: ASSET_TYPE
+  raw_label: 国债及政府债
+  normalized_label: 国债及政府债
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 1
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年
+    period_identity: YEAR:2025
+    measure: AMOUNT
+    unit: 百万元
+    value: 448,135
+  - period_role: COMPARATIVE
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: 352,705
+- golden_row_id: GROW_05425e30888a3b9cf998
+  physical_table_id: NEW_CHINA_LIFE_2025_ANNUAL_REPORT::other_debt_investment::PRIMARY
+  member_table_id: other_debt_investment
+  classification_axis: ASSET_TYPE
+  raw_label: 金融债券
+  normalized_label: 金融债券
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 2
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年
+    period_identity: YEAR:2025
+    measure: AMOUNT
+    unit: 百万元
+    value: 37,464
+  - period_role: COMPARATIVE
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: 57,741
+- golden_row_id: GROW_0b0d32e068035cdb6d64
+  physical_table_id: NEW_CHINA_LIFE_2025_ANNUAL_REPORT::other_debt_investment::PRIMARY
+  member_table_id: other_debt_investment
+  classification_axis: ASSET_TYPE
+  raw_label: 企业债券
+  normalized_label: 企业债券
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 3
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年
+    period_identity: YEAR:2025
+    measure: AMOUNT
+    unit: 百万元
+    value: 35,365
+  - period_role: COMPARATIVE
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: 40,275
+- golden_row_id: GROW_dd9d2d861a31e1e9524d
+  physical_table_id: NEW_CHINA_LIFE_2025_ANNUAL_REPORT::other_debt_investment::PRIMARY
+  member_table_id: other_debt_investment
+  classification_axis: ASSET_TYPE
+  raw_label: 次级债券
+  normalized_label: 次级债券
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 4
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年
+    period_identity: YEAR:2025
+    measure: AMOUNT
+    unit: 百万元
+    value: 10,807
+  - period_role: COMPARATIVE
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: 11,211
+- golden_row_id: GROW_d59ae3de9a15f41c2333
+  physical_table_id: NEW_CHINA_LIFE_2025_ANNUAL_REPORT::other_debt_investment::PRIMARY
+  member_table_id: other_debt_investment
+  classification_axis: ASSET_TYPE
+  raw_label: 债权投资计划
+  normalized_label: 债权投资计划
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 5
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年
+    period_identity: YEAR:2025
+    measure: AMOUNT
+    unit: 百万元
+    value: 2,846
+  - period_role: COMPARATIVE
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: 5,018
+- golden_row_id: GROW_55df3fdef0f50735a6fd
+  physical_table_id: NEW_CHINA_LIFE_2025_ANNUAL_REPORT::other_debt_investment::PRIMARY
+  member_table_id: other_debt_investment
+  classification_axis: ASSET_TYPE
+  raw_label: 信托计划
+  normalized_label: 信托计划
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 6
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年
+    period_identity: YEAR:2025
+    measure: AMOUNT
+    unit: 百万元
+    value: 1,156
+  - period_role: COMPARATIVE
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: 3,216
+- golden_row_id: GROW_f7e97ef26e5a3ccb69a3
+  physical_table_id: NEW_CHINA_LIFE_2025_ANNUAL_REPORT::other_debt_investment::PRIMARY
+  member_table_id: other_debt_investment
+  classification_axis: ASSET_TYPE
+  raw_label: 资产支持计划
+  normalized_label: 资产支持计划
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 7
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年
+    period_identity: YEAR:2025
+    measure: AMOUNT
+    unit: 百万元
+    value: '195'
+  - period_role: COMPARATIVE
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: '200'
+- golden_row_id: GROW_7601e1560e44175a55a6
+  physical_table_id: NEW_CHINA_LIFE_2025_ANNUAL_REPORT::other_debt_investment::PRIMARY
+  member_table_id: other_debt_investment
+  classification_axis: ASSET_TYPE
+  raw_label: 合计
+  normalized_label: 合计
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 8
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年
+    period_identity: YEAR:2025
+    measure: AMOUNT
+    unit: 百万元
+    value: 535,968
+  - period_role: COMPARATIVE
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: 470,366
+- golden_row_id: GROW_bb5de6a8b99e75ddc070
+  physical_table_id: NEW_CHINA_LIFE_2025_ANNUAL_REPORT::other_debt_investment::PRIMARY
+  member_table_id: other_debt_investment
+  classification_axis: ASSET_TYPE
+  raw_label: 其中：成本
+  normalized_label: 其中：成本
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 9
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年
+    period_identity: YEAR:2025
+    measure: AMOUNT
+    unit: 百万元
+    value: 505,109
+  - period_role: COMPARATIVE
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: 408,670
+- golden_row_id: GROW_0f94769ba6c99d5c20db
+  physical_table_id: NEW_CHINA_LIFE_2025_ANNUAL_REPORT::other_debt_investment::PRIMARY
+  member_table_id: other_debt_investment
+  classification_axis: ASSET_TYPE
+  raw_label: 其中：应计利息
+  normalized_label: 其中：应计利息
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 10
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年
+    period_identity: YEAR:2025
+    measure: AMOUNT
+    unit: 百万元
+    value: 4,149
+  - period_role: COMPARATIVE
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: 3,935
+- golden_row_id: GROW_31bf053156104840802d
+  physical_table_id: NEW_CHINA_LIFE_2025_ANNUAL_REPORT::other_debt_investment::PRIMARY
+  member_table_id: other_debt_investment
+  classification_axis: ASSET_TYPE
+  raw_label: 其中：累计公允价值变动
+  normalized_label: 其中：累计公允价值变动
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 11
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年
+    period_identity: YEAR:2025
+    measure: AMOUNT
+    unit: 百万元
+    value: 26,710
+  - period_role: COMPARATIVE
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: 57,761
+- golden_row_id: GROW_56aca7c10e9d0f3b2b90
+  physical_table_id: NEW_CHINA_LIFE_2025_ANNUAL_REPORT::MAIN_STATEMENT
+  member_table_id: other_equity_investment
+  classification_axis: FINANCIAL_INVESTMENT_MEMBER_SET
+  raw_label: 其他权益工具投资
+  normalized_label: 其他权益工具投资
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: MEMBER
+  source_row_order: null
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年
+    period_identity: YEAR:2025
+    measure: AMOUNT
+    unit: SOURCE_DECLARED
+    value: 38,556
+- golden_row_id: GROW_487e9c77450977965d75
+  physical_table_id: NEW_CHINA_LIFE_2025_ANNUAL_REPORT::other_equity_investment::PRIMARY
+  member_table_id: other_equity_investment
+  classification_axis: ASSET_TYPE
+  raw_label: 股票
+  normalized_label: 股票
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 1
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年
+    period_identity: YEAR:2025
+    measure: AMOUNT
+    unit: 百万元
+    value: 38,532
+  - period_role: COMPARATIVE
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: 30,618
+- golden_row_id: GROW_f2e5baa944882ea6529f
+  physical_table_id: NEW_CHINA_LIFE_2025_ANNUAL_REPORT::other_equity_investment::PRIMARY
+  member_table_id: other_equity_investment
+  classification_axis: ASSET_TYPE
+  raw_label: 未上市股权
+  normalized_label: 未上市股权
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 2
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年
+    period_identity: YEAR:2025
+    measure: AMOUNT
+    unit: 百万元
+    value: '24'
+  - period_role: COMPARATIVE
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: '22'
+- golden_row_id: GROW_d979ac9d6d40606ebfbd
+  physical_table_id: NEW_CHINA_LIFE_2025_ANNUAL_REPORT::other_equity_investment::PRIMARY
+  member_table_id: other_equity_investment
+  classification_axis: ASSET_TYPE
+  raw_label: 合计
+  normalized_label: 合计
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 3
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年
+    period_identity: YEAR:2025
+    measure: AMOUNT
+    unit: 百万元
+    value: 38,556
+  - period_role: COMPARATIVE
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: 30,640
+- golden_row_id: GROW_26826f7e5443b304fc28
+  physical_table_id: NEW_CHINA_LIFE_2025_ANNUAL_REPORT::other_equity_investment::PRIMARY
+  member_table_id: other_equity_investment
+  classification_axis: ASSET_TYPE
+  raw_label: 其中：成本
+  normalized_label: 其中：成本
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 4
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年
+    period_identity: YEAR:2025
+    measure: AMOUNT
+    unit: 百万元
+    value: 32,283
+  - period_role: COMPARATIVE
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: 28,881
+- golden_row_id: GROW_e8895b51d7adf173bba3
+  physical_table_id: NEW_CHINA_LIFE_2025_ANNUAL_REPORT::other_equity_investment::PRIMARY
+  member_table_id: other_equity_investment
+  classification_axis: ASSET_TYPE
+  raw_label: 其中：累计公允价值变动
+  normalized_label: 其中：累计公允价值变动
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 5
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年
+    period_identity: YEAR:2025
+    measure: AMOUNT
+    unit: 百万元
+    value: 6,273
+  - period_role: COMPARATIVE
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: 1,759
+- golden_row_id: GROW_afc56c630665777e14fd
+  physical_table_id: NEW_CHINA_LIFE_2025_ANNUAL_REPORT::debt_investment_ecl_2025
+  member_table_id: debt_investment_ecl_2025
+  classification_axis: SUPPLEMENTARY_SCHEDULE
+  raw_label: 2025年1月1日 信用损失准备
+  normalized_label: 2025年1月1日 信用损失准备
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 1
+  period_values:
+  - period_role: SCHEDULE
+    period_label: 2025年1月1日 信用损失准备
+    period_identity: DATE:2025-01-01
+    measure: STAGE_1
+    unit: 百万元
+    value: '6'
+  - period_role: SCHEDULE
+    period_label: 2025年1月1日 信用损失准备
+    period_identity: DATE:2025-01-01
+    measure: STAGE_2
+    unit: 百万元
+    value: '914'
+  - period_role: SCHEDULE
+    period_label: 2025年1月1日 信用损失准备
+    period_identity: DATE:2025-01-01
+    measure: STAGE_3
+    unit: 百万元
+    value: 1,980
+  - period_role: SCHEDULE
+    period_label: 2025年1月1日 信用损失准备
+    period_identity: DATE:2025-01-01
+    measure: TOTAL
+    unit: 百万元
+    value: 2,900
+- golden_row_id: GROW_279a9d51765729473a95
+  physical_table_id: NEW_CHINA_LIFE_2025_ANNUAL_REPORT::debt_investment_ecl_2025
+  member_table_id: debt_investment_ecl_2025
+  classification_axis: SUPPLEMENTARY_SCHEDULE
+  raw_label: 转至第三阶段
+  normalized_label: 转至第三阶段
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 2
+  period_values:
+  - period_role: SCHEDULE
+    period_label: 转至第三阶段
+    period_identity: YEAR:2025
+    measure: STAGE_1
+    unit: 百万元
+    value: –
+  - period_role: SCHEDULE
+    period_label: 转至第三阶段
+    period_identity: YEAR:2025
+    measure: STAGE_2
+    unit: 百万元
+    value: (103)
+  - period_role: SCHEDULE
+    period_label: 转至第三阶段
+    period_identity: YEAR:2025
+    measure: STAGE_3
+    unit: 百万元
+    value: '103'
+  - period_role: SCHEDULE
+    period_label: 转至第三阶段
+    period_identity: YEAR:2025
+    measure: TOTAL
+    unit: 百万元
+    value: –
+- golden_row_id: GROW_b746721d2ca2a1530b15
+  physical_table_id: NEW_CHINA_LIFE_2025_ANNUAL_REPORT::debt_investment_ecl_2025
+  member_table_id: debt_investment_ecl_2025
+  classification_axis: SUPPLEMENTARY_SCHEDULE
+  raw_label: 本年（转回）╱计提
+  normalized_label: 本年（转回）╱计提
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 3
+  period_values:
+  - period_role: SCHEDULE
+    period_label: 本年（转回）╱计提
+    period_identity: YEAR:2025
+    measure: STAGE_1
+    unit: 百万元
+    value: (2)
+  - period_role: SCHEDULE
+    period_label: 本年（转回）╱计提
+    period_identity: YEAR:2025
+    measure: STAGE_2
+    unit: 百万元
+    value: (811)
+  - period_role: SCHEDULE
+    period_label: 本年（转回）╱计提
+    period_identity: YEAR:2025
+    measure: STAGE_3
+    unit: 百万元
+    value: 2,748
+  - period_role: SCHEDULE
+    period_label: 本年（转回）╱计提
+    period_identity: YEAR:2025
+    measure: TOTAL
+    unit: 百万元
+    value: 1,935
+- golden_row_id: GROW_c6eab23f6b0228d80bf1
+  physical_table_id: NEW_CHINA_LIFE_2025_ANNUAL_REPORT::debt_investment_ecl_2025
+  member_table_id: debt_investment_ecl_2025
+  classification_axis: SUPPLEMENTARY_SCHEDULE
+  raw_label: 2025年12月31日 信用损失准备
+  normalized_label: 2025年12月31日 信用损失准备
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 4
+  period_values:
+  - period_role: SCHEDULE
+    period_label: 2025年12月31日 信用损失准备
+    period_identity: DATE:2025-12-31
+    measure: STAGE_1
+    unit: 百万元
+    value: '4'
+  - period_role: SCHEDULE
+    period_label: 2025年12月31日 信用损失准备
+    period_identity: DATE:2025-12-31
+    measure: STAGE_2
+    unit: 百万元
+    value: –
+  - period_role: SCHEDULE
+    period_label: 2025年12月31日 信用损失准备
+    period_identity: DATE:2025-12-31
+    measure: STAGE_3
+    unit: 百万元
+    value: 4,831
+  - period_role: SCHEDULE
+    period_label: 2025年12月31日 信用损失准备
+    period_identity: DATE:2025-12-31
+    measure: TOTAL
+    unit: 百万元
+    value: 4,835
+- golden_row_id: GROW_20268294ff2008f61f46
+  physical_table_id: NEW_CHINA_LIFE_2025_ANNUAL_REPORT::debt_investment_ecl_2025
+  member_table_id: debt_investment_ecl_2025
+  classification_axis: SUPPLEMENTARY_SCHEDULE
+  raw_label: 2025年12月31日 账面余额
+  normalized_label: 2025年12月31日 账面余额
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 5
+  period_values:
+  - period_role: SCHEDULE
+    period_label: 2025年12月31日 账面余额
+    period_identity: DATE:2025-12-31
+    measure: STAGE_1
+    unit: 百万元
+    value: 253,272
+  - period_role: SCHEDULE
+    period_label: 2025年12月31日 账面余额
+    period_identity: DATE:2025-12-31
+    measure: STAGE_2
+    unit: 百万元
+    value: –
+  - period_role: SCHEDULE
+    period_label: 2025年12月31日 账面余额
+    period_identity: DATE:2025-12-31
+    measure: STAGE_3
+    unit: 百万元
+    value: 8,476
+  - period_role: SCHEDULE
+    period_label: 2025年12月31日 账面余额
+    period_identity: DATE:2025-12-31
+    measure: TOTAL
+    unit: 百万元
+    value: 261,748
+- golden_row_id: GROW_ea3657dc86566f391724
+  physical_table_id: NEW_CHINA_LIFE_2025_ANNUAL_REPORT::debt_investment_ecl_2024
+  member_table_id: debt_investment_ecl_2024
+  classification_axis: SUPPLEMENTARY_SCHEDULE
+  raw_label: 2024年1月1日 信用损失准备
+  normalized_label: 2024年1月1日 信用损失准备
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 1
+  period_values:
+  - period_role: SCHEDULE
+    period_label: 2024年1月1日 信用损失准备
+    period_identity: DATE:2024-01-01
+    measure: STAGE_1
+    unit: 百万元
+    value: '87'
+  - period_role: SCHEDULE
+    period_label: 2024年1月1日 信用损失准备
+    period_identity: DATE:2024-01-01
+    measure: STAGE_2
+    unit: 百万元
+    value: '2'
+  - period_role: SCHEDULE
+    period_label: 2024年1月1日 信用损失准备
+    period_identity: DATE:2024-01-01
+    measure: STAGE_3
+    unit: 百万元
+    value: '386'
+  - period_role: SCHEDULE
+    period_label: 2024年1月1日 信用损失准备
+    period_identity: DATE:2024-01-01
+    measure: TOTAL
+    unit: 百万元
+    value: '475'
+- golden_row_id: GROW_874d0954eafcd368019d
+  physical_table_id: NEW_CHINA_LIFE_2025_ANNUAL_REPORT::debt_investment_ecl_2024
+  member_table_id: debt_investment_ecl_2024
+  classification_axis: SUPPLEMENTARY_SCHEDULE
+  raw_label: 转至第二阶段
+  normalized_label: 转至第二阶段
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 2
+  period_values:
+  - period_role: SCHEDULE
+    period_label: 转至第二阶段
+    period_identity: YEAR:2024
+    measure: STAGE_1
+    unit: 百万元
+    value: (55)
+  - period_role: SCHEDULE
+    period_label: 转至第二阶段
+    period_identity: YEAR:2024
+    measure: STAGE_2
+    unit: 百万元
+    value: '55'
+  - period_role: SCHEDULE
+    period_label: 转至第二阶段
+    period_identity: YEAR:2024
+    measure: STAGE_3
+    unit: 百万元
+    value: –
+  - period_role: SCHEDULE
+    period_label: 转至第二阶段
+    period_identity: YEAR:2024
+    measure: TOTAL
+    unit: 百万元
+    value: –
+- golden_row_id: GROW_50823cc46f7eb7b9d122
+  physical_table_id: NEW_CHINA_LIFE_2025_ANNUAL_REPORT::debt_investment_ecl_2024
+  member_table_id: debt_investment_ecl_2024
+  classification_axis: SUPPLEMENTARY_SCHEDULE
+  raw_label: 本年（转回）╱计提
+  normalized_label: 本年（转回）╱计提
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 3
+  period_values:
+  - period_role: SCHEDULE
+    period_label: 本年（转回）╱计提
+    period_identity: YEAR:2024
+    measure: STAGE_1
+    unit: 百万元
+    value: (26)
+  - period_role: SCHEDULE
+    period_label: 本年（转回）╱计提
+    period_identity: YEAR:2024
+    measure: STAGE_2
+    unit: 百万元
+    value: '857'
+  - period_role: SCHEDULE
+    period_label: 本年（转回）╱计提
+    period_identity: YEAR:2024
+    measure: STAGE_3
+    unit: 百万元
+    value: 1,594
+  - period_role: SCHEDULE
+    period_label: 本年（转回）╱计提
+    period_identity: YEAR:2024
+    measure: TOTAL
+    unit: 百万元
+    value: 2,425
+- golden_row_id: GROW_eb335870055dc280cc1c
+  physical_table_id: NEW_CHINA_LIFE_2025_ANNUAL_REPORT::debt_investment_ecl_2024
+  member_table_id: debt_investment_ecl_2024
+  classification_axis: SUPPLEMENTARY_SCHEDULE
+  raw_label: 2024年12月31日 信用损失准备
+  normalized_label: 2024年12月31日 信用损失准备
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 4
+  period_values:
+  - period_role: SCHEDULE
+    period_label: 2024年12月31日 信用损失准备
+    period_identity: DATE:2024-12-31
+    measure: STAGE_1
+    unit: 百万元
+    value: '6'
+  - period_role: SCHEDULE
+    period_label: 2024年12月31日 信用损失准备
+    period_identity: DATE:2024-12-31
+    measure: STAGE_2
+    unit: 百万元
+    value: '914'
+  - period_role: SCHEDULE
+    period_label: 2024年12月31日 信用损失准备
+    period_identity: DATE:2024-12-31
+    measure: STAGE_3
+    unit: 百万元
+    value: 1,980
+  - period_role: SCHEDULE
+    period_label: 2024年12月31日 信用损失准备
+    period_identity: DATE:2024-12-31
+    measure: TOTAL
+    unit: 百万元
+    value: 2,900
+- golden_row_id: GROW_23cd1225afc732d60ccc
+  physical_table_id: NEW_CHINA_LIFE_2025_ANNUAL_REPORT::debt_investment_ecl_2024
+  member_table_id: debt_investment_ecl_2024
+  classification_axis: SUPPLEMENTARY_SCHEDULE
+  raw_label: 2024年12月31日 账面余额
+  normalized_label: 2024年12月31日 账面余额
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 5
+  period_values:
+  - period_role: SCHEDULE
+    period_label: 2024年12月31日 账面余额
+    period_identity: DATE:2024-12-31
+    measure: STAGE_1
+    unit: 百万元
+    value: 268,988
+  - period_role: SCHEDULE
+    period_label: 2024年12月31日 账面余额
+    period_identity: DATE:2024-12-31
+    measure: STAGE_2
+    unit: 百万元
+    value: 6,303
+  - period_role: SCHEDULE
+    period_label: 2024年12月31日 账面余额
+    period_identity: DATE:2024-12-31
+    measure: STAGE_3
+    unit: 百万元
+    value: 2,500
+  - period_role: SCHEDULE
+    period_label: 2024年12月31日 账面余额
+    period_identity: DATE:2024-12-31
+    measure: TOTAL
+    unit: 百万元
+    value: 277,791
+- golden_row_id: GROW_8811c52ce50081e9a30d
+  physical_table_id: NEW_CHINA_LIFE_2025_ANNUAL_REPORT::other_debt_investment_ecl
+  member_table_id: other_debt_investment_ecl::items_2025
+  classification_axis: SUPPLEMENTARY_SCHEDULE
+  raw_label: 2025年1月1日 信用损失准备
+  normalized_label: 2025年1月1日 信用损失准备
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 1
+  period_values:
+  - period_role: SCHEDULE
+    period_label: 2025年1月1日 信用损失准备
+    period_identity: DATE:2025-01-01
+    measure: STAGE_1
+    unit: 百万元
+    value: '21'
+  - period_role: SCHEDULE
+    period_label: 2025年1月1日 信用损失准备
+    period_identity: DATE:2025-01-01
+    measure: STAGE_2
+    unit: 百万元
+    value: '331'
+  - period_role: SCHEDULE
+    period_label: 2025年1月1日 信用损失准备
+    period_identity: DATE:2025-01-01
+    measure: STAGE_3
+    unit: 百万元
+    value: 2,159
+  - period_role: SCHEDULE
+    period_label: 2025年1月1日 信用损失准备
+    period_identity: DATE:2025-01-01
+    measure: TOTAL
+    unit: 百万元
+    value: 2,511
+- golden_row_id: GROW_1fa279d66824efee52b1
+  physical_table_id: NEW_CHINA_LIFE_2025_ANNUAL_REPORT::other_debt_investment_ecl
+  member_table_id: other_debt_investment_ecl::items_2025
+  classification_axis: SUPPLEMENTARY_SCHEDULE
+  raw_label: 转至第三阶段
+  normalized_label: 转至第三阶段
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 2
+  period_values:
+  - period_role: SCHEDULE
+    period_label: 转至第三阶段
+    period_identity: YEAR:2025
+    measure: STAGE_1
+    unit: 百万元
+    value: –
+  - period_role: SCHEDULE
+    period_label: 转至第三阶段
+    period_identity: YEAR:2025
+    measure: STAGE_2
+    unit: 百万元
+    value: (23)
+  - period_role: SCHEDULE
+    period_label: 转至第三阶段
+    period_identity: YEAR:2025
+    measure: STAGE_3
+    unit: 百万元
+    value: '23'
+  - period_role: SCHEDULE
+    period_label: 转至第三阶段
+    period_identity: YEAR:2025
+    measure: TOTAL
+    unit: 百万元
+    value: –
+- golden_row_id: GROW_590672b960e5886e2703
+  physical_table_id: NEW_CHINA_LIFE_2025_ANNUAL_REPORT::other_debt_investment_ecl
+  member_table_id: other_debt_investment_ecl::items_2025
+  classification_axis: SUPPLEMENTARY_SCHEDULE
+  raw_label: 本年（转回）╱计提
+  normalized_label: 本年（转回）╱计提
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 3
+  period_values:
+  - period_role: SCHEDULE
+    period_label: 本年（转回）╱计提
+    period_identity: YEAR:2025
+    measure: STAGE_1
+    unit: 百万元
+    value: (5)
+  - period_role: SCHEDULE
+    period_label: 本年（转回）╱计提
+    period_identity: YEAR:2025
+    measure: STAGE_2
+    unit: 百万元
+    value: (308)
+  - period_role: SCHEDULE
+    period_label: 本年（转回）╱计提
+    period_identity: YEAR:2025
+    measure: STAGE_3
+    unit: 百万元
+    value: 1,870
+  - period_role: SCHEDULE
+    period_label: 本年（转回）╱计提
+    period_identity: YEAR:2025
+    measure: TOTAL
+    unit: 百万元
+    value: 1,557
+- golden_row_id: GROW_f82cf480e8d262104d1f
+  physical_table_id: NEW_CHINA_LIFE_2025_ANNUAL_REPORT::other_debt_investment_ecl
+  member_table_id: other_debt_investment_ecl::items_2025
+  classification_axis: SUPPLEMENTARY_SCHEDULE
+  raw_label: 2025年12月31日 信用损失准备
+  normalized_label: 2025年12月31日 信用损失准备
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 4
+  period_values:
+  - period_role: SCHEDULE
+    period_label: 2025年12月31日 信用损失准备
+    period_identity: DATE:2025-12-31
+    measure: STAGE_1
+    unit: 百万元
+    value: '16'
+  - period_role: SCHEDULE
+    period_label: 2025年12月31日 信用损失准备
+    period_identity: DATE:2025-12-31
+    measure: STAGE_2
+    unit: 百万元
+    value: –
+  - period_role: SCHEDULE
+    period_label: 2025年12月31日 信用损失准备
+    period_identity: DATE:2025-12-31
+    measure: STAGE_3
+    unit: 百万元
+    value: 4,052
+  - period_role: SCHEDULE
+    period_label: 2025年12月31日 信用损失准备
+    period_identity: DATE:2025-12-31
+    measure: TOTAL
+    unit: 百万元
+    value: 4,068
+- golden_row_id: GROW_aa4af3161dece49e490f
+  physical_table_id: NEW_CHINA_LIFE_2025_ANNUAL_REPORT::other_debt_investment_ecl
+  member_table_id: other_debt_investment_ecl::items_2025
+  classification_axis: SUPPLEMENTARY_SCHEDULE
+  raw_label: 2025年12月31日 账面价值
+  normalized_label: 2025年12月31日 账面价值
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 5
+  period_values:
+  - period_role: SCHEDULE
+    period_label: 2025年12月31日 账面价值
+    period_identity: DATE:2025-12-31
+    measure: STAGE_1
+    unit: 百万元
+    value: 534,783
+  - period_role: SCHEDULE
+    period_label: 2025年12月31日 账面价值
+    period_identity: DATE:2025-12-31
+    measure: STAGE_2
+    unit: 百万元
+    value: –
+  - period_role: SCHEDULE
+    period_label: 2025年12月31日 账面价值
+    period_identity: DATE:2025-12-31
+    measure: STAGE_3
+    unit: 百万元
+    value: 1,185
+  - period_role: SCHEDULE
+    period_label: 2025年12月31日 账面价值
+    period_identity: DATE:2025-12-31
+    measure: TOTAL
+    unit: 百万元
+    value: 535,968
+- golden_row_id: GROW_9a55617d6a329d96b56a
+  physical_table_id: NEW_CHINA_LIFE_2025_ANNUAL_REPORT::other_debt_investment_ecl
+  member_table_id: other_debt_investment_ecl::items_2024
+  classification_axis: SUPPLEMENTARY_SCHEDULE
+  raw_label: 2024年1月1日 信用损失准备
+  normalized_label: 2024年1月1日 信用损失准备
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 1
+  period_values:
+  - period_role: SCHEDULE
+    period_label: 2024年1月1日 信用损失准备
+    period_identity: DATE:2024-01-01
+    measure: STAGE_1
+    unit: 百万元
+    value: '42'
+  - period_role: SCHEDULE
+    period_label: 2024年1月1日 信用损失准备
+    period_identity: DATE:2024-01-01
+    measure: STAGE_2
+    unit: 百万元
+    value: '4'
+  - period_role: SCHEDULE
+    period_label: 2024年1月1日 信用损失准备
+    period_identity: DATE:2024-01-01
+    measure: STAGE_3
+    unit: 百万元
+    value: 1,524
+  - period_role: SCHEDULE
+    period_label: 2024年1月1日 信用损失准备
+    period_identity: DATE:2024-01-01
+    measure: TOTAL
+    unit: 百万元
+    value: 1,570
+- golden_row_id: GROW_fcbfb8eff92753e1ad85
+  physical_table_id: NEW_CHINA_LIFE_2025_ANNUAL_REPORT::other_debt_investment_ecl
+  member_table_id: other_debt_investment_ecl::items_2024
+  classification_axis: SUPPLEMENTARY_SCHEDULE
+  raw_label: 转至第二阶段
+  normalized_label: 转至第二阶段
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 2
+  period_values:
+  - period_role: SCHEDULE
+    period_label: 转至第二阶段
+    period_identity: YEAR:2024
+    measure: STAGE_1
+    unit: 百万元
+    value: (2)
+  - period_role: SCHEDULE
+    period_label: 转至第二阶段
+    period_identity: YEAR:2024
+    measure: STAGE_2
+    unit: 百万元
+    value: '2'
+  - period_role: SCHEDULE
+    period_label: 转至第二阶段
+    period_identity: YEAR:2024
+    measure: STAGE_3
+    unit: 百万元
+    value: –
+  - period_role: SCHEDULE
+    period_label: 转至第二阶段
+    period_identity: YEAR:2024
+    measure: TOTAL
+    unit: 百万元
+    value: –
+- golden_row_id: GROW_06aa66f0a1f8bf5d265a
+  physical_table_id: NEW_CHINA_LIFE_2025_ANNUAL_REPORT::other_debt_investment_ecl
+  member_table_id: other_debt_investment_ecl::items_2024
+  classification_axis: SUPPLEMENTARY_SCHEDULE
+  raw_label: 本年（转回）╱计提
+  normalized_label: 本年（转回）╱计提
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 3
+  period_values:
+  - period_role: SCHEDULE
+    period_label: 本年（转回）╱计提
+    period_identity: YEAR:2024
+    measure: STAGE_1
+    unit: 百万元
+    value: (19)
+  - period_role: SCHEDULE
+    period_label: 本年（转回）╱计提
+    period_identity: YEAR:2024
+    measure: STAGE_2
+    unit: 百万元
+    value: '325'
+  - period_role: SCHEDULE
+    period_label: 本年（转回）╱计提
+    period_identity: YEAR:2024
+    measure: STAGE_3
+    unit: 百万元
+    value: '635'
+  - period_role: SCHEDULE
+    period_label: 本年（转回）╱计提
+    period_identity: YEAR:2024
+    measure: TOTAL
+    unit: 百万元
+    value: '941'
+- golden_row_id: GROW_ad4af8ba36bb4df45d38
+  physical_table_id: NEW_CHINA_LIFE_2025_ANNUAL_REPORT::other_debt_investment_ecl
+  member_table_id: other_debt_investment_ecl::items_2024
+  classification_axis: SUPPLEMENTARY_SCHEDULE
+  raw_label: 2024年12月31日 信用损失准备
+  normalized_label: 2024年12月31日 信用损失准备
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 4
+  period_values:
+  - period_role: SCHEDULE
+    period_label: 2024年12月31日 信用损失准备
+    period_identity: DATE:2024-12-31
+    measure: STAGE_1
+    unit: 百万元
+    value: '21'
+  - period_role: SCHEDULE
+    period_label: 2024年12月31日 信用损失准备
+    period_identity: DATE:2024-12-31
+    measure: STAGE_2
+    unit: 百万元
+    value: '331'
+  - period_role: SCHEDULE
+    period_label: 2024年12月31日 信用损失准备
+    period_identity: DATE:2024-12-31
+    measure: STAGE_3
+    unit: 百万元
+    value: 2,159
+  - period_role: SCHEDULE
+    period_label: 2024年12月31日 信用损失准备
+    period_identity: DATE:2024-12-31
+    measure: TOTAL
+    unit: 百万元
+    value: 2,511
+- golden_row_id: GROW_c5a4224c4f250f93946e
+  physical_table_id: NEW_CHINA_LIFE_2025_ANNUAL_REPORT::other_debt_investment_ecl
+  member_table_id: other_debt_investment_ecl::items_2024
+  classification_axis: SUPPLEMENTARY_SCHEDULE
+  raw_label: 2024年12月31日 账面价值
+  normalized_label: 2024年12月31日 账面价值
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 5
+  period_values:
+  - period_role: SCHEDULE
+    period_label: 2024年12月31日 账面价值
+    period_identity: DATE:2024-12-31
+    measure: STAGE_1
+    unit: 百万元
+    value: 466,484
+  - period_role: SCHEDULE
+    period_label: 2024年12月31日 账面价值
+    period_identity: DATE:2024-12-31
+    measure: STAGE_2
+    unit: 百万元
+    value: 2,332
+  - period_role: SCHEDULE
+    period_label: 2024年12月31日 账面价值
+    period_identity: DATE:2024-12-31
+    measure: STAGE_3
+    unit: 百万元
+    value: 1,550
+  - period_role: SCHEDULE
+    period_label: 2024年12月31日 账面价值
+    period_identity: DATE:2024-12-31
+    measure: TOTAL
+    unit: 百万元
+    value: 470,366
+identity_provenance: DERIVED_FROM_CERTIFIED_GOLDEN_FACTS_NOT_RUNTIME_CAPTURE

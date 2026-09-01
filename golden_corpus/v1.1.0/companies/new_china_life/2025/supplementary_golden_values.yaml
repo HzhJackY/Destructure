@@ -1,0 +1,147 @@
+schema_version: '1.1'
+fixture_id: NEW_CHINA_LIFE_2025_SUPPLEMENTARY_GOLDEN_VALUES
+family: financial_investment
+annotation_status: CERTIFIED_GOLDEN
+review_date: '2026-08-04'
+reviewer: Codex_Agent_Adjudicator
+supplementary_schedules:
+  - schedule_id: debt_investment_ecl_2025
+    classification: SUPPLEMENTARY_TABLE
+    note_reference: "附注13（续）"
+    schedule_title: "13 债权投资（续）- 2025年度信用损失准备变动情况"
+    pdf_page_number: 195
+    unit: "百万元"
+    columns:
+      - 第一阶段
+      - 第二阶段
+      - 第三阶段
+      - 合计
+    items:
+      - raw_label: 2025年1月1日 信用损失准备
+        stage_1: "6"
+        stage_2: "914"
+        stage_3: "1,980"
+        total: "2,900"
+      - raw_label: 转至第三阶段
+        stage_1: "–"
+        stage_2: "(103)"
+        stage_3: "103"
+        total: "–"
+      - raw_label: 本年（转回）╱计提
+        stage_1: "(2)"
+        stage_2: "(811)"
+        stage_3: "2,748"
+        total: "1,935"
+      - raw_label: 2025年12月31日 信用损失准备
+        stage_1: "4"
+        stage_2: "–"
+        stage_3: "4,831"
+        total: "4,835"
+      - raw_label: 2025年12月31日 账面余额
+        stage_1: "253,272"
+        stage_2: "–"
+        stage_3: "8,476"
+        total: "261,748"
+
+  - schedule_id: debt_investment_ecl_2024
+    classification: SUPPLEMENTARY_TABLE
+    note_reference: "附注13（续）"
+    schedule_title: "13 债权投资（续）- 2024年度信用损失准备变动情况"
+    pdf_page_number: 196
+    unit: "百万元"
+    columns:
+      - 第一阶段
+      - 第二阶段
+      - 第三阶段
+      - 合计
+    items:
+      - raw_label: 2024年1月1日 信用损失准备
+        stage_1: "87"
+        stage_2: "2"
+        stage_3: "386"
+        total: "475"
+      - raw_label: 转至第二阶段
+        stage_1: "(55)"
+        stage_2: "55"
+        stage_3: "–"
+        total: "–"
+      - raw_label: 本年（转回）╱计提
+        stage_1: "(26)"
+        stage_2: "857"
+        stage_3: "1,594"
+        total: "2,425"
+      - raw_label: 2024年12月31日 信用损失准备
+        stage_1: "6"
+        stage_2: "914"
+        stage_3: "1,980"
+        total: "2,900"
+      - raw_label: 2024年12月31日 账面余额
+        stage_1: "268,988"
+        stage_2: "6,303"
+        stage_3: "2,500"
+        total: "277,791"
+
+  - schedule_id: other_debt_investment_ecl
+    classification: SUPPLEMENTARY_TABLE
+    note_reference: "附注14（续）"
+    schedule_title: "14 其他债权投资（续）- 2025年度及2024年度信用损失准备变动情况"
+    pdf_page_number: 197
+    unit: "百万元"
+    columns:
+      - 第一阶段
+      - 第二阶段
+      - 第三阶段
+      - 合计
+    items_2025:
+      - raw_label: 2025年1月1日 信用损失准备
+        stage_1: "21"
+        stage_2: "331"
+        stage_3: "2,159"
+        total: "2,511"
+      - raw_label: 转至第三阶段
+        stage_1: "–"
+        stage_2: "(23)"
+        stage_3: "23"
+        total: "–"
+      - raw_label: 本年（转回）╱计提
+        stage_1: "(5)"
+        stage_2: "(308)"
+        stage_3: "1,870"
+        total: "1,557"
+      - raw_label: 2025年12月31日 信用损失准备
+        stage_1: "16"
+        stage_2: "–"
+        stage_3: "4,052"
+        total: "4,068"
+      - raw_label: 2025年12月31日 账面价值
+        stage_1: "534,783"
+        stage_2: "–"
+        stage_3: "1,185"
+        total: "535,968"
+
+    items_2024:
+      - raw_label: 2024年1月1日 信用损失准备
+        stage_1: "42"
+        stage_2: "4"
+        stage_3: "1,524"
+        total: "1,570"
+      - raw_label: 转至第二阶段
+        stage_1: "(2)"
+        stage_2: "2"
+        stage_3: "–"
+        total: "–"
+      - raw_label: 本年（转回）╱计提
+        stage_1: "(19)"
+        stage_2: "325"
+        stage_3: "635"
+        total: "941"
+      - raw_label: 2024年12月31日 信用损失准备
+        stage_1: "21"
+        stage_2: "331"
+        stage_3: "2,159"
+        total: "2,511"
+      - raw_label: 2024年12月31日 账面价值
+        stage_1: "466,484"
+        stage_2: "2,332"
+        stage_3: "1,550"
+        total: "470,366"

@@ -1,0 +1,14 @@
+filing_id: PICC_PNC_2024
+company_id: PICC_PNC
+company_name: 中国财险
+company_legal_name: 中国人民财产保险股份有限公司
+legal_entity_name: 中国人民财产保险股份有限公司
+stock_code: 02328.HK
+report_year: 2024
+report_type: ANNUAL_REPORT
+canonical_pdf_filename: 中国财险2024年度报告.pdf
+pdf_sha256: d299685cd8ccf6bc6f5580172cca9b24f5150d322351800e082db35842891973
+page_count: 296
+file_size_bytes: 3499667
+source_url: https://www.hkexnews.hk/picc_pnc/2024
+modality: DIGITAL_VECTOR_PDF

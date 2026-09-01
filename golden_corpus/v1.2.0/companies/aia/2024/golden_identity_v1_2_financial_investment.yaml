@@ -1,0 +1,220 @@
+identity_contract_version: GOLDEN_IDENTITY_V1_2
+definition_id: FINANCIAL_INVESTMENT_V1
+family: financial_investment
+source_golden_id: AIA_2024_GOLDEN_VALUES
+filing_identity:
+  company_id: AIA
+  legal_entity_name: 友邦保險控股有限公司
+  report_year: 2024
+  source_scope: CONSOLIDATED
+  canonical_pdf_filename: 友邦保险2024年报.pdf
+  pdf_sha256: 50ebe59813386119ba1026a6a42fabc00a86470e970659fa3cf467f1d376a588
+  page_count: 371
+  source_type: ANNUAL_REPORT
+physical_tables:
+- physical_table_id: AIA_2024::fvtpl_assets::PRIMARY
+  physical_page_number: 223
+  printed_page_number: '221'
+  title: 金融投資
+  unit: USD_MILLION
+  table_classification: PRIMARY_TABLE
+rows:
+- golden_row_id: GROW_0cac41029bbbb751b96c
+  physical_table_id: AIA_2024::MAIN_STATEMENT
+  member_table_id: fvtpl_assets
+  classification_axis: FINANCIAL_INVESTMENT_MEMBER_SET
+  raw_label: 金融投資
+  normalized_label: 金融投資
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: MEMBER
+  source_row_order: null
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: SOURCE_DECLARED
+    value: 227,159
+- golden_row_id: GROW_dbc51eeb6ab0544cee68
+  physical_table_id: AIA_2024::fvtpl_assets::PRIMARY
+  member_table_id: fvtpl_assets
+  classification_axis: ASSET_TYPE
+  raw_label: 債務證券(保單持有人及股東)
+  normalized_label: 債務證券(保單持有人及股東)
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 1
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: USD_MILLION
+    value: 172,335
+  - period_role: COMPARATIVE
+    period_label: 2023年重述
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: USD_MILLION
+    value: 165,420
+- golden_row_id: GROW_70563f7cb4019ad3efcb
+  physical_table_id: AIA_2024::fvtpl_assets::PRIMARY
+  member_table_id: fvtpl_assets
+  classification_axis: ASSET_TYPE
+  raw_label: 股權及投資基金權益(保單持有人及股東)
+  normalized_label: 股權及投資基金權益(保單持有人及股東)
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 2
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: USD_MILLION
+    value: 75,450
+  - period_role: COMPARATIVE
+    period_label: 2023年重述
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: USD_MILLION
+    value: 62,800
+- golden_row_id: GROW_72ac0df80c6acb362362
+  physical_table_id: AIA_2024::fvtpl_assets::PRIMARY
+  member_table_id: fvtpl_assets
+  classification_axis: ASSET_TYPE
+  raw_label: 貸款及其他(保單持有人及股東)
+  normalized_label: 貸款及其他(保單持有人及股東)
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 3
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: USD_MILLION
+    value: 7,548
+  - period_role: COMPARATIVE
+    period_label: 2023年重述
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: USD_MILLION
+    value: 7,716
+- golden_row_id: GROW_839f847d72ecbd75e1d0
+  physical_table_id: AIA_2024::fvtpl_assets::PRIMARY
+  member_table_id: fvtpl_assets
+  classification_axis: ASSET_TYPE
+  raw_label: 小計(保單持有人及股東)
+  normalized_label: 小計(保單持有人及股東)
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 4
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: USD_MILLION
+    value: 255,333
+  - period_role: COMPARATIVE
+    period_label: 2023年重述
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: USD_MILLION
+    value: 235,936
+- golden_row_id: GROW_7fccbedfb6ccd3047d61
+  physical_table_id: AIA_2024::fvtpl_assets::PRIMARY
+  member_table_id: fvtpl_assets
+  classification_axis: ASSET_TYPE
+  raw_label: 單位連結式投資
+  normalized_label: 單位連結式投資
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 5
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: USD_MILLION
+    value: 33,288
+  - period_role: COMPARATIVE
+    period_label: 2023年重述
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: USD_MILLION
+    value: 32,612
+- golden_row_id: GROW_9d547189dbf82db9a6aa
+  physical_table_id: AIA_2024::fvtpl_assets::PRIMARY
+  member_table_id: fvtpl_assets
+  classification_axis: ASSET_TYPE
+  raw_label: 合計
+  normalized_label: 合計
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 6
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: USD_MILLION
+    value: 288,621
+  - period_role: COMPARATIVE
+    period_label: 2023年重述
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: USD_MILLION
+    value: 268,548
+- golden_row_id: GROW_347c661691d965694646
+  physical_table_id: AIA_2024::MAIN_STATEMENT
+  member_table_id: investment_properties
+  classification_axis: FINANCIAL_INVESTMENT_MEMBER_SET
+  raw_label: 投資物業
+  normalized_label: 投資物業
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: MEMBER
+  source_row_order: null
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: SOURCE_DECLARED
+    value: 4,527
+- golden_row_id: GROW_2856be29005be3224c08
+  physical_table_id: AIA_2024::MAIN_STATEMENT
+  member_table_id: derivative_financial_instruments
+  classification_axis: FINANCIAL_INVESTMENT_MEMBER_SET
+  raw_label: 衍生金融工具
+  normalized_label: 衍生金融工具
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: MEMBER
+  source_row_order: null
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: SOURCE_DECLARED
+    value: 1,223
+identity_provenance: DERIVED_FROM_CERTIFIED_GOLDEN_FACTS_NOT_RUNTIME_CAPTURE

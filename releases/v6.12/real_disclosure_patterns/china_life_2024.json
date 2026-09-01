@@ -1,0 +1,30 @@
+{
+  "fixture_id": "CHINA_LIFE_2024",
+  "company": "中国人寿",
+  "report_year": "2024",
+  "pdf_filename": "中国人寿2024年年度报告.pdf",
+  "pdf_sha256": "3cc6db9bbd9c3c754548b6be288bcebae7187e5264eba59025237f5aa8c667e0",
+  "document_modality": "IMAGE_BASED",
+  "disclosure_pattern": "IMAGE_BASED_IMPLICIT_MEMBER_SET_SCATTERED",
+  "statement_scope": "CONSOLIDATED",
+  "research_definition_id": "FINANCIAL_INVESTMENT_V1",
+  "definition_version": "FINANCIAL_INVESTMENT_V1",
+  "expected_resolution_mode": "IMPLICIT_MEMBER_SET",
+  "expected_parent_present": false,
+  "expected_parent_label": null,
+  "expected_required_members": [
+    "fvtpl_assets",
+    "debt_investment",
+    "other_debt_investment",
+    "other_equity_investment"
+  ],
+  "expected_forbidden_members": [],
+  "known_constraints": [
+    "requires_ocr",
+    "requires_image_layout",
+    "requires_scattered_member_discovery",
+    "requires_parent_inference"
+  ],
+  "source_pages": [],
+  "annotation_status": "PATTERN_CANDIDATE"
+}

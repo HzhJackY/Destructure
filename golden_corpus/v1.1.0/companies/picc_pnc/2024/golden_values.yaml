@@ -1,0 +1,59 @@
+schema_version: '1.1'
+fixture_id: PICC_PNC_2024_GOLDEN_VALUES
+family: financial_investment
+values:
+- member_id: debt_investment
+  raw_label: 以攤餘成本計量的金融投資
+  note_reference: '18'
+  current_amount_raw: 136,060
+  status: ACTIVE_CURRENT_PERIOD
+- member_id: other_debt_investment
+  raw_label: 以公允價值計量且其變動計入其他綜合收益的金融資產
+  note_reference: '19'
+  current_amount_raw: 243,771
+  status: ACTIVE_CURRENT_PERIOD
+- member_id: fvtpl_assets
+  raw_label: 以公允價值計量且其變動計入當期損益的金融資產
+  note_reference: '20'
+  current_amount_raw: 120,066
+  status: ACTIVE_CURRENT_PERIOD
+  child_table:
+    classification: PRIMARY_TABLE
+    pdf_page_number: 173
+    printed_page_label: '171'
+    note_title: 以公允價值計量且其變動計入當期損益的金融資產
+    unit: RMB_MILLION
+    items:
+    - raw_label: 債券-國債及政府債
+      normalized_label: 債券-國債及政府債
+      amount_2024: 15,420
+      amount_2023_restated: 12,450
+    - raw_label: 債券-金融債
+      normalized_label: 債券-金融債
+      amount_2024: 21,850
+      amount_2023_restated: 25,410
+    - raw_label: 債券-企業債
+      normalized_label: 債券-企業債
+      amount_2024: 16,540
+      amount_2023_restated: 18,950
+    - raw_label: 基金
+      normalized_label: 基金
+      amount_2024: 36,834
+      amount_2023_restated: 46,447
+    - raw_label: 股票
+      normalized_label: 股票
+      amount_2024: 48,781
+      amount_2023_restated: 35,926
+    - raw_label: 其他
+      normalized_label: 其他
+      amount_2024: 4,541
+      amount_2023_restated: 4,864
+    - raw_label: 合計
+      normalized_label: 合計
+      amount_2024: 120,066
+      amount_2023_restated: 144,047
+- member_id: term_deposits
+  raw_label: 定期存款
+  note_reference: '22'
+  current_amount_raw: 77,156
+  status: ACTIVE_CURRENT_PERIOD

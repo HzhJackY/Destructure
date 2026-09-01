@@ -1,0 +1,13 @@
+{
+  "run_id": "交银人寿2025年报__业务及管理费__20260721T162218",
+  "display_name": "交银人寿2025年报 · 业务及管理费",
+  "note": "",
+  "source_pdf_display": "交银人寿2025年报.pdf",
+  "table_query": "业务及管理费",
+  "created_at": "2026-07-21T16:22:18",
+  "boundary_status": "HUMAN_CONFIRMED",
+  "start_page": 113,
+  "end_page": 114,
+  "row_count_machine": 42,
+  "row_count_official": 23
+}

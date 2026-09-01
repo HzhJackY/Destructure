@@ -1,0 +1,13 @@
+{
+  "run_id": "建信人寿2025年报__34_业务及管理费和其他业务成本__20260721T154044",
+  "display_name": "建信人寿2025年报 · 34. 业务及管理费和其他业务成本",
+  "note": "",
+  "source_pdf_display": "建信人寿2025年报.pdf",
+  "table_query": "业务及管理费和其他业务成本",
+  "created_at": "2026-07-21T15:40:45",
+  "boundary_status": "HARD_BOUNDARY_CONFIRMED",
+  "start_page": 138,
+  "end_page": 139,
+  "row_count_machine": 8,
+  "row_count_official": 8
+}

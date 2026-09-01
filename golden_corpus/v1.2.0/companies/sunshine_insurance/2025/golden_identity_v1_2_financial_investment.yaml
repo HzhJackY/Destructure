@@ -1,0 +1,352 @@
+identity_contract_version: GOLDEN_IDENTITY_V1_2
+definition_id: FINANCIAL_INVESTMENT_V1
+family: financial_investment
+source_golden_id: SUNSHINE_INSURANCE_2025_GOLDEN_VALUES
+filing_identity:
+  company_id: SUNSHINE_INSURANCE
+  legal_entity_name: 阳光保险集团股份有限公司
+  report_year: 2025
+  source_scope: CONSOLIDATED
+  canonical_pdf_filename: 阳光保险2025年度报告.pdf
+  pdf_sha256: 04ec5cf39c1e1d1d8b7522f87c4f32cb87d524071a9368d82949885942385198
+  page_count: 290
+  source_type: ANNUAL_REPORT
+physical_tables:
+- physical_table_id: SUNSHINE_INSURANCE_2025::fvtpl_assets::PRIMARY
+  physical_page_number: 232
+  printed_page_number: '231'
+  title: 以公允價值計量且其變動計入當期損益的金融資產
+  unit: RMB_MILLION
+  table_classification: PRIMARY_TABLE
+rows:
+- golden_row_id: GROW_cd4fd6597e8220c4ae2a
+  physical_table_id: SUNSHINE_INSURANCE_2025::MAIN_STATEMENT
+  member_table_id: fvtpl_assets
+  classification_axis: FINANCIAL_INVESTMENT_MEMBER_SET
+  raw_label: 以公允價值計量且其變動計入當期損益的金融資產
+  normalized_label: 以公允價值計量且其變動計入當期損益的金融資產
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: MEMBER
+  source_row_order: null
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年
+    period_identity: YEAR:2025
+    measure: AMOUNT
+    unit: SOURCE_DECLARED
+    value: 178,390
+- golden_row_id: GROW_d8c00f9bf9ed5697b85a
+  physical_table_id: SUNSHINE_INSURANCE_2025::fvtpl_assets::PRIMARY
+  member_table_id: fvtpl_assets
+  classification_axis: ASSET_TYPE
+  raw_label: 債券-政府債(上市)
+  normalized_label: 債券-政府債(上市)
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 1
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年
+    period_identity: YEAR:2025
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: '0'
+  - period_role: COMPARATIVE
+    period_label: 2024年重述
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: '27'
+- golden_row_id: GROW_5e12af52591cae98ef8b
+  physical_table_id: SUNSHINE_INSURANCE_2025::fvtpl_assets::PRIMARY
+  member_table_id: fvtpl_assets
+  classification_axis: ASSET_TYPE
+  raw_label: 債券-金融債(上市)
+  normalized_label: 債券-金融債(上市)
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 2
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年
+    period_identity: YEAR:2025
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: '154'
+  - period_role: COMPARATIVE
+    period_label: 2024年重述
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: '230'
+- golden_row_id: GROW_5966adb12121920eaa52
+  physical_table_id: SUNSHINE_INSURANCE_2025::fvtpl_assets::PRIMARY
+  member_table_id: fvtpl_assets
+  classification_axis: ASSET_TYPE
+  raw_label: 債券-企業債(上市)
+  normalized_label: 債券-企業債(上市)
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 3
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年
+    period_identity: YEAR:2025
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: '796'
+  - period_role: COMPARATIVE
+    period_label: 2024年重述
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 1,775
+- golden_row_id: GROW_5c0a982f215914c98151
+  physical_table_id: SUNSHINE_INSURANCE_2025::fvtpl_assets::PRIMARY
+  member_table_id: fvtpl_assets
+  classification_axis: ASSET_TYPE
+  raw_label: 債券-金融債(非上市)
+  normalized_label: 債券-金融債(非上市)
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 4
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年
+    period_identity: YEAR:2025
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 4,890
+  - period_role: COMPARATIVE
+    period_label: 2024年重述
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 4,120
+- golden_row_id: GROW_70c8571b9b14871c9b3f
+  physical_table_id: SUNSHINE_INSURANCE_2025::fvtpl_assets::PRIMARY
+  member_table_id: fvtpl_assets
+  classification_axis: ASSET_TYPE
+  raw_label: 債券-企業債(非上市)
+  normalized_label: 債券-企業債(非上市)
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 5
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年
+    period_identity: YEAR:2025
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 6,850
+  - period_role: COMPARATIVE
+    period_label: 2024年重述
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 6,250
+- golden_row_id: GROW_e4f64f310a7fc1f0ca57
+  physical_table_id: SUNSHINE_INSURANCE_2025::fvtpl_assets::PRIMARY
+  member_table_id: fvtpl_assets
+  classification_axis: ASSET_TYPE
+  raw_label: 基金(上市)
+  normalized_label: 基金(上市)
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 6
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年
+    period_identity: YEAR:2025
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 35,420
+  - period_role: COMPARATIVE
+    period_label: 2024年重述
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 28,410
+- golden_row_id: GROW_6510a07c4b078dec316f
+  physical_table_id: SUNSHINE_INSURANCE_2025::fvtpl_assets::PRIMARY
+  member_table_id: fvtpl_assets
+  classification_axis: ASSET_TYPE
+  raw_label: 基金(非上市)
+  normalized_label: 基金(非上市)
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 7
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年
+    period_identity: YEAR:2025
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 18,950
+  - period_role: COMPARATIVE
+    period_label: 2024年重述
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 15,120
+- golden_row_id: GROW_652e326d5a4584c29328
+  physical_table_id: SUNSHINE_INSURANCE_2025::fvtpl_assets::PRIMARY
+  member_table_id: fvtpl_assets
+  classification_axis: ASSET_TYPE
+  raw_label: 股票(上市)
+  normalized_label: 股票(上市)
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 8
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年
+    period_identity: YEAR:2025
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 38,450
+  - period_role: COMPARATIVE
+    period_label: 2024年重述
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 26,850
+- golden_row_id: GROW_ac29c01d79b8328e54e8
+  physical_table_id: SUNSHINE_INSURANCE_2025::fvtpl_assets::PRIMARY
+  member_table_id: fvtpl_assets
+  classification_axis: ASSET_TYPE
+  raw_label: 理財產品及其他
+  normalized_label: 理財產品及其他
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 9
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年
+    period_identity: YEAR:2025
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 72,880
+  - period_role: COMPARATIVE
+    period_label: 2024年重述
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 54,797
+- golden_row_id: GROW_10e042779e9d59eccb07
+  physical_table_id: SUNSHINE_INSURANCE_2025::fvtpl_assets::PRIMARY
+  member_table_id: fvtpl_assets
+  classification_axis: ASSET_TYPE
+  raw_label: 合計
+  normalized_label: 合計
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 10
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年
+    period_identity: YEAR:2025
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 178,390
+  - period_role: COMPARATIVE
+    period_label: 2024年重述
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 137,579
+- golden_row_id: GROW_86f9f21d331a5b9bcbcd
+  physical_table_id: SUNSHINE_INSURANCE_2025::MAIN_STATEMENT
+  member_table_id: debt_investment
+  classification_axis: FINANCIAL_INVESTMENT_MEMBER_SET
+  raw_label: 以攤餘成本計量的金融資產
+  normalized_label: 以攤餘成本計量的金融資產
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: MEMBER
+  source_row_order: null
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年
+    period_identity: YEAR:2025
+    measure: AMOUNT
+    unit: SOURCE_DECLARED
+    value: 8,108
+- golden_row_id: GROW_5f26325c5bcbe343613b
+  physical_table_id: SUNSHINE_INSURANCE_2025::MAIN_STATEMENT
+  member_table_id: other_debt_investment
+  classification_axis: FINANCIAL_INVESTMENT_MEMBER_SET
+  raw_label: 以公允價值計量且其變動計入其他綜合收益的債務工具
+  normalized_label: 以公允價值計量且其變動計入其他綜合收益的債務工具
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: MEMBER
+  source_row_order: null
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年
+    period_identity: YEAR:2025
+    measure: AMOUNT
+    unit: SOURCE_DECLARED
+    value: 322,611
+- golden_row_id: GROW_4f5c69794783167bdf97
+  physical_table_id: SUNSHINE_INSURANCE_2025::MAIN_STATEMENT
+  member_table_id: other_equity_investment
+  classification_axis: FINANCIAL_INVESTMENT_MEMBER_SET
+  raw_label: 以公允價值計量且其變動計入其他綜合收益的權益工具
+  normalized_label: 以公允價值計量且其變動計入其他綜合收益的權益工具
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: MEMBER
+  source_row_order: null
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年
+    period_identity: YEAR:2025
+    measure: AMOUNT
+    unit: SOURCE_DECLARED
+    value: 61,021
+- golden_row_id: GROW_c90bda898de1b85c8576
+  physical_table_id: SUNSHINE_INSURANCE_2025::MAIN_STATEMENT
+  member_table_id: term_deposits
+  classification_axis: FINANCIAL_INVESTMENT_MEMBER_SET
+  raw_label: 定期存款
+  normalized_label: 定期存款
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: MEMBER
+  source_row_order: null
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年
+    period_identity: YEAR:2025
+    measure: AMOUNT
+    unit: SOURCE_DECLARED
+    value: 21,904
+identity_provenance: DERIVED_FROM_CERTIFIED_GOLDEN_FACTS_NOT_RUNTIME_CAPTURE

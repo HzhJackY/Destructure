@@ -1,0 +1,886 @@
+identity_contract_version: GOLDEN_IDENTITY_V1_2
+definition_id: INVESTMENT_PORTFOLIO_V2
+family: investment_portfolio
+source_golden_id: CHINA_LIFE_2024_INVESTMENT_PORTFOLIO
+filing_identity:
+  company_id: CHINA_LIFE
+  legal_entity_name: 中国人寿保险股份有限公司
+  report_year: 2024
+  source_scope: LISTED_PARENT_CONSOLIDATED
+  canonical_pdf_filename: 中国人寿2024年年度报告.pdf
+  pdf_sha256: 3CC6DB9BBD9C3C754548B6BE288BCEBAE7187E5264EBA59025237F5AA8C667E0
+  page_count: 256
+  source_type: ANNUAL_REPORT
+physical_tables:
+- physical_table_id: CHINA_LIFE_2024_INVESTMENT_PORTFOLIO
+  physical_page_number: 20
+  printed_page_number: 18
+  title: 投资资产情况
+  unit: RMB_MILLION
+  table_classification: DIRECT_PHYSICAL_TABLE
+rows:
+- golden_row_id: GROW_41adfd722ce17b54e437
+  physical_table_id: CHINA_LIFE_2024_INVESTMENT_PORTFOLIO
+  member_table_id: portfolio_by_category
+  classification_axis: BY_INVESTMENT_OBJECT
+  raw_label: 固定到期日金融资产
+  normalized_label: 固定到期日金融资产
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: GROUP
+  source_row_order: 1
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 4911524
+  - period_role: CURRENT
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 74.29
+  - period_role: COMPARATIVE
+    period_label: 2023年12月31日（报告披露口径）
+    period_identity: DATE:2023-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 3872545
+  - period_role: COMPARATIVE
+    period_label: 2023年12月31日（报告披露口径）
+    period_identity: DATE:2023-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 71.55
+- golden_row_id: GROW_eb13d22ce787b7b4c20a
+  physical_table_id: CHINA_LIFE_2024_INVESTMENT_PORTFOLIO
+  member_table_id: portfolio_by_category
+  classification_axis: BY_INVESTMENT_OBJECT
+  raw_label: 定期存款
+  normalized_label: 定期存款
+  parent_golden_row_id: GROW_41adfd722ce17b54e437
+  semantic_parent_path: 固定到期日金融资产
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 2
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 438455
+  - period_role: CURRENT
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 6.63
+  - period_role: COMPARATIVE
+    period_label: 2023年12月31日（报告披露口径）
+    period_identity: DATE:2023-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 405361
+  - period_role: COMPARATIVE
+    period_label: 2023年12月31日（报告披露口径）
+    period_identity: DATE:2023-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 7.49
+- golden_row_id: GROW_08e2e881443a389daa10
+  physical_table_id: CHINA_LIFE_2024_INVESTMENT_PORTFOLIO
+  member_table_id: portfolio_by_category
+  classification_axis: BY_INVESTMENT_OBJECT
+  raw_label: 债券
+  normalized_label: 债券
+  parent_golden_row_id: GROW_41adfd722ce17b54e437
+  semantic_parent_path: 固定到期日金融资产
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 3
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 3903074
+  - period_role: CURRENT
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 59.04
+  - period_role: COMPARATIVE
+    period_label: 2023年12月31日（报告披露口径）
+    period_identity: DATE:2023-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 2928623
+  - period_role: COMPARATIVE
+    period_label: 2023年12月31日（报告披露口径）
+    period_identity: DATE:2023-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 54.11
+- golden_row_id: GROW_b7966b9433c4ae7b507f
+  physical_table_id: CHINA_LIFE_2024_INVESTMENT_PORTFOLIO
+  member_table_id: portfolio_by_category
+  classification_axis: BY_INVESTMENT_OBJECT
+  raw_label: 债权型金融产品2
+  normalized_label: 债权型金融产品
+  parent_golden_row_id: GROW_41adfd722ce17b54e437
+  semantic_parent_path: 固定到期日金融资产
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 4
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 523721
+  - period_role: CURRENT
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 7.92
+  - period_role: COMPARATIVE
+    period_label: 2023年12月31日（报告披露口径）
+    period_identity: DATE:2023-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 480600
+  - period_role: COMPARATIVE
+    period_label: 2023年12月31日（报告披露口径）
+    period_identity: DATE:2023-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 8.88
+- golden_row_id: GROW_948457a74d957ca7395c
+  physical_table_id: CHINA_LIFE_2024_INVESTMENT_PORTFOLIO
+  member_table_id: portfolio_by_category
+  classification_axis: BY_INVESTMENT_OBJECT
+  raw_label: 其他固定到期日投资3
+  normalized_label: 其他固定到期日投资
+  parent_golden_row_id: GROW_41adfd722ce17b54e437
+  semantic_parent_path: 固定到期日金融资产
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 5
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 46274
+  - period_role: CURRENT
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 0.7
+  - period_role: COMPARATIVE
+    period_label: 2023年12月31日（报告披露口径）
+    period_identity: DATE:2023-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 57961
+  - period_role: COMPARATIVE
+    period_label: 2023年12月31日（报告披露口径）
+    period_identity: DATE:2023-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 1.07
+- golden_row_id: GROW_5e34772df44775fe4214
+  physical_table_id: CHINA_LIFE_2024_INVESTMENT_PORTFOLIO
+  member_table_id: portfolio_by_category
+  classification_axis: BY_INVESTMENT_OBJECT
+  raw_label: 权益类金融资产
+  normalized_label: 权益类金融资产
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: GROUP
+  source_row_order: 6
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 1269086
+  - period_role: CURRENT
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 19.19
+  - period_role: COMPARATIVE
+    period_label: 2023年12月31日（报告披露口径）
+    period_identity: DATE:2023-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 1099601
+  - period_role: COMPARATIVE
+    period_label: 2023年12月31日（报告披露口径）
+    period_identity: DATE:2023-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 20.31
+- golden_row_id: GROW_22a1dfe1bf0dcc1c40df
+  physical_table_id: CHINA_LIFE_2024_INVESTMENT_PORTFOLIO
+  member_table_id: portfolio_by_category
+  classification_axis: BY_INVESTMENT_OBJECT
+  raw_label: 股票
+  normalized_label: 股票
+  parent_golden_row_id: GROW_5e34772df44775fe4214
+  semantic_parent_path: 权益类金融资产
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 7
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 501083
+  - period_role: CURRENT
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 7.58
+  - period_role: COMPARATIVE
+    period_label: 2023年12月31日（报告披露口径）
+    period_identity: DATE:2023-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 430200
+  - period_role: COMPARATIVE
+    period_label: 2023年12月31日（报告披露口径）
+    period_identity: DATE:2023-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 7.95
+- golden_row_id: GROW_4e2fef64a96c2034b41c
+  physical_table_id: CHINA_LIFE_2024_INVESTMENT_PORTFOLIO
+  member_table_id: portfolio_by_category
+  classification_axis: BY_INVESTMENT_OBJECT
+  raw_label: 基金4
+  normalized_label: 基金
+  parent_golden_row_id: GROW_5e34772df44775fe4214
+  semantic_parent_path: 权益类金融资产
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 8
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 306551
+  - period_role: CURRENT
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 4.64
+  - period_role: COMPARATIVE
+    period_label: 2023年12月31日（报告披露口径）
+    period_identity: DATE:2023-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 206963
+  - period_role: COMPARATIVE
+    period_label: 2023年12月31日（报告披露口径）
+    period_identity: DATE:2023-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 3.82
+- golden_row_id: GROW_5e7d8638d8ebff8376da
+  physical_table_id: CHINA_LIFE_2024_INVESTMENT_PORTFOLIO
+  member_table_id: portfolio_by_category
+  classification_axis: BY_INVESTMENT_OBJECT
+  raw_label: 其他权益类投资5
+  normalized_label: 其他权益类投资
+  parent_golden_row_id: GROW_5e34772df44775fe4214
+  semantic_parent_path: 权益类金融资产
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 9
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 461452
+  - period_role: CURRENT
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 6.97
+  - period_role: COMPARATIVE
+    period_label: 2023年12月31日（报告披露口径）
+    period_identity: DATE:2023-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 462438
+  - period_role: COMPARATIVE
+    period_label: 2023年12月31日（报告披露口径）
+    period_identity: DATE:2023-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 8.54
+- golden_row_id: GROW_f4ba8968a89be23639c5
+  physical_table_id: CHINA_LIFE_2024_INVESTMENT_PORTFOLIO
+  member_table_id: portfolio_by_category
+  classification_axis: BY_INVESTMENT_OBJECT
+  raw_label: 投资性房地产
+  normalized_label: 投资性房地产
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 10
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 12319
+  - period_role: CURRENT
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 0.19
+  - period_role: COMPARATIVE
+    period_label: 2023年12月31日（报告披露口径）
+    period_identity: DATE:2023-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 12753
+  - period_role: COMPARATIVE
+    period_label: 2023年12月31日（报告披露口径）
+    period_identity: DATE:2023-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 0.24
+- golden_row_id: GROW_31893d36b05b2273c9a9
+  physical_table_id: CHINA_LIFE_2024_INVESTMENT_PORTFOLIO
+  member_table_id: portfolio_by_category
+  classification_axis: BY_INVESTMENT_OBJECT
+  raw_label: 现金及其他6
+  normalized_label: 现金及其他
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 11
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 116065
+  - period_role: CURRENT
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 1.76
+  - period_role: COMPARATIVE
+    period_label: 2023年12月31日（报告披露口径）
+    period_identity: DATE:2023-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 168758
+  - period_role: COMPARATIVE
+    period_label: 2023年12月31日（报告披露口径）
+    period_identity: DATE:2023-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 3.12
+- golden_row_id: GROW_7facdab3cf5376cb09f3
+  physical_table_id: CHINA_LIFE_2024_INVESTMENT_PORTFOLIO
+  member_table_id: portfolio_by_category
+  classification_axis: BY_INVESTMENT_OBJECT
+  raw_label: 联营企业和合营企业投资
+  normalized_label: 联营企业和合营企业投资
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 12
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 302077
+  - period_role: CURRENT
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 4.57
+  - period_role: COMPARATIVE
+    period_label: 2023年12月31日（报告披露口径）
+    period_identity: DATE:2023-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 258872
+  - period_role: COMPARATIVE
+    period_label: 2023年12月31日（报告披露口径）
+    period_identity: DATE:2023-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 4.78
+- golden_row_id: GROW_08c77cb03b6d3789a584
+  physical_table_id: CHINA_LIFE_2024_INVESTMENT_PORTFOLIO
+  member_table_id: portfolio_by_category
+  classification_axis: BY_INVESTMENT_OBJECT
+  raw_label: 合计
+  normalized_label: 合计
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: TOTAL
+  source_row_order: 13
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 6611071
+  - period_role: CURRENT
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 100.0
+  - period_role: COMPARATIVE
+    period_label: 2023年12月31日（报告披露口径）
+    period_identity: DATE:2023-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 5412529
+  - period_role: COMPARATIVE
+    period_label: 2023年12月31日（报告披露口径）
+    period_identity: DATE:2023-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 100.0
+- golden_row_id: GROW_f83502c0e84329c4d82e
+  physical_table_id: CHINA_LIFE_2024_INVESTMENT_PORTFOLIO
+  member_table_id: portfolio_by_measurement
+  classification_axis: BY_ACCOUNTING_MEASUREMENT
+  raw_label: 交易性金融资产
+  normalized_label: 交易性金融资产
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 1
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 1908098
+  - period_role: CURRENT
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 28.86
+  - period_role: COMPARATIVE
+    period_label: 2023年12月31日（报告披露口径）
+    period_identity: DATE:2023-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: null
+  - period_role: COMPARATIVE
+    period_label: 2023年12月31日（报告披露口径）
+    period_identity: DATE:2023-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: null
+- golden_row_id: GROW_8de5bd1625e577dae374
+  physical_table_id: CHINA_LIFE_2024_INVESTMENT_PORTFOLIO
+  member_table_id: portfolio_by_measurement
+  classification_axis: BY_ACCOUNTING_MEASUREMENT
+  raw_label: 债权投资
+  normalized_label: 债权投资
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 2
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 196754
+  - period_role: CURRENT
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 2.98
+  - period_role: COMPARATIVE
+    period_label: 2023年12月31日（报告披露口径）
+    period_identity: DATE:2023-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: null
+  - period_role: COMPARATIVE
+    period_label: 2023年12月31日（报告披露口径）
+    period_identity: DATE:2023-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: null
+- golden_row_id: GROW_7f24bf7e9d30d506eaf0
+  physical_table_id: CHINA_LIFE_2024_INVESTMENT_PORTFOLIO
+  member_table_id: portfolio_by_measurement
+  classification_axis: BY_ACCOUNTING_MEASUREMENT
+  raw_label: 其他债权投资
+  normalized_label: 其他债权投资
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 3
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 3458895
+  - period_role: CURRENT
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 52.32
+  - period_role: COMPARATIVE
+    period_label: 2023年12月31日（报告披露口径）
+    period_identity: DATE:2023-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: null
+  - period_role: COMPARATIVE
+    period_label: 2023年12月31日（报告披露口径）
+    period_identity: DATE:2023-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: null
+- golden_row_id: GROW_f83a7ed8969277ecdc19
+  physical_table_id: CHINA_LIFE_2024_INVESTMENT_PORTFOLIO
+  member_table_id: portfolio_by_measurement
+  classification_axis: BY_ACCOUNTING_MEASUREMENT
+  raw_label: 其他权益工具投资
+  normalized_label: 其他权益工具投资
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 4
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 171817
+  - period_role: CURRENT
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 2.6
+  - period_role: COMPARATIVE
+    period_label: 2023年12月31日（报告披露口径）
+    period_identity: DATE:2023-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: null
+  - period_role: COMPARATIVE
+    period_label: 2023年12月31日（报告披露口径）
+    period_identity: DATE:2023-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: null
+- golden_row_id: GROW_af77b7204085f2286ae0
+  physical_table_id: CHINA_LIFE_2024_INVESTMENT_PORTFOLIO
+  member_table_id: portfolio_by_measurement
+  classification_axis: BY_ACCOUNTING_MEASUREMENT
+  raw_label: 以公允价值计量且其变动计入当期损益的金融资产
+  normalized_label: 以公允价值计量且其变动计入当期损益的金融资产
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 5
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: null
+  - period_role: CURRENT
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: null
+  - period_role: COMPARATIVE
+    period_label: 2023年12月31日（报告披露口径）
+    period_identity: DATE:2023-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 257054
+  - period_role: COMPARATIVE
+    period_label: 2023年12月31日（报告披露口径）
+    period_identity: DATE:2023-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 4.75
+- golden_row_id: GROW_255130f6f3ab76455764
+  physical_table_id: CHINA_LIFE_2024_INVESTMENT_PORTFOLIO
+  member_table_id: portfolio_by_measurement
+  classification_axis: BY_ACCOUNTING_MEASUREMENT
+  raw_label: 可供出售金融资产
+  normalized_label: 可供出售金融资产
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 6
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: null
+  - period_role: CURRENT
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: null
+  - period_role: COMPARATIVE
+    period_label: 2023年12月31日（报告披露口径）
+    period_identity: DATE:2023-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 2263047
+  - period_role: COMPARATIVE
+    period_label: 2023年12月31日（报告披露口径）
+    period_identity: DATE:2023-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 41.81
+- golden_row_id: GROW_b70725dafc6e33423ad3
+  physical_table_id: CHINA_LIFE_2024_INVESTMENT_PORTFOLIO
+  member_table_id: portfolio_by_measurement
+  classification_axis: BY_ACCOUNTING_MEASUREMENT
+  raw_label: 持有至到期投资
+  normalized_label: 持有至到期投资
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 7
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: null
+  - period_role: CURRENT
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: null
+  - period_role: COMPARATIVE
+    period_label: 2023年12月31日（报告披露口径）
+    period_identity: DATE:2023-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 1707198
+  - period_role: COMPARATIVE
+    period_label: 2023年12月31日（报告披露口径）
+    period_identity: DATE:2023-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 31.54
+- golden_row_id: GROW_1861c193355b8b06f64c
+  physical_table_id: CHINA_LIFE_2024_INVESTMENT_PORTFOLIO
+  member_table_id: portfolio_by_measurement
+  classification_axis: BY_ACCOUNTING_MEASUREMENT
+  raw_label: 贷款
+  normalized_label: 贷款
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 8
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: null
+  - period_role: CURRENT
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: null
+  - period_role: COMPARATIVE
+    period_label: 2023年12月31日（报告披露口径）
+    period_identity: DATE:2023-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 333153
+  - period_role: COMPARATIVE
+    period_label: 2023年12月31日（报告披露口径）
+    period_identity: DATE:2023-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 6.16
+- golden_row_id: GROW_7d1990ea76d87b5452fe
+  physical_table_id: CHINA_LIFE_2024_INVESTMENT_PORTFOLIO
+  member_table_id: portfolio_by_measurement
+  classification_axis: BY_ACCOUNTING_MEASUREMENT
+  raw_label: 长期股权投资
+  normalized_label: 长期股权投资
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 9
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 302077
+  - period_role: CURRENT
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 4.57
+  - period_role: COMPARATIVE
+    period_label: 2023年12月31日（报告披露口径）
+    period_identity: DATE:2023-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 258872
+  - period_role: COMPARATIVE
+    period_label: 2023年12月31日（报告披露口径）
+    period_identity: DATE:2023-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 4.78
+- golden_row_id: GROW_2638eb0a8cd20e0379d5
+  physical_table_id: CHINA_LIFE_2024_INVESTMENT_PORTFOLIO
+  member_table_id: portfolio_by_measurement
+  classification_axis: BY_ACCOUNTING_MEASUREMENT
+  raw_label: 其他
+  normalized_label: 其他
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 10
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 573430
+  - period_role: CURRENT
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 8.67
+  - period_role: COMPARATIVE
+    period_label: 2023年12月31日（报告披露口径）
+    period_identity: DATE:2023-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 593205
+  - period_role: COMPARATIVE
+    period_label: 2023年12月31日（报告披露口径）
+    period_identity: DATE:2023-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 10.96
+- golden_row_id: GROW_99a01da3f3cf64bed206
+  physical_table_id: CHINA_LIFE_2024_INVESTMENT_PORTFOLIO
+  member_table_id: portfolio_by_measurement
+  classification_axis: BY_ACCOUNTING_MEASUREMENT
+  raw_label: 合计
+  normalized_label: 合计
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: TOTAL
+  source_row_order: 11
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 6611071
+  - period_role: CURRENT
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 100.0
+  - period_role: COMPARATIVE
+    period_label: 2023年12月31日（报告披露口径）
+    period_identity: DATE:2023-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 5412529
+  - period_role: COMPARATIVE
+    period_label: 2023年12月31日（报告披露口径）
+    period_identity: DATE:2023-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 100.0
+identity_provenance: DERIVED_FROM_CERTIFIED_GOLDEN_FACTS_NOT_RUNTIME_CAPTURE

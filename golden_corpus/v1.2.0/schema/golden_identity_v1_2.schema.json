@@ -1,0 +1,99 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "golden_identity_v1_2.schema.json",
+  "title": "Golden stable business identity sidecar v1.2",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "identity_contract_version", "definition_id", "family", "source_golden_id",
+    "filing_identity", "physical_tables", "rows", "identity_provenance"
+  ],
+  "properties": {
+    "identity_contract_version": {"const": "GOLDEN_IDENTITY_V1_2"},
+    "definition_id": {"enum": ["INVESTMENT_PORTFOLIO_V2", "FINANCIAL_INVESTMENT_V1"]},
+    "family": {"enum": ["investment_portfolio", "financial_investment"]},
+    "source_golden_id": {"type": "string", "minLength": 1},
+    "identity_provenance": {"const": "DERIVED_FROM_CERTIFIED_GOLDEN_FACTS_NOT_RUNTIME_CAPTURE"},
+    "filing_identity": {"$ref": "#/$defs/filingIdentity"},
+    "physical_tables": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/physicalTable"}
+    },
+    "rows": {
+      "type": "array",
+      "minItems": 1,
+      "items": {"$ref": "#/$defs/rowIdentity"}
+    }
+  },
+  "$defs": {
+    "filingIdentity": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "company_id", "legal_entity_name", "report_year", "source_scope",
+        "canonical_pdf_filename", "pdf_sha256", "page_count", "source_type"
+      ],
+      "properties": {
+        "company_id": {"type": "string", "minLength": 1},
+        "legal_entity_name": {"type": "string", "minLength": 1},
+        "report_year": {"type": "integer", "minimum": 2000},
+        "source_scope": {"type": "string", "minLength": 1},
+        "canonical_pdf_filename": {"type": "string", "minLength": 1},
+        "pdf_sha256": {"type": "string", "pattern": "^[0-9A-Fa-f]{64}$"},
+        "page_count": {"type": "integer", "minimum": 1},
+        "source_type": {"type": "string", "minLength": 1}
+      }
+    },
+    "physicalTable": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "physical_table_id", "physical_page_number", "title", "unit", "table_classification"
+      ],
+      "properties": {
+        "physical_table_id": {"type": "string", "minLength": 1},
+        "physical_page_number": {"type": ["integer", "null"], "minimum": 1},
+        "printed_page_number": {"type": ["integer", "string", "null"]},
+        "title": {"type": ["string", "null"]},
+        "unit": {"type": ["string", "null"]},
+        "table_classification": {"type": "string", "minLength": 1}
+      }
+    },
+    "periodValue": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["period_role", "period_label", "period_identity", "measure", "unit", "value"],
+      "properties": {
+        "period_role": {"type": "string", "minLength": 1},
+        "period_label": {"type": "string"},
+        "period_identity": {"type": "string", "minLength": 1},
+        "measure": {"type": "string", "minLength": 1},
+        "unit": {"type": "string", "minLength": 1},
+        "value": {"type": ["string", "integer", "number", "null"]}
+      }
+    },
+    "rowIdentity": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "golden_row_id", "physical_table_id", "member_table_id", "classification_axis",
+        "raw_label", "normalized_label", "parent_golden_row_id", "semantic_parent_path",
+        "occurrence", "row_kind", "source_row_order", "period_values"
+      ],
+      "properties": {
+        "golden_row_id": {"type": "string", "pattern": "^GROW_[0-9a-f]{20}$"},
+        "physical_table_id": {"type": "string", "minLength": 1},
+        "member_table_id": {"type": "string", "minLength": 1},
+        "classification_axis": {"type": "string", "minLength": 1},
+        "raw_label": {"type": ["string", "null"]},
+        "normalized_label": {"type": ["string", "null"]},
+        "parent_golden_row_id": {"type": ["string", "null"]},
+        "semantic_parent_path": {"type": "string", "minLength": 1},
+        "occurrence": {"type": "integer", "minimum": 1},
+        "row_kind": {"type": "string", "minLength": 1},
+        "source_row_order": {"type": ["integer", "null"], "minimum": 1},
+        "period_values": {"type": "array", "items": {"$ref": "#/$defs/periodValue"}}
+      }
+    }
+  }
+}

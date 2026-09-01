@@ -1,0 +1,676 @@
+identity_contract_version: GOLDEN_IDENTITY_V1_2
+definition_id: INVESTMENT_PORTFOLIO_V2
+family: investment_portfolio
+source_golden_id: SUNSHINE_INSURANCE_2025_INVESTMENT_PORTFOLIO
+filing_identity:
+  company_id: SUNSHINE_INSURANCE
+  legal_entity_name: 阳光保险集团股份有限公司
+  report_year: 2025
+  source_scope: LISTED_PARENT_CONSOLIDATED
+  canonical_pdf_filename: 阳光保险2025年度报告.pdf
+  pdf_sha256: 04ec5cf39c1e1d1d8b7522f87c4f32cb87d524071a9368d82949885942385198
+  page_count: 290
+  source_type: ANNUAL_REPORT
+physical_tables:
+- physical_table_id: SUNSHINE_INSURANCE_2025_PORTFOLIO_BY_CATEGORY
+  physical_page_number: 44
+  printed_page_number: 43
+  title: 投资组合（按投资品种）
+  unit: RMB_MILLION
+  table_classification: DIRECT_PHYSICAL_TABLE
+- physical_table_id: SUNSHINE_INSURANCE_2025_PORTFOLIO_BY_MEASUREMENT
+  physical_page_number: 46
+  printed_page_number: 45
+  title: 投资组合（按会计计量）
+  unit: RMB_MILLION
+  table_classification: DIRECT_PHYSICAL_TABLE
+rows:
+- golden_row_id: GROW_7fd52a53e02c05345cb6
+  physical_table_id: SUNSHINE_INSURANCE_2025_PORTFOLIO_BY_CATEGORY
+  member_table_id: portfolio_by_category
+  classification_axis: BY_INVESTMENT_OBJECT
+  raw_label: 固定收益類金融資產
+  normalized_label: 固定收益類金融資產
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: GROUP
+  source_row_order: 1
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年12月31日
+    period_identity: DATE:2025-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 461991
+  - period_role: CURRENT
+    period_label: 2025年12月31日
+    period_identity: DATE:2025-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 72.1
+  - period_role: COMPARATIVE
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 392028
+  - period_role: COMPARATIVE
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 71.5
+- golden_row_id: GROW_46a29fe65a97cccbeb8d
+  physical_table_id: SUNSHINE_INSURANCE_2025_PORTFOLIO_BY_CATEGORY
+  member_table_id: portfolio_by_category
+  classification_axis: BY_INVESTMENT_OBJECT
+  raw_label: 定期存款
+  normalized_label: 定期存款
+  parent_golden_row_id: GROW_7fd52a53e02c05345cb6
+  semantic_parent_path: 固定收益類金融資產
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 2
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年12月31日
+    period_identity: DATE:2025-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 21904
+  - period_role: CURRENT
+    period_label: 2025年12月31日
+    period_identity: DATE:2025-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 3.4
+  - period_role: COMPARATIVE
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 9917
+  - period_role: COMPARATIVE
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 1.8
+- golden_row_id: GROW_b900d9f995abdeb8a11a
+  physical_table_id: SUNSHINE_INSURANCE_2025_PORTFOLIO_BY_CATEGORY
+  member_table_id: portfolio_by_category
+  classification_axis: BY_INVESTMENT_OBJECT
+  raw_label: 債券投資
+  normalized_label: 債券投資
+  parent_golden_row_id: GROW_7fd52a53e02c05345cb6
+  semantic_parent_path: 固定收益類金融資產
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 3
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年12月31日
+    period_identity: DATE:2025-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 334287
+  - period_role: CURRENT
+    period_label: 2025年12月31日
+    period_identity: DATE:2025-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 52.2
+  - period_role: COMPARATIVE
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 316569
+  - period_role: COMPARATIVE
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 57.7
+- golden_row_id: GROW_18e47c920cfafc408e05
+  physical_table_id: SUNSHINE_INSURANCE_2025_PORTFOLIO_BY_CATEGORY
+  member_table_id: portfolio_by_category
+  classification_axis: BY_INVESTMENT_OBJECT
+  raw_label: 理財產品投資
+  normalized_label: 理財產品投資
+  parent_golden_row_id: GROW_7fd52a53e02c05345cb6
+  semantic_parent_path: 固定收益類金融資產
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 4
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年12月31日
+    period_identity: DATE:2025-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 83330
+  - period_role: CURRENT
+    period_label: 2025年12月31日
+    period_identity: DATE:2025-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 13.0
+  - period_role: COMPARATIVE
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 51650
+  - period_role: COMPARATIVE
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 9.4
+- golden_row_id: GROW_db1b48c21e3d9f0d2ce4
+  physical_table_id: SUNSHINE_INSURANCE_2025_PORTFOLIO_BY_CATEGORY
+  member_table_id: portfolio_by_category
+  classification_axis: BY_INVESTMENT_OBJECT
+  raw_label: 其他債權投資
+  normalized_label: 其他債權投資
+  parent_golden_row_id: GROW_7fd52a53e02c05345cb6
+  semantic_parent_path: 固定收益類金融資產
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 5
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年12月31日
+    period_identity: DATE:2025-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 22470
+  - period_role: CURRENT
+    period_label: 2025年12月31日
+    period_identity: DATE:2025-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 3.5
+  - period_role: COMPARATIVE
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 13892
+  - period_role: COMPARATIVE
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 2.6
+- golden_row_id: GROW_9de2868a38b8111da3c8
+  physical_table_id: SUNSHINE_INSURANCE_2025_PORTFOLIO_BY_CATEGORY
+  member_table_id: portfolio_by_category
+  classification_axis: BY_INVESTMENT_OBJECT
+  raw_label: 權益類金融資產
+  normalized_label: 權益類金融資產
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: GROUP
+  source_row_order: 6
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年12月31日
+    period_identity: DATE:2025-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 136431
+  - period_role: CURRENT
+    period_label: 2025年12月31日
+    period_identity: DATE:2025-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 21.4
+  - period_role: COMPARATIVE
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 119540
+  - period_role: COMPARATIVE
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 21.8
+- golden_row_id: GROW_01d56e5fbf13d38e8abb
+  physical_table_id: SUNSHINE_INSURANCE_2025_PORTFOLIO_BY_CATEGORY
+  member_table_id: portfolio_by_category
+  classification_axis: BY_INVESTMENT_OBJECT
+  raw_label: 股票
+  normalized_label: 股票
+  parent_golden_row_id: GROW_9de2868a38b8111da3c8
+  semantic_parent_path: 權益類金融資產
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 7
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年12月31日
+    period_identity: DATE:2025-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 87514
+  - period_role: CURRENT
+    period_label: 2025年12月31日
+    period_identity: DATE:2025-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 13.7
+  - period_role: COMPARATIVE
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 67580
+  - period_role: COMPARATIVE
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 12.3
+- golden_row_id: GROW_dbd494b2723b47cd3712
+  physical_table_id: SUNSHINE_INSURANCE_2025_PORTFOLIO_BY_CATEGORY
+  member_table_id: portfolio_by_category
+  classification_axis: BY_INVESTMENT_OBJECT
+  raw_label: 權益型基金
+  normalized_label: 權益型基金
+  parent_golden_row_id: GROW_9de2868a38b8111da3c8
+  semantic_parent_path: 權益類金融資產
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 8
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年12月31日
+    period_identity: DATE:2025-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 7444
+  - period_role: CURRENT
+    period_label: 2025年12月31日
+    period_identity: DATE:2025-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 1.2
+  - period_role: COMPARATIVE
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 5269
+  - period_role: COMPARATIVE
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 1.0
+- golden_row_id: GROW_5e2b953fcfd3a75117d3
+  physical_table_id: SUNSHINE_INSURANCE_2025_PORTFOLIO_BY_CATEGORY
+  member_table_id: portfolio_by_category
+  classification_axis: BY_INVESTMENT_OBJECT
+  raw_label: 理財產品投資
+  normalized_label: 理財產品投資
+  parent_golden_row_id: GROW_9de2868a38b8111da3c8
+  semantic_parent_path: 權益類金融資產
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 9
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年12月31日
+    period_identity: DATE:2025-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 30819
+  - period_role: CURRENT
+    period_label: 2025年12月31日
+    period_identity: DATE:2025-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 4.8
+  - period_role: COMPARATIVE
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 32238
+  - period_role: COMPARATIVE
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 5.9
+- golden_row_id: GROW_3bac27416c8f65c6921b
+  physical_table_id: SUNSHINE_INSURANCE_2025_PORTFOLIO_BY_CATEGORY
+  member_table_id: portfolio_by_category
+  classification_axis: BY_INVESTMENT_OBJECT
+  raw_label: 其他股權投資
+  normalized_label: 其他股權投資
+  parent_golden_row_id: GROW_9de2868a38b8111da3c8
+  semantic_parent_path: 權益類金融資產
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 10
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年12月31日
+    period_identity: DATE:2025-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 10654
+  - period_role: CURRENT
+    period_label: 2025年12月31日
+    period_identity: DATE:2025-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 1.7
+  - period_role: COMPARATIVE
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 14453
+  - period_role: COMPARATIVE
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 2.6
+- golden_row_id: GROW_8c1374ae0c286e6da2c0
+  physical_table_id: SUNSHINE_INSURANCE_2025_PORTFOLIO_BY_CATEGORY
+  member_table_id: portfolio_by_category
+  classification_axis: BY_INVESTMENT_OBJECT
+  raw_label: 聯營企業和合營企業投資
+  normalized_label: 聯營企業和合營企業投資
+  parent_golden_row_id: GROW_9de2868a38b8111da3c8
+  semantic_parent_path: 權益類金融資產
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 11
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年12月31日
+    period_identity: DATE:2025-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 11690
+  - period_role: CURRENT
+    period_label: 2025年12月31日
+    period_identity: DATE:2025-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 1.8
+  - period_role: COMPARATIVE
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 10445
+  - period_role: COMPARATIVE
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 1.9
+- golden_row_id: GROW_c47c36f4d879fdd94e18
+  physical_table_id: SUNSHINE_INSURANCE_2025_PORTFOLIO_BY_CATEGORY
+  member_table_id: portfolio_by_category
+  classification_axis: BY_INVESTMENT_OBJECT
+  raw_label: 投資性房地產
+  normalized_label: 投資性房地產
+  parent_golden_row_id: GROW_9de2868a38b8111da3c8
+  semantic_parent_path: 權益類金融資產
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 12
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年12月31日
+    period_identity: DATE:2025-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 9274
+  - period_role: CURRENT
+    period_label: 2025年12月31日
+    period_identity: DATE:2025-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 1.4
+  - period_role: COMPARATIVE
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 9710
+  - period_role: COMPARATIVE
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 1.8
+- golden_row_id: GROW_e61b38d9bbe9efd6bc5b
+  physical_table_id: SUNSHINE_INSURANCE_2025_PORTFOLIO_BY_CATEGORY
+  member_table_id: portfolio_by_category
+  classification_axis: BY_INVESTMENT_OBJECT
+  raw_label: 現金、現金等價物及其他
+  normalized_label: 現金、現金等價物及其他
+  parent_golden_row_id: GROW_9de2868a38b8111da3c8
+  semantic_parent_path: 權益類金融資產
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 13
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年12月31日
+    period_identity: DATE:2025-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 20809
+  - period_role: CURRENT
+    period_label: 2025年12月31日
+    period_identity: DATE:2025-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 3.3
+  - period_role: COMPARATIVE
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 16856
+  - period_role: COMPARATIVE
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 3.0
+- golden_row_id: GROW_fc3d712dc5bf325f26c9
+  physical_table_id: SUNSHINE_INSURANCE_2025_PORTFOLIO_BY_CATEGORY
+  member_table_id: portfolio_by_category
+  classification_axis: BY_INVESTMENT_OBJECT
+  raw_label: 投資資產（合計）
+  normalized_label: 投資資產（合計）
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: TOTAL
+  source_row_order: 14
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年12月31日
+    period_identity: DATE:2025-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 640195
+  - period_role: CURRENT
+    period_label: 2025年12月31日
+    period_identity: DATE:2025-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 100.0
+  - period_role: COMPARATIVE
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 548579
+  - period_role: COMPARATIVE
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 100.0
+- golden_row_id: GROW_9e2a31aad884e91250e1
+  physical_table_id: SUNSHINE_INSURANCE_2025_PORTFOLIO_BY_MEASUREMENT
+  member_table_id: portfolio_by_measurement
+  classification_axis: BY_ACCOUNTING_MEASUREMENT
+  raw_label: 以公允價值計量且其變動計入當期損益的金融資產
+  normalized_label: 以公允價值計量且其變動計入當期損益的金融資產
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 1
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年12月31日
+    period_identity: DATE:2025-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 178390
+  - period_role: CURRENT
+    period_label: 2025年12月31日
+    period_identity: DATE:2025-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 27.9
+  - period_role: COMPARATIVE
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 137579
+  - period_role: COMPARATIVE
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 25.1
+- golden_row_id: GROW_e674a48f8fc5ef27172c
+  physical_table_id: SUNSHINE_INSURANCE_2025_PORTFOLIO_BY_MEASUREMENT
+  member_table_id: portfolio_by_measurement
+  classification_axis: BY_ACCOUNTING_MEASUREMENT
+  raw_label: 以公允價值計量且其變動計入其他綜合收益的金融資產
+  normalized_label: 以公允價值計量且其變動計入其他綜合收益的金融資產
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 2
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年12月31日
+    period_identity: DATE:2025-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 383632
+  - period_role: CURRENT
+    period_label: 2025年12月31日
+    period_identity: DATE:2025-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 59.9
+  - period_role: COMPARATIVE
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 360005
+  - period_role: COMPARATIVE
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 65.6
+- golden_row_id: GROW_e6d7dcfad57d56eac651
+  physical_table_id: SUNSHINE_INSURANCE_2025_PORTFOLIO_BY_MEASUREMENT
+  member_table_id: portfolio_by_measurement
+  classification_axis: BY_ACCOUNTING_MEASUREMENT
+  raw_label: 以攤餘成本計量的金融資產及其他
+  normalized_label: 以攤餘成本計量的金融資產及其他
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 3
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年12月31日
+    period_identity: DATE:2025-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 78173
+  - period_role: CURRENT
+    period_label: 2025年12月31日
+    period_identity: DATE:2025-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 12.2
+  - period_role: COMPARATIVE
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 50995
+  - period_role: COMPARATIVE
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 9.3
+- golden_row_id: GROW_5338b0bfda3f6f246d67
+  physical_table_id: SUNSHINE_INSURANCE_2025_PORTFOLIO_BY_MEASUREMENT
+  member_table_id: portfolio_by_measurement
+  classification_axis: BY_ACCOUNTING_MEASUREMENT
+  raw_label: 投資資產（合計）
+  normalized_label: 投資資產（合計）
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: TOTAL
+  source_row_order: 4
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年12月31日
+    period_identity: DATE:2025-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 640195
+  - period_role: CURRENT
+    period_label: 2025年12月31日
+    period_identity: DATE:2025-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 100.0
+  - period_role: COMPARATIVE
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 548579
+  - period_role: COMPARATIVE
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 100.0
+identity_provenance: DERIVED_FROM_CERTIFIED_GOLDEN_FACTS_NOT_RUNTIME_CAPTURE

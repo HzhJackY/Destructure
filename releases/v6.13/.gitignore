@@ -1,0 +1,72 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+
+# Secrets and machine-local configuration
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+data_home.json
+.financial_metric_resolver/
+
+# Runtime DATA_HOME and generated evidence
+data_home/
+DATA_HOME/
+uploads/
+runs/
+rule_backups/
+reviews/
+cache/
+batch_runs/
+table_captures/
+table_merges/
+archive/
+migration_reports/
+runtime/
+asset_reports/
+text_indexes/
+research_exports/
+output/
+scratch/
+tmp/
+temp/
+
+# Databases, large data and user exports
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.parquet
+*.xlsx
+*.xls
+*.csv
+*.tsv
+*.log
+*.zip
+*.7z
+*.rar
+*.tar
+*.tar.gz
+*.tgz
+
+# Documents are excluded by default; only reviewed synthetic samples may opt in
+*.pdf
+!samples/synthetic/**/*.pdf
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini

@@ -1,0 +1,107 @@
+{
+  "package": "AXA_research_AI_Engineering_Layer_v1",
+  "install_target": "C:\\dev\\AXA_research",
+  "file_count": 25,
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "sha256": "84bd38e3359641ef3375788ead2001a216e715039def5190a144b62f4818e353"
+    },
+    {
+      "path": "AI_CONTEXT.md",
+      "sha256": "1d78c0e3af7a09caae232d5504a50b43924a50bcbceffbccb24f63377a6abd53"
+    },
+    {
+      "path": "AI_RULES.md",
+      "sha256": "964fead3106dbcb1ef5979c30d51a49ed6b954ab5856c41f4eaabe31b92949b9"
+    },
+    {
+      "path": "ANTIGRAVITY.md",
+      "sha256": "a2b83b925d9e4c869caac570d8f73ba83a1a55bc5b496642f159ad4388ac57ea"
+    },
+    {
+      "path": "ARCHITECTURE.md",
+      "sha256": "e9092bc420329e3122be43b05147ed56660cdd0d4ce60a1b58af9bc0a0e8a4c3"
+    },
+    {
+      "path": "CLAUDE.md",
+      "sha256": "51db039ddb3d19ba5e02a369c47b44bd6ba80acb0b1cb327f192927ff63dd074"
+    },
+    {
+      "path": "DATA_CONTRACTS.md",
+      "sha256": "5579b14d7e3883c48e5abb7ef8fde5fcc476f734340816d8b7fee58ce09089e0"
+    },
+    {
+      "path": "GEMINI.md",
+      "sha256": "0f6183a69fac179dc25f8238037f4b4286decebbe05b80dcf7d813450967104e"
+    },
+    {
+      "path": "GOLDEN_CORPUS.md",
+      "sha256": "5f037e41bd88e5f6aba85d2030cd7504fc989f0d4364059ce755984fbcb4d055"
+    },
+    {
+      "path": "README_INSTALL.md",
+      "sha256": "c057cf07cb1fe6be053b711784d5255d6c28745b931d4b886ba7beaf94b57512"
+    },
+    {
+      "path": "docs/agent_startup_protocol.md",
+      "sha256": "3ff3348786b322befb3592f4d9f6c0917e2706e847d2d378a8866ae2d4360817"
+    },
+    {
+      "path": "docs/decisions/ADR-001-financial-investment-family-boundary.md",
+      "sha256": "526cb320acd66a5b45c806811e1ad68bd32d02bc108041ebaa625704fbdeb620"
+    },
+    {
+      "path": "docs/decisions/ADR-002-china-life-implicit-member-set.md",
+      "sha256": "865a6df40aa36b5e0ae3dc3231d29d5de9bf546fc559c7ab6a60940c0f28166d"
+    },
+    {
+      "path": "docs/decisions/ADR-003-cpic-high-resolution-ocr.md",
+      "sha256": "c7e751b7071bc48cdcfc51596a16c9140e295cfa42adf8cdaf20eb8b18f5ca62"
+    },
+    {
+      "path": "docs/decisions/ADR-004-no-single-metric-final-delivery.md",
+      "sha256": "83c3557bb6edc7524598798662d050db37640c9d9ae53b40c6406d38831fea90"
+    },
+    {
+      "path": "docs/decisions/ADR-005-unique-capture-canonical-merge-flow.md",
+      "sha256": "41f604c2a58ea70bdffd9f5e912e0d6f5e57cc84cbbfb75dfc51e5966ff602ac"
+    },
+    {
+      "path": "docs/incidents/INC-001-single-metric-fake-delivery.md",
+      "sha256": "23ba6a8e80b0921b47bfe39bfee6452d4aaa1a363d3a108f20f4f86cef983b91"
+    },
+    {
+      "path": "docs/incidents/INC-002-agent-context-loss-regression.md",
+      "sha256": "d90edcae25855b04c6afcad5c2d063c7ba5289ce740b9f55cab68f95c637670e"
+    },
+    {
+      "path": "docs/incidents/INC-003-terminal-boundary-regression.md",
+      "sha256": "3a65e614c0f2c135a8b40f7f48ca384d030c0fa4403bcb0e03f04dc08222be34"
+    },
+    {
+      "path": "docs/incidents/INC-004-parent-child-line-index-mismatch.md",
+      "sha256": "758e64526591d55f635ace6b3916b8c045f5c26221cae1bb716d248f94dfc2c7"
+    },
+    {
+      "path": "docs/ownership/module_owner_registry.md",
+      "sha256": "ca719b66104695b26f80d97a6c86c80bcebfbd5aafc4f04a69ba9a10d68b568b"
+    },
+    {
+      "path": "scripts/generate_ai_context.py",
+      "sha256": "7076b2e9b63d0e88c47f1f1b328356b835e6f858c1202e4bfd93217fa34b575e"
+    },
+    {
+      "path": "skills/four-company-real-delivery/SKILL.md",
+      "sha256": "af8d829c7be04bbb0e46fccb6bf6bce6b7465c0b8106af75cfdd35d85eb4f407"
+    },
+    {
+      "path": "skills/independent-delivery-qa/SKILL.md",
+      "sha256": "13ff23624fae91a061e6307499138e7677fa27d557beab147f13b80a8a93aa4a"
+    },
+    {
+      "path": "skills/release-certification/SKILL.md",
+      "sha256": "72918e120c1be8db7812225c0bffde16f3f17a5a809252452281a89aa4f64f65"
+    }
+  ]
+}

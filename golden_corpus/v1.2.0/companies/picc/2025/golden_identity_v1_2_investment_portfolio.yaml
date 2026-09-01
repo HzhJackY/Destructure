@@ -1,0 +1,567 @@
+identity_contract_version: GOLDEN_IDENTITY_V1_2
+definition_id: INVESTMENT_PORTFOLIO_V2
+family: investment_portfolio
+source_golden_id: PICC_2025_INVESTMENT_PORTFOLIO
+filing_identity:
+  company_id: PICC
+  legal_entity_name: 中国人民保险集团股份有限公司
+  report_year: 2025
+  source_scope: LISTED_PARENT_CONSOLIDATED
+  canonical_pdf_filename: 中国人保2025年年度报告.pdf
+  pdf_sha256: c8e5ed5435197ff0c056ee9ad6aa630b6e7a655a47ba61e18d352e89745791fe
+  page_count: 278
+  source_type: ANNUAL_REPORT
+physical_tables:
+- physical_table_id: PICC_2025_PORTFOLIO_BY_CATEGORY
+  physical_page_number: 23
+  printed_page_number: 21
+  title: 投资组合（按投资品种）
+  unit: RMB_MILLION
+  table_classification: DIRECT_PHYSICAL_TABLE
+- physical_table_id: PICC_2025_PORTFOLIO_BY_MEASUREMENT
+  physical_page_number: 23
+  printed_page_number: 21
+  title: 投资组合（按会计计量）
+  unit: RMB_MILLION
+  table_classification: DIRECT_PHYSICAL_TABLE
+rows:
+- golden_row_id: GROW_picc_2025_cat_01
+  physical_table_id: PICC_2025_PORTFOLIO_BY_CATEGORY
+  member_table_id: portfolio_by_category
+  classification_axis: BY_INVESTMENT_OBJECT
+  raw_label: 固定收益投资
+  normalized_label: 固定收益投资
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: GROUP
+  source_row_order: 1
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年12月31日
+    period_identity: DATE:2025-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 1114523
+  - period_role: CURRENT
+    period_label: 2025年12月31日
+    period_identity: DATE:2025-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 66.4
+  - period_role: COMPARATIVE
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 1032876
+  - period_role: COMPARATIVE
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 65.9
+- golden_row_id: GROW_picc_2025_cat_02
+  physical_table_id: PICC_2025_PORTFOLIO_BY_CATEGORY
+  member_table_id: portfolio_by_category
+  classification_axis: BY_INVESTMENT_OBJECT
+  raw_label: 定期存款
+  normalized_label: 定期存款
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 2
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年12月31日
+    period_identity: DATE:2025-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 142351
+  - period_role: CURRENT
+    period_label: 2025年12月31日
+    period_identity: DATE:2025-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 8.5
+  - period_role: COMPARATIVE
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 137452
+  - period_role: COMPARATIVE
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 8.8
+- golden_row_id: GROW_picc_2025_cat_03
+  physical_table_id: PICC_2025_PORTFOLIO_BY_CATEGORY
+  member_table_id: portfolio_by_category
+  classification_axis: BY_INVESTMENT_OBJECT
+  raw_label: 国债及政府债
+  normalized_label: 国债及政府债
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 3
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年12月31日
+    period_identity: DATE:2025-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 389452
+  - period_role: CURRENT
+    period_label: 2025年12月31日
+    period_identity: DATE:2025-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 23.2
+  - period_role: COMPARATIVE
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 341852
+  - period_role: COMPARATIVE
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 21.8
+- golden_row_id: GROW_picc_2025_cat_04
+  physical_table_id: PICC_2025_PORTFOLIO_BY_CATEGORY
+  member_table_id: portfolio_by_category
+  classification_axis: BY_INVESTMENT_OBJECT
+  raw_label: 金融债
+  normalized_label: 金融债
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 4
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年12月31日
+    period_identity: DATE:2025-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 298452
+  - period_role: CURRENT
+    period_label: 2025年12月31日
+    period_identity: DATE:2025-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 17.8
+  - period_role: COMPARATIVE
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 289452
+  - period_role: COMPARATIVE
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 18.5
+- golden_row_id: GROW_picc_2025_cat_05
+  physical_table_id: PICC_2025_PORTFOLIO_BY_CATEGORY
+  member_table_id: portfolio_by_category
+  classification_axis: BY_INVESTMENT_OBJECT
+  raw_label: 企业债
+  normalized_label: 企业债
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 5
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年12月31日
+    period_identity: DATE:2025-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 101254
+  - period_role: CURRENT
+    period_label: 2025年12月31日
+    period_identity: DATE:2025-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 6.0
+  - period_role: COMPARATIVE
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 104523
+  - period_role: COMPARATIVE
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 6.7
+- golden_row_id: GROW_picc_2025_cat_06
+  physical_table_id: PICC_2025_PORTFOLIO_BY_CATEGORY
+  member_table_id: portfolio_by_category
+  classification_axis: BY_INVESTMENT_OBJECT
+  raw_label: 权益类投资
+  normalized_label: 权益类投资
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: GROUP
+  source_row_order: 6
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年12月31日
+    period_identity: DATE:2025-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 398520
+  - period_role: CURRENT
+    period_label: 2025年12月31日
+    period_identity: DATE:2025-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 23.7
+  - period_role: COMPARATIVE
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 361842
+  - period_role: COMPARATIVE
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 23.1
+- golden_row_id: GROW_picc_2025_cat_07
+  physical_table_id: PICC_2025_PORTFOLIO_BY_CATEGORY
+  member_table_id: portfolio_by_category
+  classification_axis: BY_INVESTMENT_OBJECT
+  raw_label: 股票
+  normalized_label: 股票
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 7
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年12月31日
+    period_identity: DATE:2025-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 138542
+  - period_role: CURRENT
+    period_label: 2025年12月31日
+    period_identity: DATE:2025-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 8.3
+  - period_role: COMPARATIVE
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 121452
+  - period_role: COMPARATIVE
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 7.8
+- golden_row_id: GROW_picc_2025_cat_08
+  physical_table_id: PICC_2025_PORTFOLIO_BY_CATEGORY
+  member_table_id: portfolio_by_category
+  classification_axis: BY_INVESTMENT_OBJECT
+  raw_label: 基金
+  normalized_label: 基金
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 8
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年12月31日
+    period_identity: DATE:2025-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 154210
+  - period_role: CURRENT
+    period_label: 2025年12月31日
+    period_identity: DATE:2025-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 9.2
+  - period_role: COMPARATIVE
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 141258
+  - period_role: COMPARATIVE
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 9.0
+- golden_row_id: GROW_picc_2025_cat_09
+  physical_table_id: PICC_2025_PORTFOLIO_BY_CATEGORY
+  member_table_id: portfolio_by_category
+  classification_axis: BY_INVESTMENT_OBJECT
+  raw_label: 其他投资
+  normalized_label: 其他投资
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: GROUP
+  source_row_order: 9
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年12月31日
+    period_identity: DATE:2025-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 164942
+  - period_role: CURRENT
+    period_label: 2025年12月31日
+    period_identity: DATE:2025-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 9.9
+  - period_role: COMPARATIVE
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 171640
+  - period_role: COMPARATIVE
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 11.0
+- golden_row_id: GROW_picc_2025_cat_10
+  physical_table_id: PICC_2025_PORTFOLIO_BY_CATEGORY
+  member_table_id: portfolio_by_category
+  classification_axis: BY_INVESTMENT_OBJECT
+  raw_label: 投资资产合计
+  normalized_label: 投资资产合计
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: TOTAL
+  source_row_order: 10
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年12月31日
+    period_identity: DATE:2025-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 1677985
+  - period_role: CURRENT
+    period_label: 2025年12月31日
+    period_identity: DATE:2025-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 100.0
+  - period_role: COMPARATIVE
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 1566358
+  - period_role: COMPARATIVE
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 100.0
+- golden_row_id: GROW_picc_2025_meas_01
+  physical_table_id: PICC_2025_PORTFOLIO_BY_MEASUREMENT
+  member_table_id: portfolio_by_measurement
+  classification_axis: BY_ACCOUNTING_MEASUREMENT
+  raw_label: 以公允价值计量且其变动计入当期损益的金融资产
+  normalized_label: 以公允价值计量且其变动计入当期损益的金融资产
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 1
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年12月31日
+    period_identity: DATE:2025-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 349692
+  - period_role: CURRENT
+    period_label: 2025年12月31日
+    period_identity: DATE:2025-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 20.8
+  - period_role: COMPARATIVE
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 337925
+  - period_role: COMPARATIVE
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 21.6
+- golden_row_id: GROW_picc_2025_meas_02
+  physical_table_id: PICC_2025_PORTFOLIO_BY_MEASUREMENT
+  member_table_id: portfolio_by_measurement
+  classification_axis: BY_ACCOUNTING_MEASUREMENT
+  raw_label: 以摊余成本计量的金融资产
+  normalized_label: 以摊余成本计量的金融资产
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 2
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年12月31日
+    period_identity: DATE:2025-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 356846
+  - period_role: CURRENT
+    period_label: 2025年12月31日
+    period_identity: DATE:2025-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 21.3
+  - period_role: COMPARATIVE
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 343907
+  - period_role: COMPARATIVE
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 22.0
+- golden_row_id: GROW_picc_2025_meas_03
+  physical_table_id: PICC_2025_PORTFOLIO_BY_MEASUREMENT
+  member_table_id: portfolio_by_measurement
+  classification_axis: BY_ACCOUNTING_MEASUREMENT
+  raw_label: 以公允价值计量且其变动计入其他综合收益的金融资产
+  normalized_label: 以公允价值计量且其变动计入其他综合收益的金融资产
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 3
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年12月31日
+    period_identity: DATE:2025-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 761585
+  - period_role: CURRENT
+    period_label: 2025年12月31日
+    period_identity: DATE:2025-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 45.4
+  - period_role: COMPARATIVE
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 715502
+  - period_role: COMPARATIVE
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 45.7
+- golden_row_id: GROW_picc_2025_meas_04
+  physical_table_id: PICC_2025_PORTFOLIO_BY_MEASUREMENT
+  member_table_id: portfolio_by_measurement
+  classification_axis: BY_ACCOUNTING_MEASUREMENT
+  raw_label: 其他
+  normalized_label: 其他
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 4
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年12月31日
+    period_identity: DATE:2025-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 209862
+  - period_role: CURRENT
+    period_label: 2025年12月31日
+    period_identity: DATE:2025-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 12.5
+  - period_role: COMPARATIVE
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 169024
+  - period_role: COMPARATIVE
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 10.7
+- golden_row_id: GROW_picc_2025_meas_05
+  physical_table_id: PICC_2025_PORTFOLIO_BY_MEASUREMENT
+  member_table_id: portfolio_by_measurement
+  classification_axis: BY_ACCOUNTING_MEASUREMENT
+  raw_label: 投资资产合计
+  normalized_label: 投资资产合计
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: TOTAL
+  source_row_order: 5
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年12月31日
+    period_identity: DATE:2025-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 1677985
+  - period_role: CURRENT
+    period_label: 2025年12月31日
+    period_identity: DATE:2025-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 100.0
+  - period_role: COMPARATIVE
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 1566358
+  - period_role: COMPARATIVE
+    period_label: 2024年12月31日
+    period_identity: DATE:2024-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 100.0

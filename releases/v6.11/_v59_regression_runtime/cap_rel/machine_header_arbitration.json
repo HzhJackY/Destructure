@@ -1,0 +1,73 @@
+{
+  "mode": "AUTO",
+  "auto_selected_parser": "GENERALIZED_PERIOD_V57",
+  "selected_parser": "GENERALIZED_PERIOD_V57",
+  "selection_reason": "AUTO_VALIDATED_SELECTION",
+  "auto_abstain": false,
+  "candidates": {
+    "GENERALIZED_PERIOD_V57": {
+      "parser": "GENERALIZED_PERIOD_V57",
+      "leaf_count": 4,
+      "numeric_cluster_count": 4,
+      "numeric_clusters": {
+        "count": 4,
+        "centers": [
+          355.854,
+          525.437,
+          695.437,
+          865.437
+        ],
+        "supports": [
+          6,
+          6,
+          6,
+          6
+        ],
+        "lines": 6
+      },
+      "primary_table_end_y": null,
+      "parent_scope_count": 2,
+      "scope_coverage": 4,
+      "duplicate_dimension_count": 0,
+      "alignment_ratio": 1.0,
+      "hard_failures": [],
+      "status": "VALID",
+      "score": 100.0,
+      "columns_preview": [
+        {
+          "ordinal": 0,
+          "year": "本年累计数",
+          "period_label": "本年累计数",
+          "scope": "本集团",
+          "restated": false,
+          "header_raw": "本集团 | 本年累计数"
+        },
+        {
+          "ordinal": 1,
+          "year": "上年累计数",
+          "period_label": "上年累计数",
+          "scope": "本集团",
+          "restated": false,
+          "header_raw": "本集团 | 上年累计数"
+        },
+        {
+          "ordinal": 2,
+          "year": "本年累计数",
+          "period_label": "本年累计数",
+          "scope": "本公司",
+          "restated": false,
+          "header_raw": "本公司 | 本年累计数"
+        },
+        {
+          "ordinal": 3,
+          "year": "上年累计数",
+          "period_label": "上年累计数",
+          "scope": "本公司",
+          "restated": false,
+          "header_raw": "本公司 | 上年累计数"
+        }
+      ],
+      "_selection_score": 100.0
+    }
+  }
+}

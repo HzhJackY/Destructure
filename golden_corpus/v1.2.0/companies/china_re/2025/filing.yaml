@@ -1,0 +1,14 @@
+filing_id: CHINA_RE_2025
+company_id: CHINA_RE
+company_name: 中国再保
+company_legal_name: 中国再保险（集团）股份有限公司
+legal_entity_name: 中国再保险（集团）股份有限公司
+stock_code: 01508.HK
+report_year: 2025
+report_type: ANNUAL_REPORT
+canonical_pdf_filename: 中国再保2025年年度报告.pdf
+pdf_sha256: cfcd25105c0573e5d2c0e9dccd5deb9cf5ad5ea7528afe4a851b852e74f3c1a9
+page_count: 370
+file_size_bytes: 8205754
+source_url: https://www.hkexnews.hk/china_re/2025
+modality: DIGITAL_VECTOR_PDF

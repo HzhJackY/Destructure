@@ -1,0 +1,26 @@
+{
+  "version": "v6.1",
+  "release_name": "Backend Decoupling + SQLite Metadata Registry",
+  "date": "2026-07-22",
+  "data_schema_version": "6.1",
+  "metadata_registry_schema_version": 1,
+  "key_features": [
+    "SQLite metadata control plane",
+    "Repository Layer",
+    "Service Layer",
+    "Headless Capture/Review/Merge service APIs",
+    "Persistent Job Registry",
+    "SQL-backed Capture filters and pagination",
+    "SQL-only select-all-filtered IDs",
+    "Batch ACTIVE/TRASHED UI separation",
+    "Project documentation cleanup"
+  ],
+  "regression_status": "PASS",
+  "regression_gates": [
+    "ALL_V59_REGRESSION_CORPUS_PASS",
+    "ALL_V60_ASSET_TESTS_PASS",
+    "V601_BATCH_ID_CALLBACK_CONTRACT_PASS",
+    "ALL_V61_BACKEND_ARCHITECTURE_TESTS_PASS"
+  ],
+  "known_boundary": "Streamlit remains the transitional UI in v6.1; FastAPI/React and controlled multi-PDF worker orchestration are not part of this release."
+}

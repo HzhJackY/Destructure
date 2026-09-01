@@ -1,0 +1,27 @@
+schema_version: "1.0"
+golden_set_id: "GL-CPIC-CONSOLIDATED-FINANCIAL-INVESTMENT-PAGE-ANCHORS-v1"
+golden_set_version: "1.0.0"
+title: "中国太保合并金融投资主表页面锚点"
+asset_class: "DISCOVERY_PAGE_ANCHOR_GOLDEN"
+research_definition_id: "FINANCIAL_INVESTMENT_STATEMENT_FAMILY"
+statement_scope: "CONSOLIDATED"
+annotation_status: "HUMAN_VERIFIED_PENDING_SHA"
+release_blocking: false
+release_blocking_after_activation: true
+activation_requirements:
+  - "all fixture pdf_sha256 values are populated"
+  - "all canonical PDF filenames are confirmed"
+  - "page number system is verified as PDF_READER_ONE_BASED"
+  - "all fixture annotation_status values are CERTIFIED_GOLDEN"
+fixtures:
+  - "fixtures/cpic_2023_consolidated_financial_investment_page_anchor.yaml"
+  - "fixtures/cpic_2024_consolidated_financial_investment_page_anchor.yaml"
+  - "fixtures/cpic_2025_consolidated_financial_investment_page_anchor.yaml"
+prohibited_inferences:
+  - "PAGE_ANCHOR_PASS does not imply OCR_RESOLUTION_PASS"
+  - "PAGE_ANCHOR_PASS does not imply MEMBER_COVERAGE_PASS"
+  - "PAGE_ANCHOR_PASS does not imply CHILD_LINK_PASS"
+  - "PAGE_ANCHOR_PASS does not imply CANONICAL_PASS"
+  - "PAGE_ANCHOR_PASS does not imply MERGE_ELIGIBLE"
+created_by: "user_adjudication"
+created_date: "2026-07-29"

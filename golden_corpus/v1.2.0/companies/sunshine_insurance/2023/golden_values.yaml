@@ -1,0 +1,80 @@
+schema_version: '1.1'
+fixture_id: SUNSHINE_INSURANCE_2023_GOLDEN_VALUES
+family: financial_investment
+values:
+- member_id: fvtpl_assets
+  raw_label: 以公允價值計量且其變動計入當期損益的金融資產
+  note_reference: '21'
+  current_amount_raw: 125,367
+  status: ACTIVE_CURRENT_PERIOD
+  child_table:
+    classification: PRIMARY_TABLE
+    pdf_page_number: 258
+    printed_page_label: '257'
+    note_title: 以公允價值計量且其變動計入當期損益的金融資產
+    unit: RMB_MILLION
+    items:
+    - raw_label: 債券-政府債(上市)
+      normalized_label: 債券-政府債(上市)
+      amount_2023: '0'
+      amount_2022_restated: '12'
+    - raw_label: 債券-金融債(上市)
+      normalized_label: 債券-金融債(上市)
+      amount_2023: '204'
+      amount_2022_restated: '20'
+    - raw_label: 債券-企業債(上市)
+      normalized_label: 債券-企業債(上市)
+      amount_2023: 2,122
+      amount_2022_restated: '827'
+    - raw_label: 債券-抵押支持證券(上市)
+      normalized_label: 債券-抵押支持證券(上市)
+      amount_2023: '85'
+      amount_2022_restated: '339'
+    - raw_label: 債券-金融債(非上市)
+      normalized_label: 債券-金融債(非上市)
+      amount_2023: 3,360
+      amount_2022_restated: 1,111
+    - raw_label: 債券-企業債(非上市)
+      normalized_label: 債券-企業債(非上市)
+      amount_2023: 5,440
+      amount_2022_restated: 6,393
+    - raw_label: 基金(上市)
+      normalized_label: 基金(上市)
+      amount_2023: 23,512
+      amount_2022_restated: 21,450
+    - raw_label: 基金(非上市)
+      normalized_label: 基金(非上市)
+      amount_2023: 12,980
+      amount_2022_restated: 12,250
+    - raw_label: 股票(上市)
+      normalized_label: 股票(上市)
+      amount_2023: 21,245
+      amount_2022_restated: 18,450
+    - raw_label: 理財產品及其他
+      normalized_label: 理財產品及其他
+      amount_2023: 56,419
+      amount_2022_restated: 24,422
+    - raw_label: 合計
+      normalized_label: 合計
+      amount_2023: 125,367
+      amount_2022_restated: 85,274
+- member_id: debt_investment
+  raw_label: 以攤餘成本計量的金融資產
+  note_reference: '22'
+  current_amount_raw: 2,752
+  status: ACTIVE_CURRENT_PERIOD
+- member_id: other_debt_investment
+  raw_label: 以公允價值計量且其變動計入其他綜合收益的債務工具
+  note_reference: '23'
+  current_amount_raw: 249,503
+  status: ACTIVE_CURRENT_PERIOD
+- member_id: other_equity_investment
+  raw_label: 以公允價值計量且其變動計入其他綜合收益的權益工具
+  note_reference: '24'
+  current_amount_raw: 42,946
+  status: ACTIVE_CURRENT_PERIOD
+- member_id: term_deposits
+  raw_label: 定期存款
+  note_reference: '25'
+  current_amount_raw: 9,917
+  status: ACTIVE_CURRENT_PERIOD

@@ -1,0 +1,7 @@
+﻿row_order,row_type,parent_section,raw_item,normalized_item,unit,container_id,table_block_id,block_order,classification_axis,block_role,block_terminal_type,row_role,row_item_raw,row_item_normalized,label_derivation,derivation_method,derived_from_rows,derivation_evidence,上年累计数 本公司 nan,上年累计数 本集团 nan,本年累计数 本公司 nan,本年累计数 本集团 nan
+1,DETAIL,,工资和福利费,工资和福利费,,,,,UNRESOLVED,UNRESOLVED,UNRESOLVED,DETAIL,工资和福利费,工资和福利费,EXPLICIT_TEXT,,,,1000374052.0,1100025060.0,1063416253.0,1169648937.0
+2,DETAIL,,其他,其他,,,,,UNRESOLVED,UNRESOLVED,UNRESOLVED,DETAIL,其他,其他,EXPLICIT_TEXT,,,,34827366.0,37047850.0,35521028.0,37906512.0
+3,SUBTOTAL,,小计,小计,,,,,UNRESOLVED,UNRESOLVED,UNRESOLVED,SUBTOTAL,小计,小计,EXPLICIT_TEXT,,,,1035201418.0,1137072910.0,1098937281.0,1207555449.0
+5,DETAIL,减,当期发生的保费获取现金流,当期发生的保费获取现金流,,,,,UNRESOLVED,UNRESOLVED,UNRESOLVED,DETAIL,当期发生的保费获取现金流,当期发生的保费获取现金流,EXPLICIT_TEXT,,,,70000000.0,90000000.0,80000000.0,100000000.0
+6,DETAIL,减,当期发生的其他保险履约现金流,当期发生的其他保险履约现金流,,,,,UNRESOLVED,UNRESOLVED,UNRESOLVED,DETAIL,当期发生的其他保险履约现金流,当期发生的其他保险履约现金流,EXPLICIT_TEXT,,,,170000000.0,190000000.0,180000000.0,200000000.0
+7,TOTAL,,合计,合计,,,,,UNRESOLVED,UNRESOLVED,UNRESOLVED,TOTAL,合计,合计,EXPLICIT_TEXT,,,,795201418.0,857072910.0,838937281.0,907555449.0

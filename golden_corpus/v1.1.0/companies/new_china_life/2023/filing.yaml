@@ -1,0 +1,17 @@
+schema_version: '1.1'
+filing_id: NEW_CHINA_LIFE_2023_ANNUAL_REPORT
+company_id: NEW_CHINA_LIFE
+company_name: 新华保险
+company_legal_name: 新华人寿保险股份有限公司
+report_year: 2023
+report_type: ANNUAL_REPORT
+language: zh-CN
+canonical_pdf_filename: 新华保险2023年报.pdf
+pdf_sha256: 046dbb6f39ab859f8c6c7beabf06010abf775a860964b24ab076f8053b1365b0
+page_count: 284
+file_size_bytes: 4651395
+document_modality: TEXT_DOMINANT_OR_HYBRID
+canonical_for_testing: true
+duplicate_group: null
+annotation_status: CERTIFIED_GOLDEN
+source_directory: C:\dev\AXA_research\docu

@@ -1,0 +1,23 @@
+financial_investment_statement_page: 154
+financial_investment_statement_printed_page: 153
+portfolio_category_page: 49
+portfolio_category_printed_page: 48
+portfolio_measurement_page: 49
+portfolio_measurement_printed_page: 48
+notes_pages:
+  '22':
+    title: 以公允價值計量且其變動計入當期損益的金融資產
+    page: 233
+    printed: 232
+  '23':
+    title: 以攤餘成本計量的金融資產
+    page: 235
+    printed: 234
+  '24':
+    title: 以公允價值計量且其變動計入其他綜合收益的債務工具
+    page: 236
+    printed: 235
+  '25':
+    title: 以公允價值計量且其變動計入其他綜合收益的權益工具
+    page: 237
+    printed: 236

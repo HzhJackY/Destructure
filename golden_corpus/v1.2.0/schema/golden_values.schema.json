@@ -1,0 +1,66 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "GoldenValuesSchema",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "type": "string"
+    },
+    "fixture_id": {
+      "type": "string"
+    },
+    "family": {
+      "type": "string"
+    },
+    "values": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "member_id": {
+            "type": "string"
+          },
+          "raw_label": {
+            "type": "string"
+          },
+          "note_reference": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "current_amount_raw": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "status": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "member_id",
+          "raw_label",
+          "status"
+        ]
+      }
+    },
+    "annotation_status": {
+      "type": "string"
+    },
+    "reviewer": {
+      "type": "string"
+    },
+    "review_date": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "schema_version",
+    "fixture_id",
+    "family",
+    "values",
+    "annotation_status"
+  ]
+}

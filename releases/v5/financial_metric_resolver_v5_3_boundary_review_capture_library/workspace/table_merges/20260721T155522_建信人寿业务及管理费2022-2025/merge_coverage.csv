@@ -1,0 +1,5 @@
+﻿capture_run_id,company,document_year,numeric_source_rows,mapped_or_exact_rows,unmapped_preserved_rows,mapping_coverage,project_conflict_count
+建信人寿2022年报__业务及管理费__20260721T155348,建信人寿,2022,50,50,0,1.0,2
+建信人寿2023年报__业务及管理费__20260721T155259,建信人寿,2023,50,50,0,1.0,2
+建信人寿2024年报__业务及管理费__20260721T155107,建信人寿,2024,40,40,0,1.0,2
+建信人寿2025年报__业务及管理费__20260721T154201,建信人寿,2025,50,42,8,0.84,2

@@ -1,0 +1,221 @@
+schema_version: '1.1'
+fixture_id: CHINA_LIFE_2023_GOLDEN_VALUES
+family: financial_investment
+values:
+- member_id: legacy_fvtpl_assets
+  raw_label: 以公允价值计量且其变动计入当期损益的金融资产
+  note_reference: 十、2
+  current_amount_raw: 253,879
+  status: ACTIVE_CURRENT_PERIOD
+  child_table:
+    classification: PRIMARY_TABLE
+    pdf_page_number: 171
+    note_title: 2. 以公允价值计量且其变动计入当期损益的金融资产
+    items:
+    - raw_label: 债权型投资 - 国债
+      amount_2023: 3,522
+      amount_2022: 1,805
+    - raw_label: 债权型投资 - 政府机构债券
+      amount_2023: 6,605
+      amount_2022: 9,622
+    - raw_label: 债权型投资 - 企业债券
+      amount_2023: 157,480
+      amount_2022: 152,344
+    - raw_label: 债权型投资 - 其他
+      amount_2023: 23,304
+      amount_2022: 27,755
+    - raw_label: 债权型投资 - 小计
+      amount_2023: 190,911
+      amount_2022: 191,526
+    - raw_label: 股权型投资 - 基金
+      amount_2023: 17,407
+      amount_2022: 13,442
+    - raw_label: 股权型投资 - 股票
+      amount_2023: 16,092
+      amount_2022: 18,549
+    - raw_label: 股权型投资 - 其他
+      amount_2023: 29,469
+      amount_2022: '265'
+    - raw_label: 股权型投资 - 小计
+      amount_2023: 62,968
+      amount_2022: 32,256
+    - raw_label: 合计
+      amount_2023: 253,879
+      amount_2022: 223,782
+- member_id: legacy_loans
+  raw_label: 贷款
+  note_reference: 十、8
+  current_amount_raw: 603,639
+  status: ACTIVE_CURRENT_PERIOD
+  child_table:
+    classification: PRIMARY_TABLE
+    pdf_page_number: 174
+    note_title: 8. 贷款
+    items:
+    - raw_label: 保户质押贷款
+      amount_2023: 270,486
+      amount_2022: 254,407
+    - raw_label: 其他贷款
+      amount_2023: 333,989
+      amount_2022: 344,426
+    - raw_label: 合计
+      amount_2023: 604,475
+      amount_2022: 598,833
+    - raw_label: 已计提减值金额
+      amount_2023: (836)
+      amount_2022: (2,343)
+    - raw_label: 净值
+      amount_2023: 603,639
+      amount_2022: 596,490
+    - raw_label: 公允价值
+      amount_2023: 615,521
+      amount_2022: 605,692
+- member_id: time_deposits
+  raw_label: 定期存款
+  note_reference: 十、9
+  current_amount_raw: 404,131
+  status: ACTIVE_CURRENT_PERIOD
+  child_table:
+    classification: PRIMARY_TABLE
+    pdf_page_number: 175
+    note_title: 9. 定期存款
+    items:
+    - raw_label: 1个月至3个月(含3个月)
+      amount_2023: 118,825
+      amount_2022: 29,740
+    - raw_label: 3个月至1年(含1年)
+      amount_2023: 50,527
+      amount_2022: 154,092
+    - raw_label: 1年至2年(含2年)
+      amount_2023: 46,770
+      amount_2022: 161,325
+    - raw_label: 2年至3年(含3年)
+      amount_2023: 73,151
+      amount_2022: 46,670
+    - raw_label: 3年至4年(含4年)
+      amount_2023: 80,640
+      amount_2022: 13,100
+    - raw_label: 4年至5年(含5年)
+      amount_2023: 34,218
+      amount_2022: 80,640
+    - raw_label: 合计
+      amount_2023: 404,131
+      amount_2022: 485,567
+- member_id: available_for_sale_assets
+  raw_label: 可供出售金融资产
+  note_reference: 十、10
+  current_amount_raw: 2,263,047
+  status: ACTIVE_CURRENT_PERIOD
+  child_table:
+    classification: PRIMARY_TABLE
+    pdf_page_number: 176
+    note_title: 10. 可供出售金融资产
+    items:
+    - raw_label: 以公允价值计量的可供出售金融资产
+      row_kind: GROUP
+      parent_row_order: null
+    - raw_label: 债权型投资
+      row_kind: GROUP
+      parent_row_order: 1
+    - raw_label: 国债
+      parent_row_order: 2
+      amount_2023: 131,928
+      amount_2022: 47,188
+    - raw_label: 政府机构债券
+      parent_row_order: 2
+      amount_2023: 330,001
+      amount_2022: 313,270
+    - raw_label: 企业债券
+      parent_row_order: 2
+      amount_2023: 267,657
+      amount_2022: 188,563
+    - raw_label: 次级债券
+      parent_row_order: 2
+      amount_2023: 308,655
+      amount_2022: 156,024
+    - raw_label: 其他
+      parent_row_order: 2
+      amount_2023: 188,998
+      amount_2022: 174,398
+    - raw_label: 小计
+      row_kind: TOTAL
+      parent_row_order: 2
+      amount_2023: 1,227,239
+      amount_2022: 879,443
+    - raw_label: 股权型投资
+      row_kind: GROUP
+      parent_row_order: 1
+    - raw_label: 基金
+      parent_row_order: 9
+      amount_2023: 189,386
+      amount_2022: 131,897
+    - raw_label: 股票
+      parent_row_order: 9
+      amount_2023: 414,108
+      amount_2022: 414,148
+    - raw_label: 优先股
+      parent_row_order: 9
+      amount_2023: 50,445
+      amount_2022: 50,522
+    - raw_label: 其他
+      parent_row_order: 9
+      amount_2023: 381,869
+      amount_2022: 244,964
+    - raw_label: 小计
+      row_kind: TOTAL
+      parent_row_order: 9
+      amount_2023: 1,035,808
+      amount_2022: 841,531
+    - raw_label: 以成本计量的可供出售金融资产
+      row_kind: GROUP
+      parent_row_order: null
+    - raw_label: 股权型投资
+      row_kind: GROUP
+      parent_row_order: 15
+    - raw_label: 其他
+      parent_row_order: 16
+      amount_2023: '-'
+      amount_2022: 17,134
+    - raw_label: 合计
+      row_kind: TOTAL
+      parent_row_order: null
+      amount_2023: 2,263,047
+      amount_2022: 1,738,108
+- member_id: held_to_maturity_investments
+  raw_label: 持有至到期投资
+  note_reference: 十、11
+  current_amount_raw: 1,706,441
+  status: ACTIVE_CURRENT_PERIOD
+  child_table:
+    classification: PRIMARY_TABLE
+    pdf_page_number: 177
+    note_title: 11. 持有至到期投资
+    items:
+    - raw_label: 国债
+      amortized_cost_2023: 314,057
+      fair_value_2023: 359,637
+      amortized_cost_2022: 378,105
+      fair_value_2022: 417,814
+    - raw_label: 政府机构债券
+      amortized_cost_2023: 1,234,348
+      fair_value_2023: 1,371,054
+      amortized_cost_2022: 1,004,162
+      fair_value_2022: 1,080,854
+    - raw_label: 企业债券
+      amortized_cost_2023: 148,896
+      fair_value_2023: 160,981
+      amortized_cost_2022: 178,203
+      fair_value_2022: 186,145
+    - raw_label: 次级债券
+      amortized_cost_2023: 9,140
+      fair_value_2023: 10,054
+      amortized_cost_2022: 13,734
+      fair_value_2022: 15,993
+    - raw_label: 合计
+      amortized_cost_2023: 1,706,441
+      fair_value_2023: 1,901,726
+      amortized_cost_2022: 1,574,204
+      fair_value_2022: 1,700,806
+annotation_status: CERTIFIED_GOLDEN
+reviewer: Codex_Agent_Adjudicator
+review_date: '2026-08-03'

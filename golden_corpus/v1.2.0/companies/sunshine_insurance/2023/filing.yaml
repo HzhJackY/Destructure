@@ -1,0 +1,14 @@
+filing_id: SUNSHINE_INSURANCE_2023
+company_id: SUNSHINE_INSURANCE
+company_name: 阳光保险
+company_legal_name: 阳光保险集团股份有限公司
+legal_entity_name: 阳光保险集团股份有限公司
+stock_code: 06963.HK
+report_year: 2023
+report_type: ANNUAL_REPORT
+canonical_pdf_filename: 阳光保险2023年度报告.pdf
+pdf_sha256: 6a8bab4aabc6573f0a9b409879ef068e8772ec98d01ca0d37b45e1f7829d3b9f
+page_count: 314
+file_size_bytes: 5713517
+source_url: https://www.hkexnews.hk/sunshine_insurance/2023
+modality: DIGITAL_VECTOR_PDF

@@ -1,0 +1,70 @@
+schema_version: investment_portfolio_golden_v2
+golden_id: AIA_2023_INVESTMENT_PORTFOLIO
+family: investment_portfolio
+company_id: AIA
+legal_entity_name: 友邦保險控股有限公司
+report_year: 2023
+source:
+  canonical_pdf_filename: 友邦保险2023年报.pdf
+  pdf_sha256: 24d40562aff2a09911845532bca4be841d484ce3ef2c1366b68c183cf6718779
+  page_count: 376
+  source_type: ANNUAL_REPORT
+source_scope: LISTED_PARENT_CONSOLIDATED
+disclosure_topology: DIRECT_SINGLE_AXIS_TABLE
+reported_portfolio_total:
+  status: DISCLOSED
+  derivation_allowed: false
+physical_assets:
+- asset_id: AIA_2023_PORTFOLIO_BY_CATEGORY
+  physical_page_number: 42
+  printed_page_number: 40
+  title: 投资组合（按投资品种）
+  unit: USD_MILLION
+  native_text_verified: true
+  ocr_used: false
+  blocks:
+  - member_id: portfolio_by_category
+    classification_axis: BY_INVESTMENT_OBJECT
+    logical_title: 投资组合（按投资品种）
+    current_period:
+      label: 2023年12月31日
+      amount: 268548
+      ratio_percent: 100.0
+    comparative_period:
+      label: 2022年12月31日
+      amount: 251801
+      ratio_percent: 100.0
+    rows:
+    - row_order: 1
+      raw_label: 保單持有人及股東總計
+      normalized_label: 保單持有人及股東總計
+      row_kind: DATA
+      current_amount: 235936
+      current_ratio_percent: 88.0
+      comparative_amount: 218295
+      comparative_ratio_percent: 87.0
+    - row_order: 2
+      raw_label: 單位連結式合約及合併投資基金總計
+      normalized_label: 單位連結式合約及合併投資基金總計
+      row_kind: DATA
+      current_amount: 32612
+      current_ratio_percent: 12.0
+      comparative_amount: 33506
+      comparative_ratio_percent: 13.0
+    - row_order: 3
+      raw_label: 總投資
+      normalized_label: 總投資
+      row_kind: TOTAL
+      current_amount: 268548
+      current_ratio_percent: 100.0
+      comparative_amount: 251801
+      comparative_ratio_percent: 100.0
+coverage:
+  asset_identity: FULL
+  total_values: FULL
+  row_values: FULL
+annotation_status: CERTIFIED_GOLDEN_ROW_VALUES
+reviewer: Codex_Agent_Adjudicator
+review_date: '2026-08-30'
+audit_note: Independently physically verified from official PDF for 友邦保险 2023. Unit
+  and total corroborated.

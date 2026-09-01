@@ -1,0 +1,30 @@
+{
+  "fixture_id": "CHINA_LIFE_2025",
+  "company": "中国人寿",
+  "report_year": "2025",
+  "pdf_filename": "中国人寿2025年年度报告.pdf",
+  "pdf_sha256": "575a833fd7b83ad3568483273645236eddb751a92ab89f7e1c09105d92cedb27",
+  "document_modality": "IMAGE_BASED",
+  "disclosure_pattern": "IMAGE_BASED_IMPLICIT_MEMBER_SET_SCATTERED",
+  "statement_scope": "CONSOLIDATED",
+  "research_definition_id": "FINANCIAL_INVESTMENT_V1",
+  "definition_version": "FINANCIAL_INVESTMENT_V1",
+  "expected_resolution_mode": "IMPLICIT_MEMBER_SET",
+  "expected_parent_present": false,
+  "expected_parent_label": null,
+  "expected_required_members": [
+    "fvtpl_assets",
+    "debt_investment",
+    "other_debt_investment",
+    "other_equity_investment"
+  ],
+  "expected_forbidden_members": [],
+  "known_constraints": [
+    "requires_ocr",
+    "requires_image_layout",
+    "requires_scattered_member_discovery",
+    "requires_parent_inference"
+  ],
+  "source_pages": [],
+  "annotation_status": "PATTERN_CANDIDATE"
+}

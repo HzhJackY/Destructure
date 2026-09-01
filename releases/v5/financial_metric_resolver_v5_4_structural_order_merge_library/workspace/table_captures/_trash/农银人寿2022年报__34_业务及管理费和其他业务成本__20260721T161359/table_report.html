@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<title>整表抓取报告</title>
+<style>
+body{font-family:Arial,'Microsoft YaHei',sans-serif;margin:28px;color:#1f2937}
+pre{white-space:pre-wrap;background:#f6f8fa;padding:16px;border-radius:8px}
+table{border-collapse:collapse;width:100%;font-size:13px}
+th,td{border:1px solid #d1d5db;padding:6px 8px;text-align:right}
+th:first-child,td:first-child{text-align:left}
+</style></head><body>
+<h1>整表抓取报告</h1>
+<pre># 整表抓取报告
+
+- PDF: `4a62c9b2936b_农银人寿2022年报.pdf`
+- 查询表: `业务及管理费和其他业务成本`
+- 定位标题: `34. 提取保险责任准备金`
+- 页码: `105–106`
+- 实际表格页: `105`
+- 列数: `2`
+- 行数: `10`
+
+## 列结构
+
+- col0: year=2022 | scope=- | restated=False | raw=2022
+- col1: year=2021 | scope=- | restated=False | raw=2021
+
+## 警告
+
+- 未在目标附注首页识别到明确单位；原始单位保持UNKNOWN，不做金额单位推断。
+
+## 说明
+
+- `raw_item` 永久保留PDF原始行名。
+- `normalized_item` 只做确定性文本清洗，不改变经济含义。
+- `canonical_item` 整表抓取层默认不强制映射；跨公司细项统一由“合表 / Taxonomy”工作区完成。</pre>
+<h2>宽表预览</h2>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>row_order</th>
+      <th>row_type</th>
+      <th>parent_section</th>
+      <th>raw_item</th>
+      <th>normalized_item</th>
+      <th>unit</th>
+      <th>2021</th>
+      <th>2022</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>DETAIL</td>
+      <td>NaN</td>
+      <td>寿险责任准备金</td>
+      <td>寿险责任准备金</td>
+      <td></td>
+      <td>14009728.55</td>
+      <td>18872533.20</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>DETAIL</td>
+      <td>NaN</td>
+      <td>长期健康险责任准备金</td>
+      <td>长期健康险责任准备金</td>
+      <td></td>
+      <td>1271333.05</td>
+      <td>731567.36</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>DETAIL</td>
+      <td>NaN</td>
+      <td>未决赔款准备金</td>
+      <td>未决赔款准备金</td>
+      <td></td>
+      <td>-141331.71</td>
+      <td>55362.96</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>TOTAL</td>
+      <td>NaN</td>
+      <td>合计</td>
+      <td>合计</td>
+      <td></td>
+      <td>15139729.89</td>
+      <td>19659463.52</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>DETAIL</td>
+      <td>(2)提取/(转回)的未决赔款准备金构成内容列示如下</td>
+      <td>已发生已报案未决赔款准备金</td>
+      <td>已发生已报案未决赔款准备金</td>
+      <td></td>
+      <td>-19972.17</td>
+      <td>22291.05</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>DETAIL</td>
+      <td>(2)提取/(转回)的未决赔款准备金构成内容列示如下</td>
+      <td>已发生未报案未决赔款准备金</td>
+      <td>已发生未报案未决赔款准备金</td>
+      <td></td>
+      <td>-109154.59</td>
+      <td>28857.13</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>DETAIL</td>
+      <td>(2)提取/(转回)的未决赔款准备金构成内容列示如下</td>
+      <td>理赔费用准备金</td>
+      <td>理赔费用准备金</td>
+      <td></td>
+      <td>-12204.95</td>
+      <td>4214.78</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>TOTAL</td>
+      <td>(2)提取/(转回)的未决赔款准备金构成内容列示如下</td>
+      <td>合计</td>
+      <td>合计</td>
+      <td></td>
+      <td>-141331.71</td>
+      <td>55362.96</td>
+    </tr>
+  </tbody>
+</table>
+</body></html>

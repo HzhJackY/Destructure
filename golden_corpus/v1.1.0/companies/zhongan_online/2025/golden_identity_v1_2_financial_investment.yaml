@@ -1,0 +1,280 @@
+identity_contract_version: GOLDEN_IDENTITY_V1_2
+definition_id: FINANCIAL_INVESTMENT_V1
+family: financial_investment
+source_golden_id: ZHONGAN_ONLINE_2025_GOLDEN_VALUES
+filing_identity:
+  company_id: ZHONGAN_ONLINE
+  legal_entity_name: 众安在线财产保险股份有限公司
+  report_year: 2025
+  source_scope: CONSOLIDATED
+  canonical_pdf_filename: 众安在线2025年度报告.pdf
+  pdf_sha256: ea8c839b7f9fe18fc0beb7e57f49c968315b6d346f7341212353cb9ed97f2331
+  page_count: 187
+  source_type: ANNUAL_REPORT
+physical_tables:
+- physical_table_id: ZHONGAN_ONLINE_2025::fvtpl_assets::PRIMARY
+  physical_page_number: 156
+  printed_page_number: '154'
+  title: 以公允價值計量且其變動計入當期損益的金融資產
+  unit: RMB_THOUSAND
+  table_classification: PRIMARY_TABLE
+rows:
+- golden_row_id: GROW_af62b4ba2cb525e394e4
+  physical_table_id: ZHONGAN_ONLINE_2025::MAIN_STATEMENT
+  member_table_id: fvtpl_assets
+  classification_axis: FINANCIAL_INVESTMENT_MEMBER_SET
+  raw_label: 以公允價值計量且其變動計入當期損益的金融資產
+  normalized_label: 以公允價值計量且其變動計入當期損益的金融資產
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: MEMBER
+  source_row_order: null
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年
+    period_identity: YEAR:2025
+    measure: AMOUNT
+    unit: SOURCE_DECLARED
+    value: 20,906,890
+- golden_row_id: GROW_9fb3825f63f1008e80e7
+  physical_table_id: ZHONGAN_ONLINE_2025::fvtpl_assets::PRIMARY
+  member_table_id: fvtpl_assets
+  classification_axis: ASSET_TYPE
+  raw_label: 債券投資
+  normalized_label: 債券投資
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 1
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年
+    period_identity: YEAR:2025
+    measure: AMOUNT
+    unit: RMB_THOUSAND
+    value: 8,730,253
+  - period_role: COMPARATIVE
+    period_label: 2024年重述
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: RMB_THOUSAND
+    value: 10,540,326
+- golden_row_id: GROW_4c61066db8eb41df97b8
+  physical_table_id: ZHONGAN_ONLINE_2025::fvtpl_assets::PRIMARY
+  member_table_id: fvtpl_assets
+  classification_axis: ASSET_TYPE
+  raw_label: 基金投資
+  normalized_label: 基金投資
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 2
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年
+    period_identity: YEAR:2025
+    measure: AMOUNT
+    unit: RMB_THOUSAND
+    value: 6,377,784
+  - period_role: COMPARATIVE
+    period_label: 2024年重述
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: RMB_THOUSAND
+    value: 6,512,880
+- golden_row_id: GROW_6ce48f046684c6fb4c97
+  physical_table_id: ZHONGAN_ONLINE_2025::fvtpl_assets::PRIMARY
+  member_table_id: fvtpl_assets
+  classification_axis: ASSET_TYPE
+  raw_label: 理財產品
+  normalized_label: 理財產品
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 3
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年
+    period_identity: YEAR:2025
+    measure: AMOUNT
+    unit: RMB_THOUSAND
+    value: 3,133,827
+  - period_role: COMPARATIVE
+    period_label: 2024年重述
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: RMB_THOUSAND
+    value: 2,111,237
+- golden_row_id: GROW_71fd0cf6132595250bc9
+  physical_table_id: ZHONGAN_ONLINE_2025::fvtpl_assets::PRIMARY
+  member_table_id: fvtpl_assets
+  classification_axis: ASSET_TYPE
+  raw_label: 股權投資
+  normalized_label: 股權投資
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 4
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年
+    period_identity: YEAR:2025
+    measure: AMOUNT
+    unit: RMB_THOUSAND
+    value: 2,635,615
+  - period_role: COMPARATIVE
+    period_label: 2024年重述
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: RMB_THOUSAND
+    value: 1,521,556
+- golden_row_id: GROW_32077dc7c12c4d25eedd
+  physical_table_id: ZHONGAN_ONLINE_2025::fvtpl_assets::PRIMARY
+  member_table_id: fvtpl_assets
+  classification_axis: ASSET_TYPE
+  raw_label: 資產支持證券
+  normalized_label: 資產支持證券
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 5
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年
+    period_identity: YEAR:2025
+    measure: AMOUNT
+    unit: RMB_THOUSAND
+    value: 20,271
+  - period_role: COMPARATIVE
+    period_label: 2024年重述
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: RMB_THOUSAND
+    value: 20,285
+- golden_row_id: GROW_e6dc524e6a9e286ac12d
+  physical_table_id: ZHONGAN_ONLINE_2025::fvtpl_assets::PRIMARY
+  member_table_id: fvtpl_assets
+  classification_axis: ASSET_TYPE
+  raw_label: 債權投資計劃
+  normalized_label: 債權投資計劃
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 6
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年
+    period_identity: YEAR:2025
+    measure: AMOUNT
+    unit: RMB_THOUSAND
+    value: 9,140
+  - period_role: COMPARATIVE
+    period_label: 2024年重述
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: RMB_THOUSAND
+    value: '0'
+- golden_row_id: GROW_2e39defd5ccad10a2ef8
+  physical_table_id: ZHONGAN_ONLINE_2025::fvtpl_assets::PRIMARY
+  member_table_id: fvtpl_assets
+  classification_axis: ASSET_TYPE
+  raw_label: 合計
+  normalized_label: 合計
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 7
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年
+    period_identity: YEAR:2025
+    measure: AMOUNT
+    unit: RMB_THOUSAND
+    value: 20,906,890
+  - period_role: COMPARATIVE
+    period_label: 2024年重述
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: RMB_THOUSAND
+    value: 20,706,284
+- golden_row_id: GROW_99326a94538f967a7577
+  physical_table_id: ZHONGAN_ONLINE_2025::MAIN_STATEMENT
+  member_table_id: debt_investment
+  classification_axis: FINANCIAL_INVESTMENT_MEMBER_SET
+  raw_label: 以攤餘成本計量的金融資產
+  normalized_label: 以攤餘成本計量的金融資產
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: MEMBER
+  source_row_order: null
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年
+    period_identity: YEAR:2025
+    measure: AMOUNT
+    unit: SOURCE_DECLARED
+    value: 782,103
+- golden_row_id: GROW_1d37743ba2189b514877
+  physical_table_id: ZHONGAN_ONLINE_2025::MAIN_STATEMENT
+  member_table_id: other_debt_investment
+  classification_axis: FINANCIAL_INVESTMENT_MEMBER_SET
+  raw_label: 以公允價值計量且其變動計入其他綜合收益的債務工具
+  normalized_label: 以公允價值計量且其變動計入其他綜合收益的債務工具
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: MEMBER
+  source_row_order: null
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年
+    period_identity: YEAR:2025
+    measure: AMOUNT
+    unit: SOURCE_DECLARED
+    value: 9,926,132
+- golden_row_id: GROW_a3c0201113d55f6b9e24
+  physical_table_id: ZHONGAN_ONLINE_2025::MAIN_STATEMENT
+  member_table_id: other_equity_investment
+  classification_axis: FINANCIAL_INVESTMENT_MEMBER_SET
+  raw_label: 以公允價值計量且其變動計入其他綜合收益的權益工具
+  normalized_label: 以公允價值計量且其變動計入其他綜合收益的權益工具
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: MEMBER
+  source_row_order: null
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年
+    period_identity: YEAR:2025
+    measure: AMOUNT
+    unit: SOURCE_DECLARED
+    value: 1,004,570
+- golden_row_id: GROW_c08e61dbc4c71e811d0d
+  physical_table_id: ZHONGAN_ONLINE_2025::MAIN_STATEMENT
+  member_table_id: term_deposits
+  classification_axis: FINANCIAL_INVESTMENT_MEMBER_SET
+  raw_label: 定期存款
+  normalized_label: 定期存款
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: MEMBER
+  source_row_order: null
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年
+    period_identity: YEAR:2025
+    measure: AMOUNT
+    unit: SOURCE_DECLARED
+    value: 30,077
+identity_provenance: DERIVED_FROM_CERTIFIED_GOLDEN_FACTS_NOT_RUNTIME_CAPTURE

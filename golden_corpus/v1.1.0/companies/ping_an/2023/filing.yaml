@@ -1,0 +1,17 @@
+schema_version: '1.1'
+filing_id: PING_AN_2023_ANNUAL_REPORT
+company_id: PING_AN
+company_name: 中国平安
+company_legal_name: 中国平安保险（集团）股份有限公司
+report_year: 2023
+report_type: ANNUAL_REPORT
+language: zh-CN
+canonical_pdf_filename: 中国平安2023年报.pdf
+pdf_sha256: f55538814200d77a61492ba216e45508f487064207bca6a4d90c7b55add43823
+page_count: 334
+file_size_bytes: 7225491
+document_modality: TEXT_DOMINANT_OR_HYBRID
+canonical_for_testing: true
+duplicate_group: null
+annotation_status: CERTIFIED_GOLDEN
+source_directory: C:\dev\AXA_research\docu

@@ -1,0 +1,3 @@
+﻿table_id,canonical_key,canonical_section,canonical_item,company,document_year,year,scope,restated,unit,source_count,mapping_status,conflict_status,final_value,source_rows,values_found,units_found
+建信人寿业务及管理费20222025,CANON::建信人寿业务及管理费20222025::::合计,,合计,建信人寿,2025,2025.0,,False,元,2,AUTO_EXACT_IDENTITY,VALUE_CONFLICT,,建信人寿2025年报__业务及管理费__20260721T154201:p139:合计 | 建信人寿2025年报__业务及管理费__20260721T154201:p140:合计,703909115.0 | 498141293.0,元
+建信人寿业务及管理费20222025,CANON::建信人寿业务及管理费20222025::::合计,,合计,建信人寿,2025,2024.0,,False,元,2,AUTO_EXACT_IDENTITY,VALUE_CONFLICT,,建信人寿2025年报__业务及管理费__20260721T154201:p139:合计 | 建信人寿2025年报__业务及管理费__20260721T154201:p140:合计,525345339.0 | 298770939.0,元

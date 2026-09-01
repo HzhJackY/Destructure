@@ -1,0 +1,53 @@
+{
+  "version": "v5.4",
+  "table_id": "交银人寿20222025业务及管理费",
+  "sources": [
+    {
+      "capture_run_id": "交银人寿2022年报__业务及管理费__20260721T162524",
+      "capture_dir": "C:\\dev\\AXA_research\\financial_metric_resolver_v5_4_structural_order_merge_library\\workspace\\table_captures\\交银人寿2022年报__业务及管理费__20260721T162524",
+      "pdf_name": "eb3bf997bcdc_交银人寿2022年报.pdf",
+      "pdf_sha256": "eb3bf997bcdce2cfb9700236edf6d1efad237cb933e5fad0a61b705f6dff0e9a",
+      "company": "交银人寿",
+      "document_year": "2022",
+      "table_query": "业务及管理费",
+      "note_number": null,
+      "located_title": "48 业务及管理费"
+    },
+    {
+      "capture_run_id": "交银人寿2023年报__业务及管理费__20260721T162522",
+      "capture_dir": "C:\\dev\\AXA_research\\financial_metric_resolver_v5_4_structural_order_merge_library\\workspace\\table_captures\\交银人寿2023年报__业务及管理费__20260721T162522",
+      "pdf_name": "eb85fed15107_交银人寿2023年报.pdf",
+      "pdf_sha256": "eb85fed15107cdba222306558ca594a967d95868825b350a9b643b3763ed7066",
+      "company": "交银人寿",
+      "document_year": "2023",
+      "table_query": "业务及管理费",
+      "note_number": null,
+      "located_title": "48 业务及管理费"
+    },
+    {
+      "capture_run_id": "交银人寿2024年报__业务及管理费__20260721T162518",
+      "capture_dir": "C:\\dev\\AXA_research\\financial_metric_resolver_v5_4_structural_order_merge_library\\workspace\\table_captures\\交银人寿2024年报__业务及管理费__20260721T162518",
+      "pdf_name": "131df196d14b_交银人寿2024年报.pdf",
+      "pdf_sha256": "131df196d14b93e5ee20db8ee17c5a7f8e0494c392c47ff299bee16f4914079e",
+      "company": "交银人寿",
+      "document_year": "2024",
+      "table_query": "业务及管理费",
+      "note_number": null,
+      "located_title": "32 业务及管理费"
+    },
+    {
+      "capture_run_id": "交银人寿2025年报__业务及管理费__20260721T162218",
+      "capture_dir": "C:\\dev\\AXA_research\\financial_metric_resolver_v5_4_structural_order_merge_library\\workspace\\table_captures\\交银人寿2025年报__业务及管理费__20260721T162218",
+      "pdf_name": "7ebe4b0597c8_交银人寿2025年报.pdf",
+      "pdf_sha256": "7ebe4b0597c858310421a5612ae01381a57174e4a1442c65f99a6dea0e916f5a",
+      "company": "交银人寿",
+      "document_year": "2025",
+      "table_query": "业务及管理费",
+      "note_number": null,
+      "located_title": "合计 321,678,946 287,243,54434 业务及管理费"
+    }
+  ],
+  "taxonomy_path": "C:\\dev\\AXA_research\\financial_metric_resolver_v5_4_structural_order_merge_library\\workspace\\table_taxonomy.json",
+  "order_policy": "REFERENCE_CAPTURE_PRESERVE_WITH_CONTEXTUAL_INSERTION",
+  "reference_capture_run_id": "交银人寿2022年报__业务及管理费__20260721T162524"
+}

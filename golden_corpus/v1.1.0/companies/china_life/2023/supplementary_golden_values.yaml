@@ -1,0 +1,140 @@
+schema_version: '1.1'
+fixture_id: CHINA_LIFE_2023_SUPPLEMENTARY_GOLDEN_VALUES
+family: financial_investment
+annotation_status: CERTIFIED_GOLDEN
+review_date: '2026-08-04'
+reviewer: Codex_Agent_Adjudicator
+supplementary_schedules:
+  - schedule_id: loans_other_maturity_schedule
+    member_id: legacy_loans
+    classification: SUPPLEMENTARY_TABLE
+    note_reference: "十、8（续）"
+    schedule_title: "8. 贷款（续）- (b) 其他贷款到期期限分析"
+    pdf_page_number: 175
+    unit: "百万元"
+    columns:
+      - 金额
+    items_2023:
+      - raw_label: 其他贷款 - 5年以内(含5年)
+        amount: "210,660"
+      - raw_label: 其他贷款 - 5年至10年(含10年)
+        amount: "103,750"
+      - raw_label: 其他贷款 - 10年以上
+        amount: "19,579"
+      - raw_label: 其他贷款 - 合计
+        amount: "333,989"
+      - raw_label: 其他贷款 - 已计提减值金额
+        amount: "(836)"
+      - raw_label: 其他贷款 - 净值
+        amount: "333,153"
+    items_2022:
+      - raw_label: 其他贷款 - 5年以内(含5年)
+        amount: "233,675"
+      - raw_label: 其他贷款 - 5年至10年(含10年)
+        amount: "97,081"
+      - raw_label: 其他贷款 - 10年以上
+        amount: "13,670"
+      - raw_label: 其他贷款 - 合计
+        amount: "344,426"
+      - raw_label: 其他贷款 - 已计提减值金额
+        amount: "(2,343)"
+      - raw_label: 其他贷款 - 净值
+        amount: "342,083"
+
+  - schedule_id: available_for_sale_cost_impairment_schedule
+    classification: SUPPLEMENTARY_TABLE
+    note_reference: "十、10（续）"
+    schedule_title: "10. 可供出售金融资产（续）- 成本/公允价值变动/已计提减值金额明细"
+    pdf_page_number: 177
+    unit: "百万元"
+    columns:
+      - 以公允价值计量-债权型投资
+      - 以公允价值计量-股权型投资
+      - 以成本计量-股权型投资
+    items_2023:
+      - raw_label: 成本/摊余成本
+        fv_debt: "1,164,070"
+        fv_equity: "1,123,417"
+        cost_equity: "–"
+      - raw_label: 累计计入其他综合收益的公允价值变动金额
+        fv_debt: "63,609"
+        fv_equity: "(38,728)"
+        cost_equity: "不适用"
+      - raw_label: 已计提减值金额
+        fv_debt: "(440)"
+        fv_equity: "(48,881)"
+        cost_equity: "–"
+      - raw_label: 公允价值
+        fv_debt: "1,227,239"
+        fv_equity: "1,035,808"
+        cost_equity: "不适用"
+    items_2022:
+      - raw_label: 成本/摊余成本
+        fv_debt: "856,067"
+        fv_equity: "886,901"
+        cost_equity: "17,134"
+      - raw_label: 累计计入其他综合收益的公允价值变动金额
+        fv_debt: "23,818"
+        fv_equity: "(27,224)"
+        cost_equity: "不适用"
+      - raw_label: 已计提减值金额
+        fv_debt: "(442)"
+        fv_equity: "(18,146)"
+        cost_equity: "–"
+      - raw_label: 公允价值
+        fv_debt: "879,443"
+        fv_equity: "841,531"
+        cost_equity: "不适用"
+
+  - schedule_id: held_to_maturity_fair_value_hierarchy
+    classification: SUPPLEMENTARY_TABLE
+    note_reference: "十、11（续）"
+    schedule_title: "11. 持有至到期投资（续）- 公允价值层级拆解"
+    pdf_page_number: 178
+    unit: "百万元"
+    columns:
+      - 第一层级
+      - 第二层级
+      - 合计
+    items_2023:
+      - raw_label: 国债
+        level_1: "205,352"
+        level_2: "154,285"
+        total: "359,637"
+      - raw_label: 政府机构债券
+        level_1: "70,068"
+        level_2: "1,300,986"
+        total: "1,371,054"
+      - raw_label: 企业债券
+        level_1: "697"
+        level_2: "160,284"
+        total: "160,981"
+      - raw_label: 次级债券
+        level_1: "–"
+        level_2: "10,054"
+        total: "10,054"
+      - raw_label: 合计
+        level_1: "276,117"
+        level_2: "1,625,609"
+        total: "1,901,726"
+    items_2022:
+      - raw_label: 国债
+        level_1: "240,597"
+        level_2: "177,217"
+        total: "417,814"
+      - raw_label: 政府机构债券
+        level_1: "104,751"
+        level_2: "976,103"
+        total: "1,080,854"
+      - raw_label: 企业债券
+        level_1: "719"
+        level_2: "185,426"
+        total: "186,145"
+      - raw_label: 次级债券
+        level_1: "–"
+        level_2: "15,993"
+        total: "15,993"
+      - raw_label: 合计
+        level_1: "346,067"
+        level_2: "1,354,739"
+        total: "1,700,806"

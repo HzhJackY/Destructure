@@ -1,0 +1,82 @@
+"""API-ready orchestration for v6.5 statement-anchored discovery."""
+from __future__ import annotations
+from pathlib import Path
+from typing import Any
+from generic_discovery import discover, hierarchical_backoff, assemble_statement_occurrences
+from statement_anchored_family import StatementOccurrence, arbitrate_anchors, build_capture_plan, cluster_evidence
+
+
+class DiscoveryService:
+    def __init__(self, discovery_registry, cache_root: Path):
+        self.registry = discovery_registry
+        self.cache_root = Path(cache_root) / "statement_indexes"
+
+    def preview(self, pdf_path: Path, *, display_name: str, company: str = "", report_year: str = "",
+                filing_type: str = "ANNUAL_REPORT", preset_name: str | None = None) -> list[dict[str, Any]]:
+        rows = discover(pdf_path, self.cache_root, display_name=display_name, company=company,
+                        report_year=report_year, filing_type=filing_type, preset_name=preset_name)
+        for row in rows:
+            row["pdf_id"] = str(pdf_path)
+            row.update(self.registry.save_machine(row))
+        return rows
+
+    def fast_path_preview(self, query: dict[str, Any]) -> list[dict[str, Any]]:
+        return hierarchical_backoff(query, self.registry.fast_path(query))
+
+    def adjudicate(self, discovery_id: str, **kwargs: Any) -> dict[str, Any]:
+        return self.registry.adjudicate(discovery_id, **kwargs)
+
+    def cluster(self, rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
+        clusters = cluster_evidence(rows)
+        return self.registry.save_clusters(clusters)
+
+    def proposed_occurrences(self, rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
+        """Persist proposed same-page anchors before human arbitration."""
+        return [self.build_occurrence(context=x, parent_text=x["parent_text"], child_rows=x["child_rows"],
+                                      source_table_title=x["source_table_title"], scope=x.get("scope", "UNKNOWN"))
+                for x in assemble_statement_occurrences(rows)]
+
+    def build_occurrence(self, *, context: dict[str, Any], parent_text: str,
+                         child_rows: list[dict[str, Any]], source_table_title: str,
+                         scope: str = "UNKNOWN") -> dict[str, Any]:
+        """Create a reviewable occurrence; extraction supplies child evidence."""
+        occ = StatementOccurrence(
+            occurrence_id=context.get("occurrence_id", "OCC_PENDING"),
+            display_name=context["display_name"], statement_type=context.get("statement_type", "UNKNOWN"),
+            source_table_title=source_table_title, scope=scope,
+            statement_pdf_page_index=context.get("statement_pdf_page_index") or context.get("statement_page"),
+            statement_printed_page=context.get("statement_printed_page"), parent_text=parent_text,
+            child_rows=tuple(child_rows), evidence=context.get("evidence") or {},
+        )
+        payload = {**context, "display_name": occ.display_name, "statement_type": occ.statement_type,
+                   "source_table_title": source_table_title, "scope": scope, "parent_text": parent_text,
+                   "child_rows": child_rows, "statement_pdf_page_index": occ.statement_pdf_page_index,
+                   "statement_printed_page": occ.statement_printed_page, "anchor_score": occ.score(),
+                   "evidence": occ.evidence}
+        return self.registry.save_occurrence(payload)
+
+    def arbitrate(self, occurrences: list[dict[str, Any]], *, scope_preference: str | None = None) -> dict[str, Any]:
+        models = [StatementOccurrence(
+            occurrence_id=x["occurrence_id"], display_name=x["display_name"], statement_type=x.get("statement_type", "UNKNOWN"),
+            source_table_title=x.get("source_table_title", ""), scope=x.get("scope", "UNKNOWN"),
+            statement_pdf_page_index=x.get("statement_pdf_page_index"), statement_printed_page=x.get("statement_printed_page"),
+            parent_text=x.get("parent_text", x["display_name"]), child_rows=tuple(x.get("child_rows") or []), evidence=x.get("evidence") or {}) for x in occurrences]
+        return arbitrate_anchors(models, scope_preference=scope_preference)
+
+    def certified_capture_plan(self, occurrence: dict[str, Any], *, certified_ids: list[str] | None = None) -> dict[str, Any]:
+        model = StatementOccurrence(
+            occurrence_id=occurrence["occurrence_id"], display_name=occurrence["display_name"],
+            statement_type=occurrence.get("statement_type", "UNKNOWN"), source_table_title=occurrence.get("source_table_title", ""),
+            scope=occurrence.get("scope", "UNKNOWN"), statement_pdf_page_index=occurrence.get("statement_pdf_page_index"),
+            statement_printed_page=occurrence.get("statement_printed_page"), parent_text=occurrence.get("parent_text", occurrence["display_name"]),
+            child_rows=tuple(occurrence.get("child_rows") or []), evidence=occurrence.get("evidence") or {})
+        plan = build_capture_plan(model, certified_ids=certified_ids or [])
+        plan["anchor_occurrence_id"] = occurrence["occurrence_id"]
+        plan["pdf_id"] = occurrence.get("pdf_id")
+        return self.registry.save_capture_plan(plan)
+
+    def adjudicate_anchor(self, occurrence_id: str, **kwargs: Any) -> dict[str, Any]:
+        return self.registry.adjudicate_anchor(occurrence_id, **kwargs)
+
+    def bulk_adjudicate(self, discovery_ids: list[str], **kwargs: Any) -> list[dict[str, Any]]:
+        return self.registry.bulk_adjudicate(discovery_ids, **kwargs)

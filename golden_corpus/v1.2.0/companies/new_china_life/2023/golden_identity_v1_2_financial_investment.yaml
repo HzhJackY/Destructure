@@ -1,0 +1,1282 @@
+identity_contract_version: GOLDEN_IDENTITY_V1_2
+definition_id: FINANCIAL_INVESTMENT_V1
+family: financial_investment
+source_golden_id: NEW_CHINA_LIFE_2023_GOLDEN_VALUES
+filing_identity:
+  company_id: NEW_CHINA_LIFE
+  legal_entity_name: 新华人寿保险股份有限公司
+  report_year: 2023
+  source_scope: CONSOLIDATED
+  canonical_pdf_filename: 新华保险2023年报.pdf
+  pdf_sha256: 046dbb6f39ab859f8c6c7beabf06010abf775a860964b24ab076f8053b1365b0
+  page_count: 284
+  source_type: ANNUAL_REPORT
+physical_tables:
+- physical_table_id: NEW_CHINA_LIFE_2023_ANNUAL_REPORT::fvtpl_assets::PRIMARY
+  physical_page_number: 187
+  printed_page_number: null
+  title: 11 交易性金融资产
+  unit: null
+  table_classification: PRIMARY_TABLE
+- physical_table_id: NEW_CHINA_LIFE_2023_ANNUAL_REPORT::debt_investment::PRIMARY
+  physical_page_number: 188
+  printed_page_number: null
+  title: 12 债权投资
+  unit: null
+  table_classification: PRIMARY_TABLE
+- physical_table_id: NEW_CHINA_LIFE_2023_ANNUAL_REPORT::other_debt_investment::PRIMARY
+  physical_page_number: 189
+  printed_page_number: null
+  title: 13 其他债权投资
+  unit: null
+  table_classification: PRIMARY_TABLE
+- physical_table_id: NEW_CHINA_LIFE_2023_ANNUAL_REPORT::other_equity_investment::PRIMARY
+  physical_page_number: 190
+  printed_page_number: null
+  title: 14 其他权益工具投资
+  unit: null
+  table_classification: PRIMARY_TABLE
+- physical_table_id: NEW_CHINA_LIFE_2023_ANNUAL_REPORT::legacy_fvtpl_assets::HISTORICAL_COMPARATIVE
+  physical_page_number: 190
+  printed_page_number: null
+  title: 15 以公允价值计量且其变动计入当期损益的金融资产
+  unit: null
+  table_classification: HISTORICAL_COMPARATIVE_TABLE
+- physical_table_id: NEW_CHINA_LIFE_2023_ANNUAL_REPORT::debt_investment_ecl_2023
+  physical_page_number: 188
+  printed_page_number: '186'
+  title: 12 债权投资 - 2023年度信用损失准备变动情况
+  unit: 百万元
+  table_classification: SUPPLEMENTARY_TABLE
+- physical_table_id: NEW_CHINA_LIFE_2023_ANNUAL_REPORT::other_debt_investment_ecl_2023
+  physical_page_number: 189
+  printed_page_number: '187'
+  title: 13 其他债权投资 - 2023年度信用损失准备变动情况
+  unit: 百万元
+  table_classification: SUPPLEMENTARY_TABLE
+rows:
+- golden_row_id: GROW_23b6b7e50b5ca4745847
+  physical_table_id: NEW_CHINA_LIFE_2023_ANNUAL_REPORT::MAIN_STATEMENT
+  member_table_id: fvtpl_assets
+  classification_axis: FINANCIAL_INVESTMENT_MEMBER_SET
+  raw_label: 交易性金融资产
+  normalized_label: 交易性金融资产
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: MEMBER
+  source_row_order: null
+  period_values:
+  - period_role: CURRENT
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: SOURCE_DECLARED
+    value: 380,239
+- golden_row_id: GROW_30e61fb6bfdcd8fe2d39
+  physical_table_id: NEW_CHINA_LIFE_2023_ANNUAL_REPORT::fvtpl_assets::PRIMARY
+  member_table_id: fvtpl_assets
+  classification_axis: ASSET_TYPE
+  raw_label: 国债及政府债
+  normalized_label: 国债及政府债
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 1
+  period_values:
+  - period_role: CURRENT
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: SOURCE_DECLARED
+    value: '740'
+- golden_row_id: GROW_9912700da6a1dee7f8a5
+  physical_table_id: NEW_CHINA_LIFE_2023_ANNUAL_REPORT::fvtpl_assets::PRIMARY
+  member_table_id: fvtpl_assets
+  classification_axis: ASSET_TYPE
+  raw_label: 金融债券
+  normalized_label: 金融债券
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 2
+  period_values:
+  - period_role: CURRENT
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: SOURCE_DECLARED
+    value: 6,373
+- golden_row_id: GROW_19ac028c26f042a0eb26
+  physical_table_id: NEW_CHINA_LIFE_2023_ANNUAL_REPORT::fvtpl_assets::PRIMARY
+  member_table_id: fvtpl_assets
+  classification_axis: ASSET_TYPE
+  raw_label: 企业债券
+  normalized_label: 企业债券
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 3
+  period_values:
+  - period_role: CURRENT
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: SOURCE_DECLARED
+    value: 12,705
+- golden_row_id: GROW_d625af8e9604b1122347
+  physical_table_id: NEW_CHINA_LIFE_2023_ANNUAL_REPORT::fvtpl_assets::PRIMARY
+  member_table_id: fvtpl_assets
+  classification_axis: ASSET_TYPE
+  raw_label: 次级债券
+  normalized_label: 次级债券
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 4
+  period_values:
+  - period_role: CURRENT
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: SOURCE_DECLARED
+    value: 62,306
+- golden_row_id: GROW_31fc79c0c9b4ecacb024
+  physical_table_id: NEW_CHINA_LIFE_2023_ANNUAL_REPORT::fvtpl_assets::PRIMARY
+  member_table_id: fvtpl_assets
+  classification_axis: ASSET_TYPE
+  raw_label: 股票
+  normalized_label: 股票
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 5
+  period_values:
+  - period_role: CURRENT
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: SOURCE_DECLARED
+    value: 91,299
+- golden_row_id: GROW_b0bbbabd78a5b76ac96c
+  physical_table_id: NEW_CHINA_LIFE_2023_ANNUAL_REPORT::fvtpl_assets::PRIMARY
+  member_table_id: fvtpl_assets
+  classification_axis: ASSET_TYPE
+  raw_label: 基金
+  normalized_label: 基金
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 6
+  period_values:
+  - period_role: CURRENT
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: SOURCE_DECLARED
+    value: 84,632
+- golden_row_id: GROW_f3fa7b1df6b1fefda031
+  physical_table_id: NEW_CHINA_LIFE_2023_ANNUAL_REPORT::fvtpl_assets::PRIMARY
+  member_table_id: fvtpl_assets
+  classification_axis: ASSET_TYPE
+  raw_label: 资产管理计划
+  normalized_label: 资产管理计划
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 7
+  period_values:
+  - period_role: CURRENT
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: SOURCE_DECLARED
+    value: 37,107
+- golden_row_id: GROW_644e1a6cdc3a0120098d
+  physical_table_id: NEW_CHINA_LIFE_2023_ANNUAL_REPORT::fvtpl_assets::PRIMARY
+  member_table_id: fvtpl_assets
+  classification_axis: ASSET_TYPE
+  raw_label: 同业存单
+  normalized_label: 同业存单
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 8
+  period_values:
+  - period_role: CURRENT
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: SOURCE_DECLARED
+    value: 13,609
+- golden_row_id: GROW_fb53ec93414c566da6c9
+  physical_table_id: NEW_CHINA_LIFE_2023_ANNUAL_REPORT::fvtpl_assets::PRIMARY
+  member_table_id: fvtpl_assets
+  classification_axis: ASSET_TYPE
+  raw_label: 私募股权基金
+  normalized_label: 私募股权基金
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 9
+  period_values:
+  - period_role: CURRENT
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: SOURCE_DECLARED
+    value: 13,315
+- golden_row_id: GROW_386301bd0f4b101cb8e2
+  physical_table_id: NEW_CHINA_LIFE_2023_ANNUAL_REPORT::fvtpl_assets::PRIMARY
+  member_table_id: fvtpl_assets
+  classification_axis: ASSET_TYPE
+  raw_label: 股权计划
+  normalized_label: 股权计划
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 10
+  period_values:
+  - period_role: CURRENT
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: SOURCE_DECLARED
+    value: 12,139
+- golden_row_id: GROW_18bc3114e65dd4c53224
+  physical_table_id: NEW_CHINA_LIFE_2023_ANNUAL_REPORT::fvtpl_assets::PRIMARY
+  member_table_id: fvtpl_assets
+  classification_axis: ASSET_TYPE
+  raw_label: 信托计划
+  normalized_label: 信托计划
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 11
+  period_values:
+  - period_role: CURRENT
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: SOURCE_DECLARED
+    value: 10,418
+- golden_row_id: GROW_54859d879df3de8127ab
+  physical_table_id: NEW_CHINA_LIFE_2023_ANNUAL_REPORT::fvtpl_assets::PRIMARY
+  member_table_id: fvtpl_assets
+  classification_axis: ASSET_TYPE
+  raw_label: 未上市股权
+  normalized_label: 未上市股权
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 12
+  period_values:
+  - period_role: CURRENT
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: SOURCE_DECLARED
+    value: 7,629
+- golden_row_id: GROW_6a0350aca9ae8efb6f26
+  physical_table_id: NEW_CHINA_LIFE_2023_ANNUAL_REPORT::fvtpl_assets::PRIMARY
+  member_table_id: fvtpl_assets
+  classification_axis: ASSET_TYPE
+  raw_label: 其他投资(注)
+  normalized_label: 其他投资(注)
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 13
+  period_values:
+  - period_role: CURRENT
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: SOURCE_DECLARED
+    value: 27,967
+- golden_row_id: GROW_f5082fa33e5087f4d9d3
+  physical_table_id: NEW_CHINA_LIFE_2023_ANNUAL_REPORT::fvtpl_assets::PRIMARY
+  member_table_id: fvtpl_assets
+  classification_axis: ASSET_TYPE
+  raw_label: 合计
+  normalized_label: 合计
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 14
+  period_values:
+  - period_role: CURRENT
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: SOURCE_DECLARED
+    value: 380,239
+- golden_row_id: GROW_ea7b2466f67563d94016
+  physical_table_id: NEW_CHINA_LIFE_2023_ANNUAL_REPORT::MAIN_STATEMENT
+  member_table_id: debt_investment
+  classification_axis: FINANCIAL_INVESTMENT_MEMBER_SET
+  raw_label: 债权投资
+  normalized_label: 债权投资
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: MEMBER
+  source_row_order: null
+  period_values:
+  - period_role: CURRENT
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: SOURCE_DECLARED
+    value: 313,148
+- golden_row_id: GROW_6790038a7471aedef59e
+  physical_table_id: NEW_CHINA_LIFE_2023_ANNUAL_REPORT::debt_investment::PRIMARY
+  member_table_id: debt_investment
+  classification_axis: ASSET_TYPE
+  raw_label: 国债及政府债
+  normalized_label: 国债及政府债
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 1
+  period_values:
+  - period_role: CURRENT
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: SOURCE_DECLARED
+    value: 260,108
+- golden_row_id: GROW_388bd215a8326504ae86
+  physical_table_id: NEW_CHINA_LIFE_2023_ANNUAL_REPORT::debt_investment::PRIMARY
+  member_table_id: debt_investment
+  classification_axis: ASSET_TYPE
+  raw_label: 金融债券
+  normalized_label: 金融债券
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 2
+  period_values:
+  - period_role: CURRENT
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: SOURCE_DECLARED
+    value: 3,724
+- golden_row_id: GROW_3b5a8886d7f9bfb575da
+  physical_table_id: NEW_CHINA_LIFE_2023_ANNUAL_REPORT::debt_investment::PRIMARY
+  member_table_id: debt_investment
+  classification_axis: ASSET_TYPE
+  raw_label: 企业债券
+  normalized_label: 企业债券
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 3
+  period_values:
+  - period_role: CURRENT
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: SOURCE_DECLARED
+    value: 8,651
+- golden_row_id: GROW_97aa04e14ae20e03b32e
+  physical_table_id: NEW_CHINA_LIFE_2023_ANNUAL_REPORT::debt_investment::PRIMARY
+  member_table_id: debt_investment
+  classification_axis: ASSET_TYPE
+  raw_label: 次级债券
+  normalized_label: 次级债券
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 4
+  period_values:
+  - period_role: CURRENT
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: SOURCE_DECLARED
+    value: '622'
+- golden_row_id: GROW_5b4a0e4a92baa69c426e
+  physical_table_id: NEW_CHINA_LIFE_2023_ANNUAL_REPORT::debt_investment::PRIMARY
+  member_table_id: debt_investment
+  classification_axis: ASSET_TYPE
+  raw_label: 债权投资计划
+  normalized_label: 债权投资计划
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 5
+  period_values:
+  - period_role: CURRENT
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: SOURCE_DECLARED
+    value: 24,582
+- golden_row_id: GROW_0ab3867b9bd4a4d94ac8
+  physical_table_id: NEW_CHINA_LIFE_2023_ANNUAL_REPORT::debt_investment::PRIMARY
+  member_table_id: debt_investment
+  classification_axis: ASSET_TYPE
+  raw_label: 信托计划
+  normalized_label: 信托计划
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 6
+  period_values:
+  - period_role: CURRENT
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: SOURCE_DECLARED
+    value: 14,789
+- golden_row_id: GROW_5a4a29f9bc0f0bb17ab6
+  physical_table_id: NEW_CHINA_LIFE_2023_ANNUAL_REPORT::debt_investment::PRIMARY
+  member_table_id: debt_investment
+  classification_axis: ASSET_TYPE
+  raw_label: 资产支持计划
+  normalized_label: 资产支持计划
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 7
+  period_values:
+  - period_role: CURRENT
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: SOURCE_DECLARED
+    value: 1,147
+- golden_row_id: GROW_c01f9d66ee2f471869aa
+  physical_table_id: NEW_CHINA_LIFE_2023_ANNUAL_REPORT::debt_investment::PRIMARY
+  member_table_id: debt_investment
+  classification_axis: ASSET_TYPE
+  raw_label: 小计
+  normalized_label: 小计
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 8
+  period_values:
+  - period_role: CURRENT
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: SOURCE_DECLARED
+    value: 313,623
+- golden_row_id: GROW_0b8cdcd82dd9a5a87504
+  physical_table_id: NEW_CHINA_LIFE_2023_ANNUAL_REPORT::debt_investment::PRIMARY
+  member_table_id: debt_investment
+  classification_axis: ASSET_TYPE
+  raw_label: 减：信用损失准备
+  normalized_label: 减：信用损失准备
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 9
+  period_values:
+  - period_role: CURRENT
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: SOURCE_DECLARED
+    value: (475)
+- golden_row_id: GROW_73d3222d97b263b34c0d
+  physical_table_id: NEW_CHINA_LIFE_2023_ANNUAL_REPORT::debt_investment::PRIMARY
+  member_table_id: debt_investment
+  classification_axis: ASSET_TYPE
+  raw_label: 合计
+  normalized_label: 合计
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 10
+  period_values:
+  - period_role: CURRENT
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: SOURCE_DECLARED
+    value: 313,148
+- golden_row_id: GROW_13f3079502852bfffffd
+  physical_table_id: NEW_CHINA_LIFE_2023_ANNUAL_REPORT::MAIN_STATEMENT
+  member_table_id: other_debt_investment
+  classification_axis: FINANCIAL_INVESTMENT_MEMBER_SET
+  raw_label: 其他债权投资
+  normalized_label: 其他债权投资
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: MEMBER
+  source_row_order: null
+  period_values:
+  - period_role: CURRENT
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: SOURCE_DECLARED
+    value: 347,262
+- golden_row_id: GROW_60e70ac6184178907c1b
+  physical_table_id: NEW_CHINA_LIFE_2023_ANNUAL_REPORT::other_debt_investment::PRIMARY
+  member_table_id: other_debt_investment
+  classification_axis: ASSET_TYPE
+  raw_label: 国债及政府债
+  normalized_label: 国债及政府债
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 1
+  period_values:
+  - period_role: CURRENT
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: SOURCE_DECLARED
+    value: 209,259
+- golden_row_id: GROW_63781db65f6f08159765
+  physical_table_id: NEW_CHINA_LIFE_2023_ANNUAL_REPORT::other_debt_investment::PRIMARY
+  member_table_id: other_debt_investment
+  classification_axis: ASSET_TYPE
+  raw_label: 金融债券
+  normalized_label: 金融债券
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 2
+  period_values:
+  - period_role: CURRENT
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: SOURCE_DECLARED
+    value: 54,418
+- golden_row_id: GROW_03bcae77071ee48ba6d8
+  physical_table_id: NEW_CHINA_LIFE_2023_ANNUAL_REPORT::other_debt_investment::PRIMARY
+  member_table_id: other_debt_investment
+  classification_axis: ASSET_TYPE
+  raw_label: 企业债券
+  normalized_label: 企业债券
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 3
+  period_values:
+  - period_role: CURRENT
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: SOURCE_DECLARED
+    value: 43,289
+- golden_row_id: GROW_5c96a017bd145ac6ee4b
+  physical_table_id: NEW_CHINA_LIFE_2023_ANNUAL_REPORT::other_debt_investment::PRIMARY
+  member_table_id: other_debt_investment
+  classification_axis: ASSET_TYPE
+  raw_label: 次级债券
+  normalized_label: 次级债券
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 4
+  period_values:
+  - period_role: CURRENT
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: SOURCE_DECLARED
+    value: 11,463
+- golden_row_id: GROW_1c70ccdd49da7fcf5e3c
+  physical_table_id: NEW_CHINA_LIFE_2023_ANNUAL_REPORT::other_debt_investment::PRIMARY
+  member_table_id: other_debt_investment
+  classification_axis: ASSET_TYPE
+  raw_label: 信托计划
+  normalized_label: 信托计划
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 5
+  period_values:
+  - period_role: CURRENT
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: SOURCE_DECLARED
+    value: 15,645
+- golden_row_id: GROW_654fd9be688d1fec2690
+  physical_table_id: NEW_CHINA_LIFE_2023_ANNUAL_REPORT::other_debt_investment::PRIMARY
+  member_table_id: other_debt_investment
+  classification_axis: ASSET_TYPE
+  raw_label: 债权投资计划
+  normalized_label: 债权投资计划
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 6
+  period_values:
+  - period_role: CURRENT
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: SOURCE_DECLARED
+    value: 11,578
+- golden_row_id: GROW_044c89f1941631e986d6
+  physical_table_id: NEW_CHINA_LIFE_2023_ANNUAL_REPORT::other_debt_investment::PRIMARY
+  member_table_id: other_debt_investment
+  classification_axis: ASSET_TYPE
+  raw_label: 资产支持计划
+  normalized_label: 资产支持计划
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 7
+  period_values:
+  - period_role: CURRENT
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: SOURCE_DECLARED
+    value: 1,610
+- golden_row_id: GROW_c060a40f18360c5e9502
+  physical_table_id: NEW_CHINA_LIFE_2023_ANNUAL_REPORT::other_debt_investment::PRIMARY
+  member_table_id: other_debt_investment
+  classification_axis: ASSET_TYPE
+  raw_label: 合计
+  normalized_label: 合计
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 8
+  period_values:
+  - period_role: CURRENT
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: SOURCE_DECLARED
+    value: 347,262
+- golden_row_id: GROW_2ee8758d70f79dbe3941
+  physical_table_id: NEW_CHINA_LIFE_2023_ANNUAL_REPORT::other_debt_investment::PRIMARY
+  member_table_id: other_debt_investment
+  classification_axis: ASSET_TYPE
+  raw_label: 成本
+  normalized_label: 成本
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 9
+  period_values:
+  - period_role: CURRENT
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: SOURCE_DECLARED
+    value: 316,788
+- golden_row_id: GROW_a85781e8b99ff4e62fc9
+  physical_table_id: NEW_CHINA_LIFE_2023_ANNUAL_REPORT::other_debt_investment::PRIMARY
+  member_table_id: other_debt_investment
+  classification_axis: ASSET_TYPE
+  raw_label: 应计利息
+  normalized_label: 应计利息
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 10
+  period_values:
+  - period_role: CURRENT
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: SOURCE_DECLARED
+    value: 3,579
+- golden_row_id: GROW_f6eabbba1f3f4c8c0415
+  physical_table_id: NEW_CHINA_LIFE_2023_ANNUAL_REPORT::other_debt_investment::PRIMARY
+  member_table_id: other_debt_investment
+  classification_axis: ASSET_TYPE
+  raw_label: 累计公允价值变动
+  normalized_label: 累计公允价值变动
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 11
+  period_values:
+  - period_role: CURRENT
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: SOURCE_DECLARED
+    value: 26,895
+- golden_row_id: GROW_4ea107129bfe0add2210
+  physical_table_id: NEW_CHINA_LIFE_2023_ANNUAL_REPORT::MAIN_STATEMENT
+  member_table_id: other_equity_investment
+  classification_axis: FINANCIAL_INVESTMENT_MEMBER_SET
+  raw_label: 其他权益工具投资
+  normalized_label: 其他权益工具投资
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: MEMBER
+  source_row_order: null
+  period_values:
+  - period_role: CURRENT
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: SOURCE_DECLARED
+    value: 5,370
+- golden_row_id: GROW_0dfb1fd03667166c00c0
+  physical_table_id: NEW_CHINA_LIFE_2023_ANNUAL_REPORT::other_equity_investment::PRIMARY
+  member_table_id: other_equity_investment
+  classification_axis: ASSET_TYPE
+  raw_label: 股票
+  normalized_label: 股票
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 1
+  period_values:
+  - period_role: CURRENT
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: SOURCE_DECLARED
+    value: 5,351
+- golden_row_id: GROW_94f5f4ddd8a34baa7ecc
+  physical_table_id: NEW_CHINA_LIFE_2023_ANNUAL_REPORT::other_equity_investment::PRIMARY
+  member_table_id: other_equity_investment
+  classification_axis: ASSET_TYPE
+  raw_label: 未上市股权
+  normalized_label: 未上市股权
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 2
+  period_values:
+  - period_role: CURRENT
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: SOURCE_DECLARED
+    value: '19'
+- golden_row_id: GROW_c78b19edfb4d49d41407
+  physical_table_id: NEW_CHINA_LIFE_2023_ANNUAL_REPORT::other_equity_investment::PRIMARY
+  member_table_id: other_equity_investment
+  classification_axis: ASSET_TYPE
+  raw_label: 合计
+  normalized_label: 合计
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 3
+  period_values:
+  - period_role: CURRENT
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: SOURCE_DECLARED
+    value: 5,370
+- golden_row_id: GROW_f64232b9c6fbba0b240e
+  physical_table_id: NEW_CHINA_LIFE_2023_ANNUAL_REPORT::MAIN_STATEMENT
+  member_table_id: legacy_fvtpl_assets
+  classification_axis: FINANCIAL_INVESTMENT_MEMBER_SET
+  raw_label: 以公允价值计量且其变动计入当期损益的金融资产
+  normalized_label: 以公允价值计量且其变动计入当期损益的金融资产
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: HISTORICAL_MEMBER
+  source_row_order: null
+  period_values:
+  - period_role: COMPARATIVE
+    period_label: 2022年重述
+    period_identity: YEAR:2022
+    measure: AMOUNT
+    unit: SOURCE_DECLARED
+    value: 79,465
+- golden_row_id: GROW_21267e03afca83f9267c
+  physical_table_id: NEW_CHINA_LIFE_2023_ANNUAL_REPORT::legacy_fvtpl_assets::HISTORICAL_COMPARATIVE
+  member_table_id: legacy_fvtpl_assets
+  classification_axis: ASSET_TYPE
+  raw_label: 债权型投资小计
+  normalized_label: 债权型投资小计
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 1
+  period_values:
+  - period_role: COMPARATIVE
+    period_label: 2022年重述
+    period_identity: YEAR:2022
+    measure: AMOUNT
+    unit: SOURCE_DECLARED
+    value: 23,593
+- golden_row_id: GROW_cab0263cf7b842878610
+  physical_table_id: NEW_CHINA_LIFE_2023_ANNUAL_REPORT::legacy_fvtpl_assets::HISTORICAL_COMPARATIVE
+  member_table_id: legacy_fvtpl_assets
+  classification_axis: ASSET_TYPE
+  raw_label: 股权型投资小计
+  normalized_label: 股权型投资小计
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 2
+  period_values:
+  - period_role: COMPARATIVE
+    period_label: 2022年重述
+    period_identity: YEAR:2022
+    measure: AMOUNT
+    unit: SOURCE_DECLARED
+    value: 55,872
+- golden_row_id: GROW_b3638d0c33b0fa585d22
+  physical_table_id: NEW_CHINA_LIFE_2023_ANNUAL_REPORT::legacy_fvtpl_assets::HISTORICAL_COMPARATIVE
+  member_table_id: legacy_fvtpl_assets
+  classification_axis: ASSET_TYPE
+  raw_label: 合计
+  normalized_label: 合计
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 3
+  period_values:
+  - period_role: COMPARATIVE
+    period_label: 2022年重述
+    period_identity: YEAR:2022
+    measure: AMOUNT
+    unit: SOURCE_DECLARED
+    value: 79,465
+- golden_row_id: GROW_74056f6dc58162a8d0a5
+  physical_table_id: NEW_CHINA_LIFE_2023_ANNUAL_REPORT::debt_investment_ecl_2023
+  member_table_id: debt_investment_ecl_2023
+  classification_axis: SUPPLEMENTARY_SCHEDULE
+  raw_label: 2023年1月1日 信用损失准备
+  normalized_label: 2023年1月1日 信用损失准备
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 1
+  period_values:
+  - period_role: SCHEDULE
+    period_label: 2023年1月1日 信用损失准备
+    period_identity: DATE:2023-01-01
+    measure: STAGE_1
+    unit: 百万元
+    value: '91'
+  - period_role: SCHEDULE
+    period_label: 2023年1月1日 信用损失准备
+    period_identity: DATE:2023-01-01
+    measure: STAGE_2
+    unit: 百万元
+    value: －
+  - period_role: SCHEDULE
+    period_label: 2023年1月1日 信用损失准备
+    period_identity: DATE:2023-01-01
+    measure: STAGE_3
+    unit: 百万元
+    value: '76'
+  - period_role: SCHEDULE
+    period_label: 2023年1月1日 信用损失准备
+    period_identity: DATE:2023-01-01
+    measure: TOTAL
+    unit: 百万元
+    value: '167'
+- golden_row_id: GROW_271c902a767fc469c935
+  physical_table_id: NEW_CHINA_LIFE_2023_ANNUAL_REPORT::debt_investment_ecl_2023
+  member_table_id: debt_investment_ecl_2023
+  classification_axis: SUPPLEMENTARY_SCHEDULE
+  raw_label: 转至第二阶段
+  normalized_label: 转至第二阶段
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 2
+  period_values:
+  - period_role: SCHEDULE
+    period_label: 转至第二阶段
+    period_identity: YEAR:2023
+    measure: STAGE_1
+    unit: 百万元
+    value: (2)
+  - period_role: SCHEDULE
+    period_label: 转至第二阶段
+    period_identity: YEAR:2023
+    measure: STAGE_2
+    unit: 百万元
+    value: '2'
+  - period_role: SCHEDULE
+    period_label: 转至第二阶段
+    period_identity: YEAR:2023
+    measure: STAGE_3
+    unit: 百万元
+    value: －
+  - period_role: SCHEDULE
+    period_label: 转至第二阶段
+    period_identity: YEAR:2023
+    measure: TOTAL
+    unit: 百万元
+    value: –
+- golden_row_id: GROW_d8e6e9c0fcf6be2731ef
+  physical_table_id: NEW_CHINA_LIFE_2023_ANNUAL_REPORT::debt_investment_ecl_2023
+  member_table_id: debt_investment_ecl_2023
+  classification_axis: SUPPLEMENTARY_SCHEDULE
+  raw_label: 转至第三阶段
+  normalized_label: 转至第三阶段
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 3
+  period_values:
+  - period_role: SCHEDULE
+    period_label: 转至第三阶段
+    period_identity: YEAR:2023
+    measure: STAGE_1
+    unit: 百万元
+    value: －
+  - period_role: SCHEDULE
+    period_label: 转至第三阶段
+    period_identity: YEAR:2023
+    measure: STAGE_2
+    unit: 百万元
+    value: (1)
+  - period_role: SCHEDULE
+    period_label: 转至第三阶段
+    period_identity: YEAR:2023
+    measure: STAGE_3
+    unit: 百万元
+    value: '1'
+  - period_role: SCHEDULE
+    period_label: 转至第三阶段
+    period_identity: YEAR:2023
+    measure: TOTAL
+    unit: 百万元
+    value: –
+- golden_row_id: GROW_755618bfe0aeb6b029ff
+  physical_table_id: NEW_CHINA_LIFE_2023_ANNUAL_REPORT::debt_investment_ecl_2023
+  member_table_id: debt_investment_ecl_2023
+  classification_axis: SUPPLEMENTARY_SCHEDULE
+  raw_label: 本年计提／（转回）
+  normalized_label: 本年计提／（转回）
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 4
+  period_values:
+  - period_role: SCHEDULE
+    period_label: 本年计提／（转回）
+    period_identity: YEAR:2023
+    measure: STAGE_1
+    unit: 百万元
+    value: (2)
+  - period_role: SCHEDULE
+    period_label: 本年计提／（转回）
+    period_identity: YEAR:2023
+    measure: STAGE_2
+    unit: 百万元
+    value: '1'
+  - period_role: SCHEDULE
+    period_label: 本年计提／（转回）
+    period_identity: YEAR:2023
+    measure: STAGE_3
+    unit: 百万元
+    value: '309'
+  - period_role: SCHEDULE
+    period_label: 本年计提／（转回）
+    period_identity: YEAR:2023
+    measure: TOTAL
+    unit: 百万元
+    value: '308'
+- golden_row_id: GROW_93b2823e7e1410bcf765
+  physical_table_id: NEW_CHINA_LIFE_2023_ANNUAL_REPORT::debt_investment_ecl_2023
+  member_table_id: debt_investment_ecl_2023
+  classification_axis: SUPPLEMENTARY_SCHEDULE
+  raw_label: 2023年12月31日 信用损失准备
+  normalized_label: 2023年12月31日 信用损失准备
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 5
+  period_values:
+  - period_role: SCHEDULE
+    period_label: 2023年12月31日 信用损失准备
+    period_identity: DATE:2023-12-31
+    measure: STAGE_1
+    unit: 百万元
+    value: '87'
+  - period_role: SCHEDULE
+    period_label: 2023年12月31日 信用损失准备
+    period_identity: DATE:2023-12-31
+    measure: STAGE_2
+    unit: 百万元
+    value: '2'
+  - period_role: SCHEDULE
+    period_label: 2023年12月31日 信用损失准备
+    period_identity: DATE:2023-12-31
+    measure: STAGE_3
+    unit: 百万元
+    value: '386'
+  - period_role: SCHEDULE
+    period_label: 2023年12月31日 信用损失准备
+    period_identity: DATE:2023-12-31
+    measure: TOTAL
+    unit: 百万元
+    value: '475'
+- golden_row_id: GROW_b49f1bfd112c5de00b23
+  physical_table_id: NEW_CHINA_LIFE_2023_ANNUAL_REPORT::debt_investment_ecl_2023
+  member_table_id: debt_investment_ecl_2023
+  classification_axis: SUPPLEMENTARY_SCHEDULE
+  raw_label: 2023年12月31日 账面余额
+  normalized_label: 2023年12月31日 账面余额
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 6
+  period_values:
+  - period_role: SCHEDULE
+    period_label: 2023年12月31日 账面余额
+    period_identity: DATE:2023-12-31
+    measure: STAGE_1
+    unit: 百万元
+    value: 309,739
+  - period_role: SCHEDULE
+    period_label: 2023年12月31日 账面余额
+    period_identity: DATE:2023-12-31
+    measure: STAGE_2
+    unit: 百万元
+    value: 1,384
+  - period_role: SCHEDULE
+    period_label: 2023年12月31日 账面余额
+    period_identity: DATE:2023-12-31
+    measure: STAGE_3
+    unit: 百万元
+    value: 2,500
+  - period_role: SCHEDULE
+    period_label: 2023年12月31日 账面余额
+    period_identity: DATE:2023-12-31
+    measure: TOTAL
+    unit: 百万元
+    value: 313,623
+- golden_row_id: GROW_f252f7f15618b3cf8980
+  physical_table_id: NEW_CHINA_LIFE_2023_ANNUAL_REPORT::other_debt_investment_ecl_2023
+  member_table_id: other_debt_investment_ecl_2023
+  classification_axis: SUPPLEMENTARY_SCHEDULE
+  raw_label: 2023年1月1日 信用损失准备
+  normalized_label: 2023年1月1日 信用损失准备
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 1
+  period_values:
+  - period_role: SCHEDULE
+    period_label: 2023年1月1日 信用损失准备
+    period_identity: DATE:2023-01-01
+    measure: STAGE_1
+    unit: 百万元
+    value: '50'
+  - period_role: SCHEDULE
+    period_label: 2023年1月1日 信用损失准备
+    period_identity: DATE:2023-01-01
+    measure: STAGE_2
+    unit: 百万元
+    value: －
+  - period_role: SCHEDULE
+    period_label: 2023年1月1日 信用损失准备
+    period_identity: DATE:2023-01-01
+    measure: STAGE_3
+    unit: 百万元
+    value: 1,524
+  - period_role: SCHEDULE
+    period_label: 2023年1月1日 信用损失准备
+    period_identity: DATE:2023-01-01
+    measure: TOTAL
+    unit: 百万元
+    value: 1,574
+- golden_row_id: GROW_62af5ee705d084743425
+  physical_table_id: NEW_CHINA_LIFE_2023_ANNUAL_REPORT::other_debt_investment_ecl_2023
+  member_table_id: other_debt_investment_ecl_2023
+  classification_axis: SUPPLEMENTARY_SCHEDULE
+  raw_label: 转至第二阶段
+  normalized_label: 转至第二阶段
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 2
+  period_values:
+  - period_role: SCHEDULE
+    period_label: 转至第二阶段
+    period_identity: YEAR:2023
+    measure: STAGE_1
+    unit: 百万元
+    value: (2)
+  - period_role: SCHEDULE
+    period_label: 转至第二阶段
+    period_identity: YEAR:2023
+    measure: STAGE_2
+    unit: 百万元
+    value: '2'
+  - period_role: SCHEDULE
+    period_label: 转至第二阶段
+    period_identity: YEAR:2023
+    measure: STAGE_3
+    unit: 百万元
+    value: －
+  - period_role: SCHEDULE
+    period_label: 转至第二阶段
+    period_identity: YEAR:2023
+    measure: TOTAL
+    unit: 百万元
+    value: –
+- golden_row_id: GROW_3c19d68689fa5ba28550
+  physical_table_id: NEW_CHINA_LIFE_2023_ANNUAL_REPORT::other_debt_investment_ecl_2023
+  member_table_id: other_debt_investment_ecl_2023
+  classification_axis: SUPPLEMENTARY_SCHEDULE
+  raw_label: 本年计提／（转回）
+  normalized_label: 本年计提／（转回）
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 3
+  period_values:
+  - period_role: SCHEDULE
+    period_label: 本年计提／（转回）
+    period_identity: YEAR:2023
+    measure: STAGE_1
+    unit: 百万元
+    value: (6)
+  - period_role: SCHEDULE
+    period_label: 本年计提／（转回）
+    period_identity: YEAR:2023
+    measure: STAGE_2
+    unit: 百万元
+    value: '2'
+  - period_role: SCHEDULE
+    period_label: 本年计提／（转回）
+    period_identity: YEAR:2023
+    measure: STAGE_3
+    unit: 百万元
+    value: －
+  - period_role: SCHEDULE
+    period_label: 本年计提／（转回）
+    period_identity: YEAR:2023
+    measure: TOTAL
+    unit: 百万元
+    value: (4)
+- golden_row_id: GROW_59bb4ef3e5be81c5f3a5
+  physical_table_id: NEW_CHINA_LIFE_2023_ANNUAL_REPORT::other_debt_investment_ecl_2023
+  member_table_id: other_debt_investment_ecl_2023
+  classification_axis: SUPPLEMENTARY_SCHEDULE
+  raw_label: 2023年12月31日 信用损失准备
+  normalized_label: 2023年12月31日 信用损失准备
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 4
+  period_values:
+  - period_role: SCHEDULE
+    period_label: 2023年12月31日 信用损失准备
+    period_identity: DATE:2023-12-31
+    measure: STAGE_1
+    unit: 百万元
+    value: '42'
+  - period_role: SCHEDULE
+    period_label: 2023年12月31日 信用损失准备
+    period_identity: DATE:2023-12-31
+    measure: STAGE_2
+    unit: 百万元
+    value: '4'
+  - period_role: SCHEDULE
+    period_label: 2023年12月31日 信用损失准备
+    period_identity: DATE:2023-12-31
+    measure: STAGE_3
+    unit: 百万元
+    value: 1,524
+  - period_role: SCHEDULE
+    period_label: 2023年12月31日 信用损失准备
+    period_identity: DATE:2023-12-31
+    measure: TOTAL
+    unit: 百万元
+    value: 1,570
+- golden_row_id: GROW_d9ab7c78a8e744ac65da
+  physical_table_id: NEW_CHINA_LIFE_2023_ANNUAL_REPORT::other_debt_investment_ecl_2023
+  member_table_id: other_debt_investment_ecl_2023
+  classification_axis: SUPPLEMENTARY_SCHEDULE
+  raw_label: 2023年12月31日 账面价值
+  normalized_label: 2023年12月31日 账面价值
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 5
+  period_values:
+  - period_role: SCHEDULE
+    period_label: 2023年12月31日 账面价值
+    period_identity: DATE:2023-12-31
+    measure: STAGE_1
+    unit: 百万元
+    value: 342,499
+  - period_role: SCHEDULE
+    period_label: 2023年12月31日 账面价值
+    period_identity: DATE:2023-12-31
+    measure: STAGE_2
+    unit: 百万元
+    value: 2,572
+  - period_role: SCHEDULE
+    period_label: 2023年12月31日 账面价值
+    period_identity: DATE:2023-12-31
+    measure: STAGE_3
+    unit: 百万元
+    value: 2,191
+  - period_role: SCHEDULE
+    period_label: 2023年12月31日 账面价值
+    period_identity: DATE:2023-12-31
+    measure: TOTAL
+    unit: 百万元
+    value: 347,262
+identity_provenance: DERIVED_FROM_CERTIFIED_GOLDEN_FACTS_NOT_RUNTIME_CAPTURE

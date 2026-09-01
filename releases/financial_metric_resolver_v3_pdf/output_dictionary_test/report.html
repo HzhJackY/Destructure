@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>财报PDF指标提取人工复核报告</title>
+<style>
+:root{--bg:#f5f7fb;--card:#fff;--text:#172033;--muted:#687386;--line:#dfe4ec;--blue:#275efe;--green:#0b7a53;--amber:#9a6700;--red:#b42318}
+*{box-sizing:border-box} body{margin:0;background:var(--bg);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Microsoft YaHei",sans-serif;color:var(--text);line-height:1.55}
+main{max-width:1180px;margin:auto;padding:28px 20px 60px} h1{margin:0 0 6px;font-size:28px} h2{margin:0;font-size:21px} h4{margin:24px 0 10px} .sub{color:var(--muted);margin:0 0 22px}
+.summary{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:18px 0} .stat{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px} .stat span{display:block;color:var(--muted);font-size:13px} .stat strong{font-size:24px}
+.panel,.metric-card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:20px;margin:16px 0} .metric-head{display:flex;justify-content:space-between;gap:14px;align-items:flex-start} .metric-head p{color:var(--muted);margin:3px 0}
+.badge{display:inline-block;padding:4px 9px;border-radius:999px;font-size:12px;font-weight:700} .resolved{background:#e8f7f0;color:var(--green)} .review_required{background:#fff4d6;color:var(--amber)} .unresolved{background:#feeceb;color:var(--red)}
+.decision{display:flex;flex-direction:column;background:#f8faff;border-left:4px solid var(--blue);padding:10px 12px;margin:14px 0;border-radius:8px} .decision span{color:var(--muted);font-size:13px}
+.meta-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:14px 0} .meta-grid div{border:1px solid var(--line);border-radius:10px;padding:10px} .meta-grid span{display:block;color:var(--muted);font-size:12px} .meta-grid strong{display:block;margin-top:3px}
+.primary-value{background:#eef3ff;border-radius:12px;padding:14px;margin:14px 0} .primary-value div{display:flex;gap:14px;align-items:baseline} .primary-value span{color:var(--muted)} .primary-value strong{font-size:24px} .primary-value small{color:var(--muted)}
+.table-wrap{overflow:auto;border:1px solid var(--line);border-radius:10px} table{border-collapse:collapse;width:100%;font-size:13px} th,td{border-bottom:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top;white-space:nowrap} th{background:#f7f9fc} tr:last-child td{border-bottom:0} .hit-row td{background:#fff6d8;font-weight:600} .warning{background:#fff8e6;border:1px solid #f0d48b;border-radius:10px;padding:12px 14px;margin:14px 0} .warning ul{margin:8px 0 0 20px} .muted{color:var(--muted)}
+@media(max-width:800px){.summary,.meta-grid{grid-template-columns:1fr 1fr}} @media(max-width:520px){.summary,.meta-grid{grid-template-columns:1fr} main{padding:18px 12px}}
+</style>
+</head>
+<body><main>
+<h1>财报 PDF 指标提取人工复核报告</h1>
+<p class="sub">源文件：年报.pdf · 生成时间：2026-07-20T16:23:26+08:00</p>
+<div class="summary">
+  <div class="stat"><span>PDF页数</span><strong>159</strong></div>
+  <div class="stat"><span>自动解析成功</span><strong>4</strong></div>
+  <div class="stat"><span>需人工复核</span><strong>5</strong></div>
+  <div class="stat"><span>未解析</span><strong>1</strong></div>
+</div>
+<div class='warning'><strong>扫描页风险</strong><p>可能为扫描或低文本页面：[51, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71]。本版本默认不做OCR，这些页面可能漏检。</p></div>
+<section class="panel"><h2>结果汇总</h2><div class="table-wrap"><table><thead><tr><th>查询指标</th><th>标准科目</th><th>状态</th><th>层级</th><th>页码</th><th>匹配原文</th><th>主值</th><th>置信度</th></tr></thead><tbody>
+<tr><td>核心偿付能力充足率</td><td>核心偿付能力充足率</td><td><span class='badge resolved'>RESOLVED</span></td><td>L0</td><td>26</td><td>核心偿付能力充足率</td><td>113.84 万元</td><td>1.000</td></tr><tr><td>综合偿付能力充足率</td><td>综合偿付能力充足率</td><td><span class='badge resolved'>RESOLVED</span></td><td>L1</td><td>22</td><td>2025 年末，公司综合偿付能力充足率为 165.27%。</td><td>-</td><td>1.000</td></tr><tr><td>总保费</td><td>总保费</td><td><span class='badge review_required'>REVIEW_REQUIRED</span></td><td>L1</td><td>-</td><td>-</td><td>-</td><td>0.570</td></tr><tr><td>原保险保费收入</td><td>总保费</td><td><span class='badge review_required'>REVIEW_REQUIRED</span></td><td>L1</td><td>-</td><td>-</td><td>-</td><td>0.570</td></tr><tr><td>新业务保费</td><td>新业务保费</td><td><span class='badge review_required'>REVIEW_REQUIRED</span></td><td>L1</td><td>-</td><td>-</td><td>-</td><td>0.425</td></tr><tr><td>新业务价值</td><td>新业务价值</td><td><span class='badge review_required'>REVIEW_REQUIRED</span></td><td>L1</td><td>-</td><td>-</td><td>-</td><td>0.397</td></tr><tr><td>新业务价值率</td><td>新业务价值率</td><td><span class='badge review_required'>REVIEW_REQUIRED</span></td><td>L1</td><td>-</td><td>-</td><td>-</td><td>0.269</td></tr><tr><td>权益类投资资产</td><td>权益类投资资产</td><td><span class='badge resolved'>RESOLVED</span></td><td>L1</td><td>19</td><td>大的权益类投资设置上限管理。同时持续监测止损限额等市</td><td>-</td><td>1.000</td></tr><tr><td>权益类投资资产占比</td><td>权益类投资资产</td><td><span class='badge resolved'>RESOLVED</span></td><td>L1</td><td>19</td><td>大的权益类投资设置上限管理。同时持续监测止损限额等市</td><td>-</td><td>1.000</td></tr><tr><td>核心赔付率</td><td>-</td><td><span class='badge unresolved'>UNRESOLVED</span></td><td>L1</td><td>-</td><td>-</td><td>-</td><td>0.707</td></tr>
+</tbody></table></div></section>
+
+        <section class="metric-card">
+          <div class="metric-head">
+            <div>
+              <h2>核心偿付能力充足率</h2>
+              <p>核心偿付能力充足率</p>
+            </div>
+            <span class="badge resolved">RESOLVED</span>
+          </div>
+          <div class="decision">
+            <strong>L0 · confidence 1.000</strong>
+            <span>standard; high_score</span>
+          </div>
+          
+                <div class="meta-grid">
+                  <div><span>PDF页码</span><strong>26</strong></div>
+                  <div><span>匹配原文</span><strong>核心偿付能力充足率</strong></div>
+                  <div><span>解析方式</span><strong>pdfplumber_table</strong></div>
+                  <div><span>表类型</span><strong>未知表</strong></div>
+                  <div><span>单位提示</span><strong>万元</strong></div>
+                  <div><span>规则分数</span><strong>1.000</strong></div>
+                </div>
+                <div class='primary-value'><div><span>主值</span><strong>113.84 万元</strong></div><small>原文 113.84% · 期间 1,600,831 794,520 308,129 495,704 2,478 | 949,913 317,144 3,022 755,089 261,581 313,604 23,323 | - · 选择置信度 LOW</small></div>
+                <h4>全部数值列</h4>
+                <div class="table-wrap"><table><thead><tr><th>列</th><th>原始值</th><th>期间/标题上下文</th><th>原始单位</th><th>换算为元</th></tr></thead>
+                <tbody><tr><td>2</td><td>113.84%</td><td>1,600,831 794,520 308,129 495,704 2,478 | 949,913 317,144 3,022 755,089 261,581 313,604 23,323 | -</td><td>%</td><td>113.84 万元</td></tr><tr><td>3</td><td>177.79%</td><td>2,001,722 1,438,406 9,082 553,681 553 | 798,466 259,925 2,289 568,044 339,845 300,269 29,344 | -</td><td>%</td><td>177.79 万元</td></tr></tbody></table></div>
+                <h4>PDF表格上下文</h4>
+                <div class='table-wrap'><table><tbody><tr><td>核心偿付能力溢额（人民币万元）</td><td>134,052</td><td>633,317</td></tr><tr class='hit-row'><td>核心偿付能力充足率</td><td>113.84%</td><td>177.79%</td></tr><tr><td>综合偿付能力溢额（人民币万元）</td><td>632,234</td><td>1,187,551</td></tr></tbody></table></div>
+            
+          <div class='warning'><strong>人工复核提示</strong><ul><li>存在多个数值列且期间标题不足以唯一判断最新一期；primary_value 暂取最左侧数值，人工报告会同时展示全部数值列。</li></ul></div>
+          <h4>Top 候选</h4><div class='table-wrap'><table><thead><tr><th>#</th><th>页码</th><th>原始科目</th><th>表类型</th><th>来源</th><th>分数</th></tr></thead><tbody><tr><td>1</td><td>26</td><td>核心偿付能力充足率</td><td>未知表</td><td>pdfplumber_table</td><td>1.000</td></tr><tr><td>2</td><td>26</td><td>核心偿付能力充足率 113.84% 177.79%</td><td>未知表</td><td>pdfplumber_table</td><td>1.000</td></tr><tr><td>3</td><td>26</td><td>核心偿付能力溢额（人民币万元）</td><td>未知表</td><td>pdfplumber_table</td><td>0.580</td></tr><tr><td>4</td><td>150</td><td>付能力充足率要求。</td><td>未知表</td><td>pdfplumber_table</td><td>0.438</td></tr><tr><td>5</td><td>2</td><td>六、偿付能力信息</td><td>未知表</td><td>pdfplumber_table</td><td>0.413</td></tr></tbody></table></div>
+        </section>
+        
+        <section class="metric-card">
+          <div class="metric-head">
+            <div>
+              <h2>综合偿付能力充足率</h2>
+              <p>综合偿付能力充足率</p>
+            </div>
+            <span class="badge resolved">RESOLVED</span>
+          </div>
+          <div class="decision">
+            <strong>L1 · confidence 1.000</strong>
+            <span>standard; high_score</span>
+          </div>
+          
+                <div class="meta-grid">
+                  <div><span>PDF页码</span><strong>22</strong></div>
+                  <div><span>匹配原文</span><strong>2025 年末，公司综合偿付能力充足率为 165.27%。</strong></div>
+                  <div><span>解析方式</span><strong>pdfplumber_table</strong></div>
+                  <div><span>表类型</span><strong>未知表</strong></div>
+                  <div><span>单位提示</span><strong>未识别</strong></div>
+                  <div><span>规则分数</span><strong>1.000</strong></div>
+                </div>
+                
+                <h4>全部数值列</h4>
+                <div class="table-wrap"><table><thead><tr><th>列</th><th>原始值</th><th>期间/标题上下文</th><th>原始单位</th><th>换算为元</th></tr></thead>
+                <tbody><tr><td colspan='5'>未解析出数值</td></tr></tbody></table></div>
+                <h4>PDF表格上下文</h4>
+                <div class='table-wrap'><table><tbody><tr><td>环境的变化，导致战略与市场环境和公司能力不匹配的风险。</td></tr><tr class='hit-row'><td>2025 年末，公司综合偿付能力充足率为 165.27%。</td></tr><tr><td>在战略风险管理方面，一是在制定或重检中长期规划时，</td></tr></tbody></table></div>
+            
+          <div class='warning'><strong>人工复核提示</strong><ul><li>匹配到科目行，但未从该行确定性解析出数值。</li></ul></div>
+          <h4>Top 候选</h4><div class='table-wrap'><table><thead><tr><th>#</th><th>页码</th><th>原始科目</th><th>表类型</th><th>来源</th><th>分数</th></tr></thead><tbody><tr><td>1</td><td>22</td><td>2025 年末，公司综合偿付能力充足率为 165.27%。</td><td>未知表</td><td>pdfplumber_table</td><td>1.000</td></tr><tr><td>2</td><td>26</td><td>综合偿付能力充足率</td><td>未知表</td><td>pdfplumber_table</td><td>1.000</td></tr><tr><td>3</td><td>26</td><td>综合偿付能力充足率 165.27% 245.86%</td><td>未知表</td><td>pdfplumber_table</td><td>1.000</td></tr><tr><td>4</td><td>127</td><td>赎回的权利。在行使赎回权后发行人的综合偿付能力充足率不低于100%的情况下，经报中</td><td>未知表</td><td>pdfplumber_table</td><td>1.000</td></tr><tr><td>5</td><td>151</td><td>率低于50%或综合偿付能力充足率低于100%时，中国保险监督管理机构将密切监察这些公</td><td>未知表</td><td>pdfplumber_table</td><td>1.000</td></tr></tbody></table></div>
+        </section>
+        
+        <section class="metric-card">
+          <div class="metric-head">
+            <div>
+              <h2>总保费</h2>
+              <p>总保费</p>
+            </div>
+            <span class="badge review_required">REVIEW_REQUIRED</span>
+          </div>
+          <div class="decision">
+            <strong>L1 · confidence 0.570</strong>
+            <span>standard; ambiguous_top=0.570_margin=0.000</span>
+          </div>
+          <p class='muted'>系统没有安全确定唯一候选，请查看下方 Top 候选并人工复核。</p>
+          <div class='warning'><strong>人工复核提示</strong><ul><li>请查看人工报告中的候选表格片段进行复核。</li></ul></div>
+          <h4>Top 候选</h4><div class='table-wrap'><table><thead><tr><th>#</th><th>页码</th><th>原始科目</th><th>表类型</th><th>来源</th><th>分数</th></tr></thead><tbody><tr><td>1</td><td>122</td><td>收到的保费</td><td>未知表</td><td>pdfplumber_table</td><td>0.570</td></tr><tr><td>2</td><td>123</td><td>收到的保费</td><td>未知表</td><td>pdfplumber_table</td><td>0.570</td></tr><tr><td>3</td><td>4</td><td>预收保费</td><td>资产负债表</td><td>coordinate_rows</td><td>0.565</td></tr><tr><td>4</td><td>10</td><td>预收保费</td><td>资产负债表</td><td>coordinate_rows</td><td>0.565</td></tr><tr><td>5</td><td>120</td><td>收到的保费</td><td>资产负债表</td><td>coordinate_rows</td><td>0.525</td></tr></tbody></table></div>
+        </section>
+        
+        <section class="metric-card">
+          <div class="metric-head">
+            <div>
+              <h2>原保险保费收入</h2>
+              <p>总保费</p>
+            </div>
+            <span class="badge review_required">REVIEW_REQUIRED</span>
+          </div>
+          <div class="decision">
+            <strong>L1 · confidence 0.570</strong>
+            <span>fuzzy_metric_normalization:0.782; ambiguous_top=0.570_margin=0.000</span>
+          </div>
+          <p class='muted'>系统没有安全确定唯一候选，请查看下方 Top 候选并人工复核。</p>
+          <div class='warning'><strong>人工复核提示</strong><ul><li>请查看人工报告中的候选表格片段进行复核。</li></ul></div>
+          <h4>Top 候选</h4><div class='table-wrap'><table><thead><tr><th>#</th><th>页码</th><th>原始科目</th><th>表类型</th><th>来源</th><th>分数</th></tr></thead><tbody><tr><td>1</td><td>122</td><td>收到的保费</td><td>未知表</td><td>pdfplumber_table</td><td>0.570</td></tr><tr><td>2</td><td>123</td><td>收到的保费</td><td>未知表</td><td>pdfplumber_table</td><td>0.570</td></tr><tr><td>3</td><td>4</td><td>预收保费</td><td>资产负债表</td><td>coordinate_rows</td><td>0.565</td></tr><tr><td>4</td><td>10</td><td>预收保费</td><td>资产负债表</td><td>coordinate_rows</td><td>0.565</td></tr><tr><td>5</td><td>120</td><td>收到的保费</td><td>资产负债表</td><td>coordinate_rows</td><td>0.525</td></tr></tbody></table></div>
+        </section>
+        
+        <section class="metric-card">
+          <div class="metric-head">
+            <div>
+              <h2>新业务保费</h2>
+              <p>新业务保费</p>
+            </div>
+            <span class="badge review_required">REVIEW_REQUIRED</span>
+          </div>
+          <div class="decision">
+            <strong>L1 · confidence 0.425</strong>
+            <span>standard; ambiguous_top=0.425_margin=0.000</span>
+          </div>
+          <p class='muted'>系统没有安全确定唯一候选，请查看下方 Top 候选并人工复核。</p>
+          <div class='warning'><strong>人工复核提示</strong><ul><li>请查看人工报告中的候选表格片段进行复核。</li></ul></div>
+          <h4>Top 候选</h4><div class='table-wrap'><table><thead><tr><th>#</th><th>页码</th><th>原始科目</th><th>表类型</th><th>来源</th><th>分数</th></tr></thead><tbody><tr><td>1</td><td>122</td><td>收到的保费</td><td>未知表</td><td>pdfplumber_table</td><td>0.425</td></tr><tr><td>2</td><td>123</td><td>收到的保费</td><td>未知表</td><td>pdfplumber_table</td><td>0.425</td></tr><tr><td>3</td><td>118</td><td>失业保险费</td><td>未知表</td><td>coordinate_rows</td><td>0.418</td></tr><tr><td>4</td><td>133</td><td>业务招待费</td><td>未知表</td><td>coordinate_rows</td><td>0.418</td></tr><tr><td>5</td><td>4</td><td>预收保费</td><td>资产负债表</td><td>coordinate_rows</td><td>0.410</td></tr></tbody></table></div>
+        </section>
+        
+        <section class="metric-card">
+          <div class="metric-head">
+            <div>
+              <h2>新业务价值</h2>
+              <p>新业务价值</p>
+            </div>
+            <span class="badge review_required">REVIEW_REQUIRED</span>
+          </div>
+          <div class="decision">
+            <strong>L1 · confidence 0.397</strong>
+            <span>standard; ambiguous_top=0.397_margin=0.000</span>
+          </div>
+          <p class='muted'>系统没有安全确定唯一候选，请查看下方 Top 候选并人工复核。</p>
+          <div class='warning'><strong>人工复核提示</strong><ul><li>请查看人工报告中的候选表格片段进行复核。</li></ul></div>
+          <h4>Top 候选</h4><div class='table-wrap'><table><thead><tr><th>#</th><th>页码</th><th>原始科目</th><th>表类型</th><th>来源</th><th>分数</th></tr></thead><tbody><tr><td>1</td><td>115</td><td>允价值变动</td><td>未知表</td><td>coordinate_rows</td><td>0.397</td></tr><tr><td>2</td><td>116</td><td>允价值变动</td><td>未知表</td><td>coordinate_rows</td><td>0.397</td></tr><tr><td>3</td><td>114</td><td>公允价值变动</td><td>未知表</td><td>coordinate_rows</td><td>0.374</td></tr><tr><td>4</td><td>115</td><td>公允价值变动</td><td>未知表</td><td>coordinate_rows</td><td>0.374</td></tr><tr><td>5</td><td>116</td><td>公允价值变动</td><td>未知表</td><td>coordinate_rows</td><td>0.374</td></tr></tbody></table></div>
+        </section>
+        
+        <section class="metric-card">
+          <div class="metric-head">
+            <div>
+              <h2>新业务价值率</h2>
+              <p>新业务价值率</p>
+            </div>
+            <span class="badge review_required">REVIEW_REQUIRED</span>
+          </div>
+          <div class="decision">
+            <strong>L1 · confidence 0.269</strong>
+            <span>standard; ambiguous_top=0.269_margin=0.005</span>
+          </div>
+          <p class='muted'>系统没有安全确定唯一候选，请查看下方 Top 候选并人工复核。</p>
+          <div class='warning'><strong>人工复核提示</strong><ul><li>请查看人工报告中的候选表格片段进行复核。</li></ul></div>
+          <h4>Top 候选</h4><div class='table-wrap'><table><thead><tr><th>#</th><th>页码</th><th>原始科目</th><th>表类型</th><th>来源</th><th>分数</th></tr></thead><tbody><tr><td>1</td><td>133</td><td>业务招待费</td><td>未知表</td><td>coordinate_rows</td><td>0.269</td></tr><tr><td>2</td><td>115</td><td>允价值变动</td><td>未知表</td><td>coordinate_rows</td><td>0.264</td></tr><tr><td>3</td><td>116</td><td>允价值变动</td><td>未知表</td><td>coordinate_rows</td><td>0.264</td></tr><tr><td>4</td><td>114</td><td>公允价值变动</td><td>未知表</td><td>coordinate_rows</td><td>0.245</td></tr><tr><td>5</td><td>115</td><td>公允价值变动</td><td>未知表</td><td>coordinate_rows</td><td>0.245</td></tr></tbody></table></div>
+        </section>
+        
+        <section class="metric-card">
+          <div class="metric-head">
+            <div>
+              <h2>权益类投资资产</h2>
+              <p>权益类投资资产</p>
+            </div>
+            <span class="badge resolved">RESOLVED</span>
+          </div>
+          <div class="decision">
+            <strong>L1 · confidence 1.000</strong>
+            <span>standard; high_score</span>
+          </div>
+          
+                <div class="meta-grid">
+                  <div><span>PDF页码</span><strong>19</strong></div>
+                  <div><span>匹配原文</span><strong>大的权益类投资设置上限管理。同时持续监测止损限额等市</strong></div>
+                  <div><span>解析方式</span><strong>pdfplumber_table</strong></div>
+                  <div><span>表类型</span><strong>未知表</strong></div>
+                  <div><span>单位提示</span><strong>万元</strong></div>
+                  <div><span>规则分数</span><strong>1.000</strong></div>
+                </div>
+                
+                <h4>全部数值列</h4>
+                <div class="table-wrap"><table><thead><tr><th>列</th><th>原始值</th><th>期间/标题上下文</th><th>原始单位</th><th>换算为元</th></tr></thead>
+                <tbody><tr><td colspan='5'>未解析出数值</td></tr></tbody></table></div>
+                <h4>PDF表格上下文</h4>
+                <div class='table-wrap'><table><tbody><tr><td>资目标，对投资项目及种类设置投资限额，特别是对风险较</td></tr><tr class='hit-row'><td>大的权益类投资设置上限管理。同时持续监测止损限额等市</td></tr><tr><td>场风险限额的执行情况。</td></tr></tbody></table></div>
+            
+          <div class='warning'><strong>人工复核提示</strong><ul><li>匹配到科目行，但未从该行确定性解析出数值。</li></ul></div>
+          <h4>Top 候选</h4><div class='table-wrap'><table><thead><tr><th>#</th><th>页码</th><th>原始科目</th><th>表类型</th><th>来源</th><th>分数</th></tr></thead><tbody><tr><td>1</td><td>19</td><td>大的权益类投资设置上限管理。同时持续监测止损限额等市</td><td>未知表</td><td>pdfplumber_table</td><td>1.000</td></tr><tr><td>2</td><td>131</td><td>债权投资</td><td>未知表</td><td>coordinate_rows</td><td>0.570</td></tr><tr><td>3</td><td>144</td><td>债权投资</td><td>未知表</td><td>coordinate_rows</td><td>0.570</td></tr><tr><td>4</td><td>148</td><td>债权投资</td><td>未知表</td><td>coordinate_rows</td><td>0.570</td></tr><tr><td>5</td><td>149</td><td>债权投资</td><td>未知表</td><td>pdfplumber_table</td><td>0.570</td></tr></tbody></table></div>
+        </section>
+        
+        <section class="metric-card">
+          <div class="metric-head">
+            <div>
+              <h2>权益类投资资产占比</h2>
+              <p>权益类投资资产</p>
+            </div>
+            <span class="badge resolved">RESOLVED</span>
+          </div>
+          <div class="decision">
+            <strong>L1 · confidence 1.000</strong>
+            <span>fuzzy_metric_normalization:0.900; high_score</span>
+          </div>
+          
+                <div class="meta-grid">
+                  <div><span>PDF页码</span><strong>19</strong></div>
+                  <div><span>匹配原文</span><strong>大的权益类投资设置上限管理。同时持续监测止损限额等市</strong></div>
+                  <div><span>解析方式</span><strong>pdfplumber_table</strong></div>
+                  <div><span>表类型</span><strong>未知表</strong></div>
+                  <div><span>单位提示</span><strong>万元</strong></div>
+                  <div><span>规则分数</span><strong>1.000</strong></div>
+                </div>
+                
+                <h4>全部数值列</h4>
+                <div class="table-wrap"><table><thead><tr><th>列</th><th>原始值</th><th>期间/标题上下文</th><th>原始单位</th><th>换算为元</th></tr></thead>
+                <tbody><tr><td colspan='5'>未解析出数值</td></tr></tbody></table></div>
+                <h4>PDF表格上下文</h4>
+                <div class='table-wrap'><table><tbody><tr><td>资目标，对投资项目及种类设置投资限额，特别是对风险较</td></tr><tr class='hit-row'><td>大的权益类投资设置上限管理。同时持续监测止损限额等市</td></tr><tr><td>场风险限额的执行情况。</td></tr></tbody></table></div>
+            
+          <div class='warning'><strong>人工复核提示</strong><ul><li>匹配到科目行，但未从该行确定性解析出数值。</li></ul></div>
+          <h4>Top 候选</h4><div class='table-wrap'><table><thead><tr><th>#</th><th>页码</th><th>原始科目</th><th>表类型</th><th>来源</th><th>分数</th></tr></thead><tbody><tr><td>1</td><td>19</td><td>大的权益类投资设置上限管理。同时持续监测止损限额等市</td><td>未知表</td><td>pdfplumber_table</td><td>1.000</td></tr><tr><td>2</td><td>131</td><td>债权投资</td><td>未知表</td><td>coordinate_rows</td><td>0.570</td></tr><tr><td>3</td><td>144</td><td>债权投资</td><td>未知表</td><td>coordinate_rows</td><td>0.570</td></tr><tr><td>4</td><td>148</td><td>债权投资</td><td>未知表</td><td>coordinate_rows</td><td>0.570</td></tr><tr><td>5</td><td>149</td><td>债权投资</td><td>未知表</td><td>pdfplumber_table</td><td>0.570</td></tr></tbody></table></div>
+        </section>
+        
+        <section class="metric-card">
+          <div class="metric-head">
+            <div>
+              <h2>核心赔付率</h2>
+              <p>未映射标准科目</p>
+            </div>
+            <span class="badge unresolved">UNRESOLVED</span>
+          </div>
+          <div class="decision">
+            <strong>L1 · confidence 0.707</strong>
+            <span>输入无法安全映射到规则库标准科目；未启用LLM或候选不足。</span>
+          </div>
+          <p class='muted'>系统没有安全确定唯一候选，请查看下方 Top 候选并人工复核。</p>
+          <div class='warning'><strong>人工复核提示</strong><ul><li>建议提供更明确科目名/别名，或扩充 metric_aliases.json。</li></ul></div>
+          
+        </section>
+        
+</main></body></html>

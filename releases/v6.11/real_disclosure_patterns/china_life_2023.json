@@ -1,0 +1,30 @@
+{
+  "fixture_id": "CHINA_LIFE_2023",
+  "company": "中国人寿",
+  "report_year": "2023",
+  "pdf_filename": "中国人寿2023年年度报告.pdf",
+  "pdf_sha256": "5ea1048c3a9323b37b1ad2e870da0fb54d9cfacdfba159aad4b9bec070edc18a",
+  "document_modality": "IMAGE_BASED",
+  "disclosure_pattern": "IMAGE_BASED_IMPLICIT_MEMBER_SET_SCATTERED",
+  "statement_scope": "CONSOLIDATED",
+  "research_definition_id": "FINANCIAL_INVESTMENT_V1",
+  "definition_version": "FINANCIAL_INVESTMENT_V1",
+  "expected_resolution_mode": "IMPLICIT_MEMBER_SET",
+  "expected_parent_present": false,
+  "expected_parent_label": null,
+  "expected_required_members": [
+    "legacy_fvtpl_assets",
+    "available_for_sale_assets",
+    "held_to_maturity_investments",
+    "legacy_loans"
+  ],
+  "expected_forbidden_members": [],
+  "known_constraints": [
+    "requires_ocr",
+    "requires_image_layout",
+    "requires_scattered_member_discovery",
+    "requires_parent_inference"
+  ],
+  "source_pages": [],
+  "annotation_status": "PATTERN_CANDIDATE"
+}

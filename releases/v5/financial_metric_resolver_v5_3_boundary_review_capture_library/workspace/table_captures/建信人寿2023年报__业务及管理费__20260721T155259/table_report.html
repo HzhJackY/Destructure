@@ -1,0 +1,303 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<title>整表抓取报告</title>
+<style>
+body{font-family:Arial,'Microsoft YaHei',sans-serif;margin:28px;color:#1f2937}
+pre{white-space:pre-wrap;background:#f6f8fa;padding:16px;border-radius:8px}
+table{border-collapse:collapse;width:100%;font-size:13px}
+th,td{border:1px solid #d1d5db;padding:6px 8px;text-align:right}
+th:first-child,td:first-child{text-align:left}
+</style></head><body>
+<h1>整表抓取报告</h1>
+<pre># 整表抓取报告
+
+- PDF: `5b964aca9e47_建信人寿2023年报.pdf`
+- 查询表: `业务及管理费`
+- 定位标题: `合计 4,293,319,539 4,051,761,12049. 业务及管理费`
+- 页码: `143–143`
+- 实际表格页: `143`
+- 列数: `2`
+- 行数: `26`
+
+## 列结构
+
+- col0: year=2023 | scope=- | restated=False | raw=2023
+- col1: year=2022 | scope=- | restated=False | raw=2022
+
+## 警告
+
+- 未发现下一附注编号作为硬结束边界，当前使用max_pages边界，请人工核对末尾。
+
+## 说明
+
+- `raw_item` 永久保留PDF原始行名。
+- `normalized_item` 只做确定性文本清洗，不改变经济含义。
+- `canonical_item` 整表抓取层默认不强制映射；跨公司细项统一由“合表 / Taxonomy”工作区完成。</pre>
+<h2>宽表预览</h2>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>row_order</th>
+      <th>row_type</th>
+      <th>parent_section</th>
+      <th>raw_item</th>
+      <th>normalized_item</th>
+      <th>unit</th>
+      <th>2022</th>
+      <th>2023</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>DETAIL</td>
+      <td>None</td>
+      <td>工资及福利费</td>
+      <td>工资及福利费</td>
+      <td>元</td>
+      <td>1788536878.0</td>
+      <td>1679050597.0</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>DETAIL</td>
+      <td>None</td>
+      <td>无形资产摊销</td>
+      <td>无形资产摊销</td>
+      <td>元</td>
+      <td>123487155.0</td>
+      <td>180577641.0</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>DETAIL</td>
+      <td>None</td>
+      <td>使用权资产折旧</td>
+      <td>使用权资产折旧</td>
+      <td>元</td>
+      <td>153754901.0</td>
+      <td>147585594.0</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>DETAIL</td>
+      <td>None</td>
+      <td>提取保险保障基金</td>
+      <td>提取保险保障基金</td>
+      <td>元</td>
+      <td>96691138.0</td>
+      <td>136823652.0</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>DETAIL</td>
+      <td>None</td>
+      <td>修理及维护费用</td>
+      <td>修理及维护费用</td>
+      <td>元</td>
+      <td>103952695.0</td>
+      <td>100766153.0</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>DETAIL</td>
+      <td>None</td>
+      <td>资产托管费</td>
+      <td>资产托管费</td>
+      <td>元</td>
+      <td>92444402.0</td>
+      <td>64109388.0</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>DETAIL</td>
+      <td>None</td>
+      <td>固定资产折旧</td>
+      <td>固定资产折旧</td>
+      <td>元</td>
+      <td>66954817.0</td>
+      <td>61968932.0</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>DETAIL</td>
+      <td>None</td>
+      <td>租赁费用</td>
+      <td>租赁费用</td>
+      <td>元</td>
+      <td>55367233.0</td>
+      <td>56347531.0</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>DETAIL</td>
+      <td>None</td>
+      <td>培训费</td>
+      <td>培训费</td>
+      <td>元</td>
+      <td>34509669.0</td>
+      <td>54734995.0</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>DETAIL</td>
+      <td>None</td>
+      <td>业务活动费</td>
+      <td>业务活动费</td>
+      <td>元</td>
+      <td>42177299.0</td>
+      <td>48214850.0</td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>DETAIL</td>
+      <td>None</td>
+      <td>差旅费</td>
+      <td>差旅费</td>
+      <td>元</td>
+      <td>15413220.0</td>
+      <td>31565601.0</td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>DETAIL</td>
+      <td>None</td>
+      <td>通讯费</td>
+      <td>通讯费</td>
+      <td>元</td>
+      <td>31134818.0</td>
+      <td>30732512.0</td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>DETAIL</td>
+      <td>None</td>
+      <td>专业服务费</td>
+      <td>专业服务费</td>
+      <td>元</td>
+      <td>34700464.0</td>
+      <td>29561704.0</td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td>DETAIL</td>
+      <td>None</td>
+      <td>长期待摊费用摊销</td>
+      <td>长期待摊费用摊销</td>
+      <td>元</td>
+      <td>35562258.0</td>
+      <td>27979591.0</td>
+    </tr>
+    <tr>
+      <td>15</td>
+      <td>DETAIL</td>
+      <td>None</td>
+      <td>广告宣传费</td>
+      <td>广告宣传费</td>
+      <td>元</td>
+      <td>24476049.0</td>
+      <td>26813297.0</td>
+    </tr>
+    <tr>
+      <td>16</td>
+      <td>DETAIL</td>
+      <td>None</td>
+      <td>公杂费</td>
+      <td>公杂费</td>
+      <td>元</td>
+      <td>18938952.0</td>
+      <td>17642673.0</td>
+    </tr>
+    <tr>
+      <td>17</td>
+      <td>DETAIL</td>
+      <td>None</td>
+      <td>业务招待费</td>
+      <td>业务招待费</td>
+      <td>元</td>
+      <td>20437410.0</td>
+      <td>15837268.0</td>
+    </tr>
+    <tr>
+      <td>18</td>
+      <td>DETAIL</td>
+      <td>None</td>
+      <td>水电费</td>
+      <td>水电费</td>
+      <td>元</td>
+      <td>11244764.0</td>
+      <td>12280580.0</td>
+    </tr>
+    <tr>
+      <td>19</td>
+      <td>DETAIL</td>
+      <td>None</td>
+      <td>租赁负债利息支出</td>
+      <td>租赁负债利息支出</td>
+      <td>元</td>
+      <td>8315377.0</td>
+      <td>9606004.0</td>
+    </tr>
+    <tr>
+      <td>20</td>
+      <td>DETAIL</td>
+      <td>None</td>
+      <td>会议费</td>
+      <td>会议费</td>
+      <td>元</td>
+      <td>4444698.0</td>
+      <td>6298689.0</td>
+    </tr>
+    <tr>
+      <td>21</td>
+      <td>DETAIL</td>
+      <td>None</td>
+      <td>印刷费</td>
+      <td>印刷费</td>
+      <td>元</td>
+      <td>6616015.0</td>
+      <td>5011305.0</td>
+    </tr>
+    <tr>
+      <td>22</td>
+      <td>DETAIL</td>
+      <td>None</td>
+      <td>银行结算费</td>
+      <td>银行结算费</td>
+      <td>元</td>
+      <td>5543677.0</td>
+      <td>3602676.0</td>
+    </tr>
+    <tr>
+      <td>23</td>
+      <td>DETAIL</td>
+      <td>None</td>
+      <td>其他税费</td>
+      <td>其他税费</td>
+      <td>元</td>
+      <td>1016349.0</td>
+      <td>1428083.0</td>
+    </tr>
+    <tr>
+      <td>24</td>
+      <td>DETAIL</td>
+      <td>None</td>
+      <td>其他</td>
+      <td>其他</td>
+      <td>元</td>
+      <td>148325734.0</td>
+      <td>146098628.0</td>
+    </tr>
+    <tr>
+      <td>25</td>
+      <td>TOTAL</td>
+      <td>None</td>
+      <td>合计</td>
+      <td>合计</td>
+      <td>元</td>
+      <td>2924045972.0</td>
+      <td>2894637944.0</td>
+    </tr>
+  </tbody>
+</table>
+</body></html>

@@ -1,0 +1,7 @@
+company_id: ZHONGAN_ONLINE
+report_year: 2025
+accounting_standard: IFRS_9_AND_IFRS_17
+balance_sheet_presentation: CONSOLIDATED_STATEMENT_OF_FINANCIAL_POSITION
+portfolio_presentation: MDA_INVESTMENT_PORTFOLIO_SECTION
+native_vector_text: true
+ocr_required: false

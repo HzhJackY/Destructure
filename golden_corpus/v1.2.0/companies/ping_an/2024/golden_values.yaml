@@ -1,0 +1,177 @@
+schema_version: '1.1'
+fixture_id: PING_AN_2024_GOLDEN_VALUES
+family: financial_investment
+annotation_status: CERTIFIED_GOLDEN
+review_date: '2026-08-04'
+reviewer: Codex_Agent_Adjudicator
+values:
+- member_id: fvtpl_assets
+  raw_label: 以公允价值计量且其变动计入当期损益的金融资产
+  note_reference: 附注八、9
+  current_amount_raw: 2,377,074
+  status: ACTIVE_CURRENT_PERIOD
+  child_table:
+    classification: PRIMARY_TABLE
+    pdf_page_number: 233
+    note_title: 9. 以公允价值计量且其变动计入当期损益的金融资产
+    unit: 百万元
+    items:
+    - raw_label: 债券 - 政府债
+      amount_2024: 288,136
+      amount_2023: 200,566
+    - raw_label: 债券 - 金融债
+      amount_2024: 545,284
+      amount_2023: 307,378
+    - raw_label: 债券 - 企业债
+      amount_2024: 134,872
+      amount_2023: 78,485
+    - raw_label: 基金
+      amount_2024: 507,934
+      amount_2023: 475,511
+    - raw_label: 股票
+      amount_2024: 204,583
+      amount_2023: 156,514
+    - raw_label: 优先股
+      amount_2024: 23,193
+      amount_2023: 22,929
+    - raw_label: 非上市股权
+      amount_2024: 136,962
+      amount_2023: 127,304
+    - raw_label: 债权计划
+      amount_2024: 73,039
+      amount_2023: 72,237
+    - raw_label: 理财产品投资
+      amount_2024: 315,956
+      amount_2023: 258,313
+    - raw_label: 其他投资
+      amount_2024: 147,115
+      amount_2023: 103,810
+    - raw_label: 合计
+      amount_2024: 2,377,074
+      amount_2023: 1,803,047
+    - raw_label: 上市
+      amount_2024: 402,520
+      amount_2023: 316,044
+    - raw_label: 非上市
+      amount_2024: 1,974,554
+      amount_2023: 1,487,003
+- member_id: debt_investment
+  raw_label: 债权投资
+  note_reference: 附注八、10
+  current_amount_raw: 1,232,450
+  status: ACTIVE_CURRENT_PERIOD
+  child_table:
+    classification: PRIMARY_TABLE
+    pdf_page_number: 233
+    note_title: 10. 债权投资
+    unit: 百万元
+    items:
+    - raw_label: 债券 - 政府债
+      amount_2024: 899,265
+      amount_2023: 892,641
+    - raw_label: 债券 - 金融债
+      amount_2024: 44,236
+      amount_2023: 32,113
+    - raw_label: 债券 - 企业债
+      amount_2024: 36,758
+      amount_2023: 47,433
+    - raw_label: 债权计划
+      amount_2024: 15,415
+      amount_2023: 14,196
+    - raw_label: 理财产品投资
+      amount_2024: 111,117
+      amount_2023: 117,172
+    - raw_label: 其他投资
+      amount_2024: 188,792
+      amount_2023: 186,775
+    - raw_label: 总额
+      amount_2024: 1,295,583
+      amount_2023: 1,290,330
+    - raw_label: 减：减值准备
+      amount_2024: (63,133)
+      amount_2023: (46,977)
+    - raw_label: 净额
+      amount_2024: 1,232,450
+      amount_2023: 1,243,353
+    - raw_label: 上市
+      amount_2024: 59,846
+      amount_2023: 62,757
+    - raw_label: 非上市
+      amount_2024: 1,172,604
+      amount_2023: 1,180,596
+- member_id: other_debt_investment
+  raw_label: 其他债权投资
+  note_reference: 附注八、11
+  current_amount_raw: 3,186,937
+  status: ACTIVE_CURRENT_PERIOD
+  child_table:
+    classification: PRIMARY_TABLE
+    pdf_page_number: 234
+    note_title: 11. 其他债权投资
+    unit: 百万元
+    items:
+    - raw_label: 债券 - 政府债
+      amount_2024: 2,493,010
+      amount_2023: 1,973,152
+    - raw_label: 债券 - 金融债
+      amount_2024: 410,742
+      amount_2023: 352,063
+    - raw_label: 债券 - 企业债
+      amount_2024: 95,586
+      amount_2023: 75,772
+    - raw_label: 债权计划
+      amount_2024: 102,884
+      amount_2023: 108,515
+    - raw_label: 理财产品投资
+      amount_2024: 84,715
+      amount_2023: 127,506
+    - raw_label: 合计
+      amount_2024: 3,186,937
+      amount_2023: 2,637,008
+    - raw_label: 摊余成本
+      amount_2024: 2,591,775
+      amount_2023: 2,365,076
+    - raw_label: 累计公允价值变动
+      amount_2024: 595,162
+      amount_2023: 271,932
+    - raw_label: 上市
+      amount_2024: 398,075
+      amount_2023: 364,740
+    - raw_label: 非上市
+      amount_2024: 2,788,862
+      amount_2023: 2,272,268
+- member_id: other_equity_investment
+  raw_label: 其他权益工具投资
+  note_reference: 附注八、12
+  current_amount_raw: 356,493
+  status: ACTIVE_CURRENT_PERIOD
+  child_table:
+    classification: PRIMARY_TABLE
+    pdf_page_number: 234
+    note_title: 12. 其他权益工具投资
+    unit: 百万元
+    items:
+    - raw_label: 股票
+      amount_2024: 267,082
+      amount_2023: 177,686
+    - raw_label: 优先股
+      amount_2024: 82,575
+      amount_2023: 81,893
+    - raw_label: 其他权益投资
+      amount_2024: 6,836
+      amount_2023: 5,298
+    - raw_label: 合计
+      amount_2024: 356,493
+      amount_2023: 264,877
+    - raw_label: 成本
+      amount_2024: 320,035
+      amount_2023: 284,902
+    - raw_label: 累计公允价值变动
+      amount_2024: 36,458
+      amount_2023: (20,025)
+    - raw_label: 上市
+      amount_2024: 350,431
+      amount_2023: 259,579
+    - raw_label: 非上市
+      amount_2024: 6,062
+      amount_2023: 5,298

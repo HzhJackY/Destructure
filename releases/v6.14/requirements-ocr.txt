@@ -1,0 +1,7 @@
+# Core plus optional page OCR helpers. Tesseract and chi_sim are system
+# dependencies and cannot be installed by pip; see docs/dependency_contract.md.
+-r requirements-core.txt
+
+numpy==2.3.5
+Pillow==12.2.0
+

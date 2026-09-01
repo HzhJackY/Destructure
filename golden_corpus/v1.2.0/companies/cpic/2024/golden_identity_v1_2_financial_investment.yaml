@@ -1,0 +1,1288 @@
+identity_contract_version: GOLDEN_IDENTITY_V1_2
+definition_id: FINANCIAL_INVESTMENT_V1
+family: financial_investment
+source_golden_id: CPIC_2024_GOLDEN_VALUES
+filing_identity:
+  company_id: CPIC
+  legal_entity_name: 中国太平洋保险（集团）股份有限公司
+  report_year: 2024
+  source_scope: CONSOLIDATED
+  canonical_pdf_filename: 中国太保2024年报.pdf
+  pdf_sha256: 3b6117c82942349be225d531b342cbbaf36255d02a2556525e697164a42e6b66
+  page_count: 302
+  source_type: ANNUAL_REPORT
+physical_tables:
+- physical_table_id: CPIC_2024_ANNUAL_REPORT::fvtpl_assets::PRIMARY
+  physical_page_number: 207
+  printed_page_number: null
+  title: 5. 交易性金融资产
+  unit: 百万元
+  table_classification: PRIMARY_TABLE
+- physical_table_id: CPIC_2024_ANNUAL_REPORT::debt_investment::PRIMARY
+  physical_page_number: 207
+  printed_page_number: null
+  title: 6. 债权投资
+  unit: 百万元
+  table_classification: PRIMARY_TABLE
+- physical_table_id: CPIC_2024_ANNUAL_REPORT::other_debt_investment::PRIMARY
+  physical_page_number: 208
+  printed_page_number: null
+  title: 7. 其他债权投资
+  unit: 百万元
+  table_classification: PRIMARY_TABLE
+- physical_table_id: CPIC_2024_ANNUAL_REPORT::other_equity_investment::PRIMARY
+  physical_page_number: 208
+  printed_page_number: null
+  title: 8. 其他权益工具投资
+  unit: 百万元
+  table_classification: PRIMARY_TABLE
+rows:
+- golden_row_id: GROW_2739e65229571ac88c42
+  physical_table_id: CPIC_2024_ANNUAL_REPORT::MAIN_STATEMENT
+  member_table_id: fvtpl_assets
+  classification_axis: FINANCIAL_INVESTMENT_MEMBER_SET
+  raw_label: 交易性金融资产
+  normalized_label: 交易性金融资产
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: MEMBER
+  source_row_order: null
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: SOURCE_DECLARED
+    value: 667199
+- golden_row_id: GROW_cbc3f3be958c517b24c7
+  physical_table_id: CPIC_2024_ANNUAL_REPORT::fvtpl_assets::PRIMARY
+  member_table_id: fvtpl_assets
+  classification_axis: LISTING_STATUS
+  raw_label: 上市
+  normalized_label: 上市
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 1
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: '216255'
+  - period_role: COMPARATIVE
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: 百万元
+    value: '198622'
+- golden_row_id: GROW_5a5722a26851f5e7b62c
+  physical_table_id: CPIC_2024_ANNUAL_REPORT::fvtpl_assets::PRIMARY
+  member_table_id: fvtpl_assets
+  classification_axis: LISTING_STATUS
+  raw_label: 非上市
+  normalized_label: 非上市
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 2
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: '450944'
+  - period_role: COMPARATIVE
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: 百万元
+    value: '382980'
+- golden_row_id: GROW_8608d840b1f868094e03
+  physical_table_id: CPIC_2024_ANNUAL_REPORT::fvtpl_assets::PRIMARY
+  member_table_id: fvtpl_assets
+  classification_axis: LISTING_STATUS
+  raw_label: 合计
+  normalized_label: 合计
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: TOTAL
+  source_row_order: 3
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: '667199'
+  - period_role: COMPARATIVE
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: 百万元
+    value: '581602'
+- golden_row_id: GROW_00b49cf148781618dc84
+  physical_table_id: CPIC_2024_ANNUAL_REPORT::fvtpl_assets::PRIMARY
+  member_table_id: fvtpl_assets
+  classification_axis: ASSET_TYPE
+  raw_label: 债券
+  normalized_label: 债券
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: GROUP
+  source_row_order: 4
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: '274335'
+  - period_role: COMPARATIVE
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: 百万元
+    value: '199951'
+- golden_row_id: GROW_ea4faa265d6ada47670a
+  physical_table_id: CPIC_2024_ANNUAL_REPORT::fvtpl_assets::PRIMARY
+  member_table_id: fvtpl_assets
+  classification_axis: ASSET_TYPE
+  raw_label: 政府债
+  normalized_label: 政府债
+  parent_golden_row_id: GROW_00b49cf148781618dc84
+  semantic_parent_path: 债券
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 5
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: '6907'
+  - period_role: COMPARATIVE
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: 百万元
+    value: '2889'
+- golden_row_id: GROW_8dd79d678538ce1ad81d
+  physical_table_id: CPIC_2024_ANNUAL_REPORT::fvtpl_assets::PRIMARY
+  member_table_id: fvtpl_assets
+  classification_axis: ASSET_TYPE
+  raw_label: 金融债
+  normalized_label: 金融债
+  parent_golden_row_id: GROW_00b49cf148781618dc84
+  semantic_parent_path: 债券
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 6
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: '241069'
+  - period_role: COMPARATIVE
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: 百万元
+    value: '169449'
+- golden_row_id: GROW_26d60933e4ad396d9316
+  physical_table_id: CPIC_2024_ANNUAL_REPORT::fvtpl_assets::PRIMARY
+  member_table_id: fvtpl_assets
+  classification_axis: ASSET_TYPE
+  raw_label: 企业债
+  normalized_label: 企业债
+  parent_golden_row_id: GROW_00b49cf148781618dc84
+  semantic_parent_path: 债券
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 7
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: '26359'
+  - period_role: COMPARATIVE
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: 百万元
+    value: '27613'
+- golden_row_id: GROW_3c8e45e29542d2537b8b
+  physical_table_id: CPIC_2024_ANNUAL_REPORT::fvtpl_assets::PRIMARY
+  member_table_id: fvtpl_assets
+  classification_axis: ASSET_TYPE
+  raw_label: 股票
+  normalized_label: 股票
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 8
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: '179013'
+  - period_role: COMPARATIVE
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: 百万元
+    value: '161345'
+- golden_row_id: GROW_82b6aab3444147621b20
+  physical_table_id: CPIC_2024_ANNUAL_REPORT::fvtpl_assets::PRIMARY
+  member_table_id: fvtpl_assets
+  classification_axis: ASSET_TYPE
+  raw_label: 基金
+  normalized_label: 基金
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 9
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: '70472'
+  - period_role: COMPARATIVE
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: 百万元
+    value: '65817'
+- golden_row_id: GROW_9eda4060ef934870c3bf
+  physical_table_id: CPIC_2024_ANNUAL_REPORT::fvtpl_assets::PRIMARY
+  member_table_id: fvtpl_assets
+  classification_axis: ASSET_TYPE
+  raw_label: 非上市股权投资
+  normalized_label: 非上市股权投资
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 10
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: '66707'
+  - period_role: COMPARATIVE
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: 百万元
+    value: '62919'
+- golden_row_id: GROW_a37ce453ad2548146660
+  physical_table_id: CPIC_2024_ANNUAL_REPORT::fvtpl_assets::PRIMARY
+  member_table_id: fvtpl_assets
+  classification_axis: ASSET_TYPE
+  raw_label: 债权投资计划
+  normalized_label: 债权投资计划
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 11
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: '42150'
+  - period_role: COMPARATIVE
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: 百万元
+    value: '44676'
+- golden_row_id: GROW_2d699ff824e621633d7a
+  physical_table_id: CPIC_2024_ANNUAL_REPORT::fvtpl_assets::PRIMARY
+  member_table_id: fvtpl_assets
+  classification_axis: ASSET_TYPE
+  raw_label: 资管产品类投资
+  normalized_label: 资管产品类投资
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 12
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: '28238'
+  - period_role: COMPARATIVE
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: 百万元
+    value: '38720'
+- golden_row_id: GROW_9112b9579d537b04d222
+  physical_table_id: CPIC_2024_ANNUAL_REPORT::fvtpl_assets::PRIMARY
+  member_table_id: fvtpl_assets
+  classification_axis: ASSET_TYPE
+  raw_label: 其他
+  normalized_label: 其他
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 13
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: '6284'
+  - period_role: COMPARATIVE
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: 百万元
+    value: '8174'
+- golden_row_id: GROW_99a2fdb73f6146a1e3f3
+  physical_table_id: CPIC_2024_ANNUAL_REPORT::fvtpl_assets::PRIMARY
+  member_table_id: fvtpl_assets
+  classification_axis: ASSET_TYPE
+  raw_label: 合计
+  normalized_label: 合计
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: TOTAL
+  source_row_order: 14
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: '667199'
+  - period_role: COMPARATIVE
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: 百万元
+    value: '581602'
+- golden_row_id: GROW_23a76ceda4703c32723c
+  physical_table_id: CPIC_2024_ANNUAL_REPORT::MAIN_STATEMENT
+  member_table_id: debt_investment
+  classification_axis: FINANCIAL_INVESTMENT_MEMBER_SET
+  raw_label: 债权投资
+  normalized_label: 债权投资
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: MEMBER
+  source_row_order: null
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: SOURCE_DECLARED
+    value: 64844
+- golden_row_id: GROW_7c80e012fc32bbd72bde
+  physical_table_id: CPIC_2024_ANNUAL_REPORT::debt_investment::PRIMARY
+  member_table_id: debt_investment
+  classification_axis: LISTING_STATUS
+  raw_label: 上市
+  normalized_label: 上市
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 1
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: '3236'
+  - period_role: COMPARATIVE
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: 百万元
+    value: '3902'
+- golden_row_id: GROW_415a2f27a0d171c662d7
+  physical_table_id: CPIC_2024_ANNUAL_REPORT::debt_investment::PRIMARY
+  member_table_id: debt_investment
+  classification_axis: LISTING_STATUS
+  raw_label: 非上市
+  normalized_label: 非上市
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 2
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: '63205'
+  - period_role: COMPARATIVE
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: 百万元
+    value: '79809'
+- golden_row_id: GROW_bb56007cc87808e5eee4
+  physical_table_id: CPIC_2024_ANNUAL_REPORT::debt_investment::PRIMARY
+  member_table_id: debt_investment
+  classification_axis: LISTING_STATUS
+  raw_label: 小计
+  normalized_label: 小计
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: SUBTOTAL
+  source_row_order: 3
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: '66441'
+  - period_role: COMPARATIVE
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: 百万元
+    value: '83711'
+- golden_row_id: GROW_bcd7038a5d2bb3bb9d3c
+  physical_table_id: CPIC_2024_ANNUAL_REPORT::debt_investment::PRIMARY
+  member_table_id: debt_investment
+  classification_axis: LISTING_STATUS
+  raw_label: 减：减值准备
+  normalized_label: 减：减值准备
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 4
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: (1597)
+  - period_role: COMPARATIVE
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: 百万元
+    value: (1377)
+- golden_row_id: GROW_c686c50bc1b85c8129d2
+  physical_table_id: CPIC_2024_ANNUAL_REPORT::debt_investment::PRIMARY
+  member_table_id: debt_investment
+  classification_axis: LISTING_STATUS
+  raw_label: 净额
+  normalized_label: 净额
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: TOTAL
+  source_row_order: 5
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: '64844'
+  - period_role: COMPARATIVE
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: 百万元
+    value: '82334'
+- golden_row_id: GROW_04b98f18da9a78bcd6e3
+  physical_table_id: CPIC_2024_ANNUAL_REPORT::debt_investment::PRIMARY
+  member_table_id: debt_investment
+  classification_axis: ASSET_TYPE
+  raw_label: 债券
+  normalized_label: 债券
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: GROUP
+  source_row_order: 6
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: '21852'
+  - period_role: COMPARATIVE
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: 百万元
+    value: '25688'
+- golden_row_id: GROW_8e00e3196a8d6d3405bc
+  physical_table_id: CPIC_2024_ANNUAL_REPORT::debt_investment::PRIMARY
+  member_table_id: debt_investment
+  classification_axis: ASSET_TYPE
+  raw_label: 政府债
+  normalized_label: 政府债
+  parent_golden_row_id: GROW_04b98f18da9a78bcd6e3
+  semantic_parent_path: 债券
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 7
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: '16435'
+  - period_role: COMPARATIVE
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: 百万元
+    value: '15944'
+- golden_row_id: GROW_ebbe2b7583af378f8f1a
+  physical_table_id: CPIC_2024_ANNUAL_REPORT::debt_investment::PRIMARY
+  member_table_id: debt_investment
+  classification_axis: ASSET_TYPE
+  raw_label: 企业债
+  normalized_label: 企业债
+  parent_golden_row_id: GROW_04b98f18da9a78bcd6e3
+  semantic_parent_path: 债券
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 8
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: '5417'
+  - period_role: COMPARATIVE
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: 百万元
+    value: '9744'
+- golden_row_id: GROW_a6caacab6ed49a7ee091
+  physical_table_id: CPIC_2024_ANNUAL_REPORT::debt_investment::PRIMARY
+  member_table_id: debt_investment
+  classification_axis: ASSET_TYPE
+  raw_label: 债权投资计划
+  normalized_label: 债权投资计划
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 9
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: '35482'
+  - period_role: COMPARATIVE
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: 百万元
+    value: '42846'
+- golden_row_id: GROW_a3f3e7e451e7b81dc586
+  physical_table_id: CPIC_2024_ANNUAL_REPORT::debt_investment::PRIMARY
+  member_table_id: debt_investment
+  classification_axis: ASSET_TYPE
+  raw_label: 信托计划
+  normalized_label: 信托计划
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 10
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: '5065'
+  - period_role: COMPARATIVE
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: 百万元
+    value: '11000'
+- golden_row_id: GROW_e24a2e654e02ac14455c
+  physical_table_id: CPIC_2024_ANNUAL_REPORT::debt_investment::PRIMARY
+  member_table_id: debt_investment
+  classification_axis: ASSET_TYPE
+  raw_label: 其他
+  normalized_label: 其他
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 11
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: '4042'
+  - period_role: COMPARATIVE
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: 百万元
+    value: '4177'
+- golden_row_id: GROW_1f387594e3745234745f
+  physical_table_id: CPIC_2024_ANNUAL_REPORT::debt_investment::PRIMARY
+  member_table_id: debt_investment
+  classification_axis: ASSET_TYPE
+  raw_label: 小计
+  normalized_label: 小计
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: SUBTOTAL
+  source_row_order: 12
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: '66441'
+  - period_role: COMPARATIVE
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: 百万元
+    value: '83711'
+- golden_row_id: GROW_1546b8b479edf5487202
+  physical_table_id: CPIC_2024_ANNUAL_REPORT::debt_investment::PRIMARY
+  member_table_id: debt_investment
+  classification_axis: ASSET_TYPE
+  raw_label: 减：减值准备
+  normalized_label: 减：减值准备
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 13
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: (1597)
+  - period_role: COMPARATIVE
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: 百万元
+    value: (1377)
+- golden_row_id: GROW_c0edb7ca6e27300427f1
+  physical_table_id: CPIC_2024_ANNUAL_REPORT::debt_investment::PRIMARY
+  member_table_id: debt_investment
+  classification_axis: ASSET_TYPE
+  raw_label: 净额
+  normalized_label: 净额
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: TOTAL
+  source_row_order: 14
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: '64844'
+  - period_role: COMPARATIVE
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: 百万元
+    value: '82334'
+- golden_row_id: GROW_3d59496e4fc5b2a48a66
+  physical_table_id: CPIC_2024_ANNUAL_REPORT::MAIN_STATEMENT
+  member_table_id: other_debt_investment
+  classification_axis: FINANCIAL_INVESTMENT_MEMBER_SET
+  raw_label: 其他债权投资
+  normalized_label: 其他债权投资
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: MEMBER
+  source_row_order: null
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: SOURCE_DECLARED
+    value: 1607972
+- golden_row_id: GROW_8ec537200c97b68f36d7
+  physical_table_id: CPIC_2024_ANNUAL_REPORT::other_debt_investment::PRIMARY
+  member_table_id: other_debt_investment
+  classification_axis: LISTING_STATUS
+  raw_label: 上市
+  normalized_label: 上市
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 1
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: '67909'
+  - period_role: COMPARATIVE
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: 百万元
+    value: '60381'
+- golden_row_id: GROW_5b5a52adf332aa0a390e
+  physical_table_id: CPIC_2024_ANNUAL_REPORT::other_debt_investment::PRIMARY
+  member_table_id: other_debt_investment
+  classification_axis: LISTING_STATUS
+  raw_label: 非上市
+  normalized_label: 非上市
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 2
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: '1540063'
+  - period_role: COMPARATIVE
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: 百万元
+    value: '1187054'
+- golden_row_id: GROW_62d6ae5fd466ad5abdce
+  physical_table_id: CPIC_2024_ANNUAL_REPORT::other_debt_investment::PRIMARY
+  member_table_id: other_debt_investment
+  classification_axis: LISTING_STATUS
+  raw_label: 合计
+  normalized_label: 合计
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: TOTAL
+  source_row_order: 3
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: '1607972'
+  - period_role: COMPARATIVE
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: 百万元
+    value: '1247435'
+- golden_row_id: GROW_800b69f2a6625492ae10
+  physical_table_id: CPIC_2024_ANNUAL_REPORT::other_debt_investment::PRIMARY
+  member_table_id: other_debt_investment
+  classification_axis: ASSET_TYPE
+  raw_label: 债券
+  normalized_label: 债券
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: GROUP
+  source_row_order: 4
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: '1345995'
+  - period_role: COMPARATIVE
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: 百万元
+    value: '937989'
+- golden_row_id: GROW_a517d4356ec75328d527
+  physical_table_id: CPIC_2024_ANNUAL_REPORT::other_debt_investment::PRIMARY
+  member_table_id: other_debt_investment
+  classification_axis: ASSET_TYPE
+  raw_label: 政府债
+  normalized_label: 政府债
+  parent_golden_row_id: GROW_800b69f2a6625492ae10
+  semantic_parent_path: 债券
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 5
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: '1139037'
+  - period_role: COMPARATIVE
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: 百万元
+    value: '741151'
+- golden_row_id: GROW_57dedca9d59329da1d61
+  physical_table_id: CPIC_2024_ANNUAL_REPORT::other_debt_investment::PRIMARY
+  member_table_id: other_debt_investment
+  classification_axis: ASSET_TYPE
+  raw_label: 金融债
+  normalized_label: 金融债
+  parent_golden_row_id: GROW_800b69f2a6625492ae10
+  semantic_parent_path: 债券
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 6
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: '68666'
+  - period_role: COMPARATIVE
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: 百万元
+    value: '64922'
+- golden_row_id: GROW_037af42fdb3060a6306c
+  physical_table_id: CPIC_2024_ANNUAL_REPORT::other_debt_investment::PRIMARY
+  member_table_id: other_debt_investment
+  classification_axis: ASSET_TYPE
+  raw_label: 企业债
+  normalized_label: 企业债
+  parent_golden_row_id: GROW_800b69f2a6625492ae10
+  semantic_parent_path: 债券
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 7
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: '138292'
+  - period_role: COMPARATIVE
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: 百万元
+    value: '131916'
+- golden_row_id: GROW_57a702b17b9a39bf38ef
+  physical_table_id: CPIC_2024_ANNUAL_REPORT::other_debt_investment::PRIMARY
+  member_table_id: other_debt_investment
+  classification_axis: ASSET_TYPE
+  raw_label: 债权投资计划
+  normalized_label: 债权投资计划
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 8
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: '163085'
+  - period_role: COMPARATIVE
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: 百万元
+    value: '186881'
+- golden_row_id: GROW_381b9f56f66768cfed1d
+  physical_table_id: CPIC_2024_ANNUAL_REPORT::other_debt_investment::PRIMARY
+  member_table_id: other_debt_investment
+  classification_axis: ASSET_TYPE
+  raw_label: 信托计划
+  normalized_label: 信托计划
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 9
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: '50715'
+  - period_role: COMPARATIVE
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: 百万元
+    value: '80073'
+- golden_row_id: GROW_a152caac1ff01ff28d2c
+  physical_table_id: CPIC_2024_ANNUAL_REPORT::other_debt_investment::PRIMARY
+  member_table_id: other_debt_investment
+  classification_axis: ASSET_TYPE
+  raw_label: 优先股
+  normalized_label: 优先股
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 10
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: '34478'
+  - period_role: COMPARATIVE
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: 百万元
+    value: '33020'
+- golden_row_id: GROW_4a5dc5b49f2bcb3d2719
+  physical_table_id: CPIC_2024_ANNUAL_REPORT::other_debt_investment::PRIMARY
+  member_table_id: other_debt_investment
+  classification_axis: ASSET_TYPE
+  raw_label: 其他
+  normalized_label: 其他
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 11
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: '13699'
+  - period_role: COMPARATIVE
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: 百万元
+    value: '9472'
+- golden_row_id: GROW_80ee272462477f282f40
+  physical_table_id: CPIC_2024_ANNUAL_REPORT::other_debt_investment::PRIMARY
+  member_table_id: other_debt_investment
+  classification_axis: ASSET_TYPE
+  raw_label: 合计
+  normalized_label: 合计
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: TOTAL
+  source_row_order: 12
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: '1607972'
+  - period_role: COMPARATIVE
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: 百万元
+    value: '1247435'
+- golden_row_id: GROW_5adcc1bb27c3e556c0b6
+  physical_table_id: CPIC_2024_ANNUAL_REPORT::other_debt_investment::PRIMARY
+  member_table_id: other_debt_investment
+  classification_axis: MEASUREMENT_COMPOSITION
+  raw_label: 摊余成本
+  normalized_label: 摊余成本
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 13
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: '1366390'
+  - period_role: COMPARATIVE
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: 百万元
+    value: '1143108'
+- golden_row_id: GROW_28d0028dd1e74410988b
+  physical_table_id: CPIC_2024_ANNUAL_REPORT::other_debt_investment::PRIMARY
+  member_table_id: other_debt_investment
+  classification_axis: MEASUREMENT_COMPOSITION
+  raw_label: 累计公允价值变动
+  normalized_label: 累计公允价值变动
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 14
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: '241582'
+  - period_role: COMPARATIVE
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: 百万元
+    value: '104327'
+- golden_row_id: GROW_b8b7bcf3a6f2be1c3307
+  physical_table_id: CPIC_2024_ANNUAL_REPORT::MAIN_STATEMENT
+  member_table_id: other_equity_investment
+  classification_axis: FINANCIAL_INVESTMENT_MEMBER_SET
+  raw_label: 其他权益工具投资
+  normalized_label: 其他权益工具投资
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: MEMBER
+  source_row_order: null
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: SOURCE_DECLARED
+    value: 142014
+- golden_row_id: GROW_ea64c3eef463ad75ea25
+  physical_table_id: CPIC_2024_ANNUAL_REPORT::other_equity_investment::PRIMARY
+  member_table_id: other_equity_investment
+  classification_axis: ASSET_TYPE
+  raw_label: 股票
+  normalized_label: 股票
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 1
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: '76052'
+  - period_role: COMPARATIVE
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: 百万元
+    value: '27110'
+- golden_row_id: GROW_2f2ebdfde9cc044d0e16
+  physical_table_id: CPIC_2024_ANNUAL_REPORT::other_equity_investment::PRIMARY
+  member_table_id: other_equity_investment
+  classification_axis: ASSET_TYPE
+  raw_label: 优先股
+  normalized_label: 优先股
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 2
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: '12642'
+  - period_role: COMPARATIVE
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: 百万元
+    value: '12597'
+- golden_row_id: GROW_4d3fd1aa654e048e0fd2
+  physical_table_id: CPIC_2024_ANNUAL_REPORT::other_equity_investment::PRIMARY
+  member_table_id: other_equity_investment
+  classification_axis: ASSET_TYPE
+  raw_label: 永续债
+  normalized_label: 永续债
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 3
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: '18878'
+  - period_role: COMPARATIVE
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: 百万元
+    value: '28477'
+- golden_row_id: GROW_57adb5bf8c8c47d3c900
+  physical_table_id: CPIC_2024_ANNUAL_REPORT::other_equity_investment::PRIMARY
+  member_table_id: other_equity_investment
+  classification_axis: ASSET_TYPE
+  raw_label: 其他
+  normalized_label: 其他
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 4
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: '34442'
+  - period_role: COMPARATIVE
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: 百万元
+    value: '29781'
+- golden_row_id: GROW_073771859b5464cb10f8
+  physical_table_id: CPIC_2024_ANNUAL_REPORT::other_equity_investment::PRIMARY
+  member_table_id: other_equity_investment
+  classification_axis: ASSET_TYPE
+  raw_label: 合计
+  normalized_label: 合计
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: TOTAL
+  source_row_order: 5
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: '142014'
+  - period_role: COMPARATIVE
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: 百万元
+    value: '97965'
+- golden_row_id: GROW_d44e652d91b73e4d1d6c
+  physical_table_id: CPIC_2024_ANNUAL_REPORT::other_equity_investment::PRIMARY
+  member_table_id: other_equity_investment
+  classification_axis: MEASUREMENT_COMPOSITION
+  raw_label: 成本
+  normalized_label: 成本
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 6
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: '131934'
+  - period_role: COMPARATIVE
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: 百万元
+    value: '95710'
+- golden_row_id: GROW_1ba82bf9beca14fdda8c
+  physical_table_id: CPIC_2024_ANNUAL_REPORT::other_equity_investment::PRIMARY
+  member_table_id: other_equity_investment
+  classification_axis: MEASUREMENT_COMPOSITION
+  raw_label: 累计公允价值变动
+  normalized_label: 累计公允价值变动
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 7
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: '10080'
+  - period_role: COMPARATIVE
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: 百万元
+    value: '2255'
+identity_provenance: DERIVED_FROM_CERTIFIED_GOLDEN_FACTS_NOT_RUNTIME_CAPTURE

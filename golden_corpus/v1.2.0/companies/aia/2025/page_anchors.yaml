@@ -1,0 +1,11 @@
+financial_investment_statement_page: 154
+financial_investment_statement_printed_page: 152
+portfolio_category_page: 44
+portfolio_category_printed_page: 42
+portfolio_measurement_page: 44
+portfolio_measurement_printed_page: 42
+notes_pages:
+  '18':
+    title: 金融投資
+    page: 221
+    printed: 219

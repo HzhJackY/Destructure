@@ -1,0 +1,2 @@
+exclusion_id,company,report_year,filename,pdf_sha256,page_count,file_size,document_modality,previous_inventory_status,exclusion_reason,excluded_by_change_log_id,excluded_date
+EXCL-ICBC_AXA-2025,工银安盛,2025,2025zoar.pdf,5b4dedda91341cf13e78c1f511e0ccca9259735f425399c424bcab988e0cd81f,326,6535489,TEXT_DOMINANT_OR_HYBRID,DOCUMENT_OTHER_NOT_CANONICAL,OUT_OF_TARGET_FOUR_COMPANY_CANONICAL_CORPUS,ACL-1.1.1-GOVERNANCE-MIGRATION,2026-08-04

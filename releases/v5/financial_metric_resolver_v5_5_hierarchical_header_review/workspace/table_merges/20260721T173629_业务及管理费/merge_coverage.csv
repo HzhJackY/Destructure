@@ -1,0 +1,5 @@
+﻿capture_run_id,company,document_year,numeric_source_rows,mapped_or_exact_rows,unmapped_preserved_rows,mapping_coverage,project_conflict_count
+交银人寿2022年报__业务及管理费__20260721T173423,交银人寿,2022,88,88,0,1.0,0
+交银人寿2023年报__业务及管理费__20260721T173420,交银人寿,2023,88,88,0,1.0,0
+交银人寿2024年报__业务及管理费__20260721T173418,交银人寿,2024,87,84,3,0.9655172413793104,0
+交银人寿2025年报__业务及管理费__20260721T171240,交银人寿,2025,92,92,0,1.0,0

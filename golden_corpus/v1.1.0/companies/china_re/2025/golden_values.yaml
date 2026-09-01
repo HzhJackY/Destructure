@@ -1,0 +1,64 @@
+schema_version: '1.1'
+fixture_id: CHINA_RE_2025_GOLDEN_VALUES
+family: financial_investment
+values:
+- member_id: fvtpl_assets
+  raw_label: 以公允價值計量且其變動計入當期損益的金融資產
+  note_reference: '22'
+  current_amount_raw: 112,372,666
+  status: ACTIVE_CURRENT_PERIOD
+  child_table:
+    classification: PRIMARY_TABLE
+    pdf_page_number: 233
+    printed_page_label: '232'
+    note_title: 以公允價值計量且其變動計入當期損益的金融資產
+    unit: RMB_THOUSAND
+    items:
+    - raw_label: 債權型投資-政府債券(上市)
+      normalized_label: 債權型投資-政府債券(上市)
+      amount_2025: 45,674
+      amount_2024_restated: 32,741
+    - raw_label: 債權型投資-金融債券(上市)
+      normalized_label: 債權型投資-金融債券(上市)
+      amount_2025: 1,250,420
+      amount_2024_restated: 1,120,540
+    - raw_label: 債權型投資-企業債券(上市)
+      normalized_label: 債權型投資-企業債券(上市)
+      amount_2025: 6,120,450
+      amount_2024_restated: 5,890,120
+    - raw_label: 股權及基金型投資-基金(上市)
+      normalized_label: 股權及基金型投資-基金(上市)
+      amount_2025: 30,624,000
+      amount_2024_restated: 31,667,000
+    - raw_label: 股權及基金型投資-股票(上市)
+      normalized_label: 股權及基金型投資-股票(上市)
+      amount_2025: 34,628,000
+      amount_2024_restated: 27,088,000
+    - raw_label: 其他投資(非上市及其他)
+      normalized_label: 其他投資(非上市及其他)
+      amount_2025: 39,704,122
+      amount_2024_restated: 52,325,340
+    - raw_label: 合計
+      normalized_label: 合計
+      amount_2025: 112,372,666
+      amount_2024_restated: 118,123,741
+- member_id: debt_investment
+  raw_label: 以攤餘成本計量的金融資產
+  note_reference: '23'
+  current_amount_raw: 62,337,442
+  status: ACTIVE_CURRENT_PERIOD
+- member_id: other_debt_investment
+  raw_label: 以公允價值計量且其變動計入其他綜合收益的債務工具
+  note_reference: '24'
+  current_amount_raw: 165,431,644
+  status: ACTIVE_CURRENT_PERIOD
+- member_id: other_equity_investment
+  raw_label: 以公允價值計量且其變動計入其他綜合收益的權益工具
+  note_reference: '25'
+  current_amount_raw: 19,002,555
+  status: ACTIVE_CURRENT_PERIOD
+- member_id: term_deposits
+  raw_label: 定期存款
+  note_reference: '28'
+  current_amount_raw: 22,497,495
+  status: ACTIVE_CURRENT_PERIOD

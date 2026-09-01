@@ -1,0 +1,262 @@
+identity_contract_version: GOLDEN_IDENTITY_V1_2
+definition_id: FINANCIAL_INVESTMENT_V1
+family: financial_investment
+source_golden_id: PICC_PNC_2025_GOLDEN_VALUES
+filing_identity:
+  company_id: PICC_PNC
+  legal_entity_name: 中国人民财产保险股份有限公司
+  report_year: 2025
+  source_scope: CONSOLIDATED
+  canonical_pdf_filename: 中国财险2025年度报告.pdf
+  pdf_sha256: 36363db8e934dcfea8124a5b9450f7a26bf13be949cb28254b51873328a126f2
+  page_count: 276
+  source_type: ANNUAL_REPORT
+physical_tables:
+- physical_table_id: PICC_PNC_2025::fvtpl_assets::PRIMARY
+  physical_page_number: 168
+  printed_page_number: '166'
+  title: 以公允價值計量且其變動計入當期損益的金融資產
+  unit: RMB_MILLION
+  table_classification: PRIMARY_TABLE
+rows:
+- golden_row_id: GROW_1346740c24fcb1b36496
+  physical_table_id: PICC_PNC_2025::MAIN_STATEMENT
+  member_table_id: debt_investment
+  classification_axis: FINANCIAL_INVESTMENT_MEMBER_SET
+  raw_label: 以攤餘成本計量的金融投資
+  normalized_label: 以攤餘成本計量的金融投資
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: MEMBER
+  source_row_order: null
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年
+    period_identity: YEAR:2025
+    measure: AMOUNT
+    unit: SOURCE_DECLARED
+    value: 150,493
+- golden_row_id: GROW_dc1e80f1486f1012fb49
+  physical_table_id: PICC_PNC_2025::MAIN_STATEMENT
+  member_table_id: other_debt_investment
+  classification_axis: FINANCIAL_INVESTMENT_MEMBER_SET
+  raw_label: 以公允價值計量且其變動計入其他綜合收益的金融資產
+  normalized_label: 以公允價值計量且其變動計入其他綜合收益的金融資產
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: MEMBER
+  source_row_order: null
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年
+    period_identity: YEAR:2025
+    measure: AMOUNT
+    unit: SOURCE_DECLARED
+    value: 286,708
+- golden_row_id: GROW_b4fc079c1ffc27883eab
+  physical_table_id: PICC_PNC_2025::MAIN_STATEMENT
+  member_table_id: fvtpl_assets
+  classification_axis: FINANCIAL_INVESTMENT_MEMBER_SET
+  raw_label: 以公允價值計量且其變動計入當期損益的金融資產
+  normalized_label: 以公允價值計量且其變動計入當期損益的金融資產
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: MEMBER
+  source_row_order: null
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年
+    period_identity: YEAR:2025
+    measure: AMOUNT
+    unit: SOURCE_DECLARED
+    value: 149,630
+- golden_row_id: GROW_059478168ac9ce62ffe4
+  physical_table_id: PICC_PNC_2025::fvtpl_assets::PRIMARY
+  member_table_id: fvtpl_assets
+  classification_axis: ASSET_TYPE
+  raw_label: 債券-國債及政府債
+  normalized_label: 債券-國債及政府債
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 1
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年
+    period_identity: YEAR:2025
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 18,450
+  - period_role: COMPARATIVE
+    period_label: 2024年重述
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 15,420
+- golden_row_id: GROW_385d3006eff3640db733
+  physical_table_id: PICC_PNC_2025::fvtpl_assets::PRIMARY
+  member_table_id: fvtpl_assets
+  classification_axis: ASSET_TYPE
+  raw_label: 債券-金融債
+  normalized_label: 債券-金融債
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 2
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年
+    period_identity: YEAR:2025
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 24,150
+  - period_role: COMPARATIVE
+    period_label: 2024年重述
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 21,850
+- golden_row_id: GROW_e72484ae6207297dba24
+  physical_table_id: PICC_PNC_2025::fvtpl_assets::PRIMARY
+  member_table_id: fvtpl_assets
+  classification_axis: ASSET_TYPE
+  raw_label: 債券-企業債
+  normalized_label: 債券-企業債
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 3
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年
+    period_identity: YEAR:2025
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 17,850
+  - period_role: COMPARATIVE
+    period_label: 2024年重述
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 16,540
+- golden_row_id: GROW_95ee85810d0f6719de75
+  physical_table_id: PICC_PNC_2025::fvtpl_assets::PRIMARY
+  member_table_id: fvtpl_assets
+  classification_axis: ASSET_TYPE
+  raw_label: 基金
+  normalized_label: 基金
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 4
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年
+    period_identity: YEAR:2025
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 39,114
+  - period_role: COMPARATIVE
+    period_label: 2024年重述
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 36,834
+- golden_row_id: GROW_1bdfa5eec36c1a15a9a8
+  physical_table_id: PICC_PNC_2025::fvtpl_assets::PRIMARY
+  member_table_id: fvtpl_assets
+  classification_axis: ASSET_TYPE
+  raw_label: 股票
+  normalized_label: 股票
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 5
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年
+    period_identity: YEAR:2025
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 86,546
+  - period_role: COMPARATIVE
+    period_label: 2024年重述
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 48,781
+- golden_row_id: GROW_01aa6e4fbfcad9d8c43e
+  physical_table_id: PICC_PNC_2025::fvtpl_assets::PRIMARY
+  member_table_id: fvtpl_assets
+  classification_axis: ASSET_TYPE
+  raw_label: 其他
+  normalized_label: 其他
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 6
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年
+    period_identity: YEAR:2025
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 4,520
+  - period_role: COMPARATIVE
+    period_label: 2024年重述
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 4,541
+- golden_row_id: GROW_06855456d727d52b2aba
+  physical_table_id: PICC_PNC_2025::fvtpl_assets::PRIMARY
+  member_table_id: fvtpl_assets
+  classification_axis: ASSET_TYPE
+  raw_label: 合計
+  normalized_label: 合計
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 7
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年
+    period_identity: YEAR:2025
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 149,630
+  - period_role: COMPARATIVE
+    period_label: 2024年重述
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 120,066
+- golden_row_id: GROW_dedada259b529b0c9b8a
+  physical_table_id: PICC_PNC_2025::MAIN_STATEMENT
+  member_table_id: term_deposits
+  classification_axis: FINANCIAL_INVESTMENT_MEMBER_SET
+  raw_label: 定期存款
+  normalized_label: 定期存款
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: MEMBER
+  source_row_order: null
+  period_values:
+  - period_role: CURRENT
+    period_label: 2025年
+    period_identity: YEAR:2025
+    measure: AMOUNT
+    unit: SOURCE_DECLARED
+    value: 64,482
+identity_provenance: DERIVED_FROM_CERTIFIED_GOLDEN_FACTS_NOT_RUNTIME_CAPTURE

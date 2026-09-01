@@ -1,0 +1,30 @@
+{
+  "fixture_id": "XINHUA_2025",
+  "company": "新华保险",
+  "report_year": "2025",
+  "pdf_filename": "新华保险2025年报.pdf",
+  "pdf_sha256": "4a5d6ee54dc0a351acac6d9d3ce1d0eee6d4a388c4c36c1668a35d5ffd35c528",
+  "document_modality": "TEXT_LAYER",
+  "disclosure_pattern": "EXPLICIT_PARENT_MULTI_NOTE",
+  "statement_scope": "CONSOLIDATED",
+  "research_definition_id": "FINANCIAL_INVESTMENT_V1",
+  "definition_version": "FINANCIAL_INVESTMENT_V1",
+  "expected_resolution_mode": "EXPLICIT_PARENT",
+  "expected_parent_present": true,
+  "expected_parent_label": "金融投资",
+  "expected_required_members": [
+    "fvtpl_assets",
+    "debt_investment",
+    "other_debt_investment",
+    "other_equity_investment"
+  ],
+  "expected_forbidden_members": [
+    "time_deposits",
+    "long_term_equity"
+  ],
+  "known_constraints": [
+    "requires_cross_page_boundary"
+  ],
+  "source_pages": [],
+  "annotation_status": "PATTERN_CANDIDATE"
+}

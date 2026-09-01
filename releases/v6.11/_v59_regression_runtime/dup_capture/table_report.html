@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<title>整表抓取报告</title>
+<style>
+body{font-family:Arial,'Microsoft YaHei',sans-serif;margin:28px;color:#1f2937}
+pre{white-space:pre-wrap;background:#f6f8fa;padding:16px;border-radius:8px}
+table{border-collapse:collapse;width:100%;font-size:13px}
+th,td{border:1px solid #d1d5db;padding:6px 8px;text-align:right}
+th:first-child,td:first-child{text-align:left}
+</style></head><body>
+<h1>整表抓取报告</h1>
+<pre># 整表抓取报告
+
+- PDF: `dup.pdf`
+- 查询表: `业务及管理费`
+- 定位标题: `34业务及管理费`
+- 页码: `1–1`
+- 实际表格页: `1`
+- 列数: `8`
+- 行数: `1`
+
+## 列结构
+
+- col0: year=2024 | scope=本集团 | restated=False | raw=本集团|2024
+- col1: year=2024 | scope=本集团 | restated=False | raw=本集团|2024
+- col2: year=2023 | scope=本集团 | restated=True | raw=本集团|2023
+- col3: year=2023 | scope=本集团 | restated=True | raw=本集团|2023
+- col4: year=2024 | scope=本公司 | restated=False | raw=本公司|2024
+- col5: year=2024 | scope=本公司 | restated=False | raw=本公司|2024
+- col6: year=2023 | scope=本公司 | restated=True | raw=本公司|2023
+- col7: year=2023 | scope=本公司 | restated=True | raw=本公司|2023
+
+## 警告
+
+- 表头维度存在碰撞/缺失：重复期间列无法由 year/scope/restated 唯一区分；请完成“表头维度复核”后再进入正式合表。
+
+## 说明
+
+- `raw_item` 永久保留PDF原始行名。
+- `normalized_item` 只做确定性文本清洗，不改变经济含义。
+- `canonical_item` 整表抓取层默认不强制映射；跨公司细项统一由“合表 / Taxonomy”工作区完成。</pre>
+<h2>宽表预览</h2>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>row_order</th>
+      <th>row_type</th>
+      <th>parent_section</th>
+      <th>raw_item</th>
+      <th>normalized_item</th>
+      <th>unit</th>
+      <th>container_id</th>
+      <th>table_block_id</th>
+      <th>block_order</th>
+      <th>classification_axis</th>
+      <th>block_role</th>
+      <th>block_terminal_type</th>
+      <th>row_role</th>
+      <th>row_item_raw</th>
+      <th>row_item_normalized</th>
+      <th>label_derivation</th>
+      <th>derivation_method</th>
+      <th>derived_from_rows</th>
+      <th>derivation_evidence</th>
+      <th>2023 本公司 已重述 [col6]</th>
+      <th>2023 本公司 已重述 [col7]</th>
+      <th>2023 本集团 已重述 [col2]</th>
+      <th>2023 本集团 已重述 [col3]</th>
+      <th>2024 本公司 [col4]</th>
+      <th>2024 本公司 [col5]</th>
+      <th>2024 本集团 [col0]</th>
+      <th>2024 本集团 [col1]</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>TOTAL</td>
+      <td>None</td>
+      <td>合计</td>
+      <td>合计</td>
+      <td>元</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>UNRESOLVED</td>
+      <td>UNRESOLVED</td>
+      <td>UNRESOLVED</td>
+      <td>TOTAL</td>
+      <td>None</td>
+      <td>None</td>
+      <td>EXPLICIT_TEXT</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>70.0</td>
+      <td>70.0</td>
+      <td>90.0</td>
+      <td>90.0</td>
+      <td>80.0</td>
+      <td>80.0</td>
+      <td>100.0</td>
+      <td>100.0</td>
+    </tr>
+  </tbody>
+</table>
+</body></html>

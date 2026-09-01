@@ -1,0 +1,29 @@
+returncode=0
+
+STDOUT
+1/4 正在解析 PDF 文本、表格和坐标行...
+   pages=2 table_blocks=4 fallback_blocks=2
+2/4 正在解析指标...
+   [RESOLVED       ] 营业收入 -> 营业收入 | L0 | conf=1.000 | p.1 | 一、营业总收入 | 125,000
+   [RESOLVED       ] 净利润 -> 净利润 | L0 | conf=1.000 | p.1 | 四、净利润 | 18,000
+   [RESOLVED       ] 归母净利润 -> 归母净利润 | L0 | conf=1.000 | p.1 | 归属于母公司股东的净利润 | 17,200
+   [RESOLVED       ] 保险合同负债 -> 保险合同负债 | L0 | conf=1.000 | p.2 | 保险合同负债 | 2,440,000
+3/4 正在生成机器结果和人工报告...
+4/4 完成
+   人工HTML报告: /mnt/data/financial_metric_resolver_v3_pdf/demo_output/report.html
+   人工Markdown报告: /mnt/data/financial_metric_resolver_v3_pdf/demo_output/report.md
+   机器JSON: /mnt/data/financial_metric_resolver_v3_pdf/demo_output/results.json
+   审计JSONL: /mnt/data/financial_metric_resolver_v3_pdf/demo_output/audit.jsonl
+
+
+STDERR
+Spreadsheet runtime warmup failed during python startup
+Traceback (most recent call last):
+  File "/tmp/tmp.yTcnQsZYiA/artifact_tool_v2-2.8.4/artifact_tool/patches/warm_spreadsheet_runtime_on_startup.py", line 26, in warm_spreadsheet_runtime_on_startup
+  File "/tmp/tmp.yTcnQsZYiA/artifact_tool_v2-2.8.4/artifact_tool/spreadsheet_warmup.py", line 785, in warm_spreadsheet_runtime
+  File "/tmp/tmp.yTcnQsZYiA/artifact_tool_v2-2.8.4/artifact_tool/spreadsheet_warmup.py", line 720, in _warm_feature_flows
+  File "/tmp/tmp.yTcnQsZYiA/artifact_tool_v2-2.8.4/artifact_tool/spreadsheet_warmup.py", line 704, in _warm_collaboration_flows
+  File "/tmp/tmp.yTcnQsZYiA/artifact_tool_v2-2.8.4/artifact_tool/generated/interface/models.py", line 30820, in hydrate_crdt_from_proto
+  File "/tmp/tmp.yTcnQsZYiA/artifact_tool_v2-2.8.4/artifact_tool/rpc/remote.py", line 749, in __call__
+  File "/tmp/tmp.yTcnQsZYiA/artifact_tool_v2-2.8.4/artifact_tool/rpc/client.py", line 150, in call
+artifact_tool.rpc.client.RemoteError: hydrateCrdtFromProto requires an empty collaborative document.

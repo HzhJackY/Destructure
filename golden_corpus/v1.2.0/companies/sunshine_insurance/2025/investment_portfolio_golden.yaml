@@ -1,0 +1,210 @@
+schema_version: investment_portfolio_golden_v2
+golden_id: SUNSHINE_INSURANCE_2025_INVESTMENT_PORTFOLIO
+family: investment_portfolio
+company_id: SUNSHINE_INSURANCE
+legal_entity_name: 阳光保险集团股份有限公司
+report_year: 2025
+source:
+  canonical_pdf_filename: 阳光保险2025年度报告.pdf
+  pdf_sha256: 04ec5cf39c1e1d1d8b7522f87c4f32cb87d524071a9368d82949885942385198
+  page_count: 290
+  source_type: ANNUAL_REPORT
+source_scope: LISTED_PARENT_CONSOLIDATED
+disclosure_topology: DIRECT_SEPARATE_TABLES_SAME_PAGE
+reported_portfolio_total:
+  status: DISCLOSED
+  derivation_allowed: false
+physical_assets:
+- asset_id: SUNSHINE_INSURANCE_2025_PORTFOLIO_BY_CATEGORY
+  physical_page_number: 44
+  printed_page_number: 43
+  title: 投资组合（按投资品种）
+  unit: RMB_MILLION
+  native_text_verified: true
+  ocr_used: false
+  blocks:
+  - member_id: portfolio_by_category
+    classification_axis: BY_INVESTMENT_OBJECT
+    logical_title: 投资组合（按投资品种）
+    current_period:
+      label: 2025年12月31日
+      amount: 640195
+      ratio_percent: 100.0
+    comparative_period:
+      label: 2024年12月31日
+      amount: 548579
+      ratio_percent: 100.0
+    rows:
+    - row_order: 1
+      raw_label: 固定收益類金融資產
+      normalized_label: 固定收益類金融資產
+      row_kind: GROUP
+      current_amount: 461991
+      current_ratio_percent: 72.1
+      comparative_amount: 392028
+      comparative_ratio_percent: 71.5
+    - row_order: 2
+      raw_label: 定期存款
+      normalized_label: 定期存款
+      row_kind: DATA
+      current_amount: 21904
+      current_ratio_percent: 3.4
+      comparative_amount: 9917
+      comparative_ratio_percent: 1.8
+    - row_order: 3
+      raw_label: 債券投資
+      normalized_label: 債券投資
+      row_kind: DATA
+      current_amount: 334287
+      current_ratio_percent: 52.2
+      comparative_amount: 316569
+      comparative_ratio_percent: 57.7
+    - row_order: 4
+      raw_label: 理財產品投資
+      normalized_label: 理財產品投資
+      row_kind: DATA
+      current_amount: 83330
+      current_ratio_percent: 13.0
+      comparative_amount: 51650
+      comparative_ratio_percent: 9.4
+    - row_order: 5
+      raw_label: 其他債權投資
+      normalized_label: 其他債權投資
+      row_kind: DATA
+      current_amount: 22470
+      current_ratio_percent: 3.5
+      comparative_amount: 13892
+      comparative_ratio_percent: 2.6
+    - row_order: 6
+      raw_label: 權益類金融資產
+      normalized_label: 權益類金融資產
+      row_kind: GROUP
+      current_amount: 136431
+      current_ratio_percent: 21.4
+      comparative_amount: 119540
+      comparative_ratio_percent: 21.8
+    - row_order: 7
+      raw_label: 股票
+      normalized_label: 股票
+      row_kind: DATA
+      current_amount: 87514
+      current_ratio_percent: 13.7
+      comparative_amount: 67580
+      comparative_ratio_percent: 12.3
+    - row_order: 8
+      raw_label: 權益型基金
+      normalized_label: 權益型基金
+      row_kind: DATA
+      current_amount: 7444
+      current_ratio_percent: 1.2
+      comparative_amount: 5269
+      comparative_ratio_percent: 1.0
+    - row_order: 9
+      raw_label: 理財產品投資
+      normalized_label: 理財產品投資
+      row_kind: DATA
+      current_amount: 30819
+      current_ratio_percent: 4.8
+      comparative_amount: 32238
+      comparative_ratio_percent: 5.9
+    - row_order: 10
+      raw_label: 其他股權投資
+      normalized_label: 其他股權投資
+      row_kind: DATA
+      current_amount: 10654
+      current_ratio_percent: 1.7
+      comparative_amount: 14453
+      comparative_ratio_percent: 2.6
+    - row_order: 11
+      raw_label: 聯營企業和合營企業投資
+      normalized_label: 聯營企業和合營企業投資
+      row_kind: DATA
+      current_amount: 11690
+      current_ratio_percent: 1.8
+      comparative_amount: 10445
+      comparative_ratio_percent: 1.9
+    - row_order: 12
+      raw_label: 投資性房地產
+      normalized_label: 投資性房地產
+      row_kind: DATA
+      current_amount: 9274
+      current_ratio_percent: 1.4
+      comparative_amount: 9710
+      comparative_ratio_percent: 1.8
+    - row_order: 13
+      raw_label: 現金、現金等價物及其他
+      normalized_label: 現金、現金等價物及其他
+      row_kind: DATA
+      current_amount: 20809
+      current_ratio_percent: 3.3
+      comparative_amount: 16856
+      comparative_ratio_percent: 3.0
+    - row_order: 14
+      raw_label: 投資資產（合計）
+      normalized_label: 投資資產（合計）
+      row_kind: TOTAL
+      current_amount: 640195
+      current_ratio_percent: 100.0
+      comparative_amount: 548579
+      comparative_ratio_percent: 100.0
+- asset_id: SUNSHINE_INSURANCE_2025_PORTFOLIO_BY_MEASUREMENT
+  physical_page_number: 46
+  printed_page_number: 45
+  title: 投资组合（按会计计量）
+  unit: RMB_MILLION
+  native_text_verified: true
+  ocr_used: false
+  blocks:
+  - member_id: portfolio_by_measurement
+    classification_axis: BY_ACCOUNTING_MEASUREMENT
+    logical_title: 投资组合（按会计计量）
+    current_period:
+      label: 2025年12月31日
+      amount: 640195
+      ratio_percent: 100.0
+    comparative_period:
+      label: 2024年12月31日
+      amount: 548579
+      ratio_percent: 100.0
+    rows:
+    - row_order: 1
+      raw_label: 以公允價值計量且其變動計入當期損益的金融資產
+      normalized_label: 以公允價值計量且其變動計入當期損益的金融資產
+      row_kind: DATA
+      current_amount: 178390
+      current_ratio_percent: 27.9
+      comparative_amount: 137579
+      comparative_ratio_percent: 25.1
+    - row_order: 2
+      raw_label: 以公允價值計量且其變動計入其他綜合收益的金融資產
+      normalized_label: 以公允價值計量且其變動計入其他綜合收益的金融資產
+      row_kind: DATA
+      current_amount: 383632
+      current_ratio_percent: 59.9
+      comparative_amount: 360005
+      comparative_ratio_percent: 65.6
+    - row_order: 3
+      raw_label: 以攤餘成本計量的金融資產及其他
+      normalized_label: 以攤餘成本計量的金融資產及其他
+      row_kind: DATA
+      current_amount: 78173
+      current_ratio_percent: 12.2
+      comparative_amount: 50995
+      comparative_ratio_percent: 9.3
+    - row_order: 4
+      raw_label: 投資資產（合計）
+      normalized_label: 投資資產（合計）
+      row_kind: TOTAL
+      current_amount: 640195
+      current_ratio_percent: 100.0
+      comparative_amount: 548579
+      comparative_ratio_percent: 100.0
+coverage:
+  asset_identity: FULL
+  total_values: FULL
+  row_values: FULL
+annotation_status: CERTIFIED_GOLDEN_ROW_VALUES
+reviewer: Codex_Agent_Adjudicator
+review_date: '2026-08-30'
+audit_note: Independently physically verified from official PDF for 阳光保险 2025. Unit
+  and total corroborated.

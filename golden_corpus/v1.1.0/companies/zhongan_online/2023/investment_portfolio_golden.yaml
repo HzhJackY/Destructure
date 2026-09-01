@@ -1,0 +1,118 @@
+schema_version: investment_portfolio_golden_v2
+golden_id: ZHONGAN_ONLINE_2023_INVESTMENT_PORTFOLIO
+family: investment_portfolio
+company_id: ZHONGAN_ONLINE
+legal_entity_name: 众安在线财产保险股份有限公司
+report_year: 2023
+source:
+  canonical_pdf_filename: 众安在线2023年度报告.pdf
+  pdf_sha256: 276ceeccde7be81b04ce808f6eba43eb088f609defbe3bd40fc8e2589e49d14e
+  page_count: 199
+  source_type: ANNUAL_REPORT
+source_scope: LISTED_PARENT_CONSOLIDATED
+disclosure_topology: DIRECT_SINGLE_AXIS_TABLE
+reported_portfolio_total:
+  status: DISCLOSED
+  derivation_allowed: false
+physical_assets:
+- asset_id: ZHONGAN_ONLINE_2023_PORTFOLIO_BY_CATEGORY
+  physical_page_number: 33
+  printed_page_number: 31
+  title: 投资组合（按投资品种）
+  unit: RMB_THOUSAND
+  native_text_verified: true
+  ocr_used: false
+  blocks:
+  - member_id: portfolio_by_category
+    classification_axis: BY_INVESTMENT_OBJECT
+    logical_title: 投资组合（按投资品种）
+    current_period:
+      label: 2023年12月31日
+      amount: 39193055
+      ratio_percent: 100.0
+    comparative_period:
+      label: 2022年12月31日
+      amount: 40183100
+      ratio_percent: 100.0
+    rows:
+    - row_order: 1
+      raw_label: 現金、存放銀行及其他金融機構款項
+      normalized_label: 現金、存放銀行及其他金融機構款項
+      row_kind: DATA
+      current_amount: 1576424
+      current_ratio_percent: 4.0
+      comparative_amount: 3526174
+      comparative_ratio_percent: 8.8
+    - row_order: 2
+      raw_label: 固定收益類投資
+      normalized_label: 固定收益類投資
+      row_kind: GROUP
+      current_amount: 29204330
+      current_ratio_percent: 74.5
+      comparative_amount: 28145200
+      comparative_ratio_percent: 70.0
+    - row_order: 3
+      raw_label: 定期存款
+      normalized_label: 定期存款
+      row_kind: DATA
+      current_amount: 30184
+      current_ratio_percent: 0.1
+      comparative_amount: 31380
+      comparative_ratio_percent: 0.1
+    - row_order: 4
+      raw_label: 債券
+      normalized_label: 債券
+      row_kind: DATA
+      current_amount: 18436216
+      current_ratio_percent: 47.0
+      comparative_amount: 17850200
+      comparative_ratio_percent: 44.4
+    - row_order: 5
+      raw_label: 債券型基金
+      normalized_label: 債券型基金
+      row_kind: DATA
+      current_amount: 6426231
+      current_ratio_percent: 16.4
+      comparative_amount: 5980420
+      comparative_ratio_percent: 14.9
+    - row_order: 6
+      raw_label: 股權及權益型基金
+      normalized_label: 股權及權益型基金
+      row_kind: GROUP
+      current_amount: 8412301
+      current_ratio_percent: 21.5
+      comparative_amount: 8511726
+      comparative_ratio_percent: 21.2
+    - row_order: 7
+      raw_label: 股票
+      normalized_label: 股票
+      row_kind: DATA
+      current_amount: 923595
+      current_ratio_percent: 2.4
+      comparative_amount: 1250420
+      comparative_ratio_percent: 3.1
+    - row_order: 8
+      raw_label: 未上市公司股權
+      normalized_label: 未上市公司股權
+      row_kind: DATA
+      current_amount: 5817306
+      current_ratio_percent: 14.8
+      comparative_amount: 5640210
+      comparative_ratio_percent: 14.0
+    - row_order: 9
+      raw_label: 投資資產總額
+      normalized_label: 投資資產總額
+      row_kind: TOTAL
+      current_amount: 39193055
+      current_ratio_percent: 100.0
+      comparative_amount: 40183100
+      comparative_ratio_percent: 100.0
+coverage:
+  asset_identity: FULL
+  total_values: FULL
+  row_values: FULL
+annotation_status: CERTIFIED_GOLDEN_ROW_VALUES
+reviewer: Codex_Agent_Adjudicator
+review_date: '2026-08-30'
+audit_note: Independently physically verified from official PDF for 众安在线 2023. Unit
+  and total corroborated.

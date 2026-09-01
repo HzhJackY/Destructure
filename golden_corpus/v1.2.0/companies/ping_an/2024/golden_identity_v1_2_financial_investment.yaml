@@ -1,0 +1,1120 @@
+identity_contract_version: GOLDEN_IDENTITY_V1_2
+definition_id: FINANCIAL_INVESTMENT_V1
+family: financial_investment
+source_golden_id: PING_AN_2024_GOLDEN_VALUES
+filing_identity:
+  company_id: PING_AN
+  legal_entity_name: 中国平安保险（集团）股份有限公司
+  report_year: 2024
+  source_scope: CONSOLIDATED
+  canonical_pdf_filename: 中国平安2024年报.pdf
+  pdf_sha256: 6ffff1cade59c64c8178494c083cac8a4011ef5ae2fed32f85dd488a64a809b2
+  page_count: 346
+  source_type: ANNUAL_REPORT
+physical_tables:
+- physical_table_id: PING_AN_2024_ANNUAL_REPORT::fvtpl_assets::PRIMARY
+  physical_page_number: 233
+  printed_page_number: null
+  title: 9. 以公允价值计量且其变动计入当期损益的金融资产
+  unit: 百万元
+  table_classification: PRIMARY_TABLE
+- physical_table_id: PING_AN_2024_ANNUAL_REPORT::debt_investment::PRIMARY
+  physical_page_number: 233
+  printed_page_number: null
+  title: 10. 债权投资
+  unit: 百万元
+  table_classification: PRIMARY_TABLE
+- physical_table_id: PING_AN_2024_ANNUAL_REPORT::other_debt_investment::PRIMARY
+  physical_page_number: 234
+  printed_page_number: null
+  title: 11. 其他债权投资
+  unit: 百万元
+  table_classification: PRIMARY_TABLE
+- physical_table_id: PING_AN_2024_ANNUAL_REPORT::other_equity_investment::PRIMARY
+  physical_page_number: 234
+  printed_page_number: null
+  title: 12. 其他权益工具投资
+  unit: 百万元
+  table_classification: PRIMARY_TABLE
+rows:
+- golden_row_id: GROW_3fc7b7f445b2791d845e
+  physical_table_id: PING_AN_2024_ANNUAL_REPORT::MAIN_STATEMENT
+  member_table_id: fvtpl_assets
+  classification_axis: FINANCIAL_INVESTMENT_MEMBER_SET
+  raw_label: 以公允价值计量且其变动计入当期损益的金融资产
+  normalized_label: 以公允价值计量且其变动计入当期损益的金融资产
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: MEMBER
+  source_row_order: null
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: SOURCE_DECLARED
+    value: 2,377,074
+- golden_row_id: GROW_06125ad18ae1f9fc67ce
+  physical_table_id: PING_AN_2024_ANNUAL_REPORT::fvtpl_assets::PRIMARY
+  member_table_id: fvtpl_assets
+  classification_axis: ASSET_TYPE
+  raw_label: 债券 - 政府债
+  normalized_label: 债券 - 政府债
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 1
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: 288,136
+  - period_role: COMPARATIVE
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: 百万元
+    value: 200,566
+- golden_row_id: GROW_e201c0809db92d98b368
+  physical_table_id: PING_AN_2024_ANNUAL_REPORT::fvtpl_assets::PRIMARY
+  member_table_id: fvtpl_assets
+  classification_axis: ASSET_TYPE
+  raw_label: 债券 - 金融债
+  normalized_label: 债券 - 金融债
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 2
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: 545,284
+  - period_role: COMPARATIVE
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: 百万元
+    value: 307,378
+- golden_row_id: GROW_428113fb6eff07603781
+  physical_table_id: PING_AN_2024_ANNUAL_REPORT::fvtpl_assets::PRIMARY
+  member_table_id: fvtpl_assets
+  classification_axis: ASSET_TYPE
+  raw_label: 债券 - 企业债
+  normalized_label: 债券 - 企业债
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 3
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: 134,872
+  - period_role: COMPARATIVE
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: 百万元
+    value: 78,485
+- golden_row_id: GROW_ad6e5c591d284e32857e
+  physical_table_id: PING_AN_2024_ANNUAL_REPORT::fvtpl_assets::PRIMARY
+  member_table_id: fvtpl_assets
+  classification_axis: ASSET_TYPE
+  raw_label: 基金
+  normalized_label: 基金
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 4
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: 507,934
+  - period_role: COMPARATIVE
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: 百万元
+    value: 475,511
+- golden_row_id: GROW_955f49cd7a7f3bb10839
+  physical_table_id: PING_AN_2024_ANNUAL_REPORT::fvtpl_assets::PRIMARY
+  member_table_id: fvtpl_assets
+  classification_axis: ASSET_TYPE
+  raw_label: 股票
+  normalized_label: 股票
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 5
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: 204,583
+  - period_role: COMPARATIVE
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: 百万元
+    value: 156,514
+- golden_row_id: GROW_be7f9ece419d8baf22e2
+  physical_table_id: PING_AN_2024_ANNUAL_REPORT::fvtpl_assets::PRIMARY
+  member_table_id: fvtpl_assets
+  classification_axis: ASSET_TYPE
+  raw_label: 优先股
+  normalized_label: 优先股
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 6
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: 23,193
+  - period_role: COMPARATIVE
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: 百万元
+    value: 22,929
+- golden_row_id: GROW_03717c5e33533d166f55
+  physical_table_id: PING_AN_2024_ANNUAL_REPORT::fvtpl_assets::PRIMARY
+  member_table_id: fvtpl_assets
+  classification_axis: ASSET_TYPE
+  raw_label: 非上市股权
+  normalized_label: 非上市股权
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 7
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: 136,962
+  - period_role: COMPARATIVE
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: 百万元
+    value: 127,304
+- golden_row_id: GROW_16c1efc966d7d348ae22
+  physical_table_id: PING_AN_2024_ANNUAL_REPORT::fvtpl_assets::PRIMARY
+  member_table_id: fvtpl_assets
+  classification_axis: ASSET_TYPE
+  raw_label: 债权计划
+  normalized_label: 债权计划
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 8
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: 73,039
+  - period_role: COMPARATIVE
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: 百万元
+    value: 72,237
+- golden_row_id: GROW_0b5a39bc9cec01b21ad7
+  physical_table_id: PING_AN_2024_ANNUAL_REPORT::fvtpl_assets::PRIMARY
+  member_table_id: fvtpl_assets
+  classification_axis: ASSET_TYPE
+  raw_label: 理财产品投资
+  normalized_label: 理财产品投资
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 9
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: 315,956
+  - period_role: COMPARATIVE
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: 百万元
+    value: 258,313
+- golden_row_id: GROW_338ad7ddda35bb5ee81c
+  physical_table_id: PING_AN_2024_ANNUAL_REPORT::fvtpl_assets::PRIMARY
+  member_table_id: fvtpl_assets
+  classification_axis: ASSET_TYPE
+  raw_label: 其他投资
+  normalized_label: 其他投资
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 10
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: 147,115
+  - period_role: COMPARATIVE
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: 百万元
+    value: 103,810
+- golden_row_id: GROW_50656bf252e7dbbdf7f5
+  physical_table_id: PING_AN_2024_ANNUAL_REPORT::fvtpl_assets::PRIMARY
+  member_table_id: fvtpl_assets
+  classification_axis: ASSET_TYPE
+  raw_label: 合计
+  normalized_label: 合计
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 11
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: 2,377,074
+  - period_role: COMPARATIVE
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: 百万元
+    value: 1,803,047
+- golden_row_id: GROW_b346702dfc9183f9da3f
+  physical_table_id: PING_AN_2024_ANNUAL_REPORT::fvtpl_assets::PRIMARY
+  member_table_id: fvtpl_assets
+  classification_axis: ASSET_TYPE
+  raw_label: 上市
+  normalized_label: 上市
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 12
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: 402,520
+  - period_role: COMPARATIVE
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: 百万元
+    value: 316,044
+- golden_row_id: GROW_9de7f055061440338b2c
+  physical_table_id: PING_AN_2024_ANNUAL_REPORT::fvtpl_assets::PRIMARY
+  member_table_id: fvtpl_assets
+  classification_axis: ASSET_TYPE
+  raw_label: 非上市
+  normalized_label: 非上市
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 13
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: 1,974,554
+  - period_role: COMPARATIVE
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: 百万元
+    value: 1,487,003
+- golden_row_id: GROW_4c56195b3053dfdb62aa
+  physical_table_id: PING_AN_2024_ANNUAL_REPORT::MAIN_STATEMENT
+  member_table_id: debt_investment
+  classification_axis: FINANCIAL_INVESTMENT_MEMBER_SET
+  raw_label: 债权投资
+  normalized_label: 债权投资
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: MEMBER
+  source_row_order: null
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: SOURCE_DECLARED
+    value: 1,232,450
+- golden_row_id: GROW_e749b63f3947ec512002
+  physical_table_id: PING_AN_2024_ANNUAL_REPORT::debt_investment::PRIMARY
+  member_table_id: debt_investment
+  classification_axis: ASSET_TYPE
+  raw_label: 债券 - 政府债
+  normalized_label: 债券 - 政府债
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 1
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: 899,265
+  - period_role: COMPARATIVE
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: 百万元
+    value: 892,641
+- golden_row_id: GROW_e2e7d9ba4e964031c1b2
+  physical_table_id: PING_AN_2024_ANNUAL_REPORT::debt_investment::PRIMARY
+  member_table_id: debt_investment
+  classification_axis: ASSET_TYPE
+  raw_label: 债券 - 金融债
+  normalized_label: 债券 - 金融债
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 2
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: 44,236
+  - period_role: COMPARATIVE
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: 百万元
+    value: 32,113
+- golden_row_id: GROW_533ab6cdfddf0458b09e
+  physical_table_id: PING_AN_2024_ANNUAL_REPORT::debt_investment::PRIMARY
+  member_table_id: debt_investment
+  classification_axis: ASSET_TYPE
+  raw_label: 债券 - 企业债
+  normalized_label: 债券 - 企业债
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 3
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: 36,758
+  - period_role: COMPARATIVE
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: 百万元
+    value: 47,433
+- golden_row_id: GROW_45dc9a792502ae4e8784
+  physical_table_id: PING_AN_2024_ANNUAL_REPORT::debt_investment::PRIMARY
+  member_table_id: debt_investment
+  classification_axis: ASSET_TYPE
+  raw_label: 债权计划
+  normalized_label: 债权计划
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 4
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: 15,415
+  - period_role: COMPARATIVE
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: 百万元
+    value: 14,196
+- golden_row_id: GROW_10abaea3c49da2b53be5
+  physical_table_id: PING_AN_2024_ANNUAL_REPORT::debt_investment::PRIMARY
+  member_table_id: debt_investment
+  classification_axis: ASSET_TYPE
+  raw_label: 理财产品投资
+  normalized_label: 理财产品投资
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 5
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: 111,117
+  - period_role: COMPARATIVE
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: 百万元
+    value: 117,172
+- golden_row_id: GROW_6e396a422cd116eded4c
+  physical_table_id: PING_AN_2024_ANNUAL_REPORT::debt_investment::PRIMARY
+  member_table_id: debt_investment
+  classification_axis: ASSET_TYPE
+  raw_label: 其他投资
+  normalized_label: 其他投资
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 6
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: 188,792
+  - period_role: COMPARATIVE
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: 百万元
+    value: 186,775
+- golden_row_id: GROW_ee733027c2d85313a0a9
+  physical_table_id: PING_AN_2024_ANNUAL_REPORT::debt_investment::PRIMARY
+  member_table_id: debt_investment
+  classification_axis: ASSET_TYPE
+  raw_label: 总额
+  normalized_label: 总额
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 7
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: 1,295,583
+  - period_role: COMPARATIVE
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: 百万元
+    value: 1,290,330
+- golden_row_id: GROW_6ce43bfb3afe67aa5ec4
+  physical_table_id: PING_AN_2024_ANNUAL_REPORT::debt_investment::PRIMARY
+  member_table_id: debt_investment
+  classification_axis: ASSET_TYPE
+  raw_label: 减：减值准备
+  normalized_label: 减：减值准备
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 8
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: (63,133)
+  - period_role: COMPARATIVE
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: 百万元
+    value: (46,977)
+- golden_row_id: GROW_7d1b092fd973be89bf7e
+  physical_table_id: PING_AN_2024_ANNUAL_REPORT::debt_investment::PRIMARY
+  member_table_id: debt_investment
+  classification_axis: ASSET_TYPE
+  raw_label: 净额
+  normalized_label: 净额
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 9
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: 1,232,450
+  - period_role: COMPARATIVE
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: 百万元
+    value: 1,243,353
+- golden_row_id: GROW_19f155db782d7ef03258
+  physical_table_id: PING_AN_2024_ANNUAL_REPORT::debt_investment::PRIMARY
+  member_table_id: debt_investment
+  classification_axis: ASSET_TYPE
+  raw_label: 上市
+  normalized_label: 上市
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 10
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: 59,846
+  - period_role: COMPARATIVE
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: 百万元
+    value: 62,757
+- golden_row_id: GROW_4711346cdb2189a35edb
+  physical_table_id: PING_AN_2024_ANNUAL_REPORT::debt_investment::PRIMARY
+  member_table_id: debt_investment
+  classification_axis: ASSET_TYPE
+  raw_label: 非上市
+  normalized_label: 非上市
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 11
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: 1,172,604
+  - period_role: COMPARATIVE
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: 百万元
+    value: 1,180,596
+- golden_row_id: GROW_ccdc223e802ef64f897d
+  physical_table_id: PING_AN_2024_ANNUAL_REPORT::MAIN_STATEMENT
+  member_table_id: other_debt_investment
+  classification_axis: FINANCIAL_INVESTMENT_MEMBER_SET
+  raw_label: 其他债权投资
+  normalized_label: 其他债权投资
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: MEMBER
+  source_row_order: null
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: SOURCE_DECLARED
+    value: 3,186,937
+- golden_row_id: GROW_49b12d2c231c23a1362b
+  physical_table_id: PING_AN_2024_ANNUAL_REPORT::other_debt_investment::PRIMARY
+  member_table_id: other_debt_investment
+  classification_axis: ASSET_TYPE
+  raw_label: 债券 - 政府债
+  normalized_label: 债券 - 政府债
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 1
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: 2,493,010
+  - period_role: COMPARATIVE
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: 百万元
+    value: 1,973,152
+- golden_row_id: GROW_79eb8cfac169dc429f2a
+  physical_table_id: PING_AN_2024_ANNUAL_REPORT::other_debt_investment::PRIMARY
+  member_table_id: other_debt_investment
+  classification_axis: ASSET_TYPE
+  raw_label: 债券 - 金融债
+  normalized_label: 债券 - 金融债
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 2
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: 410,742
+  - period_role: COMPARATIVE
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: 百万元
+    value: 352,063
+- golden_row_id: GROW_06a14a9f7316e1f5b27a
+  physical_table_id: PING_AN_2024_ANNUAL_REPORT::other_debt_investment::PRIMARY
+  member_table_id: other_debt_investment
+  classification_axis: ASSET_TYPE
+  raw_label: 债券 - 企业债
+  normalized_label: 债券 - 企业债
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 3
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: 95,586
+  - period_role: COMPARATIVE
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: 百万元
+    value: 75,772
+- golden_row_id: GROW_b1189c709e324b45489c
+  physical_table_id: PING_AN_2024_ANNUAL_REPORT::other_debt_investment::PRIMARY
+  member_table_id: other_debt_investment
+  classification_axis: ASSET_TYPE
+  raw_label: 债权计划
+  normalized_label: 债权计划
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 4
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: 102,884
+  - period_role: COMPARATIVE
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: 百万元
+    value: 108,515
+- golden_row_id: GROW_615d28e0dab612c62aeb
+  physical_table_id: PING_AN_2024_ANNUAL_REPORT::other_debt_investment::PRIMARY
+  member_table_id: other_debt_investment
+  classification_axis: ASSET_TYPE
+  raw_label: 理财产品投资
+  normalized_label: 理财产品投资
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 5
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: 84,715
+  - period_role: COMPARATIVE
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: 百万元
+    value: 127,506
+- golden_row_id: GROW_74e2ccb73417425e0e17
+  physical_table_id: PING_AN_2024_ANNUAL_REPORT::other_debt_investment::PRIMARY
+  member_table_id: other_debt_investment
+  classification_axis: ASSET_TYPE
+  raw_label: 合计
+  normalized_label: 合计
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 6
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: 3,186,937
+  - period_role: COMPARATIVE
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: 百万元
+    value: 2,637,008
+- golden_row_id: GROW_c828286c2531b322cf30
+  physical_table_id: PING_AN_2024_ANNUAL_REPORT::other_debt_investment::PRIMARY
+  member_table_id: other_debt_investment
+  classification_axis: ASSET_TYPE
+  raw_label: 摊余成本
+  normalized_label: 摊余成本
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 7
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: 2,591,775
+  - period_role: COMPARATIVE
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: 百万元
+    value: 2,365,076
+- golden_row_id: GROW_81fcff5b1e927f2d7ea3
+  physical_table_id: PING_AN_2024_ANNUAL_REPORT::other_debt_investment::PRIMARY
+  member_table_id: other_debt_investment
+  classification_axis: ASSET_TYPE
+  raw_label: 累计公允价值变动
+  normalized_label: 累计公允价值变动
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 8
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: 595,162
+  - period_role: COMPARATIVE
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: 百万元
+    value: 271,932
+- golden_row_id: GROW_f52f8bcd4c630fddcf4d
+  physical_table_id: PING_AN_2024_ANNUAL_REPORT::other_debt_investment::PRIMARY
+  member_table_id: other_debt_investment
+  classification_axis: ASSET_TYPE
+  raw_label: 上市
+  normalized_label: 上市
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 9
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: 398,075
+  - period_role: COMPARATIVE
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: 百万元
+    value: 364,740
+- golden_row_id: GROW_cf3969dd1be73151e6f3
+  physical_table_id: PING_AN_2024_ANNUAL_REPORT::other_debt_investment::PRIMARY
+  member_table_id: other_debt_investment
+  classification_axis: ASSET_TYPE
+  raw_label: 非上市
+  normalized_label: 非上市
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 10
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: 2,788,862
+  - period_role: COMPARATIVE
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: 百万元
+    value: 2,272,268
+- golden_row_id: GROW_5b7ef42355c1d70bc16e
+  physical_table_id: PING_AN_2024_ANNUAL_REPORT::MAIN_STATEMENT
+  member_table_id: other_equity_investment
+  classification_axis: FINANCIAL_INVESTMENT_MEMBER_SET
+  raw_label: 其他权益工具投资
+  normalized_label: 其他权益工具投资
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: MEMBER
+  source_row_order: null
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: SOURCE_DECLARED
+    value: 356,493
+- golden_row_id: GROW_2ac8ca79b8cb6f0cfcae
+  physical_table_id: PING_AN_2024_ANNUAL_REPORT::other_equity_investment::PRIMARY
+  member_table_id: other_equity_investment
+  classification_axis: ASSET_TYPE
+  raw_label: 股票
+  normalized_label: 股票
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 1
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: 267,082
+  - period_role: COMPARATIVE
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: 百万元
+    value: 177,686
+- golden_row_id: GROW_215696438fd1ae08c71a
+  physical_table_id: PING_AN_2024_ANNUAL_REPORT::other_equity_investment::PRIMARY
+  member_table_id: other_equity_investment
+  classification_axis: ASSET_TYPE
+  raw_label: 优先股
+  normalized_label: 优先股
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 2
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: 82,575
+  - period_role: COMPARATIVE
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: 百万元
+    value: 81,893
+- golden_row_id: GROW_315ca1e149f5e1865abe
+  physical_table_id: PING_AN_2024_ANNUAL_REPORT::other_equity_investment::PRIMARY
+  member_table_id: other_equity_investment
+  classification_axis: ASSET_TYPE
+  raw_label: 其他权益投资
+  normalized_label: 其他权益投资
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 3
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: 6,836
+  - period_role: COMPARATIVE
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: 百万元
+    value: 5,298
+- golden_row_id: GROW_ccd0c281ae9bcd179209
+  physical_table_id: PING_AN_2024_ANNUAL_REPORT::other_equity_investment::PRIMARY
+  member_table_id: other_equity_investment
+  classification_axis: ASSET_TYPE
+  raw_label: 合计
+  normalized_label: 合计
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 4
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: 356,493
+  - period_role: COMPARATIVE
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: 百万元
+    value: 264,877
+- golden_row_id: GROW_6ab82705d38264b4227c
+  physical_table_id: PING_AN_2024_ANNUAL_REPORT::other_equity_investment::PRIMARY
+  member_table_id: other_equity_investment
+  classification_axis: ASSET_TYPE
+  raw_label: 成本
+  normalized_label: 成本
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 5
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: 320,035
+  - period_role: COMPARATIVE
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: 百万元
+    value: 284,902
+- golden_row_id: GROW_cd8a02679c786286ea36
+  physical_table_id: PING_AN_2024_ANNUAL_REPORT::other_equity_investment::PRIMARY
+  member_table_id: other_equity_investment
+  classification_axis: ASSET_TYPE
+  raw_label: 累计公允价值变动
+  normalized_label: 累计公允价值变动
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 6
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: 36,458
+  - period_role: COMPARATIVE
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: 百万元
+    value: (20,025)
+- golden_row_id: GROW_6efeb9002ebf41385e90
+  physical_table_id: PING_AN_2024_ANNUAL_REPORT::other_equity_investment::PRIMARY
+  member_table_id: other_equity_investment
+  classification_axis: ASSET_TYPE
+  raw_label: 上市
+  normalized_label: 上市
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 7
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: 350,431
+  - period_role: COMPARATIVE
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: 百万元
+    value: 259,579
+- golden_row_id: GROW_5bb7025d09d19a19cbe6
+  physical_table_id: PING_AN_2024_ANNUAL_REPORT::other_equity_investment::PRIMARY
+  member_table_id: other_equity_investment
+  classification_axis: ASSET_TYPE
+  raw_label: 非上市
+  normalized_label: 非上市
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 8
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: 百万元
+    value: 6,062
+  - period_role: COMPARATIVE
+    period_label: 2023年
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: 百万元
+    value: 5,298
+identity_provenance: DERIVED_FROM_CERTIFIED_GOLDEN_FACTS_NOT_RUNTIME_CAPTURE

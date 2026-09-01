@@ -1,0 +1,129 @@
+schema_version: '1.1'
+fixture_id: CHINA_LIFE_2024_GOLDEN_VALUES
+family: financial_investment
+annotation_status: CERTIFIED_GOLDEN
+review_date: '2026-08-04'
+reviewer: Codex_Agent_Adjudicator
+values:
+- member_id: fvtpl_assets
+  raw_label: 交易性金融资产
+  note_reference: 十一、6
+  current_amount_raw: 1,908,098
+  status: ACTIVE_CURRENT_PERIOD
+  child_table:
+    classification: PRIMARY_TABLE
+    pdf_page_number: 185
+    note_title: 6. 交易性金融资产
+    unit: 百万元
+    items:
+    - raw_label: 国债
+      amount_2024: 3,905
+    - raw_label: 政府机构债券
+      amount_2024: 8,849
+    - raw_label: 企业债券
+      amount_2024: 202,923
+    - raw_label: 次级债券
+      amount_2024: 347,604
+    - raw_label: 基金
+      amount_2024: 306,551
+    - raw_label: 股票
+      amount_2024: 440,930
+    - raw_label: 其他注1
+      amount_2024: 597,336
+    - raw_label: 合计
+      amount_2024: 1,908,098
+    - raw_label: 上市
+      amount_2024: 632,428
+    - raw_label: 非上市注2
+      amount_2024: 1,275,670
+    - raw_label: 合计
+      amount_2024: 1,908,098
+- member_id: debt_investment
+  raw_label: 债权投资
+  note_reference: 十一、7
+  current_amount_raw: 196,754
+  status: ACTIVE_CURRENT_PERIOD
+  child_table:
+    classification: PRIMARY_TABLE
+    pdf_page_number: 185
+    note_title: 7. 债权投资
+    unit: 百万元
+    items:
+    - raw_label: 信托计划
+      amount_2024: 114,677
+    - raw_label: 债权投资计划
+      amount_2024: 70,120
+    - raw_label: 其他注1
+      amount_2024: 12,443
+    - raw_label: 减：减值准备
+      amount_2024: (486)
+    - raw_label: 合计
+      amount_2024: 196,754
+    - raw_label: 上市
+      amount_2024: 2,238
+    - raw_label: 非上市注2
+      amount_2024: 194,516
+    - raw_label: 合计
+      amount_2024: 196,754
+- member_id: other_debt_investment
+  raw_label: 其他债权投资
+  note_reference: 十一、8
+  current_amount_raw: 3,458,895
+  status: ACTIVE_CURRENT_PERIOD
+  child_table:
+    classification: PRIMARY_TABLE
+    pdf_page_number: 186
+    note_title: 8. 其他债权投资
+    unit: 百万元
+    items:
+    - raw_label: 国债
+      amount_2024: 688,755
+    - raw_label: 政府机构债券
+      amount_2024: 2,179,824
+    - raw_label: 企业债券
+      amount_2024: 446,221
+    - raw_label: 次级债券
+      amount_2024: 21,229
+    - raw_label: 其他注1
+      amount_2024: 122,866
+    - raw_label: 合计
+      amount_2024: 3,458,895
+    - raw_label: 摊余成本
+      amount_2024: 2,920,952
+    - raw_label: 累计公允价值变动
+      amount_2024: 537,943
+    - raw_label: 上市
+      amount_2024: 432,849
+    - raw_label: 非上市注2
+      amount_2024: 3,026,046
+    - raw_label: 合计
+      amount_2024: 3,458,895
+- member_id: other_equity_investment
+  raw_label: 其他权益工具投资
+  note_reference: 十一、9
+  current_amount_raw: 171,817
+  status: ACTIVE_CURRENT_PERIOD
+  child_table:
+    classification: PRIMARY_TABLE
+    pdf_page_number: 187
+    note_title: 9. 其他权益工具投资
+    unit: 百万元
+    items:
+    - raw_label: 股票
+      amount_2024: 60,153
+    - raw_label: 优先股
+      amount_2024: 51,444
+    - raw_label: 其他注
+      amount_2024: 60,220
+    - raw_label: 合计
+      amount_2024: 171,817
+    - raw_label: 成本
+      amount_2024: 160,609
+    - raw_label: 累计公允价值变动
+      amount_2024: 11,208
+    - raw_label: 上市
+      amount_2024: 113,683
+    - raw_label: 非上市注
+      amount_2024: 58,134
+    - raw_label: 合计
+      amount_2024: 171,817

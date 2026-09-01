@@ -1,0 +1,17 @@
+schema_version: '1.1'
+filing_id: PING_AN_2025_ANNUAL_REPORT
+company_id: PING_AN
+company_name: 中国平安
+company_legal_name: 中国平安保险（集团）股份有限公司
+report_year: 2025
+report_type: ANNUAL_REPORT
+language: zh-CN
+canonical_pdf_filename: 中国平安2025年报.pdf
+pdf_sha256: 860c455bbad9be59d3d1bf64bf683733feb79157212532df44b91d49a0b03c2a
+page_count: 370
+file_size_bytes: 9497402
+document_modality: TEXT_DOMINANT_OR_HYBRID
+canonical_for_testing: true
+duplicate_group: null
+annotation_status: CERTIFIED_GOLDEN
+source_directory: C:\dev\AXA_research\docu

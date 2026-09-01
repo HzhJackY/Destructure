@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<title>整表抓取报告</title>
+<style>
+body{font-family:Arial,'Microsoft YaHei',sans-serif;margin:28px;color:#1f2937}
+pre{white-space:pre-wrap;background:#f6f8fa;padding:16px;border-radius:8px}
+table{border-collapse:collapse;width:100%;font-size:13px}
+th,td{border:1px solid #d1d5db;padding:6px 8px;text-align:right}
+th:first-child,td:first-child{text-align:left}
+</style></head><body>
+<h1>整表抓取报告</h1>
+<pre># 整表抓取报告
+
+- PDF: `d5b6dbbe98d6_中银三星2024年报.pdf`
+- 查询表: `业务及管理费`
+- 定位标题: `六、 财务报表附注（续）43. 业务及管理费`
+- 页码: `137–137`
+- 实际表格页: `137`
+- 列数: `4`
+- 行数: `11`
+
+## 列结构
+
+- col0: year=2024 | scope=本集团 | restated=False | raw=本集团 | 2024
+- col1: year=2024 | scope=本公司 | restated=False | raw=本公司 | 2024
+- col2: year=2023 | scope=本集团 | restated=False | raw=本集团 | 2023
+- col3: year=2023 | scope=本公司 | restated=False | raw=本公司 | 2023
+
+## 警告
+
+- 未发现下一附注编号作为硬结束边界，当前使用max_pages边界，请人工核对末尾。
+
+## 说明
+
+- `raw_item` 永久保留PDF原始行名。
+- `normalized_item` 只做确定性文本清洗，不改变经济含义。
+- `canonical_item` 整表抓取层默认不强制映射；跨公司细项统一由“合表 / Taxonomy”工作区完成。</pre>
+<h2>宽表预览</h2>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>row_order</th>
+      <th>row_type</th>
+      <th>parent_section</th>
+      <th>raw_item</th>
+      <th>normalized_item</th>
+      <th>unit</th>
+      <th>2023 本公司</th>
+      <th>2023 本集团</th>
+      <th>2024 本公司</th>
+      <th>2024 本集团</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>DETAIL</td>
+      <td>NaN</td>
+      <td>保户投资款利息支出</td>
+      <td>保户投资款利息支出</td>
+      <td>元</td>
+      <td>8.221620e+08</td>
+      <td>8.221620e+08</td>
+      <td>5.704299e+08</td>
+      <td>5.704299e+08</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>DETAIL</td>
+      <td>NaN</td>
+      <td>债券利息支出</td>
+      <td>债券利息支出</td>
+      <td>元</td>
+      <td>5.975914e+07</td>
+      <td>5.975914e+07</td>
+      <td>7.043643e+07</td>
+      <td>7.043643e+07</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>DETAIL</td>
+      <td>保户投资款手续费及</td>
+      <td>佣金支出</td>
+      <td>佣金支出</td>
+      <td>元</td>
+      <td>1.088203e+07</td>
+      <td>1.088203e+07</td>
+      <td>3.021244e+05</td>
+      <td>3.021244e+05</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>DETAIL</td>
+      <td>保户投资款手续费及</td>
+      <td>持续奖金</td>
+      <td>持续奖金</td>
+      <td>元</td>
+      <td>1.384084e+07</td>
+      <td>1.384084e+07</td>
+      <td>7.085145e+06</td>
+      <td>7.085145e+06</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>DETAIL</td>
+      <td>未领取红利及给付利</td>
+      <td>息支出</td>
+      <td>息支出</td>
+      <td>元</td>
+      <td>2.025638e+07</td>
+      <td>2.025638e+07</td>
+      <td>2.648820e+07</td>
+      <td>2.648820e+07</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>DETAIL</td>
+      <td>未领取红利及给付利</td>
+      <td>租赁负债利息支出</td>
+      <td>租赁负债利息支出</td>
+      <td>元</td>
+      <td>5.032781e+06</td>
+      <td>5.032781e+06</td>
+      <td>3.233861e+06</td>
+      <td>3.233861e+06</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>DETAIL</td>
+      <td>未领取红利及给付利</td>
+      <td>摊回再保险合同收益</td>
+      <td>摊回再保险合同收益</td>
+      <td>元</td>
+      <td>-3.136651e+08</td>
+      <td>-3.136651e+08</td>
+      <td>-4.913081e+08</td>
+      <td>-4.913081e+08</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>DETAIL</td>
+      <td>未领取红利及给付利</td>
+      <td>其他</td>
+      <td>其他</td>
+      <td>元</td>
+      <td>8.267706e+04</td>
+      <td>1.537539e+06</td>
+      <td>3.563531e+05</td>
+      <td>1.587475e+07</td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>TOTAL</td>
+      <td>未领取红利及给付利</td>
+      <td>合计</td>
+      <td>合计</td>
+      <td>元</td>
+      <td>6.183507e+08</td>
+      <td>6.198056e+08</td>
+      <td>1.870240e+08</td>
+      <td>2.025424e+08</td>
+    </tr>
+  </tbody>
+</table>
+</body></html>

@@ -1,0 +1,324 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<title>整表抓取报告</title>
+<style>
+body{font-family:Arial,'Microsoft YaHei',sans-serif;margin:28px;color:#1f2937}
+pre{white-space:pre-wrap;background:#f6f8fa;padding:16px;border-radius:8px}
+table{border-collapse:collapse;width:100%;font-size:13px}
+th,td{border:1px solid #d1d5db;padding:6px 8px;text-align:right}
+th:first-child,td:first-child{text-align:left}
+</style></head><body>
+<h1>整表抓取报告</h1>
+<pre># 整表抓取报告
+
+- PDF: `4a62c9b2936b_农银人寿2022年报.pdf`
+- 查询表: `业务及管理费`
+- 定位标题: `合计 (21,900.60) (10,610.51)36. 业务及管理费`
+- 页码: `106–107`
+- 实际表格页: `106, 107`
+- 列数: `2`
+- 行数: `32`
+
+## 列结构
+
+- col0: year=2022 | scope=- | restated=False | raw=2022
+- col1: year=2021 | scope=- | restated=False | raw=2021
+
+## 警告
+
+- 未在目标附注首页识别到明确单位；原始单位保持UNKNOWN，不做金额单位推断。
+- 未发现下一附注编号作为硬结束边界，当前使用max_pages边界，请人工核对末尾。
+
+## 说明
+
+- `raw_item` 永久保留PDF原始行名。
+- `normalized_item` 只做确定性文本清洗，不改变经济含义。
+- `canonical_item` 整表抓取层默认不强制映射；跨公司细项统一由“合表 / Taxonomy”工作区完成。</pre>
+<h2>宽表预览</h2>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>row_order</th>
+      <th>row_type</th>
+      <th>parent_section</th>
+      <th>raw_item</th>
+      <th>normalized_item</th>
+      <th>unit</th>
+      <th>2021</th>
+      <th>2022</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>DETAIL</td>
+      <td>NaN</td>
+      <td>职工薪酬</td>
+      <td>职工薪酬</td>
+      <td></td>
+      <td>877505.10</td>
+      <td>902706.32</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>DETAIL</td>
+      <td>NaN</td>
+      <td>社会保险费</td>
+      <td>社会保险费</td>
+      <td></td>
+      <td>261593.51</td>
+      <td>293919.25</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>DETAIL</td>
+      <td>NaN</td>
+      <td>折旧和摊销费</td>
+      <td>折旧和摊销费</td>
+      <td></td>
+      <td>204498.59</td>
+      <td>231361.65</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>DETAIL</td>
+      <td>NaN</td>
+      <td>行政办公支出</td>
+      <td>行政办公支出</td>
+      <td></td>
+      <td>159913.01</td>
+      <td>125801.71</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>DETAIL</td>
+      <td>NaN</td>
+      <td>劳动保险费</td>
+      <td>劳动保险费</td>
+      <td></td>
+      <td>55962.92</td>
+      <td>64372.15</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>DETAIL</td>
+      <td>NaN</td>
+      <td>保险保障基金</td>
+      <td>保险保障基金</td>
+      <td></td>
+      <td>46687.24</td>
+      <td>55077.70</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>DETAIL</td>
+      <td>NaN</td>
+      <td>广告及宣传费</td>
+      <td>广告及宣传费</td>
+      <td></td>
+      <td>39055.91</td>
+      <td>49877.52</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>DETAIL</td>
+      <td>NaN</td>
+      <td>电子设备运转费</td>
+      <td>电子设备运转费</td>
+      <td></td>
+      <td>31050.87</td>
+      <td>36314.97</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>DETAIL</td>
+      <td>NaN</td>
+      <td>租赁费</td>
+      <td>租赁费</td>
+      <td></td>
+      <td>28256.84</td>
+      <td>23508.17</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>DETAIL</td>
+      <td>NaN</td>
+      <td>监管费</td>
+      <td>监管费</td>
+      <td></td>
+      <td>12466.15</td>
+      <td>13692.90</td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>DETAIL</td>
+      <td>NaN</td>
+      <td>车船使用费</td>
+      <td>车船使用费</td>
+      <td></td>
+      <td>3259.73</td>
+      <td>2880.27</td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>DETAIL</td>
+      <td>NaN</td>
+      <td>其他</td>
+      <td>其他</td>
+      <td></td>
+      <td>103903.67</td>
+      <td>99003.59</td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>TOTAL</td>
+      <td>NaN</td>
+      <td>合计</td>
+      <td>合计</td>
+      <td></td>
+      <td>1824153.54</td>
+      <td>1898516.20</td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td>DETAIL</td>
+      <td>NaN</td>
+      <td>第104页非保险合同支出</td>
+      <td>第104页非保险合同支出</td>
+      <td></td>
+      <td>513008.69</td>
+      <td>540061.87</td>
+    </tr>
+    <tr>
+      <td>15</td>
+      <td>DETAIL</td>
+      <td>NaN</td>
+      <td>债券利息支出</td>
+      <td>债券利息支出</td>
+      <td></td>
+      <td>273329.17</td>
+      <td>274720.69</td>
+    </tr>
+    <tr>
+      <td>16</td>
+      <td>DETAIL</td>
+      <td>NaN</td>
+      <td>卖出回购金融资产款利息支出</td>
+      <td>卖出回购金融资产款利息支出</td>
+      <td></td>
+      <td>75600.09</td>
+      <td>52251.61</td>
+    </tr>
+    <tr>
+      <td>17</td>
+      <td>DETAIL</td>
+      <td>NaN</td>
+      <td>租赁负债利息</td>
+      <td>租赁负债利息</td>
+      <td></td>
+      <td>10796.32</td>
+      <td>8584.18</td>
+    </tr>
+    <tr>
+      <td>18</td>
+      <td>DETAIL</td>
+      <td>NaN</td>
+      <td>其他</td>
+      <td>其他</td>
+      <td></td>
+      <td>5356.41</td>
+      <td>2875.09</td>
+    </tr>
+    <tr>
+      <td>19</td>
+      <td>TOTAL</td>
+      <td>NaN</td>
+      <td>合计</td>
+      <td>合计</td>
+      <td></td>
+      <td>878090.68</td>
+      <td>878493.44</td>
+    </tr>
+    <tr>
+      <td>22</td>
+      <td>DETAIL</td>
+      <td>38.所得税费用</td>
+      <td>递延所得税</td>
+      <td>递延所得税</td>
+      <td></td>
+      <td>-10763.94</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>23</td>
+      <td>TOTAL</td>
+      <td>38.所得税费用</td>
+      <td>合计</td>
+      <td>合计</td>
+      <td></td>
+      <td>-10763.94</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>25</td>
+      <td>DETAIL</td>
+      <td>将基于利润表的利润总额采用适用税率计算的所得税调节为所得税费用</td>
+      <td>利润总额</td>
+      <td>利润总额</td>
+      <td></td>
+      <td>304349.49</td>
+      <td>109764.30</td>
+    </tr>
+    <tr>
+      <td>26</td>
+      <td>DETAIL</td>
+      <td>将基于利润表的利润总额采用适用税率计算的所得税调节为所得税费用</td>
+      <td>按适用税率计算的所得税费用</td>
+      <td>按适用税率计算的所得税费用</td>
+      <td></td>
+      <td>76087.37</td>
+      <td>27441.08</td>
+    </tr>
+    <tr>
+      <td>27</td>
+      <td>DETAIL</td>
+      <td>将基于利润表的利润总额采用适用税率计算的所得税调节为所得税费用</td>
+      <td>非应纳税收入(注)</td>
+      <td>非应纳税收入</td>
+      <td></td>
+      <td>-146709.82</td>
+      <td>-292666.94</td>
+    </tr>
+    <tr>
+      <td>28</td>
+      <td>DETAIL</td>
+      <td>将基于利润表的利润总额采用适用税率计算的所得税调节为所得税费用</td>
+      <td>不得扣除的成本、费用和损失</td>
+      <td>不得扣除的成本、费用和损失</td>
+      <td></td>
+      <td>-1210.71</td>
+      <td>2333.55</td>
+    </tr>
+    <tr>
+      <td>29</td>
+      <td>DETAIL</td>
+      <td>将基于利润表的利润总额采用适用税率计算的所得税调节为所得税费用</td>
+      <td>当期未确认的可抵扣暂时性差异及可抵扣亏损的影响</td>
+      <td>当期未确认的可抵扣暂时性差异及可抵扣亏损的影响</td>
+      <td></td>
+      <td>61069.22</td>
+      <td>262892.31</td>
+    </tr>
+    <tr>
+      <td>30</td>
+      <td>DETAIL</td>
+      <td>将基于利润表的利润总额采用适用税率计算的所得税调节为所得税费用</td>
+      <td>按实际税率计算的所得税费用</td>
+      <td>按实际税率计算的所得税费用</td>
+      <td></td>
+      <td>-10763.94</td>
+      <td>NaN</td>
+    </tr>
+  </tbody>
+</table>
+</body></html>

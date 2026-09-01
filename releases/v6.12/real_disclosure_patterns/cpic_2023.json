@@ -1,0 +1,34 @@
+{
+  "fixture_id": "CPIC_2023",
+  "company": "中国太保",
+  "report_year": "2023",
+  "pdf_filename": "中国太保2023年报.pdf",
+  "pdf_sha256": "9440391625bd78bcb76250d915a459c5807b686545b8b4542ec68a4c3718e65f",
+  "document_modality": "IMAGE_DOMINANT",
+  "disclosure_pattern": "IMAGE_DOMINANT_EXPLICIT_PARENT",
+  "statement_scope": "CONSOLIDATED",
+  "research_definition_id": "FINANCIAL_INVESTMENT_V1",
+  "definition_version": "FINANCIAL_INVESTMENT_V1",
+  "expected_resolution_mode": "EXPLICIT_PARENT",
+  "expected_parent_present": true,
+  "expected_parent_label": "金融投资",
+  "expected_required_members": [
+    "fvtpl_assets",
+    "debt_investment",
+    "other_debt_investment",
+    "other_equity_investment"
+  ],
+  "expected_forbidden_members": [
+    "time_deposits",
+    "long_term_equity",
+    "available_for_sale_assets",
+    "held_to_maturity_investments"
+  ],
+  "known_constraints": [
+    "requires_ocr",
+    "requires_image_layout",
+    "requires_transition_logic"
+  ],
+  "source_pages": [],
+  "annotation_status": "PATTERN_CANDIDATE"
+}

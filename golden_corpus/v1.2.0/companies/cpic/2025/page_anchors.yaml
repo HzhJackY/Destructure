@@ -1,0 +1,34 @@
+schema_version: '1.1'
+fixture_id: CPIC_2025_CONSOLIDATED_FINANCIAL_INVESTMENT_PAGE_ANCHOR
+page_number_system: PDF_READER_ONE_BASED
+pdf_page_number: 158
+pdf_page_index_zero_based: 157
+printed_page_label: '5'
+statement_scope: CONSOLIDATED
+statement_type: BALANCE_SHEET
+expected_family: FINANCIAL_INVESTMENT
+requires_ocr: false
+requires_existing_conditional_ocr: false
+annotation_status: CERTIFIED_GOLDEN
+evidence_note: 直接从新版 PDF 第 158 页核对中国太保2025年报合并资产负债表。
+expectation_source: DIRECT_PDF_INSPECTION
+evidence_type: TEXT_VERIFICATION
+reviewer: Codex_Agent_Adjudicator
+review_date: '2026-08-23'
+source_page: 158
+child_note_pages:
+  pdf_page_start: 212
+  pdf_page_end: 213
+  notes:
+    - note_number: "5"
+      label: 交易性金融资产
+      pdf_page_number: 212
+    - note_number: "6"
+      label: 债权投资
+      pdf_page_number: 212
+    - note_number: "7"
+      label: 其他债权投资
+      pdf_page_number: 213
+    - note_number: "8"
+      label: 其他权益工具投资
+      pdf_page_number: 213

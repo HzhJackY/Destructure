@@ -1,0 +1,10 @@
+{
+  "run_id": "20260721T161747_业务及管理费",
+  "display_name": "业务及管理费 · 农银人寿 · 2022–2025",
+  "note": "",
+  "created_at": "2026-07-21T16:17:47",
+  "table_id": "业务及管理费",
+  "source_count": 4,
+  "reference_capture_run_id": "农银人寿2022年报__业务及管理费__20260721T161445",
+  "order_policy": "REFERENCE_CAPTURE_PRESERVE_WITH_CONTEXTUAL_INSERTION"
+}

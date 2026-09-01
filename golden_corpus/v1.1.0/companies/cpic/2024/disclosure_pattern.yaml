@@ -1,0 +1,21 @@
+schema_version: '1.1'
+pattern_id: CPIC_2024_DISCLOSURE_PATTERN
+pattern_type: IMAGE_DOMINANT_EXPLICIT_PARENT
+resolution_mode: EXPLICIT_PARENT
+parent_present: true
+parent_label: 金融投资
+raw_parent_label: 金融投资
+scattered_member_discovery: false
+presentation_regime: IMAGE_DOMINANT_EXPLICIT_PRESENTATION
+required_members:
+- 交易性金融资产
+- 债权投资
+- 其他债权投资
+- 其他权益工具投资
+forbidden_members: []
+annotation_status: CERTIFIED_GOLDEN
+expectation_source: DIRECT_PDF_INSPECTION
+evidence_type: PAGE_TEXT_VERIFICATION
+reviewer: Codex_Agent_Adjudicator
+review_date: '2026-07-29'
+source_page: 73

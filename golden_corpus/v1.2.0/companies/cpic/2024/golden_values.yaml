@@ -1,0 +1,101 @@
+schema_version: '1.1'
+fixture_id: CPIC_2024_GOLDEN_VALUES
+family: financial_investment
+values:
+- member_id: fvtpl_assets
+  raw_label: 交易性金融资产
+  note_reference: '5'
+  current_amount_raw: 667199
+  unit: 百万元
+  status: ACTIVE_CURRENT_PERIOD
+  child_table:
+    classification: PRIMARY_TABLE
+    pdf_page_number: 207
+    note_title: 5. 交易性金融资产
+    unit: 百万元
+    items:
+    - {raw_label: 上市, amount_2024: '216255', amount_2023: '198622', classification_axis: LISTING_STATUS}
+    - {raw_label: 非上市, amount_2024: '450944', amount_2023: '382980', classification_axis: LISTING_STATUS}
+    - {raw_label: 合计, amount_2024: '667199', amount_2023: '581602', classification_axis: LISTING_STATUS, row_kind: TOTAL}
+    - {raw_label: 债券, amount_2024: '274335', amount_2023: '199951', classification_axis: ASSET_TYPE, row_kind: GROUP}
+    - {raw_label: 政府债, amount_2024: '6907', amount_2023: '2889', classification_axis: ASSET_TYPE, parent_row_order: 4}
+    - {raw_label: 金融债, amount_2024: '241069', amount_2023: '169449', classification_axis: ASSET_TYPE, parent_row_order: 4}
+    - {raw_label: 企业债, amount_2024: '26359', amount_2023: '27613', classification_axis: ASSET_TYPE, parent_row_order: 4}
+    - {raw_label: 股票, amount_2024: '179013', amount_2023: '161345', classification_axis: ASSET_TYPE, parent_row_order: null}
+    - {raw_label: 基金, amount_2024: '70472', amount_2023: '65817', classification_axis: ASSET_TYPE}
+    - {raw_label: 非上市股权投资, amount_2024: '66707', amount_2023: '62919', classification_axis: ASSET_TYPE}
+    - {raw_label: 债权投资计划, amount_2024: '42150', amount_2023: '44676', classification_axis: ASSET_TYPE}
+    - {raw_label: 资管产品类投资, amount_2024: '28238', amount_2023: '38720', classification_axis: ASSET_TYPE}
+    - {raw_label: 其他, amount_2024: '6284', amount_2023: '8174', classification_axis: ASSET_TYPE}
+    - {raw_label: 合计, amount_2024: '667199', amount_2023: '581602', classification_axis: ASSET_TYPE, row_kind: TOTAL}
+- member_id: debt_investment
+  raw_label: 债权投资
+  note_reference: '6'
+  current_amount_raw: 64844
+  unit: 百万元
+  status: ACTIVE_CURRENT_PERIOD
+  child_table:
+    classification: PRIMARY_TABLE
+    pdf_page_number: 207
+    note_title: 6. 债权投资
+    unit: 百万元
+    items:
+    - {raw_label: 上市, amount_2024: '3236', amount_2023: '3902', classification_axis: LISTING_STATUS}
+    - {raw_label: 非上市, amount_2024: '63205', amount_2023: '79809', classification_axis: LISTING_STATUS}
+    - {raw_label: 小计, amount_2024: '66441', amount_2023: '83711', classification_axis: LISTING_STATUS, row_kind: SUBTOTAL}
+    - {raw_label: 减：减值准备, amount_2024: '(1597)', amount_2023: '(1377)', classification_axis: LISTING_STATUS}
+    - {raw_label: 净额, amount_2024: '64844', amount_2023: '82334', classification_axis: LISTING_STATUS, row_kind: TOTAL}
+    - {raw_label: 债券, amount_2024: '21852', amount_2023: '25688', classification_axis: ASSET_TYPE, row_kind: GROUP}
+    - {raw_label: 政府债, amount_2024: '16435', amount_2023: '15944', classification_axis: ASSET_TYPE, parent_row_order: 6}
+    - {raw_label: 企业债, amount_2024: '5417', amount_2023: '9744', classification_axis: ASSET_TYPE, parent_row_order: 6}
+    - {raw_label: 债权投资计划, amount_2024: '35482', amount_2023: '42846', classification_axis: ASSET_TYPE, parent_row_order: null}
+    - {raw_label: 信托计划, amount_2024: '5065', amount_2023: '11000', classification_axis: ASSET_TYPE}
+    - {raw_label: 其他, amount_2024: '4042', amount_2023: '4177', classification_axis: ASSET_TYPE}
+    - {raw_label: 小计, amount_2024: '66441', amount_2023: '83711', classification_axis: ASSET_TYPE, row_kind: SUBTOTAL}
+    - {raw_label: 减：减值准备, amount_2024: '(1597)', amount_2023: '(1377)', classification_axis: ASSET_TYPE}
+    - {raw_label: 净额, amount_2024: '64844', amount_2023: '82334', classification_axis: ASSET_TYPE, row_kind: TOTAL}
+- member_id: other_debt_investment
+  raw_label: 其他债权投资
+  note_reference: '7'
+  current_amount_raw: 1607972
+  unit: 百万元
+  status: ACTIVE_CURRENT_PERIOD
+  child_table:
+    classification: PRIMARY_TABLE
+    pdf_page_number: 208
+    note_title: 7. 其他债权投资
+    unit: 百万元
+    items:
+    - {raw_label: 上市, amount_2024: '67909', amount_2023: '60381', classification_axis: LISTING_STATUS}
+    - {raw_label: 非上市, amount_2024: '1540063', amount_2023: '1187054', classification_axis: LISTING_STATUS}
+    - {raw_label: 合计, amount_2024: '1607972', amount_2023: '1247435', classification_axis: LISTING_STATUS, row_kind: TOTAL}
+    - {raw_label: 债券, amount_2024: '1345995', amount_2023: '937989', classification_axis: ASSET_TYPE, row_kind: GROUP}
+    - {raw_label: 政府债, amount_2024: '1139037', amount_2023: '741151', classification_axis: ASSET_TYPE, parent_row_order: 4}
+    - {raw_label: 金融债, amount_2024: '68666', amount_2023: '64922', classification_axis: ASSET_TYPE, parent_row_order: 4}
+    - {raw_label: 企业债, amount_2024: '138292', amount_2023: '131916', classification_axis: ASSET_TYPE, parent_row_order: 4}
+    - {raw_label: 债权投资计划, amount_2024: '163085', amount_2023: '186881', classification_axis: ASSET_TYPE, parent_row_order: null}
+    - {raw_label: 信托计划, amount_2024: '50715', amount_2023: '80073', classification_axis: ASSET_TYPE}
+    - {raw_label: 优先股, amount_2024: '34478', amount_2023: '33020', classification_axis: ASSET_TYPE}
+    - {raw_label: 其他, amount_2024: '13699', amount_2023: '9472', classification_axis: ASSET_TYPE}
+    - {raw_label: 合计, amount_2024: '1607972', amount_2023: '1247435', classification_axis: ASSET_TYPE, row_kind: TOTAL}
+    - {raw_label: 摊余成本, amount_2024: '1366390', amount_2023: '1143108', classification_axis: MEASUREMENT_COMPOSITION}
+    - {raw_label: 累计公允价值变动, amount_2024: '241582', amount_2023: '104327', classification_axis: MEASUREMENT_COMPOSITION}
+- member_id: other_equity_investment
+  raw_label: 其他权益工具投资
+  note_reference: '8'
+  current_amount_raw: 142014
+  unit: 百万元
+  status: ACTIVE_CURRENT_PERIOD
+  child_table:
+    classification: PRIMARY_TABLE
+    pdf_page_number: 208
+    note_title: 8. 其他权益工具投资
+    unit: 百万元
+    items:
+    - {raw_label: 股票, amount_2024: '76052', amount_2023: '27110', classification_axis: ASSET_TYPE}
+    - {raw_label: 优先股, amount_2024: '12642', amount_2023: '12597', classification_axis: ASSET_TYPE}
+    - {raw_label: 永续债, amount_2024: '18878', amount_2023: '28477', classification_axis: ASSET_TYPE}
+    - {raw_label: 其他, amount_2024: '34442', amount_2023: '29781', classification_axis: ASSET_TYPE}
+    - {raw_label: 合计, amount_2024: '142014', amount_2023: '97965', classification_axis: ASSET_TYPE, row_kind: TOTAL}
+    - {raw_label: 成本, amount_2024: '131934', amount_2023: '95710', classification_axis: MEASUREMENT_COMPOSITION}
+    - {raw_label: 累计公允价值变动, amount_2024: '10080', amount_2023: '2255', classification_axis: MEASUREMENT_COMPOSITION}

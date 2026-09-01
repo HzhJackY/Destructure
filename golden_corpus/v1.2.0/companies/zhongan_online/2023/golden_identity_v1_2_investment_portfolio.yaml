@@ -1,0 +1,346 @@
+identity_contract_version: GOLDEN_IDENTITY_V1_2
+definition_id: INVESTMENT_PORTFOLIO_V2
+family: investment_portfolio
+source_golden_id: ZHONGAN_ONLINE_2023_INVESTMENT_PORTFOLIO
+filing_identity:
+  company_id: ZHONGAN_ONLINE
+  legal_entity_name: 众安在线财产保险股份有限公司
+  report_year: 2023
+  source_scope: LISTED_PARENT_CONSOLIDATED
+  canonical_pdf_filename: 众安在线2023年度报告.pdf
+  pdf_sha256: 276ceeccde7be81b04ce808f6eba43eb088f609defbe3bd40fc8e2589e49d14e
+  page_count: 199
+  source_type: ANNUAL_REPORT
+physical_tables:
+- physical_table_id: ZHONGAN_ONLINE_2023_PORTFOLIO_BY_CATEGORY
+  physical_page_number: 33
+  printed_page_number: 31
+  title: 投资组合（按投资品种）
+  unit: RMB_THOUSAND
+  table_classification: DIRECT_PHYSICAL_TABLE
+rows:
+- golden_row_id: GROW_9893801a068ebb41a6d4
+  physical_table_id: ZHONGAN_ONLINE_2023_PORTFOLIO_BY_CATEGORY
+  member_table_id: portfolio_by_category
+  classification_axis: BY_INVESTMENT_OBJECT
+  raw_label: 現金、存放銀行及其他金融機構款項
+  normalized_label: 現金、存放銀行及其他金融機構款項
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 1
+  period_values:
+  - period_role: CURRENT
+    period_label: 2023年12月31日
+    period_identity: DATE:2023-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 1576424
+  - period_role: CURRENT
+    period_label: 2023年12月31日
+    period_identity: DATE:2023-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 4.0
+  - period_role: COMPARATIVE
+    period_label: 2022年12月31日
+    period_identity: DATE:2022-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 3526174
+  - period_role: COMPARATIVE
+    period_label: 2022年12月31日
+    period_identity: DATE:2022-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 8.8
+- golden_row_id: GROW_961045b15625073179e8
+  physical_table_id: ZHONGAN_ONLINE_2023_PORTFOLIO_BY_CATEGORY
+  member_table_id: portfolio_by_category
+  classification_axis: BY_INVESTMENT_OBJECT
+  raw_label: 固定收益類投資
+  normalized_label: 固定收益類投資
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: GROUP
+  source_row_order: 2
+  period_values:
+  - period_role: CURRENT
+    period_label: 2023年12月31日
+    period_identity: DATE:2023-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 29204330
+  - period_role: CURRENT
+    period_label: 2023年12月31日
+    period_identity: DATE:2023-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 74.5
+  - period_role: COMPARATIVE
+    period_label: 2022年12月31日
+    period_identity: DATE:2022-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 28145200
+  - period_role: COMPARATIVE
+    period_label: 2022年12月31日
+    period_identity: DATE:2022-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 70.0
+- golden_row_id: GROW_ce60806ec6fe0980230a
+  physical_table_id: ZHONGAN_ONLINE_2023_PORTFOLIO_BY_CATEGORY
+  member_table_id: portfolio_by_category
+  classification_axis: BY_INVESTMENT_OBJECT
+  raw_label: 定期存款
+  normalized_label: 定期存款
+  parent_golden_row_id: GROW_961045b15625073179e8
+  semantic_parent_path: 固定收益類投資
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 3
+  period_values:
+  - period_role: CURRENT
+    period_label: 2023年12月31日
+    period_identity: DATE:2023-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 30184
+  - period_role: CURRENT
+    period_label: 2023年12月31日
+    period_identity: DATE:2023-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 0.1
+  - period_role: COMPARATIVE
+    period_label: 2022年12月31日
+    period_identity: DATE:2022-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 31380
+  - period_role: COMPARATIVE
+    period_label: 2022年12月31日
+    period_identity: DATE:2022-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 0.1
+- golden_row_id: GROW_55b5dce6beedd63902eb
+  physical_table_id: ZHONGAN_ONLINE_2023_PORTFOLIO_BY_CATEGORY
+  member_table_id: portfolio_by_category
+  classification_axis: BY_INVESTMENT_OBJECT
+  raw_label: 債券
+  normalized_label: 債券
+  parent_golden_row_id: GROW_961045b15625073179e8
+  semantic_parent_path: 固定收益類投資
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 4
+  period_values:
+  - period_role: CURRENT
+    period_label: 2023年12月31日
+    period_identity: DATE:2023-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 18436216
+  - period_role: CURRENT
+    period_label: 2023年12月31日
+    period_identity: DATE:2023-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 47.0
+  - period_role: COMPARATIVE
+    period_label: 2022年12月31日
+    period_identity: DATE:2022-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 17850200
+  - period_role: COMPARATIVE
+    period_label: 2022年12月31日
+    period_identity: DATE:2022-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 44.4
+- golden_row_id: GROW_00ef7069ad25309dd1d5
+  physical_table_id: ZHONGAN_ONLINE_2023_PORTFOLIO_BY_CATEGORY
+  member_table_id: portfolio_by_category
+  classification_axis: BY_INVESTMENT_OBJECT
+  raw_label: 債券型基金
+  normalized_label: 債券型基金
+  parent_golden_row_id: GROW_961045b15625073179e8
+  semantic_parent_path: 固定收益類投資
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 5
+  period_values:
+  - period_role: CURRENT
+    period_label: 2023年12月31日
+    period_identity: DATE:2023-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 6426231
+  - period_role: CURRENT
+    period_label: 2023年12月31日
+    period_identity: DATE:2023-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 16.4
+  - period_role: COMPARATIVE
+    period_label: 2022年12月31日
+    period_identity: DATE:2022-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 5980420
+  - period_role: COMPARATIVE
+    period_label: 2022年12月31日
+    period_identity: DATE:2022-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 14.9
+- golden_row_id: GROW_ed14a74314b43b6a1436
+  physical_table_id: ZHONGAN_ONLINE_2023_PORTFOLIO_BY_CATEGORY
+  member_table_id: portfolio_by_category
+  classification_axis: BY_INVESTMENT_OBJECT
+  raw_label: 股權及權益型基金
+  normalized_label: 股權及權益型基金
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: GROUP
+  source_row_order: 6
+  period_values:
+  - period_role: CURRENT
+    period_label: 2023年12月31日
+    period_identity: DATE:2023-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 8412301
+  - period_role: CURRENT
+    period_label: 2023年12月31日
+    period_identity: DATE:2023-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 21.5
+  - period_role: COMPARATIVE
+    period_label: 2022年12月31日
+    period_identity: DATE:2022-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 8511726
+  - period_role: COMPARATIVE
+    period_label: 2022年12月31日
+    period_identity: DATE:2022-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 21.2
+- golden_row_id: GROW_4aff1af1824418fb76c5
+  physical_table_id: ZHONGAN_ONLINE_2023_PORTFOLIO_BY_CATEGORY
+  member_table_id: portfolio_by_category
+  classification_axis: BY_INVESTMENT_OBJECT
+  raw_label: 股票
+  normalized_label: 股票
+  parent_golden_row_id: GROW_ed14a74314b43b6a1436
+  semantic_parent_path: 股權及權益型基金
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 7
+  period_values:
+  - period_role: CURRENT
+    period_label: 2023年12月31日
+    period_identity: DATE:2023-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 923595
+  - period_role: CURRENT
+    period_label: 2023年12月31日
+    period_identity: DATE:2023-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 2.4
+  - period_role: COMPARATIVE
+    period_label: 2022年12月31日
+    period_identity: DATE:2022-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 1250420
+  - period_role: COMPARATIVE
+    period_label: 2022年12月31日
+    period_identity: DATE:2022-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 3.1
+- golden_row_id: GROW_26c9a990ebb707684676
+  physical_table_id: ZHONGAN_ONLINE_2023_PORTFOLIO_BY_CATEGORY
+  member_table_id: portfolio_by_category
+  classification_axis: BY_INVESTMENT_OBJECT
+  raw_label: 未上市公司股權
+  normalized_label: 未上市公司股權
+  parent_golden_row_id: GROW_ed14a74314b43b6a1436
+  semantic_parent_path: 股權及權益型基金
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 8
+  period_values:
+  - period_role: CURRENT
+    period_label: 2023年12月31日
+    period_identity: DATE:2023-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 5817306
+  - period_role: CURRENT
+    period_label: 2023年12月31日
+    period_identity: DATE:2023-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 14.8
+  - period_role: COMPARATIVE
+    period_label: 2022年12月31日
+    period_identity: DATE:2022-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 5640210
+  - period_role: COMPARATIVE
+    period_label: 2022年12月31日
+    period_identity: DATE:2022-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 14.0
+- golden_row_id: GROW_6786cd82675268727075
+  physical_table_id: ZHONGAN_ONLINE_2023_PORTFOLIO_BY_CATEGORY
+  member_table_id: portfolio_by_category
+  classification_axis: BY_INVESTMENT_OBJECT
+  raw_label: 投資資產總額
+  normalized_label: 投資資產總額
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: TOTAL
+  source_row_order: 9
+  period_values:
+  - period_role: CURRENT
+    period_label: 2023年12月31日
+    period_identity: DATE:2023-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 39193055
+  - period_role: CURRENT
+    period_label: 2023年12月31日
+    period_identity: DATE:2023-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 100.0
+  - period_role: COMPARATIVE
+    period_label: 2022年12月31日
+    period_identity: DATE:2022-12-31
+    measure: AMOUNT
+    unit: RMB_MILLION
+    value: 40183100
+  - period_role: COMPARATIVE
+    period_label: 2022年12月31日
+    period_identity: DATE:2022-12-31
+    measure: RATIO
+    unit: PERCENT
+    value: 100.0
+identity_provenance: DERIVED_FROM_CERTIFIED_GOLDEN_FACTS_NOT_RUNTIME_CAPTURE

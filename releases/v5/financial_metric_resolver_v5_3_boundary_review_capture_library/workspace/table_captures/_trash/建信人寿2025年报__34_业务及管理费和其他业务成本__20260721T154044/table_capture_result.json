@@ -1,0 +1,223 @@
+{
+  "pdf_name": "4936c61b6938_建信人寿2025年报.pdf",
+  "pdf_sha256": "4936c61b693884304cf367f239e99d066647a7108708557f23e8f988858be6b8",
+  "table_query": "业务及管理费和其他业务成本",
+  "note_number": "34",
+  "located_title": "34. 利息支出",
+  "start_page": 138,
+  "end_page": 139,
+  "pages": [
+    138,
+    139
+  ],
+  "unit": "元",
+  "columns": [
+    {
+      "ordinal": 0,
+      "source_column_index": 1,
+      "header_raw": "2025",
+      "year": "2025",
+      "scope": null,
+      "restated": false,
+      "period_label": "2025"
+    },
+    {
+      "ordinal": 1,
+      "source_column_index": 2,
+      "header_raw": "2024",
+      "year": "2024",
+      "scope": null,
+      "restated": false,
+      "period_label": "2024"
+    }
+  ],
+  "rows": [
+    {
+      "row_order": 1,
+      "page": 138,
+      "block_id": "spatial_p138",
+      "source_method": "spatial_roi+column_anchors",
+      "raw_item": "应付债券",
+      "normalized_item": "应付债券",
+      "canonical_item": null,
+      "mapping_status": "UNMAPPED",
+      "row_type": "DETAIL",
+      "row_level": 0,
+      "parent_section": null,
+      "cells": [
+        {
+          "column_ordinal": 0,
+          "source_column_index": 1,
+          "raw": "470,259,050",
+          "parsed_number": 470259050.0,
+          "unit_original": "元",
+          "value_yuan": 470259050.0
+        },
+        {
+          "column_ordinal": 1,
+          "source_column_index": 2,
+          "raw": "471,570,668",
+          "parsed_number": 471570668.0,
+          "unit_original": "元",
+          "value_yuan": 471570668.0
+        }
+      ],
+      "header_source_page": null
+    },
+    {
+      "row_order": 2,
+      "page": 138,
+      "block_id": "spatial_p138",
+      "source_method": "spatial_roi+column_anchors",
+      "raw_item": "卖出回购金融资产款",
+      "normalized_item": "卖出回购金融资产款",
+      "canonical_item": null,
+      "mapping_status": "UNMAPPED",
+      "row_type": "DETAIL",
+      "row_level": 0,
+      "parent_section": null,
+      "cells": [
+        {
+          "column_ordinal": 0,
+          "source_column_index": 1,
+          "raw": "413,624,223",
+          "parsed_number": 413624223.0,
+          "unit_original": "元",
+          "value_yuan": 413624223.0
+        },
+        {
+          "column_ordinal": 1,
+          "source_column_index": 2,
+          "raw": "240,870,612",
+          "parsed_number": 240870612.0,
+          "unit_original": "元",
+          "value_yuan": 240870612.0
+        }
+      ],
+      "header_source_page": null
+    },
+    {
+      "row_order": 3,
+      "page": 138,
+      "block_id": "spatial_p138",
+      "source_method": "spatial_roi+column_anchors",
+      "raw_item": "合计",
+      "normalized_item": "合计",
+      "canonical_item": null,
+      "mapping_status": "UNMAPPED",
+      "row_type": "TOTAL",
+      "row_level": 0,
+      "parent_section": null,
+      "cells": [
+        {
+          "column_ordinal": 0,
+          "source_column_index": 1,
+          "raw": "883,883,273",
+          "parsed_number": 883883273.0,
+          "unit_original": "元",
+          "value_yuan": 883883273.0
+        },
+        {
+          "column_ordinal": 1,
+          "source_column_index": 2,
+          "raw": "712,441,280",
+          "parsed_number": 712441280.0,
+          "unit_original": "元",
+          "value_yuan": 712441280.0
+        }
+      ],
+      "header_source_page": null
+    },
+    {
+      "row_order": 4,
+      "page": 138,
+      "block_id": "spatial_p138",
+      "source_method": "spatial_roi",
+      "raw_item": "87",
+      "normalized_item": "87",
+      "canonical_item": null,
+      "mapping_status": "UNMAPPED",
+      "row_type": "SECTION_HEADER",
+      "row_level": 0,
+      "parent_section": null,
+      "cells": [],
+      "header_source_page": null
+    },
+    {
+      "row_order": 5,
+      "page": 139,
+      "block_id": "spatial_p139",
+      "source_method": "spatial_roi",
+      "raw_item": "建信人寿保险股份有限公司",
+      "normalized_item": "建信人寿保险股份有限公司",
+      "canonical_item": null,
+      "mapping_status": "UNMAPPED",
+      "row_type": "SECTION_HEADER",
+      "row_level": 0,
+      "parent_section": null,
+      "cells": [],
+      "header_source_page": 138
+    },
+    {
+      "row_order": 6,
+      "page": 139,
+      "block_id": "spatial_p139",
+      "source_method": "spatial_roi",
+      "raw_item": "财务报表附注（续）",
+      "normalized_item": "财务报表附注（续）",
+      "canonical_item": null,
+      "mapping_status": "UNMAPPED",
+      "row_type": "SECTION_HEADER",
+      "row_level": 0,
+      "parent_section": null,
+      "cells": [],
+      "header_source_page": 138
+    },
+    {
+      "row_order": 7,
+      "page": 139,
+      "block_id": "spatial_p139",
+      "source_method": "spatial_roi",
+      "raw_item": "（除特别注明外，金额单位均为人民币元）",
+      "normalized_item": "（除特别注明外，金额单位均为人民币元）",
+      "canonical_item": null,
+      "mapping_status": "UNMAPPED",
+      "row_type": "SECTION_HEADER",
+      "row_level": 0,
+      "parent_section": null,
+      "cells": [],
+      "header_source_page": 138
+    },
+    {
+      "row_order": 8,
+      "page": 139,
+      "block_id": "spatial_p139",
+      "source_method": "spatial_roi",
+      "raw_item": "六、合并财务报表主要项目注释（续）",
+      "normalized_item": "六、合并财务报表主要项目注释（续）",
+      "canonical_item": null,
+      "mapping_status": "UNMAPPED",
+      "row_type": "SECTION_HEADER",
+      "row_level": 0,
+      "parent_section": null,
+      "cells": [],
+      "header_source_page": 138
+    }
+  ],
+  "warnings": [],
+  "stats": {
+    "engine": "SPATIAL_ROI_V1",
+    "boundary_reason": "next_note_35",
+    "roi": {
+      "start_page": 138,
+      "start_y": 680.3099975585938,
+      "end_page": 139,
+      "end_y": 173.9099578857422
+    },
+    "logical_columns": 2,
+    "rows": 8,
+    "numeric_rows": 3
+  },
+  "boundary_status": "HARD_BOUNDARY_CONFIRMED",
+  "boundary_review": null
+}

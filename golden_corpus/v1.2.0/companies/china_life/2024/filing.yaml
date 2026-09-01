@@ -1,0 +1,17 @@
+schema_version: '1.1'
+filing_id: CHINA_LIFE_2024_ANNUAL_REPORT
+company_id: CHINA_LIFE
+company_name: 中国人寿
+company_legal_name: 中国人寿保险股份有限公司
+report_year: 2024
+report_type: ANNUAL_REPORT
+language: zh-CN
+canonical_pdf_filename: 中国人寿2024年年度报告.pdf
+pdf_sha256: 3cc6db9bbd9c3c754548b6be288bcebae7187e5264eba59025237f5aa8c667e0
+page_count: 256
+file_size_bytes: 13075666
+document_modality: TEXT_DOMINANT_OR_HYBRID
+canonical_for_testing: true
+duplicate_group: null
+annotation_status: CERTIFIED_GOLDEN
+source_directory: C:\dev\AXA_research\docu

@@ -1,0 +1,5 @@
+﻿target_row_order,target_item,target_row_type,pattern,child_row_orders,child_items,component_operators,formula_expression,dimension_key,year,scope,restated,unit,reported_total,calculated_sum,difference,difference_ratio,confidence,status,inference_reason
+1,合计,TOTAL,UNKNOWN,,,,,2024|本集团|ORIGINAL|,2024,本集团,False,元,100.0,,,,LOW,NOT_TESTABLE_NO_CONFIDENT_CHILD_SET,未找到可信结构子项集合
+1,合计,TOTAL,UNKNOWN,,,,,2023|本集团|RESTATED|,2023,本集团,True,元,90.0,,,,LOW,NOT_TESTABLE_NO_CONFIDENT_CHILD_SET,未找到可信结构子项集合
+1,合计,TOTAL,UNKNOWN,,,,,2024|本公司|ORIGINAL|,2024,本公司,False,元,80.0,,,,LOW,NOT_TESTABLE_NO_CONFIDENT_CHILD_SET,未找到可信结构子项集合
+1,合计,TOTAL,UNKNOWN,,,,,2023|本公司|RESTATED|,2023,本公司,True,元,70.0,,,,LOW,NOT_TESTABLE_NO_CONFIDENT_CHILD_SET,未找到可信结构子项集合

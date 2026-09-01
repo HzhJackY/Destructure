@@ -1,0 +1,78 @@
+schema_version: "1.0"
+fixture_id: "CPIC_2025_CONSOLIDATED_FINANCIAL_INVESTMENT_PAGE_ANCHOR"
+fixture_type: "DISCOVERY_PAGE_ANCHOR"
+annotation_status: "HUMAN_VERIFIED_PENDING_SHA"
+release_blocking: false
+release_blocking_after_sha_binding: true
+
+filing_identity:
+  company_id: "CPIC"
+  company_name: "中国太保"
+  company_legal_name: "中国太平洋保险（集团）股份有限公司"
+  report_year: 2025
+  report_type: "ANNUAL_REPORT"
+  language: "zh-CN"
+  canonical_pdf_filename: null
+  pdf_sha256: "PENDING_SHA256_BINDING"
+  page_count: null
+  source_directory: "C:\\dev\\AXA_research\\docu"
+
+page_anchor:
+  page_number_system: "PDF_READER_ONE_BASED"
+  pdf_page_number: 74
+  pdf_page_index_zero_based: 73
+  printed_page_label: null
+  expected_statement_title: "合并资产负债表"
+  expected_statement_scope: "CONSOLIDATED"
+  expected_family_label: "金融投资"
+  expected_document_modality: "IMAGE_DOMINANT_OR_LOW_TEXT"
+  requires_existing_conditional_ocr: true
+
+blocking_assertions_after_activation:
+  - assertion_id: "PAGE_ANCHOR_MATCH"
+    expected: 74
+    failure_severity: "RELEASE_BLOCKER"
+  - assertion_id: "CONSOLIDATED_SCOPE_MATCH"
+    expected: "CONSOLIDATED"
+    failure_severity: "RELEASE_BLOCKER"
+  - assertion_id: "STATEMENT_TYPE_MATCH"
+    expected: "BALANCE_SHEET"
+    failure_severity: "RELEASE_BLOCKER"
+  - assertion_id: "IMAGE_PAGE_TRIGGERS_EXISTING_OCR"
+    expected: true
+    failure_severity: "RELEASE_BLOCKER"
+  - assertion_id: "TEXT_LAYER_FAILURE_NOT_TREATED_AS_ABSENCE"
+    expected: true
+    failure_severity: "RELEASE_BLOCKER"
+
+forbidden_results:
+  - "PARENT_COMPANY_SCOPE_SELECTED"
+  - "STATEMENT_CONFIRMED_ABSENT_DUE_TO_TEXT_LAYER_FAILURE"
+  - "OCR_ROUTING_SKIPPED_ON_IMAGE_DOMINANT_PAGE"
+  - "PAGE_ANCHOR_PASS_MISREPORTED_AS_OCR_RESOLUTION_PASS"
+
+non_blocking_context:
+  expected_resolution_mode: "EXPLICIT_PARENT"
+  resolution_mode_annotation_status: "PROVISIONAL"
+  expected_parent_label: "金融投资"
+  expected_presentation_regime: "UNRESOLVED"
+  expected_current_member_labels:
+    - "交易性金融资产"
+    - "债权投资"
+    - "其他债权投资"
+    - "其他权益工具投资"
+  member_assertion_status: "PROVISIONAL"
+  note: "本节仅为解析上下文；在未独立核对 OCR 证据、期间列和金额前，不参与正式 Release Blocking。"
+
+evidence:
+  evidence_type: "USER_PAGE_ADJUDICATION"
+  annotator_role: "PROJECT_OWNER"
+  annotation_date: "2026-07-29"
+  evidence_note: "用户确认中国太保（合并）金融投资主表位于 2025 年报 PDF 阅读器第 74 页。"
+  screenshot_or_crop_reference: null
+
+activation_checklist:
+  canonical_pdf_confirmed: false
+  pdf_sha256_bound: false
+  page_anchor_rechecked: false
+  independent_reviewer_confirmed: false

@@ -1,72 +1,44 @@
 # Python
 __pycache__/
 *.py[cod]
-*.pyd
+*.class
+*.so
 .pytest_cache/
-.mypy_cache/
-.ruff_cache/
 .coverage
 htmlcov/
+
+# Environment
 .venv/
+env/
 venv/
+ENV/
 
-# Secrets and machine-local configuration
-.env
-.env.*
-!.env.example
-*.key
-*.pem
-*.p12
-data_home.json
-.financial_metric_resolver/
-
-# Runtime DATA_HOME and generated evidence
-data_home/
-DATA_HOME/
-uploads/
-runs/
-rule_backups/
-reviews/
+# Temporary / Scratch / Agent directories
 cache/
-batch_runs/
-table_captures/
-table_merges/
-archive/
-migration_reports/
-runtime/
-asset_reports/
-text_indexes/
-research_exports/
-output/
 scratch/
 tmp/
-temp/
+.agents/
+data_home/
 
-# Databases, large data and user exports
-*.db
-*.db-*
-*.sqlite
-*.sqlite3
-*.parquet
-*.xlsx
-*.xls
-*.csv
-*.tsv
-*.log
+# Large binary outputs and agent runs
+output/
+output_agent_runs/
 *.zip
 *.7z
-*.rar
-*.tar
 *.tar.gz
-*.tgz
+*.png
+*.jpg
+*.exe
+*.dll
+releases/v4/
 
-# Documents are excluded by default; only reviewed synthetic samples may opt in
-*.pdf
-!samples/synthetic/**/*.pdf
+# Database files & local data
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
 
-# Editors and operating systems
-.idea/
-.vscode/
+# OS generated
 .DS_Store
 Thumbs.db
-Desktop.ini
+desktop.ini

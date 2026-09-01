@@ -1,0 +1,16 @@
+{
+  "run_id": "中银三星2022年报__业务及管理费__20260722T090304",
+  "display_name": "中银三星2022年报 · 业务及管理费",
+  "note": "",
+  "source_pdf_display": "中银三星2022年报.pdf",
+  "table_query": "业务及管理费",
+  "created_at": "2026-07-22T09:03:05",
+  "boundary_status": "HUMAN_CONFIRMED",
+  "header_dimension_status": "AUTO_CONFIRMED",
+  "merge_ready": true,
+  "merge_blockers": [],
+  "start_page": 94,
+  "end_page": 95,
+  "row_count_machine": 43,
+  "row_count_official": 20
+}

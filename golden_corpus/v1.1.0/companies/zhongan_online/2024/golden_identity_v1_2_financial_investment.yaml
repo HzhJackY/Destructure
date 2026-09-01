@@ -1,0 +1,256 @@
+identity_contract_version: GOLDEN_IDENTITY_V1_2
+definition_id: FINANCIAL_INVESTMENT_V1
+family: financial_investment
+source_golden_id: ZHONGAN_ONLINE_2024_GOLDEN_VALUES
+filing_identity:
+  company_id: ZHONGAN_ONLINE
+  legal_entity_name: 众安在线财产保险股份有限公司
+  report_year: 2024
+  source_scope: CONSOLIDATED
+  canonical_pdf_filename: 众安在线2024年度报告.pdf
+  pdf_sha256: 3f79f13187ac8516883f30bf886fcf406f1b0fda3ba1388516f6cb2ade596b40
+  page_count: 191
+  source_type: ANNUAL_REPORT
+physical_tables:
+- physical_table_id: ZHONGAN_ONLINE_2024::fvtpl_assets::PRIMARY
+  physical_page_number: 159
+  printed_page_number: '157'
+  title: 以公允價值計量且其變動計入當期損益的金融資產
+  unit: RMB_THOUSAND
+  table_classification: PRIMARY_TABLE
+rows:
+- golden_row_id: GROW_3b74ec83ccdaffd30800
+  physical_table_id: ZHONGAN_ONLINE_2024::MAIN_STATEMENT
+  member_table_id: fvtpl_assets
+  classification_axis: FINANCIAL_INVESTMENT_MEMBER_SET
+  raw_label: 以公允價值計量且其變動計入當期損益的金融資產
+  normalized_label: 以公允價值計量且其變動計入當期損益的金融資產
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: MEMBER
+  source_row_order: null
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: SOURCE_DECLARED
+    value: 20,706,284
+- golden_row_id: GROW_9b85342ab164c24ee35c
+  physical_table_id: ZHONGAN_ONLINE_2024::fvtpl_assets::PRIMARY
+  member_table_id: fvtpl_assets
+  classification_axis: ASSET_TYPE
+  raw_label: 債權投資
+  normalized_label: 債權投資
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 1
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: RMB_THOUSAND
+    value: 10,540,326
+  - period_role: COMPARATIVE
+    period_label: 2023年重述
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: RMB_THOUSAND
+    value: 9,859,447
+- golden_row_id: GROW_3e833c9270023b7b4ba1
+  physical_table_id: ZHONGAN_ONLINE_2024::fvtpl_assets::PRIMARY
+  member_table_id: fvtpl_assets
+  classification_axis: ASSET_TYPE
+  raw_label: 基金投資
+  normalized_label: 基金投資
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 2
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: RMB_THOUSAND
+    value: 6,512,880
+  - period_role: COMPARATIVE
+    period_label: 2023年重述
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: RMB_THOUSAND
+    value: 8,202,841
+- golden_row_id: GROW_f15fc0600a1305dc0aac
+  physical_table_id: ZHONGAN_ONLINE_2024::fvtpl_assets::PRIMARY
+  member_table_id: fvtpl_assets
+  classification_axis: ASSET_TYPE
+  raw_label: 理財產品
+  normalized_label: 理財產品
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 3
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: RMB_THOUSAND
+    value: 2,111,237
+  - period_role: COMPARATIVE
+    period_label: 2023年重述
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: RMB_THOUSAND
+    value: 2,817,604
+- golden_row_id: GROW_00d6fd259974a0c4d791
+  physical_table_id: ZHONGAN_ONLINE_2024::fvtpl_assets::PRIMARY
+  member_table_id: fvtpl_assets
+  classification_axis: ASSET_TYPE
+  raw_label: 股權投資
+  normalized_label: 股權投資
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 4
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: RMB_THOUSAND
+    value: 1,521,556
+  - period_role: COMPARATIVE
+    period_label: 2023年重述
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: RMB_THOUSAND
+    value: 1,351,810
+- golden_row_id: GROW_a2ccc4a70632e6666826
+  physical_table_id: ZHONGAN_ONLINE_2024::fvtpl_assets::PRIMARY
+  member_table_id: fvtpl_assets
+  classification_axis: ASSET_TYPE
+  raw_label: 資產支持證券
+  normalized_label: 資產支持證券
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 5
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: RMB_THOUSAND
+    value: 20,285
+  - period_role: COMPARATIVE
+    period_label: 2023年重述
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: RMB_THOUSAND
+    value: 20,247
+- golden_row_id: GROW_5dba6be523e6f3bcc119
+  physical_table_id: ZHONGAN_ONLINE_2024::fvtpl_assets::PRIMARY
+  member_table_id: fvtpl_assets
+  classification_axis: ASSET_TYPE
+  raw_label: 合計
+  normalized_label: 合計
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: DATA
+  source_row_order: 6
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: RMB_THOUSAND
+    value: 20,706,284
+  - period_role: COMPARATIVE
+    period_label: 2023年重述
+    period_identity: YEAR:2023
+    measure: AMOUNT
+    unit: RMB_THOUSAND
+    value: 22,251,949
+- golden_row_id: GROW_09afb830af52065bf290
+  physical_table_id: ZHONGAN_ONLINE_2024::MAIN_STATEMENT
+  member_table_id: debt_investment
+  classification_axis: FINANCIAL_INVESTMENT_MEMBER_SET
+  raw_label: 以攤餘成本計量的金融資產
+  normalized_label: 以攤餘成本計量的金融資產
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: MEMBER
+  source_row_order: null
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: SOURCE_DECLARED
+    value: 1,051,049
+- golden_row_id: GROW_e69bdb300b513283606a
+  physical_table_id: ZHONGAN_ONLINE_2024::MAIN_STATEMENT
+  member_table_id: other_debt_investment
+  classification_axis: FINANCIAL_INVESTMENT_MEMBER_SET
+  raw_label: 以公允價值計量且其變動計入其他綜合收益的債務工具
+  normalized_label: 以公允價值計量且其變動計入其他綜合收益的債務工具
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: MEMBER
+  source_row_order: null
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: SOURCE_DECLARED
+    value: 10,528,854
+- golden_row_id: GROW_906f8f069139eebcd42f
+  physical_table_id: ZHONGAN_ONLINE_2024::MAIN_STATEMENT
+  member_table_id: other_equity_investment
+  classification_axis: FINANCIAL_INVESTMENT_MEMBER_SET
+  raw_label: 以公允價值計量且其變動計入其他綜合收益的權益工具
+  normalized_label: 以公允價值計量且其變動計入其他綜合收益的權益工具
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: MEMBER
+  source_row_order: null
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: SOURCE_DECLARED
+    value: 789,783
+- golden_row_id: GROW_21bc5b21e1e6c20fee52
+  physical_table_id: ZHONGAN_ONLINE_2024::MAIN_STATEMENT
+  member_table_id: term_deposits
+  classification_axis: FINANCIAL_INVESTMENT_MEMBER_SET
+  raw_label: 定期存款
+  normalized_label: 定期存款
+  parent_golden_row_id: null
+  semantic_parent_path: ROOT
+  occurrence: 1
+  row_kind: MEMBER
+  source_row_order: null
+  period_values:
+  - period_role: CURRENT
+    period_label: 2024年
+    period_identity: YEAR:2024
+    measure: AMOUNT
+    unit: SOURCE_DECLARED
+    value: 30,827
+identity_provenance: DERIVED_FROM_CERTIFIED_GOLDEN_FACTS_NOT_RUNTIME_CAPTURE

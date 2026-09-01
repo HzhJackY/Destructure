@@ -1,0 +1,89 @@
+schema_version: '1.1'
+fixture_id: NEW_CHINA_LIFE_2023_SUPPLEMENTARY_GOLDEN_VALUES
+family: financial_investment
+annotation_status: CERTIFIED_GOLDEN
+review_date: '2026-08-04'
+reviewer: Codex_Agent_Adjudicator
+supplementary_schedules:
+  - schedule_id: debt_investment_ecl_2023
+    classification: SUPPLEMENTARY_TABLE
+    note_reference: "附注12"
+    schedule_title: "12 债权投资 - 2023年度信用损失准备变动情况"
+    pdf_page_number: 188
+    printed_page_label: '186'
+    unit: "百万元"
+    columns:
+      - 第一阶段
+      - 第二阶段
+      - 第三阶段
+      - 合计
+    items:
+      - raw_label: 2023年1月1日 信用损失准备
+        stage_1: "91"
+        stage_2: "－"
+        stage_3: "76"
+        total: "167"
+      - raw_label: 转至第二阶段
+        stage_1: "(2)"
+        stage_2: "2"
+        stage_3: "－"
+        total: "–"
+      - raw_label: 转至第三阶段
+        stage_1: "－"
+        stage_2: "(1)"
+        stage_3: "1"
+        total: "–"
+      - raw_label: 本年计提／（转回）
+        stage_1: "(2)"
+        stage_2: "1"
+        stage_3: "309"
+        total: "308"
+      - raw_label: 2023年12月31日 信用损失准备
+        stage_1: "87"
+        stage_2: "2"
+        stage_3: "386"
+        total: "475"
+      - raw_label: 2023年12月31日 账面余额
+        stage_1: "309,739"
+        stage_2: "1,384"
+        stage_3: "2,500"
+        total: "313,623"
+
+  - schedule_id: other_debt_investment_ecl_2023
+    classification: SUPPLEMENTARY_TABLE
+    note_reference: "附注13"
+    schedule_title: "13 其他债权投资 - 2023年度信用损失准备变动情况"
+    pdf_page_number: 189
+    printed_page_label: '187'
+    unit: "百万元"
+    columns:
+      - 第一阶段
+      - 第二阶段
+      - 第三阶段
+      - 合计
+    items:
+      - raw_label: 2023年1月1日 信用损失准备
+        stage_1: "50"
+        stage_2: "－"
+        stage_3: "1,524"
+        total: "1,574"
+      - raw_label: 转至第二阶段
+        stage_1: "(2)"
+        stage_2: "2"
+        stage_3: "－"
+        total: "–"
+      - raw_label: 本年计提／（转回）
+        stage_1: "(6)"
+        stage_2: "2"
+        stage_3: "－"
+        total: "(4)"
+      - raw_label: 2023年12月31日 信用损失准备
+        stage_1: "42"
+        stage_2: "4"
+        stage_3: "1,524"
+        total: "1,570"
+      - raw_label: 2023年12月31日 账面价值
+        stage_1: "342,499"
+        stage_2: "2,572"
+        stage_3: "2,191"
+        total: "347,262"

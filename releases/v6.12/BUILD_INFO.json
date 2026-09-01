@@ -1,0 +1,33 @@
+{
+  "version": "v6.12",
+  "release_name": "Native-First Conditional OCR & Page Cache Reuse",
+  "date": "2026-08-09",
+  "metadata_registry_schema_version": 15,
+  "release_isolation": "releases/v6.12",
+  "shared_data_home": true,
+  "key_features": [
+    "Native-first Research Definition main-statement indexing with zero eager OCR",
+    "TOC-bounded conditional OCR with scanned-TOC two-stage fallback",
+    "Fast Index-owned page OCR cache with geometry preservation and cross-key reuse",
+    "Atomic concurrent page-cache merge and explicit OCR failure audit",
+    "Unified CaptureRequest and CaptureOrchestrator",
+    "Dependency-injected discovery strategies",
+    "Logical assets and immutable capture versions",
+    "Review Inbox and lifecycle transitions",
+    "Archive and restore governance",
+    "Current certified active merge eligibility",
+    "Explicit runner join and shutdown",
+    "Capture Center and logical asset workspace",
+    "Unified CaptureInspectionPanel",
+    "Review Inbox routing without duplicate detail UI",
+    "Atomic version-level review and merge eligibility",
+    "Immutable human structure revisions",
+    "Auditable anchor candidate ranking and conservative preselection",
+    "Structured review issues, tasks, task decision history, and final identity gate"
+    ,"Statement scope selection and independent BOTH lanes"
+    ,"Financial note heading index with strict tiered retrieval"
+    ,"Thin candidates and Top-K lazy enrichment"
+    ,"Certified child table links and mapping review routing"
+    ,"IMPLICIT_TOTAL last-column applicability fix"
+  ]
+}

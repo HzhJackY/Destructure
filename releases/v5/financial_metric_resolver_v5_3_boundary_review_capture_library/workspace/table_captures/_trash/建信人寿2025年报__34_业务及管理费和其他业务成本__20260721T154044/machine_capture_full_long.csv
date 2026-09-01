@@ -1,0 +1,12 @@
+﻿pdf_name,table_query,note_number,located_title,row_order,row_type,row_level,parent_section,raw_item,normalized_item,canonical_item,mapping_status,year,scope,restated,header_raw,value_raw,value,value_yuan,unit,original_unit,page,header_source_page,source_method
+4936c61b6938_建信人寿2025年报.pdf,业务及管理费和其他业务成本,34,34. 利息支出,1,DETAIL,0,,应付债券,应付债券,,UNMAPPED,2025,,False,2025,"470,259,050",470259050.0,470259050.0,元,元,138,,spatial_roi+column_anchors
+4936c61b6938_建信人寿2025年报.pdf,业务及管理费和其他业务成本,34,34. 利息支出,1,DETAIL,0,,应付债券,应付债券,,UNMAPPED,2024,,False,2024,"471,570,668",471570668.0,471570668.0,元,元,138,,spatial_roi+column_anchors
+4936c61b6938_建信人寿2025年报.pdf,业务及管理费和其他业务成本,34,34. 利息支出,2,DETAIL,0,,卖出回购金融资产款,卖出回购金融资产款,,UNMAPPED,2025,,False,2025,"413,624,223",413624223.0,413624223.0,元,元,138,,spatial_roi+column_anchors
+4936c61b6938_建信人寿2025年报.pdf,业务及管理费和其他业务成本,34,34. 利息支出,2,DETAIL,0,,卖出回购金融资产款,卖出回购金融资产款,,UNMAPPED,2024,,False,2024,"240,870,612",240870612.0,240870612.0,元,元,138,,spatial_roi+column_anchors
+4936c61b6938_建信人寿2025年报.pdf,业务及管理费和其他业务成本,34,34. 利息支出,3,TOTAL,0,,合计,合计,,UNMAPPED,2025,,False,2025,"883,883,273",883883273.0,883883273.0,元,元,138,,spatial_roi+column_anchors
+4936c61b6938_建信人寿2025年报.pdf,业务及管理费和其他业务成本,34,34. 利息支出,3,TOTAL,0,,合计,合计,,UNMAPPED,2024,,False,2024,"712,441,280",712441280.0,712441280.0,元,元,138,,spatial_roi+column_anchors
+4936c61b6938_建信人寿2025年报.pdf,业务及管理费和其他业务成本,34,34. 利息支出,4,SECTION_HEADER,0,,87,87,,UNMAPPED,,,,,,,,,,138,,spatial_roi
+4936c61b6938_建信人寿2025年报.pdf,业务及管理费和其他业务成本,34,34. 利息支出,5,SECTION_HEADER,0,,建信人寿保险股份有限公司,建信人寿保险股份有限公司,,UNMAPPED,,,,,,,,,,139,138.0,spatial_roi
+4936c61b6938_建信人寿2025年报.pdf,业务及管理费和其他业务成本,34,34. 利息支出,6,SECTION_HEADER,0,,财务报表附注（续）,财务报表附注（续）,,UNMAPPED,,,,,,,,,,139,138.0,spatial_roi
+4936c61b6938_建信人寿2025年报.pdf,业务及管理费和其他业务成本,34,34. 利息支出,7,SECTION_HEADER,0,,（除特别注明外，金额单位均为人民币元）,（除特别注明外，金额单位均为人民币元）,,UNMAPPED,,,,,,,,,,139,138.0,spatial_roi
+4936c61b6938_建信人寿2025年报.pdf,业务及管理费和其他业务成本,34,34. 利息支出,8,SECTION_HEADER,0,,六、合并财务报表主要项目注释（续）,六、合并财务报表主要项目注释（续）,,UNMAPPED,,,,,,,,,,139,138.0,spatial_roi

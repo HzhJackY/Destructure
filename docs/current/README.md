@@ -1,5 +1,6 @@
 # Current Documentation
 
+- `DUAL_REGISTRY_ACCEPTANCE_RUNBOOK.md` — mandatory fresh acceptance contract for every project-status update.
 - `ARCHITECTURE_V6_1.md` — Service/Repository/SQLite architecture.
 - `DATA_ASSET_MANAGEMENT.md` — Capture/Batch/Merge lifecycle behavior.
 - `MIGRATION_V6_1.md` — automatic metadata registry bootstrap and recovery.

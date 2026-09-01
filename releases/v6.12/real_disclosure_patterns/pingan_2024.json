@@ -1,0 +1,28 @@
+{
+  "fixture_id": "PINGAN_2024",
+  "company": "中国平安",
+  "report_year": "2024",
+  "pdf_filename": "中国平安2024年报.pdf",
+  "pdf_sha256": "6ffff1cade59c64c8178494c083cac8a4011ef5ae2fed32f85dd488a64a809b2",
+  "document_modality": "TEXT_LAYER",
+  "disclosure_pattern": "EXPLICIT_PARENT_STANDARD",
+  "statement_scope": "CONSOLIDATED",
+  "research_definition_id": "FINANCIAL_INVESTMENT_V1",
+  "definition_version": "FINANCIAL_INVESTMENT_V1",
+  "expected_resolution_mode": "EXPLICIT_PARENT",
+  "expected_parent_present": true,
+  "expected_parent_label": "金融投资",
+  "expected_required_members": [
+    "fvtpl_assets",
+    "debt_investment",
+    "other_debt_investment",
+    "other_equity_investment"
+  ],
+  "expected_forbidden_members": [
+    "time_deposits",
+    "long_term_equity"
+  ],
+  "known_constraints": [],
+  "source_pages": [],
+  "annotation_status": "PATTERN_CANDIDATE"
+}

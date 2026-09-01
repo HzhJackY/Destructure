@@ -1,0 +1,75 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "DisclosurePatternSchema",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "type": "string"
+    },
+    "pattern_id": {
+      "type": "string"
+    },
+    "pattern_type": {
+      "type": "string"
+    },
+    "resolution_mode": {
+      "type": "string"
+    },
+    "parent_present": {
+      "type": "boolean"
+    },
+    "parent_label": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "raw_parent_label": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "scattered_member_discovery": {
+      "type": "boolean"
+    },
+    "presentation_regime": {
+      "type": "string"
+    },
+    "required_members": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "forbidden_members": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "annotation_status": {
+      "type": "string"
+    },
+    "expectation_source": {
+      "type": "string"
+    },
+    "evidence_type": {
+      "type": "string"
+    },
+    "reviewer": {
+      "type": "string"
+    },
+    "review_date": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "pattern_id",
+    "pattern_type",
+    "resolution_mode",
+    "parent_present",
+    "scattered_member_discovery",
+    "annotation_status"
+  ]
+}

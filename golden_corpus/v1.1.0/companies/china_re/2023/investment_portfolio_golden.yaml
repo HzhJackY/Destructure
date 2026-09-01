@@ -1,0 +1,218 @@
+schema_version: investment_portfolio_golden_v2
+golden_id: CHINA_RE_2023_INVESTMENT_PORTFOLIO
+family: investment_portfolio
+company_id: CHINA_RE
+legal_entity_name: 中国再保险（集团）股份有限公司
+report_year: 2023
+source:
+  canonical_pdf_filename: 中国再保2023年年度报告.pdf
+  pdf_sha256: cad91861bded6b02ace912405f50f03524f4eb0a1e05fbe6cb4b04ac5ba32d3c
+  page_count: 390
+  source_type: ANNUAL_REPORT
+source_scope: LISTED_PARENT_CONSOLIDATED
+disclosure_topology: DIRECT_SEPARATE_TABLES_SAME_PAGE
+reported_portfolio_total:
+  status: DISCLOSED
+  derivation_allowed: false
+physical_assets:
+- asset_id: CHINA_RE_2023_PORTFOLIO_BY_CATEGORY
+  physical_page_number: 51
+  printed_page_number: 49
+  title: 投资组合（按投资品种）
+  unit: RMB_MILLION
+  native_text_verified: true
+  ocr_used: false
+  blocks:
+  - member_id: portfolio_by_category
+    classification_axis: BY_INVESTMENT_OBJECT
+    logical_title: 投资组合（按投资品种）
+    current_period:
+      label: 2023年12月31日
+      amount: 405709
+      ratio_percent: 100.0
+    comparative_period:
+      label: 2022年12月31日
+      amount: 377033
+      ratio_percent: 100.0
+    rows:
+    - row_order: 1
+      raw_label: 現金及短期定期存款
+      normalized_label: 現金及短期定期存款
+      row_kind: DATA
+      current_amount: 14597
+      current_ratio_percent: 3.6
+      comparative_amount: 14799
+      comparative_ratio_percent: 4.5
+    - row_order: 2
+      raw_label: 固定收益投資
+      normalized_label: 固定收益投資
+      row_kind: GROUP
+      current_amount: 299711
+      current_ratio_percent: 73.9
+      comparative_amount: 272658
+      comparative_ratio_percent: 83.6
+    - row_order: 3
+      raw_label: 定期存款
+      normalized_label: 定期存款
+      row_kind: DATA
+      current_amount: 27759
+      current_ratio_percent: 6.8
+      comparative_amount: 22556
+      comparative_ratio_percent: 6.9
+    - row_order: 4
+      raw_label: 債券
+      normalized_label: 債券
+      row_kind: DATA
+      current_amount: 205125
+      current_ratio_percent: 50.6
+      comparative_amount: 184199
+      comparative_ratio_percent: 56.5
+    - row_order: 5
+      raw_label: 其他固定收益投資
+      normalized_label: 其他固定收益投資
+      row_kind: DATA
+      current_amount: 66827
+      current_ratio_percent: 16.5
+      comparative_amount: 65903
+      comparative_ratio_percent: 20.2
+    - row_order: 6
+      raw_label: 股權及基金投資
+      normalized_label: 股權及基金投資
+      row_kind: GROUP
+      current_amount: 62742
+      current_ratio_percent: 15.5
+      comparative_amount: 61137
+      comparative_ratio_percent: 18.8
+    - row_order: 7
+      raw_label: 基金
+      normalized_label: 基金
+      row_kind: DATA
+      current_amount: 32347
+      current_ratio_percent: 8.0
+      comparative_amount: 26771
+      comparative_ratio_percent: 8.2
+    - row_order: 8
+      raw_label: 股票
+      normalized_label: 股票
+      row_kind: DATA
+      current_amount: 25317
+      current_ratio_percent: 6.2
+      comparative_amount: 27394
+      comparative_ratio_percent: 8.4
+    - row_order: 9
+      raw_label: 其他股權與基金投資
+      normalized_label: 其他股權與基金投資
+      row_kind: DATA
+      current_amount: 5078
+      current_ratio_percent: 1.3
+      comparative_amount: 6972
+      comparative_ratio_percent: 2.2
+    - row_order: 10
+      raw_label: 其他投資
+      normalized_label: 其他投資
+      row_kind: GROUP
+      current_amount: 28659
+      current_ratio_percent: 7.0
+      comparative_amount: 28439
+      comparative_ratio_percent: 8.7
+    - row_order: 11
+      raw_label: 於聯營企業的投資
+      normalized_label: 於聯營企業的投資
+      row_kind: DATA
+      current_amount: 23524
+      current_ratio_percent: 5.8
+      comparative_amount: 22640
+      comparative_ratio_percent: 6.9
+    - row_order: 12
+      raw_label: 其他
+      normalized_label: 其他
+      row_kind: DATA
+      current_amount: 5135
+      current_ratio_percent: 1.2
+      comparative_amount: 5799
+      comparative_ratio_percent: 1.8
+    - row_order: 13
+      raw_label: 總投資資產
+      normalized_label: 總投資資產
+      row_kind: TOTAL
+      current_amount: 405709
+      current_ratio_percent: 100.0
+      comparative_amount: 377033
+      comparative_ratio_percent: 100.0
+- asset_id: CHINA_RE_2023_PORTFOLIO_BY_MEASUREMENT
+  physical_page_number: 51
+  printed_page_number: 49
+  title: 投资组合（按会计计量）
+  unit: RMB_MILLION
+  native_text_verified: true
+  ocr_used: false
+  blocks:
+  - member_id: portfolio_by_measurement
+    classification_axis: BY_ACCOUNTING_MEASUREMENT
+    logical_title: 投资组合（按会计计量）
+    current_period:
+      label: 2023年12月31日
+      amount: 405709
+      ratio_percent: 100.0
+    comparative_period:
+      label: 2022年12月31日
+      amount: 377033
+      ratio_percent: 100.0
+    rows:
+    - row_order: 1
+      raw_label: 以公允價值計量且其變動進入當期損益的金融資產
+      normalized_label: 以公允價值計量且其變動進入當期損益的金融資產
+      row_kind: DATA
+      current_amount: 104383
+      current_ratio_percent: 25.7
+      comparative_amount: 77782
+      comparative_ratio_percent: 20.6
+    - row_order: 2
+      raw_label: 以公允價值計量且其變動計入其他綜合收益的金融資產
+      normalized_label: 以公允價值計量且其變動計入其他綜合收益的金融資產
+      row_kind: DATA
+      current_amount: 119824
+      current_ratio_percent: 29.5
+      comparative_amount: 128660
+      comparative_ratio_percent: 34.1
+    - row_order: 3
+      raw_label: 以攤餘成本計量的金融資產
+      normalized_label: 以攤餘成本計量的金融資產
+      row_kind: DATA
+      current_amount: 84093
+      current_ratio_percent: 20.7
+      comparative_amount: 78762
+      comparative_ratio_percent: 20.9
+    - row_order: 4
+      raw_label: 於聯營企業的投資
+      normalized_label: 於聯營企業的投資
+      row_kind: DATA
+      current_amount: 23524
+      current_ratio_percent: 5.8
+      comparative_amount: 22640
+      comparative_ratio_percent: 6.0
+    - row_order: 5
+      raw_label: 其他
+      normalized_label: 其他
+      row_kind: DATA
+      current_amount: 73885
+      current_ratio_percent: 18.3
+      comparative_amount: 69189
+      comparative_ratio_percent: 18.4
+    - row_order: 6
+      raw_label: 總投資資產
+      normalized_label: 總投資資產
+      row_kind: TOTAL
+      current_amount: 405709
+      current_ratio_percent: 100.0
+      comparative_amount: 377033
+      comparative_ratio_percent: 100.0
+coverage:
+  asset_identity: FULL
+  total_values: FULL
+  row_values: FULL
+annotation_status: CERTIFIED_GOLDEN_ROW_VALUES
+reviewer: Codex_Agent_Adjudicator
+review_date: '2026-08-30'
+audit_note: Independently physically verified from official PDF for 中国再保 2023. Unit
+  and total corroborated.

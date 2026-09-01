@@ -1,0 +1,61 @@
+schema_version: '1.1'
+fixture_id: CHINA_LIFE_2025_SUPPLEMENTARY_GOLDEN_VALUES
+family: financial_investment
+annotation_status: CERTIFIED_GOLDEN
+review_date: '2026-08-04'
+reviewer: Codex_Agent_Adjudicator
+supplementary_schedules:
+  - schedule_id: debt_investment_fair_value_hierarchy
+    classification: SUPPLEMENTARY_TABLE
+    note_reference: "十、5（续）"
+    schedule_title: "5. 债权投资（续）- 2025年及2024年公允价值层级"
+    pdf_page_number: 168
+    printed_page_label: '166'
+    unit: "百万元"
+    columns:
+      - 第一层级
+      - 第二层级
+      - 第三层级
+      - 合计
+    items_2025:
+      - raw_label: 信托计划
+        level_1: "–"
+        level_2: "–"
+        level_3: "102,328"
+        total: "102,328"
+      - raw_label: 债权投资计划
+        level_1: "–"
+        level_2: "–"
+        level_3: "74,420"
+        total: "74,420"
+      - raw_label: 其他
+        level_1: "356"
+        level_2: "3,410"
+        level_3: "–"
+        total: "3,766"
+      - raw_label: 合计
+        level_1: "356"
+        level_2: "3,410"
+        level_3: "176,748"
+        total: "180,514"
+    items_2024:
+      - raw_label: 信托计划
+        level_1: "–"
+        level_2: "–"
+        level_3: "120,981"
+        total: "120,981"
+      - raw_label: 债权投资计划
+        level_1: "–"
+        level_2: "–"
+        level_3: "73,848"
+        total: "73,848"
+      - raw_label: 其他
+        level_1: "875"
+        level_2: "2,746"
+        level_3: "8,765"
+        total: "12,386"
+      - raw_label: 合计
+        level_1: "875"
+        level_2: "2,746"
+        level_3: "203,594"
+        total: "207,215"

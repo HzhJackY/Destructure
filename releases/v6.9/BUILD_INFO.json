@@ -1,0 +1,24 @@
+{
+  "version": "v6.9",
+  "release_name": "Financial Extraction Engine V2 and Research Definition Registry",
+  "date": "2026-07-27",
+  "metadata_registry_schema_version": 11,
+  "release_isolation": "releases/v6.9",
+  "shared_data_home": true,
+  "key_features": [
+    "Unified CaptureRequest and CaptureOrchestrator",
+    "Dependency-injected discovery strategies",
+    "Logical assets and immutable capture versions",
+    "Review Inbox and lifecycle transitions",
+    "Archive and restore governance",
+    "Current certified active merge eligibility",
+    "Explicit runner join and shutdown",
+    "Capture Center and logical asset workspace",
+    "Unified CaptureInspectionPanel",
+    "Review Inbox routing without duplicate detail UI",
+    "Atomic version-level review and merge eligibility",
+    "Immutable human structure revisions",
+    "Auditable anchor candidate ranking and conservative preselection",
+    "Structured review issues, tasks, task decision history, and final identity gate"
+  ]
+}
